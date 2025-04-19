@@ -1,35 +1,36 @@
 import json
 from collections import defaultdict
+import os
 
 # Load the JSON data
 with open('ClassEval_data.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
-# Define keywords for each domain
-domain_keywords = {
-    'Management Systems': ['system', 'account', 'booking', 'registration', 'user management', 'authentication', 'access'],
-    'Data Formatting': ['format', 'convert', 'serialize', 'parser', 'transform', 'tokenize'],
-    'Mathematical Operations': ['calculate', 'compute', 'arithmetic', 'math', 'sum', 'average'],
-    'Game Development': ['game', 'player', 'board', 'score', 'move'],
-    'File Handling': ['file', 'csv', 'json', 'read', 'write', 'load', 'save'],
-    'Database Operations': ['database', 'query', 'sql', 'record', 'table'],
-    'Natural Language Processing': ['text', 'nlp', 'word', 'sentence', 'stop word', 'token']
-}
+# # Define keywords for each domain
+# domain_keywords = {
+#     'Management Systems': ['system', 'account', 'booking', 'registration', 'user management', 'authentication', 'access'],
+#     'Data Formatting': ['format', 'convert', 'serialize', 'parser', 'transform', 'tokenize'],
+#     'Mathematical Operations': ['calculate', 'compute', 'arithmetic', 'math', 'sum', 'average'],
+#     'Game Development': ['game', 'player', 'board', 'score', 'move'],
+#     'File Handling': ['file', 'csv', 'json', 'read', 'write', 'load', 'save'],
+#     'Database Operations': ['database', 'query', 'sql', 'record', 'table'],
+#     'Natural Language Processing': ['text', 'nlp', 'word', 'sentence', 'stop word', 'token']
+# }
 
-# Helper function to assign a domain
-def classify_domain(description):
-    description = description.lower()
-    for domain, keywords in domain_keywords.items():
-        if any(kw in description for kw in keywords):
-            return domain
-    return 'Uncategorized'  # fallback if no match
+# # Helper function to assign a domain
+# def classify_domain(description):
+#     description = description.lower()
+#     for domain, keywords in domain_keywords.items():
+#         if any(kw in description for kw in keywords):
+#             return domain
+#     return 'Uncategorized'  # fallback if no match
 
-# Classify each task
-domain_map = defaultdict(list)
-for task in data:
-    desc = task.get("class_description", "")
-    domain = classify_domain(desc)
-    domain_map[domain].append(task["class_name"])
+# # Classify each task
+# domain_map = defaultdict(list)
+# for task in data:
+#     desc = task.get("class_description", "")
+#     domain = classify_domain(desc)
+#     domain_map[domain].append(task["class_name"])
     # domain_map[domain].append(task["task_id"])
 
 
@@ -98,4 +99,33 @@ for domain, task_ids in domain_classnames.items():
         #     print(f"  - {task_id}")
 
 
+
+# === Prepare output directory ===
+output_dir = "separated_domains"
+os.makedirs(output_dir, exist_ok=True)
+
+# === Build reverse lookup for fast filtering ===
+class_to_domain = {}
+for domain, class_list in domain_classnames.items():
+    for cname in class_list:
+        class_to_domain[cname] = domain
+
+# === Group tasks ===
+domain_tasks = {domain: [] for domain in domain_classnames}
+# domain_tasks["Uncategorized"] = []
+
+for task in data:
+    cname = task.get("class_name")
+    domain = class_to_domain.get(cname)
+    if domain:
+        domain_tasks[domain].append(task)
+    else:
+        domain_tasks["Uncategorized"].append(task)
+
+# === Save to separate files ===
+for domain, tasks in domain_tasks.items():
+    fname = f"{domain.replace(' ', '_')}.json"
+    path = os.path.join(output_dir, fname)
+    with open(path, "w") as f:
+        json.dump(tasks, f, indent=2)
 
