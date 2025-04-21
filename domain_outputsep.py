@@ -8,9 +8,12 @@ import sys
 sys.path.append(os.path.abspath('/path/to/folder'))
 import data.classeval.separate_domains as sd
 
+model_output = "GPT-4_100_c_5.json"
+model_folder = "GPT-4_100_c_5"
+model_name = "GPT-4"
 
 # Load the JSON data
-with open('model_outputs/ChatGPT_100_c_5.json', 'r', encoding='utf-8') as f:
+with open(('model_outputs/'+model_output), 'r', encoding='utf-8') as f:
     outdata = json.load(f)
 
 # for task in outdata:
@@ -31,9 +34,12 @@ for task in outdata:
             domain_tasks[domain].append(task)
             break
 
-output_dir = "./separated_output/ChatGPT_100_c_5"
+
+
+
+output_dir = "./separated_output/"+model_folder
 for domain, tasks in domain_tasks.items():
-    fname = f"{domain.replace(' ', '_')}.json"
+    fname = f"{model_name}_{domain.replace(' ', '_')}.json"
     path = os.path.join(output_dir, fname)
     with open(path, "w") as f:
         json.dump(tasks, f, indent=2)
