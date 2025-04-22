@@ -1,0 +1,44 @@
+{
+    "pass_1": {
+        "GPT-4_100_c_5": {
+            "class_partial_success": 0.52,
+            "class_success": 0.318,
+            "fun_partial_success": 0.7709163346613547,
+            "fun_success": 0.6231075697211156
+        },
+        "GPT-4_Data_Formatting": {
+            "class_partial_success": 0.4846153846153846,
+            "class_success": 0.34615384615384615,
+            "fun_partial_success": 0.7415384615384616,
+            "fun_success": 0.6076923076923078
+        }
+    },
+    "pass_3": {
+        "GPT-4_100_c_5": {
+            "class_partial_success": 0.576,
+            "class_success": 0.341,
+            "fun_partial_success": 0.8075697211155378,
+            "fun_success": 0.6609561752988048
+        },
+        "GPT-4_Data_Formatting": {
+            "class_partial_success": 0.5846153846153846,
+            "class_success": 0.40384615384615385,
+            "fun_partial_success": 0.7846153846153845,
+            "fun_success": 0.6523076923076923
+        }
+    },
+    "pass_5": {
+        "GPT-4_100_c_5": {
+            "class_partial_success": 0.59,
+            "class_success": 0.35,
+            "fun_partial_success": 0.8187250996015937,
+            "fun_success": 0.6733067729083665
+        },
+        "GPT-4_Data_Formatting": {
+            "class_partial_success": 0.6153846153846154,
+            "class_success": 0.4230769230769231,
+            "fun_partial_success": 0.8,
+            "fun_success": 0.6692307692307692
+        }
+    }
+}
