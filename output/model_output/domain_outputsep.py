@@ -6,7 +6,7 @@ import sys
 
 # Add the folder to sys.path
 sys.path.append(os.path.abspath('/path/to/folder'))
-import data.classeval.separate_domains as sd
+import data.separate_domains as sd
 
 model_output = "GPT-4_100_c_5.json"
 model_folder = "GPT-4_100_c_5"

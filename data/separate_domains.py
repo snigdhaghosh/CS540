@@ -3,7 +3,7 @@ from collections import defaultdict
 import os
 
 # Load the JSON data
-with open('data/classeval/ClassEval_data.json', 'r', encoding='utf-8') as f:
+with open('data/ClassEval_data.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # # Define keywords for each domain
