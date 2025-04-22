@@ -1,0 +1,1853 @@
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+EEEEEEEE
+======================================================================
+ERROR: test_calculate_1 (ClassEval_16_0.CalculatorTestCalculate.test_calculate_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 7, in test_calculate_1
+    calculator = Calculator()
+                 ^^^^^^^^^^
+NameError: name 'Calculator' is not defined. Did you mean: 'CalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_2 (ClassEval_16_0.CalculatorTestCalculate.test_calculate_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 12, in test_calculate_2
+    calculator = Calculator()
+                 ^^^^^^^^^^
+NameError: name 'Calculator' is not defined. Did you mean: 'CalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_3 (ClassEval_16_0.CalculatorTestCalculate.test_calculate_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 17, in test_calculate_3
+    calculator = Calculator()
+                 ^^^^^^^^^^
+NameError: name 'Calculator' is not defined. Did you mean: 'CalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_4 (ClassEval_16_0.CalculatorTestCalculate.test_calculate_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 22, in test_calculate_4
+    calculator = Calculator()
+                 ^^^^^^^^^^
+NameError: name 'Calculator' is not defined. Did you mean: 'CalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_5 (ClassEval_16_0.CalculatorTestCalculate.test_calculate_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 27, in test_calculate_5
+    calculator = Calculator()
+                 ^^^^^^^^^^
+NameError: name 'Calculator' is not defined. Did you mean: 'CalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_6 (ClassEval_16_0.CalculatorTestCalculate.test_calculate_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 32, in test_calculate_6
+    calculator = Calculator()
+                 ^^^^^^^^^^
+NameError: name 'Calculator' is not defined. Did you mean: 'CalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_7 (ClassEval_16_0.CalculatorTestCalculate.test_calculate_7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 37, in test_calculate_7
+    calculator = Calculator()
+                 ^^^^^^^^^^
+NameError: name 'Calculator' is not defined. Did you mean: 'CalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_8 (ClassEval_16_0.CalculatorTestCalculate.test_calculate_8)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 42, in test_calculate_8
+    calculator = Calculator()
+                 ^^^^^^^^^^
+NameError: name 'Calculator' is not defined. Did you mean: 'CalculatorTest'?
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.018s
+
+FAILED (errors=8)
+EEEEE
+======================================================================
+ERROR: test_precedence_1 (ClassEval_16_0.CalculatorTestPrecedence.test_precedence_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 49, in test_precedence_1
+    calculator = Calculator()
+                 ^^^^^^^^^^
+NameError: name 'Calculator' is not defined. Did you mean: 'CalculatorTest'?
+
+======================================================================
+ERROR: test_precedence_2 (ClassEval_16_0.CalculatorTestPrecedence.test_precedence_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 55, in test_precedence_2
+    calculator = Calculator()
+                 ^^^^^^^^^^
+NameError: name 'Calculator' is not defined. Did you mean: 'CalculatorTest'?
+
+======================================================================
+ERROR: test_precedence_3 (ClassEval_16_0.CalculatorTestPrecedence.test_precedence_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 61, in test_precedence_3
+    calculator = Calculator()
+                 ^^^^^^^^^^
+NameError: name 'Calculator' is not defined. Did you mean: 'CalculatorTest'?
+
+======================================================================
+ERROR: test_precedence_4 (ClassEval_16_0.CalculatorTestPrecedence.test_precedence_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 67, in test_precedence_4
+    calculator = Calculator()
+                 ^^^^^^^^^^
+NameError: name 'Calculator' is not defined. Did you mean: 'CalculatorTest'?
+
+======================================================================
+ERROR: test_precedence_5 (ClassEval_16_0.CalculatorTestPrecedence.test_precedence_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 73, in test_precedence_5
+    calculator = Calculator()
+                 ^^^^^^^^^^
+NameError: name 'Calculator' is not defined. Did you mean: 'CalculatorTest'?
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_apply_operator_1 (ClassEval_16_0.CalculatorTestApplyOperator.test_apply_operator_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 81, in test_apply_operator_1
+    calculator = Calculator()
+                 ^^^^^^^^^^
+NameError: name 'Calculator' is not defined. Did you mean: 'CalculatorTest'?
+
+======================================================================
+ERROR: test_apply_operator_2 (ClassEval_16_0.CalculatorTestApplyOperator.test_apply_operator_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 89, in test_apply_operator_2
+    calculator = Calculator()
+                 ^^^^^^^^^^
+NameError: name 'Calculator' is not defined. Did you mean: 'CalculatorTest'?
+
+======================================================================
+ERROR: test_apply_operator_3 (ClassEval_16_0.CalculatorTestApplyOperator.test_apply_operator_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 97, in test_apply_operator_3
+    calculator = Calculator()
+                 ^^^^^^^^^^
+NameError: name 'Calculator' is not defined. Did you mean: 'CalculatorTest'?
+
+======================================================================
+ERROR: test_apply_operator_4 (ClassEval_16_0.CalculatorTestApplyOperator.test_apply_operator_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 105, in test_apply_operator_4
+    calculator = Calculator()
+                 ^^^^^^^^^^
+NameError: name 'Calculator' is not defined. Did you mean: 'CalculatorTest'?
+
+======================================================================
+ERROR: test_apply_operator_5 (ClassEval_16_0.CalculatorTestApplyOperator.test_apply_operator_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 113, in test_apply_operator_5
+    calculator = Calculator()
+                 ^^^^^^^^^^
+NameError: name 'Calculator' is not defined. Did you mean: 'CalculatorTest'?
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+FAILED (errors=5)
+E
+======================================================================
+ERROR: test_calculator (ClassEval_16_0.CalculatorTest.test_calculator)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 123, in test_calculator
+    calculator = Calculator()
+                 ^^^^^^^^^^
+NameError: name 'Calculator' is not defined. Did you mean: 'CalculatorTest'?
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.EF.F
+======================================================================
+ERROR: test_count_all_2 (ClassEval_23_0.CombinationCalculatorTestCountAll.test_count_all_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_23_0.py", line 118, in test_count_all_2
+    self.assertEqual(CombinationCalculator.count_all(-1), False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_23_0.py", line 42, in count_all
+    total = (1 << n) - 1     # 2^n - 1
+             ~~^^~~
+ValueError: negative shift count
+
+======================================================================
+FAIL: test_count_all_3 (ClassEval_23_0.CombinationCalculatorTestCountAll.test_count_all_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_23_0.py", line 121, in test_count_all_3
+    self.assertEqual(CombinationCalculator.count_all(65), False)
+AssertionError: inf != False
+
+======================================================================
+FAIL: test_count_all_5 (ClassEval_23_0.CombinationCalculatorTestCountAll.test_count_all_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_23_0.py", line 127, in test_count_all_5
+    self.assertEqual(CombinationCalculator.count_all(63), float("inf"))
+AssertionError: 9223372036854775807 != inf
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=2, errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+EEEEE
+======================================================================
+ERROR: test_correlation_coefficient (ClassEval_31_0.DataStatistics4TestCorrelationCoefficient.test_correlation_coefficient)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 8, in test_correlation_coefficient
+    self.assertEqual(DataStatistics4.correlation_coefficient([1, 2, 3], [4, 5, 6]), 0.9999999999999998)
+                     ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+======================================================================
+ERROR: test_correlation_coefficient_2 (ClassEval_31_0.DataStatistics4TestCorrelationCoefficient.test_correlation_coefficient_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 11, in test_correlation_coefficient_2
+    self.assertEqual(DataStatistics4.correlation_coefficient([1, 1, 1], [2, 2, 2]), 0)
+                     ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+======================================================================
+ERROR: test_correlation_coefficient_3 (ClassEval_31_0.DataStatistics4TestCorrelationCoefficient.test_correlation_coefficient_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 14, in test_correlation_coefficient_3
+    self.assertEqual(DataStatistics4.correlation_coefficient([1, 2, 3], [1, 2, 3]), 0.9999999999999998)
+                     ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+======================================================================
+ERROR: test_correlation_coefficient_4 (ClassEval_31_0.DataStatistics4TestCorrelationCoefficient.test_correlation_coefficient_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 17, in test_correlation_coefficient_4
+    self.assertEqual(DataStatistics4.correlation_coefficient([1, 2, 3], [1, 2, 4]), 0.9819805060619659)
+                     ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+======================================================================
+ERROR: test_correlation_coefficient_5 (ClassEval_31_0.DataStatistics4TestCorrelationCoefficient.test_correlation_coefficient_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 20, in test_correlation_coefficient_5
+    self.assertEqual(DataStatistics4.correlation_coefficient([1, 2, 3], [1, 5, 3]), 0.4999999999999999)
+                     ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.032s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_skewness (ClassEval_31_0.DataStatistics4TestSkewness.test_skewness)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 25, in test_skewness
+    self.assertEqual(DataStatistics4.skewness([1, 2, 5]), 2.3760224064818463)
+                     ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+======================================================================
+ERROR: test_skewness_2 (ClassEval_31_0.DataStatistics4TestSkewness.test_skewness_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 28, in test_skewness_2
+    self.assertEqual(DataStatistics4.skewness([1, 1, 1]), 0)
+                     ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+======================================================================
+ERROR: test_skewness_3 (ClassEval_31_0.DataStatistics4TestSkewness.test_skewness_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 31, in test_skewness_3
+    self.assertEqual(DataStatistics4.skewness([1, 2, 3]), 0)
+                     ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+======================================================================
+ERROR: test_skewness_4 (ClassEval_31_0.DataStatistics4TestSkewness.test_skewness_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 34, in test_skewness_4
+    self.assertEqual(DataStatistics4.skewness([1, 2, 4]), 1.7181079837227264)
+                     ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+======================================================================
+ERROR: test_skewness_5 (ClassEval_31_0.DataStatistics4TestSkewness.test_skewness_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 37, in test_skewness_5
+    self.assertEqual(DataStatistics4.skewness([1, 5, 3]), 0.0)
+                     ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.030s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_kurtosis (ClassEval_31_0.DataStatistics4TestKurtosis.test_kurtosis)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 42, in test_kurtosis
+    self.assertEqual(DataStatistics4.kurtosis([1, 2, 5]), -1.5000000000000002)
+                     ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+======================================================================
+ERROR: test_kurtosis_2 (ClassEval_31_0.DataStatistics4TestKurtosis.test_kurtosis_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 45, in test_kurtosis_2
+    self.assertTrue(math.isnan(DataStatistics4.kurtosis([1, 1, 1])))
+                               ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+======================================================================
+ERROR: test_kurtosis_3 (ClassEval_31_0.DataStatistics4TestKurtosis.test_kurtosis_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 48, in test_kurtosis_3
+    self.assertEqual(DataStatistics4.kurtosis([1, 2, 3]), -1.5000000000000002)
+                     ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+======================================================================
+ERROR: test_kurtosis_4 (ClassEval_31_0.DataStatistics4TestKurtosis.test_kurtosis_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 51, in test_kurtosis_4
+    self.assertEqual(DataStatistics4.kurtosis([1, 2, 4]), -1.4999999999999996)
+                     ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+======================================================================
+ERROR: test_kurtosis_5 (ClassEval_31_0.DataStatistics4TestKurtosis.test_kurtosis_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 54, in test_kurtosis_5
+    self.assertEqual(DataStatistics4.kurtosis([1, 5, 3]), -1.5000000000000002)
+                     ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.021s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_pdf (ClassEval_31_0.DataStatistics4TestPDF.test_pdf)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 59, in test_pdf
+    self.assertEqual(DataStatistics4.pdf([1, 2, 3], 1, 1),
+                     ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+======================================================================
+ERROR: test_pdf_2 (ClassEval_31_0.DataStatistics4TestPDF.test_pdf_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 63, in test_pdf_2
+    self.assertEqual(DataStatistics4.pdf([1, 1, 1], 1, 1),
+                     ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+======================================================================
+ERROR: test_pdf_3 (ClassEval_31_0.DataStatistics4TestPDF.test_pdf_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 67, in test_pdf_3
+    self.assertEqual(DataStatistics4.pdf([1, 2, 3], 2, 1),
+                     ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+======================================================================
+ERROR: test_pdf_4 (ClassEval_31_0.DataStatistics4TestPDF.test_pdf_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 71, in test_pdf_4
+    self.assertEqual(DataStatistics4.pdf([1, 2, 3], 1, 2),
+                     ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+======================================================================
+ERROR: test_pdf_5 (ClassEval_31_0.DataStatistics4TestPDF.test_pdf_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 75, in test_pdf_5
+    self.assertEqual(DataStatistics4.pdf([1, 2, 3], 2, 2),
+                     ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.021s
+
+FAILED (errors=5)
+E
+======================================================================
+ERROR: test_main (ClassEval_31_0.DataStatistics4TestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 81, in test_main
+    self.assertEqual(DataStatistics4.correlation_coefficient([1, 2, 3], [4, 5, 6]), 0.9999999999999998)
+                     ^^^^^^^^^^^^^^^
+NameError: name 'DataStatistics4' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+FAILED (errors=1)
+EEEEE
+======================================================================
+ERROR: test_calculate_1 (ClassEval_39_0.ExpressionCalculatorTestCalculate.test_calculate_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 10, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_2 (ClassEval_39_0.ExpressionCalculatorTestCalculate.test_calculate_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 10, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_3 (ClassEval_39_0.ExpressionCalculatorTestCalculate.test_calculate_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 10, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_4 (ClassEval_39_0.ExpressionCalculatorTestCalculate.test_calculate_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 10, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_5 (ClassEval_39_0.ExpressionCalculatorTestCalculate.test_calculate_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 10, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+FAILED (errors=5)
+EEEEEE
+======================================================================
+ERROR: test_prepare_1 (ClassEval_39_0.ExpressionCalculatorTestPrepare.test_prepare_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 35, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_prepare_2 (ClassEval_39_0.ExpressionCalculatorTestPrepare.test_prepare_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 35, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_prepare_3 (ClassEval_39_0.ExpressionCalculatorTestPrepare.test_prepare_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 35, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_prepare_4 (ClassEval_39_0.ExpressionCalculatorTestPrepare.test_prepare_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 35, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_prepare_5 (ClassEval_39_0.ExpressionCalculatorTestPrepare.test_prepare_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 35, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_prepare_6 (ClassEval_39_0.ExpressionCalculatorTestPrepare.test_prepare_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 35, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+FAILED (errors=6)
+EEEEE
+======================================================================
+ERROR: test_is_operator_1 (ClassEval_39_0.ExpressionCalculatorTestIsOperator.test_is_operator_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 64, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_is_operator_2 (ClassEval_39_0.ExpressionCalculatorTestIsOperator.test_is_operator_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 64, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_is_operator_3 (ClassEval_39_0.ExpressionCalculatorTestIsOperator.test_is_operator_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 64, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_is_operator_4 (ClassEval_39_0.ExpressionCalculatorTestIsOperator.test_is_operator_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 64, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_is_operator_5 (ClassEval_39_0.ExpressionCalculatorTestIsOperator.test_is_operator_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 64, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+FAILED (errors=5)
+EEEEEEE
+======================================================================
+ERROR: test_compare_1 (ClassEval_39_0.ExpressionCalculatorTestCompare.test_compare_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 84, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_compare_2 (ClassEval_39_0.ExpressionCalculatorTestCompare.test_compare_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 84, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_compare_3 (ClassEval_39_0.ExpressionCalculatorTestCompare.test_compare_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 84, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_compare_4 (ClassEval_39_0.ExpressionCalculatorTestCompare.test_compare_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 84, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_compare_5 (ClassEval_39_0.ExpressionCalculatorTestCompare.test_compare_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 84, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_compare_6 (ClassEval_39_0.ExpressionCalculatorTestCompare.test_compare_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 84, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_compare_7 (ClassEval_39_0.ExpressionCalculatorTestCompare.test_compare_7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 84, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.014s
+
+FAILED (errors=7)
+EEEEEEE
+======================================================================
+ERROR: test_calculate_method_1 (ClassEval_39_0.ExpressionCalculatorTestCalculateMethod.test_calculate_method_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 117, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_method_2 (ClassEval_39_0.ExpressionCalculatorTestCalculateMethod.test_calculate_method_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 117, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_method_3 (ClassEval_39_0.ExpressionCalculatorTestCalculateMethod.test_calculate_method_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 117, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_method_4 (ClassEval_39_0.ExpressionCalculatorTestCalculateMethod.test_calculate_method_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 117, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_method_5 (ClassEval_39_0.ExpressionCalculatorTestCalculateMethod.test_calculate_method_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 117, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_method_6 (ClassEval_39_0.ExpressionCalculatorTestCalculateMethod.test_calculate_method_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 117, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_method_7 (ClassEval_39_0.ExpressionCalculatorTestCalculateMethod.test_calculate_method_7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 117, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.014s
+
+FAILED (errors=7)
+EEEEEE
+======================================================================
+ERROR: test_transform_1 (ClassEval_39_0.ExpressionCalculatorTestTransform.test_transform_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 152, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_transform_2 (ClassEval_39_0.ExpressionCalculatorTestTransform.test_transform_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 152, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_transform_3 (ClassEval_39_0.ExpressionCalculatorTestTransform.test_transform_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 152, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_transform_4 (ClassEval_39_0.ExpressionCalculatorTestTransform.test_transform_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 152, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_transform_5 (ClassEval_39_0.ExpressionCalculatorTestTransform.test_transform_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 152, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_transform_6 (ClassEval_39_0.ExpressionCalculatorTestTransform.test_transform_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 152, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+FAILED (errors=6)
+E
+======================================================================
+ERROR: test_ExpressionCalculator (ClassEval_39_0.ExpressionCalculatorTest.test_ExpressionCalculator)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 181, in setUp
+    self.expression_calculator = ExpressionCalculator()
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (errors=1)
+EEEEE
+======================================================================
+ERROR: test_kappa_1 (ClassEval_51_0.KappaCalculatorTestKappa.test_kappa_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 8, in test_kappa_1
+    self.assertEqual(KappaCalculator.kappa([[2, 1, 1], [1, 2, 1], [1, 1, 2]], 3), 0.25)
+                     ^^^^^^^^^^^^^^^
+NameError: name 'KappaCalculator' is not defined. Did you mean: 'KappaCalculatorTest'?
+
+======================================================================
+ERROR: test_kappa_2 (ClassEval_51_0.KappaCalculatorTestKappa.test_kappa_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 11, in test_kappa_2
+    self.assertAlmostEqual(KappaCalculator.kappa([[2, 2, 1], [1, 2, 1], [1, 1, 2]], 3), 0.19469026548672572)
+                           ^^^^^^^^^^^^^^^
+NameError: name 'KappaCalculator' is not defined. Did you mean: 'KappaCalculatorTest'?
+
+======================================================================
+ERROR: test_kappa_3 (ClassEval_51_0.KappaCalculatorTestKappa.test_kappa_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 14, in test_kappa_3
+    self.assertAlmostEqual(KappaCalculator.kappa([[2, 1, 2], [1, 2, 1], [1, 1, 2]], 3), 0.19469026548672572)
+                           ^^^^^^^^^^^^^^^
+NameError: name 'KappaCalculator' is not defined. Did you mean: 'KappaCalculatorTest'?
+
+======================================================================
+ERROR: test_kappa_4 (ClassEval_51_0.KappaCalculatorTestKappa.test_kappa_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 17, in test_kappa_4
+    self.assertAlmostEqual(KappaCalculator.kappa([[2, 1, 1], [2, 2, 1], [1, 1, 2]], 3), 0.19469026548672572)
+                           ^^^^^^^^^^^^^^^
+NameError: name 'KappaCalculator' is not defined. Did you mean: 'KappaCalculatorTest'?
+
+======================================================================
+ERROR: test_kappa_5 (ClassEval_51_0.KappaCalculatorTestKappa.test_kappa_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 20, in test_kappa_5
+    self.assertAlmostEqual(KappaCalculator.kappa([[2, 1, 1], [1, 2, 2], [1, 1, 2]], 3), 0.19469026548672572)
+                           ^^^^^^^^^^^^^^^
+NameError: name 'KappaCalculator' is not defined. Did you mean: 'KappaCalculatorTest'?
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.016s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_fleiss_kappa_1 (ClassEval_51_0.KappaCalculatorTestFleissKappa.test_fleiss_kappa_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 25, in test_fleiss_kappa_1
+    self.assertEqual(KappaCalculator.fleiss_kappa([[0, 0, 0, 0, 14],
+                     ^^^^^^^^^^^^^^^
+NameError: name 'KappaCalculator' is not defined. Did you mean: 'KappaCalculatorTest'?
+
+======================================================================
+ERROR: test_fleiss_kappa_2 (ClassEval_51_0.KappaCalculatorTestFleissKappa.test_fleiss_kappa_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 37, in test_fleiss_kappa_2
+    self.assertEqual(KappaCalculator.fleiss_kappa([[1, 0, 0, 0, 14],
+                     ^^^^^^^^^^^^^^^
+NameError: name 'KappaCalculator' is not defined. Did you mean: 'KappaCalculatorTest'?
+
+======================================================================
+ERROR: test_fleiss_kappa_3 (ClassEval_51_0.KappaCalculatorTestFleissKappa.test_fleiss_kappa_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 49, in test_fleiss_kappa_3
+    self.assertEqual(KappaCalculator.fleiss_kappa([[0, 1, 0, 0, 14],
+                     ^^^^^^^^^^^^^^^
+NameError: name 'KappaCalculator' is not defined. Did you mean: 'KappaCalculatorTest'?
+
+======================================================================
+ERROR: test_fleiss_kappa_4 (ClassEval_51_0.KappaCalculatorTestFleissKappa.test_fleiss_kappa_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 61, in test_fleiss_kappa_4
+    self.assertEqual(KappaCalculator.fleiss_kappa([[0, 0, 1, 0, 14],
+                     ^^^^^^^^^^^^^^^
+NameError: name 'KappaCalculator' is not defined. Did you mean: 'KappaCalculatorTest'?
+
+======================================================================
+ERROR: test_fleiss_kappa_5 (ClassEval_51_0.KappaCalculatorTestFleissKappa.test_fleiss_kappa_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 73, in test_fleiss_kappa_5
+    self.assertEqual(KappaCalculator.fleiss_kappa([[0, 0, 0, 1, 14],
+                     ^^^^^^^^^^^^^^^
+NameError: name 'KappaCalculator' is not defined. Did you mean: 'KappaCalculatorTest'?
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.013s
+
+FAILED (errors=5)
+E
+======================================================================
+ERROR: test_kappacalculator (ClassEval_51_0.KappaCalculatorTest.test_kappacalculator)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 87, in test_kappacalculator
+    self.assertEqual(KappaCalculator.kappa([[2, 1, 1], [1, 2, 1], [1, 1, 2]], 3), 0.25)
+                     ^^^^^^^^^^^^^^^
+NameError: name 'KappaCalculator' is not defined. Did you mean: 'KappaCalculatorTest'?
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+FFFFF.
+======================================================================
+FAIL: test_precision_1 (ClassEval_56_0.MetricsCalculatorTestPrecision.test_precision_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 141, in test_precision_1
+    self.assertEqual(temp, 0.5)
+AssertionError: 0.0 != 0.5
+
+======================================================================
+FAIL: test_precision_2 (ClassEval_56_0.MetricsCalculatorTestPrecision.test_precision_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 146, in test_precision_2
+    self.assertAlmostEqual(temp, 0.3333333333333333)
+AssertionError: 0.0 != 0.3333333333333333 within 7 places (0.3333333333333333 difference)
+
+======================================================================
+FAIL: test_precision_3 (ClassEval_56_0.MetricsCalculatorTestPrecision.test_precision_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 151, in test_precision_3
+    self.assertAlmostEqual(temp, 0.6666666666666666)
+AssertionError: 0.0 != 0.6666666666666666 within 7 places (0.6666666666666666 difference)
+
+======================================================================
+FAIL: test_precision_4 (ClassEval_56_0.MetricsCalculatorTestPrecision.test_precision_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 156, in test_precision_4
+    self.assertAlmostEqual(temp, 1.0)
+AssertionError: 0.0 != 1.0 within 7 places (1.0 difference)
+
+======================================================================
+FAIL: test_precision_5 (ClassEval_56_0.MetricsCalculatorTestPrecision.test_precision_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 161, in test_precision_5
+    self.assertAlmostEqual(temp, 0.5)
+AssertionError: 0.0 != 0.5 within 7 places (0.5 difference)
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+FAILED (failures=5)
+FFFFF.
+======================================================================
+FAIL: test_recall_1 (ClassEval_56_0.MetricsCalculatorTestRecall.test_recall_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 173, in test_recall_1
+    self.assertEqual(temp, 0.5)
+AssertionError: 0.0 != 0.5
+
+======================================================================
+FAIL: test_recall_2 (ClassEval_56_0.MetricsCalculatorTestRecall.test_recall_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 178, in test_recall_2
+    self.assertEqual(temp, 0.5)
+AssertionError: 0.0 != 0.5
+
+======================================================================
+FAIL: test_recall_3 (ClassEval_56_0.MetricsCalculatorTestRecall.test_recall_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 183, in test_recall_3
+    self.assertEqual(temp, 1.0)
+AssertionError: 0.0 != 1.0
+
+======================================================================
+FAIL: test_recall_4 (ClassEval_56_0.MetricsCalculatorTestRecall.test_recall_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 188, in test_recall_4
+    self.assertAlmostEqual(temp, 0.6666666666666666)
+AssertionError: 0.0 != 0.6666666666666666 within 7 places (0.6666666666666666 difference)
+
+======================================================================
+FAIL: test_recall_5 (ClassEval_56_0.MetricsCalculatorTestRecall.test_recall_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 193, in test_recall_5
+    self.assertAlmostEqual(temp, 0.3333333333333333)
+AssertionError: 0.0 != 0.3333333333333333 within 7 places (0.3333333333333333 difference)
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+FAILED (failures=5)
+FFFFF.
+======================================================================
+FAIL: test_f1_score_1 (ClassEval_56_0.MetricsCalculatorTestF1Score.test_f1_score_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 205, in test_f1_score_1
+    self.assertEqual(temp, 0.5)
+AssertionError: 0.0 != 0.5
+
+======================================================================
+FAIL: test_f1_score_2 (ClassEval_56_0.MetricsCalculatorTestF1Score.test_f1_score_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 210, in test_f1_score_2
+    self.assertEqual(temp, 0.4)
+AssertionError: 0.0 != 0.4
+
+======================================================================
+FAIL: test_f1_score_3 (ClassEval_56_0.MetricsCalculatorTestF1Score.test_f1_score_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 215, in test_f1_score_3
+    self.assertEqual(temp, 0.8)
+AssertionError: 0.0 != 0.8
+
+======================================================================
+FAIL: test_f1_score_4 (ClassEval_56_0.MetricsCalculatorTestF1Score.test_f1_score_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 220, in test_f1_score_4
+    self.assertEqual(temp, 0.8)
+AssertionError: 0.0 != 0.8
+
+======================================================================
+FAIL: test_f1_score_5 (ClassEval_56_0.MetricsCalculatorTestF1Score.test_f1_score_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 225, in test_f1_score_5
+    self.assertEqual(temp, 0.4)
+AssertionError: 0.0 != 0.4
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+FAILED (failures=5)
+FFFFF.
+======================================================================
+FAIL: test_accuracy_1 (ClassEval_56_0.MetricsCalculatorTestAccuracy.test_accuracy_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 237, in test_accuracy_1
+    self.assertEqual(temp, 0.5)
+AssertionError: 0.0 != 0.5
+
+======================================================================
+FAIL: test_accuracy_2 (ClassEval_56_0.MetricsCalculatorTestAccuracy.test_accuracy_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 242, in test_accuracy_2
+    self.assertAlmostEqual(temp, 0.3333333333333333)
+AssertionError: 0.0 != 0.3333333333333333 within 7 places (0.3333333333333333 difference)
+
+======================================================================
+FAIL: test_accuracy_3 (ClassEval_56_0.MetricsCalculatorTestAccuracy.test_accuracy_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 247, in test_accuracy_3
+    self.assertEqual(temp, 0.75)
+AssertionError: 0.0 != 0.75
+
+======================================================================
+FAIL: test_accuracy_4 (ClassEval_56_0.MetricsCalculatorTestAccuracy.test_accuracy_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 252, in test_accuracy_4
+    self.assertEqual(temp, 0.75)
+AssertionError: 0.0 != 0.75
+
+======================================================================
+FAIL: test_accuracy_5 (ClassEval_56_0.MetricsCalculatorTestAccuracy.test_accuracy_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 257, in test_accuracy_5
+    self.assertEqual(temp, 0.25)
+AssertionError: 0.0 != 0.25
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+FAILED (failures=5)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+......FF
+======================================================================
+FAIL: test_mrr_7 (ClassEval_57_0.MetricsCalculator2TestMrr.test_mrr_7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_57_0.py", line 130, in test_mrr_7
+    self.assertEqual(res2, [0.0])
+AssertionError: Lists differ: [] != [0.0]
+
+Second list contains 1 additional elements.
+First extra element 0:
+0.0
+
+- []
++ [0.0]
+
+======================================================================
+FAIL: test_mrr_8 (ClassEval_57_0.MetricsCalculator2TestMrr.test_mrr_8)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_57_0.py", line 134, in test_mrr_8
+    self.assertEqual(res1, 0.0)
+AssertionError: 0.75 != 0.0
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+FAILED (failures=2)
+......FE
+======================================================================
+ERROR: test_map_8 (ClassEval_57_0.MetricsCalculator2TestMap.test_map_8)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_57_0.py", line 176, in test_map_8
+    res1, res2 = MetricsCalculator2.map([([1, 0, 1, 1], 0), ([0, 1, 0, 0], 0)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_57_0.py", line 81, in map
+    avg_p = sum_precisions / ground_truth_num
+            ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+ZeroDivisionError: float division by zero
+
+======================================================================
+FAIL: test_map_7 (ClassEval_57_0.MetricsCalculator2TestMap.test_map_7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_57_0.py", line 173, in test_map_7
+    self.assertEqual(res2, [0.0])
+AssertionError: Lists differ: [] != [0.0]
+
+Second list contains 1 additional elements.
+First extra element 0:
+0.0
+
+- []
++ [0.0]
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.002s
+
+FAILED (failures=1, errors=1)
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.F.FF
+======================================================================
+FAIL: test_correlation_2 (ClassEval_81_0.Statistics3TestCorrelation.test_correlation_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 194, in test_correlation_2
+    self.assertEqual(statistics3.correlation([1, 2, 3, 4], [5, 6, 7, 8]), 1.0)
+AssertionError: 1.0000000000000002 != 1.0
+
+======================================================================
+FAIL: test_correlation_4 (ClassEval_81_0.Statistics3TestCorrelation.test_correlation_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 202, in test_correlation_4
+    self.assertEqual(statistics3.correlation([1, 1,1], [2,2,2]), None)
+AssertionError: 0.0 != None
+
+======================================================================
+FAIL: test_correlation_5 (ClassEval_81_0.Statistics3TestCorrelation.test_correlation_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 206, in test_correlation_5
+    self.assertEqual(statistics3.correlation([1, 1,1], [1,1,1]), None)
+AssertionError: 0.0 != None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=3)
+.E...
+======================================================================
+ERROR: test_mean_2 (ClassEval_81_0.Statistics3TestMean.test_mean_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 215, in test_mean_2
+    self.assertEqual(statistics3.mean([]), None)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 83, in mean
+    return sum(data) / len(data)
+           ~~~~~~~~~~^~~~~~~~~~~
+ZeroDivisionError: division by zero
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=1)
+.FFFF
+======================================================================
+FAIL: test_correlation_matrix_2 (ClassEval_81_0.Statistics3TestCorrelationMatrix.test_correlation_matrix_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 236, in test_correlation_matrix_2
+    self.assertEqual(statistics3.correlation_matrix([[1, 2, 3], [4, 5, 6]]), [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]])
+AssertionError: Lists differ: [[1.0, 1.0], [1.0, 1.0]] != [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]]
+
+First differing element 0:
+[1.0, 1.0]
+[1.0, 1.0, 1.0]
+
+Second list contains 1 additional elements.
+First extra element 2:
+[1.0, 1.0, 1.0]
+
+- [[1.0, 1.0], [1.0, 1.0]]
++ [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]]
+
+======================================================================
+FAIL: test_correlation_matrix_3 (ClassEval_81_0.Statistics3TestCorrelationMatrix.test_correlation_matrix_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 240, in test_correlation_matrix_3
+    self.assertEqual(statistics3.correlation_matrix([[1, 2, 3]]), [[None, None, None], [None, None, None], [None, None, None]])
+AssertionError: Lists differ: [[1.0]] != [[None, None, None], [None, None, None], [None, None, None]]
+
+First differing element 0:
+[1.0]
+[None, None, None]
+
+Second list contains 2 additional elements.
+First extra element 1:
+[None, None, None]
+
+- [[1.0]]
++ [[None, None, None], [None, None, None], [None, None, None]]
+
+======================================================================
+FAIL: test_correlation_matrix_4 (ClassEval_81_0.Statistics3TestCorrelationMatrix.test_correlation_matrix_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 244, in test_correlation_matrix_4
+    self.assertEqual(statistics3.correlation_matrix([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11,12]]), [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]])
+AssertionError: Lists differ: [[1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0], [1.0, 1.0, [27 chars]1.0]] != [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]]
+
+First differing element 0:
+[1.0, 1.0, 1.0, 1.0]
+[1.0, 1.0, 1.0]
+
+First list contains 1 additional elements.
+First extra element 3:
+[1.0, 1.0, 1.0, 1.0]
+
++ [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]]
+- [[1.0, 1.0, 1.0, 1.0],
+-  [1.0, 1.0, 1.0, 1.0],
+-  [1.0, 1.0, 1.0, 1.0],
+-  [1.0, 1.0, 1.0, 1.0]]
+
+======================================================================
+FAIL: test_correlation_matrix_5 (ClassEval_81_0.Statistics3TestCorrelationMatrix.test_correlation_matrix_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 248, in test_correlation_matrix_5
+    self.assertEqual(statistics3.correlation_matrix([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11,12], [13, 14, 15]]), [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]])
+AssertionError: Lists differ: [[1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0], [[74 chars]1.0]] != [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]]
+
+First differing element 0:
+[1.0, 1.0, 1.0, 1.0, 1.0]
+[1.0, 1.0, 1.0]
+
+First list contains 2 additional elements.
+First extra element 3:
+[1.0, 1.0, 1.0, 1.0, 1.0]
+
++ [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]]
+- [[1.0, 1.0, 1.0, 1.0, 1.0],
+-  [1.0, 1.0, 1.0, 1.0, 1.0],
+-  [1.0, 1.0, 1.0, 1.0, 1.0],
+-  [1.0, 1.0, 1.0, 1.0, 1.0],
+-  [1.0, 1.0, 1.0, 1.0, 1.0]]
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=4)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.FF.F
+======================================================================
+FAIL: test_z_score_2 (ClassEval_81_0.Statistics3TestZScore.test_z_score_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 279, in test_z_score_2
+    self.assertEqual(statistics3.z_score([1, 1, 1, 1]), None)
+AssertionError: [0.0, 0.0, 0.0, 0.0] != None
+
+======================================================================
+FAIL: test_z_score_3 (ClassEval_81_0.Statistics3TestZScore.test_z_score_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 283, in test_z_score_3
+    self.assertEqual(statistics3.z_score([1]),None)
+AssertionError: [0.0] != None
+
+======================================================================
+FAIL: test_z_score_5 (ClassEval_81_0.Statistics3TestZScore.test_z_score_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 291, in test_z_score_5
+    self.assertEqual(statistics3.z_score([1, 1, 1, 1, 1]), None)
+AssertionError: [0.0, 0.0, 0.0, 0.0, 0.0] != None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=3)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+EEEEE
+======================================================================
+ERROR: test_cos_1 (ClassEval_88_0.TriCalculatorTestCos.test_cos_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 45, in test_cos_1
+    self.assertEqual(tricalculator.cos(60), 0.5)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 10, in cos
+    return self.taylor(x, 100)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 21, in taylor
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+======================================================================
+ERROR: test_cos_2 (ClassEval_88_0.TriCalculatorTestCos.test_cos_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 49, in test_cos_2
+    self.assertAlmostEqual(tricalculator.cos(30), 0.8660254038)
+                           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 10, in cos
+    return self.taylor(x, 100)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 21, in taylor
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+======================================================================
+ERROR: test_cos_3 (ClassEval_88_0.TriCalculatorTestCos.test_cos_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 53, in test_cos_3
+    self.assertEqual(tricalculator.cos(0), 1.0)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 10, in cos
+    return self.taylor(x, 100)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 21, in taylor
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+======================================================================
+ERROR: test_cos_4 (ClassEval_88_0.TriCalculatorTestCos.test_cos_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 57, in test_cos_4
+    self.assertEqual(tricalculator.cos(90), 0.0)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 10, in cos
+    return self.taylor(x, 100)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 21, in taylor
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+======================================================================
+ERROR: test_cos_5 (ClassEval_88_0.TriCalculatorTestCos.test_cos_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 61, in test_cos_5
+    self.assertAlmostEqual(tricalculator.cos(45), 0.7071067812)
+                           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 10, in cos
+    return self.taylor(x, 100)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 21, in taylor
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+FAILED (errors=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+EEEEE
+======================================================================
+ERROR: test_taylor_1 (ClassEval_88_0.TriCalculatorTestTaylor.test_taylor_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 89, in test_taylor_1
+    self.assertAlmostEqual(tricalculator.taylor(60, 50), 0.5)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 21, in taylor
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+======================================================================
+ERROR: test_taylor_2 (ClassEval_88_0.TriCalculatorTestTaylor.test_taylor_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 93, in test_taylor_2
+    self.assertAlmostEqual(tricalculator.taylor(30, 50), 0.8660254037844386)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 21, in taylor
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+======================================================================
+ERROR: test_taylor_3 (ClassEval_88_0.TriCalculatorTestTaylor.test_taylor_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 97, in test_taylor_3
+    self.assertAlmostEqual(tricalculator.taylor(90, 50), 0.0)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 21, in taylor
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+======================================================================
+ERROR: test_taylor_4 (ClassEval_88_0.TriCalculatorTestTaylor.test_taylor_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 101, in test_taylor_4
+    self.assertAlmostEqual(tricalculator.taylor(0, 50), 1.0)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 21, in taylor
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+======================================================================
+ERROR: test_taylor_5 (ClassEval_88_0.TriCalculatorTestTaylor.test_taylor_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 105, in test_taylor_5
+    self.assertAlmostEqual(tricalculator.taylor(45, 50), 0.7071067811865475)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 21, in taylor
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_sin_1 (ClassEval_88_0.TriCalculatorTestSin.test_sin_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 111, in test_sin_1
+    self.assertEqual(tricalculator.sin(30), 0.5)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 29, in sin
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+======================================================================
+ERROR: test_sin_2 (ClassEval_88_0.TriCalculatorTestSin.test_sin_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 115, in test_sin_2
+    self.assertAlmostEqual(tricalculator.sin(60), 0.8660254038)
+                           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 29, in sin
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+======================================================================
+ERROR: test_sin_3 (ClassEval_88_0.TriCalculatorTestSin.test_sin_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 119, in test_sin_3
+    self.assertEqual(tricalculator.sin(0), 0.0)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 29, in sin
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+======================================================================
+ERROR: test_sin_4 (ClassEval_88_0.TriCalculatorTestSin.test_sin_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 123, in test_sin_4
+    self.assertEqual(tricalculator.sin(90), 1.0)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 29, in sin
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+======================================================================
+ERROR: test_sin_5 (ClassEval_88_0.TriCalculatorTestSin.test_sin_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 127, in test_sin_5
+    self.assertAlmostEqual(tricalculator.sin(45), 0.7071067812)
+                           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 29, in sin
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_tan_1 (ClassEval_88_0.TriCalculatorTestTan.test_tan_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 133, in test_tan_1
+    self.assertEqual(tricalculator.tan(45), 1.0)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 37, in tan
+    return self.sin(x) / self.cos(x)
+           ^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 29, in sin
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+======================================================================
+ERROR: test_tan_2 (ClassEval_88_0.TriCalculatorTestTan.test_tan_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 137, in test_tan_2
+    self.assertEqual(tricalculator.tan(90), False)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 37, in tan
+    return self.sin(x) / self.cos(x)
+           ^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 29, in sin
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+======================================================================
+ERROR: test_tan_3 (ClassEval_88_0.TriCalculatorTestTan.test_tan_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 141, in test_tan_3
+    self.assertAlmostEqual(tricalculator.tan(30), 0.5773502692)
+                           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 37, in tan
+    return self.sin(x) / self.cos(x)
+           ^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 29, in sin
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+======================================================================
+ERROR: test_tan_4 (ClassEval_88_0.TriCalculatorTestTan.test_tan_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 145, in test_tan_4
+    self.assertAlmostEqual(tricalculator.tan(60), 1.7320508076)
+                           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 37, in tan
+    return self.sin(x) / self.cos(x)
+           ^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 29, in sin
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+======================================================================
+ERROR: test_tan_5 (ClassEval_88_0.TriCalculatorTestTan.test_tan_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 149, in test_tan_5
+    self.assertEqual(tricalculator.tan(0), 0.0)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 37, in tan
+    return self.sin(x) / self.cos(x)
+           ^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 29, in sin
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (errors=5)
+E
+======================================================================
+ERROR: test_tricalculator (ClassEval_88_0.TriCalculatorTest.test_tricalculator)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 155, in test_tricalculator
+    self.assertEqual(tricalculator.cos(60), 0.5)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 10, in cos
+    return self.taylor(x, 100)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 21, in taylor
+    x_rad = math.radians(x)
+            ^^^^
+NameError: name 'math' is not defined. Did you forget to import 'math'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
