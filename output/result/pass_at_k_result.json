@@ -42,6 +42,12 @@
             "fun_partial_success": 0.6506024096385541,
             "fun_success": 0.47710843373493966
         },
+        "ChatGPT_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.2,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.4
+        },
         "ChatGPT_greedy": {
             "class_partial_success": 0.08800000000000001,
             "class_success": 0.048000000000000015,
@@ -83,6 +89,12 @@
             "class_success": 0.05,
             "fun_partial_success": 0.12048192771084333,
             "fun_success": 0.08915662650602414
+        },
+        "ChatGPT_greedy_Natural_Language_Processing": {
+            "class_partial_success": 0.12000000000000002,
+            "class_success": 0.04,
+            "fun_partial_success": 0.13333333333333333,
+            "fun_success": 0.08
         },
         "Deepseek-r1-distill-llama-70b": {
             "class_partial_success": 0.644,
@@ -126,6 +138,12 @@
             "fun_partial_success": 0.7566265060240964,
             "fun_success": 0.616867469879518
         },
+        "Deepseek-r1-distill-llama-70b_Natural_Language_Processing": {
+            "class_partial_success": 0.52,
+            "class_success": 0.08,
+            "fun_partial_success": 0.6133333333333333,
+            "fun_success": 0.3066666666666667
+        },
         "Deepseek-r1-distill-llama-70b_greedy": {
             "class_partial_success": 0.12599999999999986,
             "class_success": 0.06800000000000003,
@@ -167,6 +185,12 @@
             "class_success": 0.075,
             "fun_partial_success": 0.13253012048192764,
             "fun_success": 0.10602409638554218
+        },
+        "Deepseek-r1-distill-llama-70b_greedy_Natural_Language_Processing": {
+            "class_partial_success": 0.12000000000000002,
+            "class_success": 0.0,
+            "fun_partial_success": 0.13333333333333333,
+            "fun_success": 0.05333333333333334
         },
         "GPT-4": {
             "class_partial_success": 0.53,
@@ -210,6 +234,12 @@
             "fun_partial_success": 0.7373493975903614,
             "fun_success": 0.5228915662650602
         },
+        "GPT-4_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.2,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.4
+        },
         "GPT-4_greedy": {
             "class_partial_success": 0.10199999999999995,
             "class_success": 0.060000000000000026,
@@ -251,6 +281,12 @@
             "class_success": 0.0625,
             "fun_partial_success": 0.15421686746987937,
             "fun_success": 0.10361445783132532
+        },
+        "GPT-4_greedy_Natural_Language_Processing": {
+            "class_partial_success": 0.12000000000000002,
+            "class_success": 0.04,
+            "fun_partial_success": 0.13333333333333333,
+            "fun_success": 0.08
         },
         "Llama4-maverick-instruct": {
             "class_partial_success": 0.6479999999999998,
@@ -294,6 +330,12 @@
             "fun_partial_success": 0.9132530120481928,
             "fun_success": 0.6819277108433736
         },
+        "Llama4-maverick-instruct_Natural_Language_Processing": {
+            "class_partial_success": 0.5599999999999999,
+            "class_success": 0.16,
+            "fun_partial_success": 0.64,
+            "fun_success": 0.4533333333333333
+        },
         "Llama4-maverick-instruct_greedy": {
             "class_partial_success": 0.13599999999999984,
             "class_success": 0.07000000000000003,
@@ -336,6 +378,12 @@
             "fun_partial_success": 0.18554216867469853,
             "fun_success": 0.13734939759036136
         },
+        "Llama4-maverick-instruct_greedy_Natural_Language_Processing": {
+            "class_partial_success": 0.12000000000000002,
+            "class_success": 0.04,
+            "fun_partial_success": 0.13333333333333333,
+            "fun_success": 0.10666666666666666
+        },
         "SantaCoder": {
             "class_partial_success": 0.013999999999999999,
             "class_success": 0.0,
@@ -376,6 +424,12 @@
             "class_partial_success": 0.0,
             "class_success": 0.0,
             "fun_partial_success": 0.045783132530120486,
+            "fun_success": 0.0
+        },
+        "SantaCoder_Natural_Language_Processing": {
+            "class_partial_success": 0.0,
+            "class_success": 0.0,
+            "fun_partial_success": 0.05333333333333334,
             "fun_success": 0.0
         },
         "SantaCoder_greedy": {
@@ -420,6 +474,12 @@
             "fun_partial_success": 0.004819277108433735,
             "fun_success": 0.0
         },
+        "SantaCoder_greedy_Natural_Language_Processing": {
+            "class_partial_success": 0.0,
+            "class_success": 0.0,
+            "fun_partial_success": 0.0,
+            "fun_success": 0.0
+        },
         "WizardCoder": {
             "class_partial_success": 0.14199999999999996,
             "class_success": 0.08200000000000002,
@@ -462,6 +522,12 @@
             "fun_partial_success": 0.3831325301204819,
             "fun_success": 0.22891566265060231
         },
+        "WizardCoder_Natural_Language_Processing": {
+            "class_partial_success": 0.4,
+            "class_success": 0.2,
+            "fun_partial_success": 0.4666666666666667,
+            "fun_success": 0.26666666666666666
+        },
         "WizardCoder_greedy": {
             "class_partial_success": 0.019999999999999997,
             "class_success": 0.016,
@@ -503,6 +569,12 @@
             "class_success": 0.025,
             "fun_partial_success": 0.08192771084337354,
             "fun_success": 0.05783132530120484
+        },
+        "WizardCoder_greedy_Natural_Language_Processing": {
+            "class_partial_success": 0.08,
+            "class_success": 0.04,
+            "fun_partial_success": 0.09333333333333332,
+            "fun_success": 0.05333333333333334
         }
     },
     "pass_3": {
@@ -548,6 +620,12 @@
             "fun_partial_success": 0.727710843373494,
             "fun_success": 0.5108433734939759
         },
+        "ChatGPT_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.2,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.4
+        },
         "ChatGPT_greedy": {
             "class_partial_success": 0.2640000000000002,
             "class_success": 0.14399999999999996,
@@ -589,6 +667,12 @@
             "class_success": 0.15,
             "fun_partial_success": 0.36144578313253045,
             "fun_success": 0.2674698795180724
+        },
+        "ChatGPT_greedy_Natural_Language_Processing": {
+            "class_partial_success": 0.36,
+            "class_success": 0.12,
+            "fun_partial_success": 0.39999999999999997,
+            "fun_success": 0.24000000000000002
         },
         "Deepseek-r1-distill-llama-70b": {
             "class_partial_success": 0.7079999999999999,
@@ -632,6 +716,12 @@
             "fun_partial_success": 0.8734939759036144,
             "fun_success": 0.7024096385542168
         },
+        "Deepseek-r1-distill-llama-70b_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.18,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.42666666666666664
+        },
         "Deepseek-r1-distill-llama-70b_greedy": {
             "class_partial_success": 0.37800000000000045,
             "class_success": 0.20400000000000007,
@@ -673,6 +763,12 @@
             "class_success": 0.225,
             "fun_partial_success": 0.3975903614457836,
             "fun_success": 0.3180722891566267
+        },
+        "Deepseek-r1-distill-llama-70b_greedy_Natural_Language_Processing": {
+            "class_partial_success": 0.36,
+            "class_success": 0.0,
+            "fun_partial_success": 0.39999999999999997,
+            "fun_success": 0.16
         },
         "GPT-4": {
             "class_partial_success": 0.586,
@@ -716,6 +812,12 @@
             "fun_partial_success": 0.7963855421686746,
             "fun_success": 0.5626506024096385
         },
+        "GPT-4_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.2,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.4
+        },
         "GPT-4_greedy": {
             "class_partial_success": 0.30600000000000027,
             "class_success": 0.18,
@@ -757,6 +859,12 @@
             "class_success": 0.1875,
             "fun_partial_success": 0.4626506024096391,
             "fun_success": 0.3108433734939761
+        },
+        "GPT-4_greedy_Natural_Language_Processing": {
+            "class_partial_success": 0.36,
+            "class_success": 0.12,
+            "fun_partial_success": 0.39999999999999997,
+            "fun_success": 0.24000000000000002
         },
         "Llama4-maverick-instruct": {
             "class_partial_success": 0.711,
@@ -800,6 +908,12 @@
             "fun_partial_success": 0.9337349397590361,
             "fun_success": 0.7349397590361446
         },
+        "Llama4-maverick-instruct_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.2,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.5266666666666667
+        },
         "Llama4-maverick-instruct_greedy": {
             "class_partial_success": 0.40800000000000053,
             "class_success": 0.21000000000000008,
@@ -842,6 +956,12 @@
             "fun_partial_success": 0.5566265060240972,
             "fun_success": 0.4120481927710848
         },
+        "Llama4-maverick-instruct_greedy_Natural_Language_Processing": {
+            "class_partial_success": 0.36,
+            "class_success": 0.12,
+            "fun_partial_success": 0.39999999999999997,
+            "fun_success": 0.32
+        },
         "SantaCoder": {
             "class_partial_success": 0.019,
             "class_success": 0.0,
@@ -882,6 +1002,12 @@
             "class_partial_success": 0.0,
             "class_success": 0.0,
             "fun_partial_success": 0.060240963855421686,
+            "fun_success": 0.0
+        },
+        "SantaCoder_Natural_Language_Processing": {
+            "class_partial_success": 0.0,
+            "class_success": 0.0,
+            "fun_partial_success": 0.06666666666666667,
             "fun_success": 0.0
         },
         "SantaCoder_greedy": {
@@ -926,6 +1052,12 @@
             "fun_partial_success": 0.014457831325301203,
             "fun_success": 0.0
         },
+        "SantaCoder_greedy_Natural_Language_Processing": {
+            "class_partial_success": 0.0,
+            "class_success": 0.0,
+            "fun_partial_success": 0.0,
+            "fun_success": 0.0
+        },
         "WizardCoder": {
             "class_partial_success": 0.25300000000000006,
             "class_success": 0.141,
@@ -968,6 +1100,12 @@
             "fun_partial_success": 0.6313253012048193,
             "fun_success": 0.3903614457831326
         },
+        "WizardCoder_Natural_Language_Processing": {
+            "class_partial_success": 0.4,
+            "class_success": 0.2,
+            "fun_partial_success": 0.4666666666666667,
+            "fun_success": 0.26666666666666666
+        },
         "WizardCoder_greedy": {
             "class_partial_success": 0.05999999999999999,
             "class_success": 0.048,
@@ -1009,6 +1147,12 @@
             "class_success": 0.075,
             "fun_partial_success": 0.24578313253012055,
             "fun_success": 0.1734939759036144
+        },
+        "WizardCoder_greedy_Natural_Language_Processing": {
+            "class_partial_success": 0.24,
+            "class_success": 0.12,
+            "fun_partial_success": 0.28,
+            "fun_success": 0.16
         }
     },
     "pass_5": {
@@ -1054,6 +1198,12 @@
             "fun_partial_success": 0.7590361445783133,
             "fun_success": 0.5301204819277109
         },
+        "ChatGPT_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.2,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.4
+        },
         "ChatGPT_greedy": {
             "class_partial_success": 0.44,
             "class_success": 0.24,
@@ -1095,6 +1245,12 @@
             "class_success": 0.25,
             "fun_partial_success": 0.6024096385542169,
             "fun_success": 0.4457831325301205
+        },
+        "ChatGPT_greedy_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.2,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.4
         },
         "Deepseek-r1-distill-llama-70b": {
             "class_partial_success": 0.72,
@@ -1138,6 +1294,12 @@
             "fun_partial_success": 0.9156626506024096,
             "fun_success": 0.7228915662650602
         },
+        "Deepseek-r1-distill-llama-70b_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.2,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.4666666666666667
+        },
         "Deepseek-r1-distill-llama-70b_greedy": {
             "class_partial_success": 0.63,
             "class_success": 0.34,
@@ -1179,6 +1341,12 @@
             "class_success": 0.375,
             "fun_partial_success": 0.6626506024096386,
             "fun_success": 0.5301204819277109
+        },
+        "Deepseek-r1-distill-llama-70b_greedy_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.0,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.26666666666666666
         },
         "GPT-4": {
             "class_partial_success": 0.6,
@@ -1222,6 +1390,12 @@
             "fun_partial_success": 0.8192771084337349,
             "fun_success": 0.5783132530120482
         },
+        "GPT-4_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.2,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.4
+        },
         "GPT-4_greedy": {
             "class_partial_success": 0.51,
             "class_success": 0.3,
@@ -1263,6 +1437,12 @@
             "class_success": 0.3125,
             "fun_partial_success": 0.7710843373493976,
             "fun_success": 0.5180722891566265
+        },
+        "GPT-4_greedy_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.2,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.4
         },
         "Llama4-maverick-instruct": {
             "class_partial_success": 0.73,
@@ -1306,6 +1486,12 @@
             "fun_partial_success": 0.9397590361445783,
             "fun_success": 0.7590361445783133
         },
+        "Llama4-maverick-instruct_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.2,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.5333333333333333
+        },
         "Llama4-maverick-instruct_greedy": {
             "class_partial_success": 0.68,
             "class_success": 0.35,
@@ -1348,6 +1534,12 @@
             "fun_partial_success": 0.927710843373494,
             "fun_success": 0.6867469879518072
         },
+        "Llama4-maverick-instruct_greedy_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.2,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.5333333333333333
+        },
         "SantaCoder": {
             "class_partial_success": 0.02,
             "class_success": 0.0,
@@ -1388,6 +1580,12 @@
             "class_partial_success": 0.0,
             "class_success": 0.0,
             "fun_partial_success": 0.060240963855421686,
+            "fun_success": 0.0
+        },
+        "SantaCoder_Natural_Language_Processing": {
+            "class_partial_success": 0.0,
+            "class_success": 0.0,
+            "fun_partial_success": 0.06666666666666667,
             "fun_success": 0.0
         },
         "SantaCoder_greedy": {
@@ -1432,6 +1630,12 @@
             "fun_partial_success": 0.024096385542168676,
             "fun_success": 0.0
         },
+        "SantaCoder_greedy_Natural_Language_Processing": {
+            "class_partial_success": 0.0,
+            "class_success": 0.0,
+            "fun_partial_success": 0.0,
+            "fun_success": 0.0
+        },
         "WizardCoder": {
             "class_partial_success": 0.32,
             "class_success": 0.17,
@@ -1474,6 +1678,12 @@
             "fun_partial_success": 0.7228915662650602,
             "fun_success": 0.4578313253012048
         },
+        "WizardCoder_Natural_Language_Processing": {
+            "class_partial_success": 0.4,
+            "class_success": 0.2,
+            "fun_partial_success": 0.4666666666666667,
+            "fun_success": 0.26666666666666666
+        },
         "WizardCoder_greedy": {
             "class_partial_success": 0.1,
             "class_success": 0.08,
@@ -1515,6 +1725,12 @@
             "class_success": 0.125,
             "fun_partial_success": 0.40963855421686746,
             "fun_success": 0.2891566265060241
+        },
+        "WizardCoder_greedy_Natural_Language_Processing": {
+            "class_partial_success": 0.4,
+            "class_success": 0.2,
+            "fun_partial_success": 0.4666666666666667,
+            "fun_success": 0.26666666666666666
         }
     }
 }
