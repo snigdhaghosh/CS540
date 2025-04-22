@@ -18,6 +18,12 @@
             "fun_partial_success": 0.6222222222222221,
             "fun_success": 0.5833333333333333
         },
+        "ChatGPT_File_Handling": {
+            "class_partial_success": 0.4444444444444444,
+            "class_success": 0.3333333333333333,
+            "fun_partial_success": 0.6190476190476191,
+            "fun_success": 0.5666666666666667
+        },
         "ChatGPT_greedy": {
             "class_partial_success": 0.08800000000000001,
             "class_success": 0.048000000000000015,
@@ -35,6 +41,12 @@
             "class_success": 0.05714285714285715,
             "fun_partial_success": 0.1166666666666667,
             "fun_success": 0.11111111111111113
+        },
+        "ChatGPT_greedy_File_Handling": {
+            "class_partial_success": 0.08888888888888889,
+            "class_success": 0.06666666666666668,
+            "fun_partial_success": 0.12380952380952386,
+            "fun_success": 0.11428571428571432
         },
         "Deepseek-r1-distill-llama-70b": {
             "class_partial_success": 0.644,
@@ -54,6 +66,12 @@
             "fun_partial_success": 0.6888888888888889,
             "fun_success": 0.6777777777777778
         },
+        "Deepseek-r1-distill-llama-70b_File_Handling": {
+            "class_partial_success": 0.5333333333333333,
+            "class_success": 0.4666666666666667,
+            "fun_partial_success": 0.6380952380952382,
+            "fun_success": 0.6142857142857144
+        },
         "Deepseek-r1-distill-llama-70b_greedy": {
             "class_partial_success": 0.12599999999999986,
             "class_success": 0.06800000000000003,
@@ -71,6 +89,12 @@
             "class_success": 0.1142857142857143,
             "fun_partial_success": 0.1333333333333334,
             "fun_success": 0.12777777777777782
+        },
+        "Deepseek-r1-distill-llama-70b_greedy_File_Handling": {
+            "class_partial_success": 0.1111111111111111,
+            "class_success": 0.1111111111111111,
+            "fun_partial_success": 0.12857142857142861,
+            "fun_success": 0.12857142857142861
         },
         "GPT-4": {
             "class_partial_success": 0.53,
@@ -90,6 +114,12 @@
             "fun_partial_success": 0.8222222222222223,
             "fun_success": 0.7722222222222223
         },
+        "GPT-4_File_Handling": {
+            "class_partial_success": 0.48888888888888893,
+            "class_success": 0.4222222222222222,
+            "fun_partial_success": 0.638095238095238,
+            "fun_success": 0.6047619047619047
+        },
         "GPT-4_greedy": {
             "class_partial_success": 0.10199999999999995,
             "class_success": 0.060000000000000026,
@@ -107,6 +137,12 @@
             "class_success": 0.14285714285714285,
             "fun_partial_success": 0.17777777777777787,
             "fun_success": 0.1722222222222223
+        },
+        "GPT-4_greedy_File_Handling": {
+            "class_partial_success": 0.08888888888888889,
+            "class_success": 0.08888888888888889,
+            "fun_partial_success": 0.12380952380952386,
+            "fun_success": 0.1190476190476191
         },
         "Llama4-maverick-instruct": {
             "class_partial_success": 0.6479999999999998,
@@ -126,6 +162,12 @@
             "fun_partial_success": 0.8722222222222222,
             "fun_success": 0.8666666666666667
         },
+        "Llama4-maverick-instruct_File_Handling": {
+            "class_partial_success": 0.4666666666666667,
+            "class_success": 0.2888888888888889,
+            "fun_partial_success": 0.6142857142857144,
+            "fun_success": 0.542857142857143
+        },
         "Llama4-maverick-instruct_greedy": {
             "class_partial_success": 0.13599999999999984,
             "class_success": 0.07000000000000003,
@@ -143,6 +185,12 @@
             "class_success": 0.17142857142857143,
             "fun_partial_success": 0.17777777777777787,
             "fun_success": 0.17777777777777787
+        },
+        "Llama4-maverick-instruct_greedy_File_Handling": {
+            "class_partial_success": 0.08888888888888889,
+            "class_success": 0.06666666666666668,
+            "fun_partial_success": 0.12380952380952386,
+            "fun_success": 0.11428571428571432
         },
         "SantaCoder": {
             "class_partial_success": 0.013999999999999999,
@@ -162,6 +210,12 @@
             "fun_partial_success": 0.07222222222222223,
             "fun_success": 0.027777777777777776
         },
+        "SantaCoder_File_Handling": {
+            "class_partial_success": 0.0,
+            "class_success": 0.0,
+            "fun_partial_success": 0.009523809523809525,
+            "fun_success": 0.0
+        },
         "SantaCoder_greedy": {
             "class_partial_success": 0.004,
             "class_success": 0.0,
@@ -179,6 +233,12 @@
             "class_success": 0.0,
             "fun_partial_success": 0.011111111111111112,
             "fun_success": 0.005555555555555556
+        },
+        "SantaCoder_greedy_File_Handling": {
+            "class_partial_success": 0.0,
+            "class_success": 0.0,
+            "fun_partial_success": 0.0,
+            "fun_success": 0.0
         },
         "WizardCoder": {
             "class_partial_success": 0.14199999999999996,
@@ -198,6 +258,12 @@
             "fun_partial_success": 0.08333333333333334,
             "fun_success": 0.08333333333333334
         },
+        "WizardCoder_File_Handling": {
+            "class_partial_success": 0.1111111111111111,
+            "class_success": 0.0,
+            "fun_partial_success": 0.18571428571428572,
+            "fun_success": 0.10000000000000002
+        },
         "WizardCoder_greedy": {
             "class_partial_success": 0.019999999999999997,
             "class_success": 0.016,
@@ -215,6 +281,12 @@
             "class_success": 0.0,
             "fun_partial_success": 0.005555555555555556,
             "fun_success": 0.005555555555555556
+        },
+        "WizardCoder_greedy_File_Handling": {
+            "class_partial_success": 0.0,
+            "class_success": 0.0,
+            "fun_partial_success": 0.023809523809523808,
+            "fun_success": 0.009523809523809525
         }
     },
     "pass_3": {
@@ -236,6 +308,12 @@
             "fun_partial_success": 0.6833333333333331,
             "fun_success": 0.6555555555555554
         },
+        "ChatGPT_File_Handling": {
+            "class_partial_success": 0.4444444444444444,
+            "class_success": 0.3333333333333333,
+            "fun_partial_success": 0.6190476190476191,
+            "fun_success": 0.5714285714285714
+        },
         "ChatGPT_greedy": {
             "class_partial_success": 0.2640000000000002,
             "class_success": 0.14399999999999996,
@@ -253,6 +331,12 @@
             "class_success": 0.17142857142857143,
             "fun_partial_success": 0.34999999999999987,
             "fun_success": 0.33333333333333326
+        },
+        "ChatGPT_greedy_File_Handling": {
+            "class_partial_success": 0.26666666666666666,
+            "class_success": 0.19999999999999998,
+            "fun_partial_success": 0.3714285714285713,
+            "fun_success": 0.34285714285714275
         },
         "Deepseek-r1-distill-llama-70b": {
             "class_partial_success": 0.7079999999999999,
@@ -272,6 +356,12 @@
             "fun_partial_success": 0.7555555555555556,
             "fun_success": 0.7388888888888889
         },
+        "Deepseek-r1-distill-llama-70b_File_Handling": {
+            "class_partial_success": 0.5555555555555556,
+            "class_success": 0.5444444444444445,
+            "fun_partial_success": 0.6428571428571429,
+            "fun_success": 0.6404761904761904
+        },
         "Deepseek-r1-distill-llama-70b_greedy": {
             "class_partial_success": 0.37800000000000045,
             "class_success": 0.20400000000000007,
@@ -289,6 +379,12 @@
             "class_success": 0.34285714285714286,
             "fun_partial_success": 0.39999999999999986,
             "fun_success": 0.3833333333333332
+        },
+        "Deepseek-r1-distill-llama-70b_greedy_File_Handling": {
+            "class_partial_success": 0.3333333333333333,
+            "class_success": 0.3333333333333333,
+            "fun_partial_success": 0.3857142857142856,
+            "fun_success": 0.3857142857142856
         },
         "GPT-4": {
             "class_partial_success": 0.586,
@@ -308,6 +404,12 @@
             "fun_partial_success": 0.8555555555555556,
             "fun_success": 0.8166666666666667
         },
+        "GPT-4_File_Handling": {
+            "class_partial_success": 0.5444444444444445,
+            "class_success": 0.4444444444444444,
+            "fun_partial_success": 0.6619047619047619,
+            "fun_success": 0.638095238095238
+        },
         "GPT-4_greedy": {
             "class_partial_success": 0.30600000000000027,
             "class_success": 0.18,
@@ -325,6 +427,12 @@
             "class_success": 0.42857142857142855,
             "fun_partial_success": 0.5333333333333334,
             "fun_success": 0.5166666666666667
+        },
+        "GPT-4_greedy_File_Handling": {
+            "class_partial_success": 0.26666666666666666,
+            "class_success": 0.26666666666666666,
+            "fun_partial_success": 0.3714285714285713,
+            "fun_success": 0.35714285714285704
         },
         "Llama4-maverick-instruct": {
             "class_partial_success": 0.711,
@@ -344,6 +452,12 @@
             "fun_partial_success": 0.8888888888888888,
             "fun_success": 0.8888888888888888
         },
+        "Llama4-maverick-instruct_File_Handling": {
+            "class_partial_success": 0.5555555555555556,
+            "class_success": 0.3888888888888889,
+            "fun_partial_success": 0.6428571428571429,
+            "fun_success": 0.6095238095238096
+        },
         "Llama4-maverick-instruct_greedy": {
             "class_partial_success": 0.40800000000000053,
             "class_success": 0.21000000000000008,
@@ -361,6 +475,12 @@
             "class_success": 0.5142857142857143,
             "fun_partial_success": 0.5333333333333334,
             "fun_success": 0.5333333333333334
+        },
+        "Llama4-maverick-instruct_greedy_File_Handling": {
+            "class_partial_success": 0.26666666666666666,
+            "class_success": 0.19999999999999998,
+            "fun_partial_success": 0.3714285714285713,
+            "fun_success": 0.34285714285714275
         },
         "SantaCoder": {
             "class_partial_success": 0.019,
@@ -380,6 +500,12 @@
             "fun_partial_success": 0.08333333333333333,
             "fun_success": 0.027777777777777776
         },
+        "SantaCoder_File_Handling": {
+            "class_partial_success": 0.0,
+            "class_success": 0.0,
+            "fun_partial_success": 0.02142857142857143,
+            "fun_success": 0.0
+        },
         "SantaCoder_greedy": {
             "class_partial_success": 0.012,
             "class_success": 0.0,
@@ -397,6 +523,12 @@
             "class_success": 0.0,
             "fun_partial_success": 0.03333333333333333,
             "fun_success": 0.016666666666666666
+        },
+        "SantaCoder_greedy_File_Handling": {
+            "class_partial_success": 0.0,
+            "class_success": 0.0,
+            "fun_partial_success": 0.0,
+            "fun_success": 0.0
         },
         "WizardCoder": {
             "class_partial_success": 0.25300000000000006,
@@ -416,6 +548,12 @@
             "fun_partial_success": 0.19444444444444442,
             "fun_success": 0.19444444444444442
         },
+        "WizardCoder_File_Handling": {
+            "class_partial_success": 0.17777777777777778,
+            "class_success": 0.0,
+            "fun_partial_success": 0.32619047619047614,
+            "fun_success": 0.1952380952380952
+        },
         "WizardCoder_greedy": {
             "class_partial_success": 0.05999999999999999,
             "class_success": 0.048,
@@ -433,6 +571,12 @@
             "class_success": 0.0,
             "fun_partial_success": 0.016666666666666666,
             "fun_success": 0.016666666666666666
+        },
+        "WizardCoder_greedy_File_Handling": {
+            "class_partial_success": 0.0,
+            "class_success": 0.0,
+            "fun_partial_success": 0.07142857142857142,
+            "fun_success": 0.02857142857142857
         }
     },
     "pass_5": {
@@ -454,6 +598,12 @@
             "fun_partial_success": 0.6944444444444444,
             "fun_success": 0.6666666666666666
         },
+        "ChatGPT_File_Handling": {
+            "class_partial_success": 0.4444444444444444,
+            "class_success": 0.3333333333333333,
+            "fun_partial_success": 0.6190476190476191,
+            "fun_success": 0.5714285714285714
+        },
         "ChatGPT_greedy": {
             "class_partial_success": 0.44,
             "class_success": 0.24,
@@ -471,6 +621,12 @@
             "class_success": 0.2857142857142857,
             "fun_partial_success": 0.5833333333333334,
             "fun_success": 0.5555555555555556
+        },
+        "ChatGPT_greedy_File_Handling": {
+            "class_partial_success": 0.4444444444444444,
+            "class_success": 0.3333333333333333,
+            "fun_partial_success": 0.6190476190476191,
+            "fun_success": 0.5714285714285714
         },
         "Deepseek-r1-distill-llama-70b": {
             "class_partial_success": 0.72,
@@ -490,6 +646,12 @@
             "fun_partial_success": 0.7777777777777778,
             "fun_success": 0.75
         },
+        "Deepseek-r1-distill-llama-70b_File_Handling": {
+            "class_partial_success": 0.5555555555555556,
+            "class_success": 0.5555555555555556,
+            "fun_partial_success": 0.6428571428571429,
+            "fun_success": 0.6428571428571429
+        },
         "Deepseek-r1-distill-llama-70b_greedy": {
             "class_partial_success": 0.63,
             "class_success": 0.34,
@@ -507,6 +669,12 @@
             "class_success": 0.5714285714285714,
             "fun_partial_success": 0.6666666666666666,
             "fun_success": 0.6388888888888888
+        },
+        "Deepseek-r1-distill-llama-70b_greedy_File_Handling": {
+            "class_partial_success": 0.5555555555555556,
+            "class_success": 0.5555555555555556,
+            "fun_partial_success": 0.6428571428571429,
+            "fun_success": 0.6428571428571429
         },
         "GPT-4": {
             "class_partial_success": 0.6,
@@ -526,6 +694,12 @@
             "fun_partial_success": 0.8888888888888888,
             "fun_success": 0.8611111111111112
         },
+        "GPT-4_File_Handling": {
+            "class_partial_success": 0.5555555555555556,
+            "class_success": 0.4444444444444444,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.6428571428571429
+        },
         "GPT-4_greedy": {
             "class_partial_success": 0.51,
             "class_success": 0.3,
@@ -543,6 +717,12 @@
             "class_success": 0.7142857142857143,
             "fun_partial_success": 0.8888888888888888,
             "fun_success": 0.8611111111111112
+        },
+        "GPT-4_greedy_File_Handling": {
+            "class_partial_success": 0.4444444444444444,
+            "class_success": 0.4444444444444444,
+            "fun_partial_success": 0.6190476190476191,
+            "fun_success": 0.5952380952380952
         },
         "Llama4-maverick-instruct": {
             "class_partial_success": 0.73,
@@ -562,6 +742,12 @@
             "fun_partial_success": 0.8888888888888888,
             "fun_success": 0.8888888888888888
         },
+        "Llama4-maverick-instruct_File_Handling": {
+            "class_partial_success": 0.5555555555555556,
+            "class_success": 0.4444444444444444,
+            "fun_partial_success": 0.6428571428571429,
+            "fun_success": 0.6190476190476191
+        },
         "Llama4-maverick-instruct_greedy": {
             "class_partial_success": 0.68,
             "class_success": 0.35,
@@ -579,6 +765,12 @@
             "class_success": 0.8571428571428571,
             "fun_partial_success": 0.8888888888888888,
             "fun_success": 0.8888888888888888
+        },
+        "Llama4-maverick-instruct_greedy_File_Handling": {
+            "class_partial_success": 0.4444444444444444,
+            "class_success": 0.3333333333333333,
+            "fun_partial_success": 0.6190476190476191,
+            "fun_success": 0.5714285714285714
         },
         "SantaCoder": {
             "class_partial_success": 0.02,
@@ -598,6 +790,12 @@
             "fun_partial_success": 0.08333333333333333,
             "fun_success": 0.027777777777777776
         },
+        "SantaCoder_File_Handling": {
+            "class_partial_success": 0.0,
+            "class_success": 0.0,
+            "fun_partial_success": 0.023809523809523808,
+            "fun_success": 0.0
+        },
         "SantaCoder_greedy": {
             "class_partial_success": 0.02,
             "class_success": 0.0,
@@ -615,6 +813,12 @@
             "class_success": 0.0,
             "fun_partial_success": 0.05555555555555555,
             "fun_success": 0.027777777777777776
+        },
+        "SantaCoder_greedy_File_Handling": {
+            "class_partial_success": 0.0,
+            "class_success": 0.0,
+            "fun_partial_success": 0.0,
+            "fun_success": 0.0
         },
         "WizardCoder": {
             "class_partial_success": 0.32,
@@ -634,6 +838,12 @@
             "fun_partial_success": 0.25,
             "fun_success": 0.25
         },
+        "WizardCoder_File_Handling": {
+            "class_partial_success": 0.2222222222222222,
+            "class_success": 0.0,
+            "fun_partial_success": 0.40476190476190477,
+            "fun_success": 0.2619047619047619
+        },
         "WizardCoder_greedy": {
             "class_partial_success": 0.1,
             "class_success": 0.08,
@@ -651,6 +861,12 @@
             "class_success": 0.0,
             "fun_partial_success": 0.027777777777777776,
             "fun_success": 0.027777777777777776
+        },
+        "WizardCoder_greedy_File_Handling": {
+            "class_partial_success": 0.0,
+            "class_success": 0.0,
+            "fun_partial_success": 0.11904761904761904,
+            "fun_success": 0.047619047619047616
         }
     }
 }

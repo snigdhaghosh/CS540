@@ -1,0 +1,3476 @@
+EEEEE
+======================================================================
+ERROR: test_load_image (ClassEval_45_1.ImageProcessorTestLoadImage.test_load_image)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 9, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_load_image_2 (ClassEval_45_1.ImageProcessorTestLoadImage.test_load_image_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 9, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_load_image_3 (ClassEval_45_1.ImageProcessorTestLoadImage.test_load_image_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 9, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_load_image_4 (ClassEval_45_1.ImageProcessorTestLoadImage.test_load_image_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 9, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_load_image_5 (ClassEval_45_1.ImageProcessorTestLoadImage.test_load_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 9, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.030s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_save_image (ClassEval_45_1.ImageProcessorTestSaveImage.test_save_image)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 42, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_save_image_2 (ClassEval_45_1.ImageProcessorTestSaveImage.test_save_image_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 42, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_save_image_3 (ClassEval_45_1.ImageProcessorTestSaveImage.test_save_image_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 42, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_save_image_4 (ClassEval_45_1.ImageProcessorTestSaveImage.test_save_image_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 42, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_save_image_5 (ClassEval_45_1.ImageProcessorTestSaveImage.test_save_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 42, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.024s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_resize_image (ClassEval_45_1.ImageProcessorTestResizeImage.test_resize_image)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 88, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_resize_image_2 (ClassEval_45_1.ImageProcessorTestResizeImage.test_resize_image_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 88, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_resize_image_3 (ClassEval_45_1.ImageProcessorTestResizeImage.test_resize_image_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 88, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_resize_image_4 (ClassEval_45_1.ImageProcessorTestResizeImage.test_resize_image_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 88, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_resize_image_5 (ClassEval_45_1.ImageProcessorTestResizeImage.test_resize_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 88, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.023s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_rotate_image (ClassEval_45_1.ImageProcessorTestRotateImage.test_rotate_image)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 124, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_rotate_image_2 (ClassEval_45_1.ImageProcessorTestRotateImage.test_rotate_image_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 124, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_rotate_image_3 (ClassEval_45_1.ImageProcessorTestRotateImage.test_rotate_image_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 124, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_rotate_image_4 (ClassEval_45_1.ImageProcessorTestRotateImage.test_rotate_image_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 124, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_rotate_image_5 (ClassEval_45_1.ImageProcessorTestRotateImage.test_rotate_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 124, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.025s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_adjust_brightness (ClassEval_45_1.ImageProcessorTestAdjustBrightness.test_adjust_brightness)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 165, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_adjust_brightness_2 (ClassEval_45_1.ImageProcessorTestAdjustBrightness.test_adjust_brightness_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 165, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_adjust_brightness_3 (ClassEval_45_1.ImageProcessorTestAdjustBrightness.test_adjust_brightness_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 165, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_adjust_brightness_4 (ClassEval_45_1.ImageProcessorTestAdjustBrightness.test_adjust_brightness_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 165, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_adjust_brightness_5 (ClassEval_45_1.ImageProcessorTestAdjustBrightness.test_adjust_brightness_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 165, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.021s
+
+FAILED (errors=5)
+E
+======================================================================
+ERROR: test_main (ClassEval_45_1.ImageProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 211, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+FAILED (errors=1)
+EEEEE
+======================================================================
+ERROR: test_load_image (ClassEval_45_3.ImageProcessorTestLoadImage.test_load_image)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 9, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_load_image_2 (ClassEval_45_3.ImageProcessorTestLoadImage.test_load_image_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 9, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_load_image_3 (ClassEval_45_3.ImageProcessorTestLoadImage.test_load_image_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 9, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_load_image_4 (ClassEval_45_3.ImageProcessorTestLoadImage.test_load_image_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 9, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_load_image_5 (ClassEval_45_3.ImageProcessorTestLoadImage.test_load_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 9, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.020s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_save_image (ClassEval_45_3.ImageProcessorTestSaveImage.test_save_image)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 42, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_save_image_2 (ClassEval_45_3.ImageProcessorTestSaveImage.test_save_image_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 42, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_save_image_3 (ClassEval_45_3.ImageProcessorTestSaveImage.test_save_image_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 42, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_save_image_4 (ClassEval_45_3.ImageProcessorTestSaveImage.test_save_image_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 42, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_save_image_5 (ClassEval_45_3.ImageProcessorTestSaveImage.test_save_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 42, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.024s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_resize_image (ClassEval_45_3.ImageProcessorTestResizeImage.test_resize_image)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 88, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_resize_image_2 (ClassEval_45_3.ImageProcessorTestResizeImage.test_resize_image_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 88, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_resize_image_3 (ClassEval_45_3.ImageProcessorTestResizeImage.test_resize_image_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 88, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_resize_image_4 (ClassEval_45_3.ImageProcessorTestResizeImage.test_resize_image_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 88, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_resize_image_5 (ClassEval_45_3.ImageProcessorTestResizeImage.test_resize_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 88, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.022s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_rotate_image (ClassEval_45_3.ImageProcessorTestRotateImage.test_rotate_image)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 124, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_rotate_image_2 (ClassEval_45_3.ImageProcessorTestRotateImage.test_rotate_image_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 124, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_rotate_image_3 (ClassEval_45_3.ImageProcessorTestRotateImage.test_rotate_image_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 124, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_rotate_image_4 (ClassEval_45_3.ImageProcessorTestRotateImage.test_rotate_image_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 124, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_rotate_image_5 (ClassEval_45_3.ImageProcessorTestRotateImage.test_rotate_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 124, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.022s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_adjust_brightness (ClassEval_45_3.ImageProcessorTestAdjustBrightness.test_adjust_brightness)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 165, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_adjust_brightness_2 (ClassEval_45_3.ImageProcessorTestAdjustBrightness.test_adjust_brightness_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 165, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_adjust_brightness_3 (ClassEval_45_3.ImageProcessorTestAdjustBrightness.test_adjust_brightness_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 165, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_adjust_brightness_4 (ClassEval_45_3.ImageProcessorTestAdjustBrightness.test_adjust_brightness_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 165, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_adjust_brightness_5 (ClassEval_45_3.ImageProcessorTestAdjustBrightness.test_adjust_brightness_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 165, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.023s
+
+FAILED (errors=5)
+E
+======================================================================
+ERROR: test_main (ClassEval_45_3.ImageProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 211, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+FAILED (errors=1)
+EEEEE
+======================================================================
+ERROR: test_load_image (ClassEval_45_4.ImageProcessorTestLoadImage.test_load_image)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 9, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_load_image_2 (ClassEval_45_4.ImageProcessorTestLoadImage.test_load_image_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 9, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_load_image_3 (ClassEval_45_4.ImageProcessorTestLoadImage.test_load_image_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 9, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_load_image_4 (ClassEval_45_4.ImageProcessorTestLoadImage.test_load_image_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 9, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_load_image_5 (ClassEval_45_4.ImageProcessorTestLoadImage.test_load_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 9, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.026s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_save_image (ClassEval_45_4.ImageProcessorTestSaveImage.test_save_image)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 42, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_save_image_2 (ClassEval_45_4.ImageProcessorTestSaveImage.test_save_image_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 42, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_save_image_3 (ClassEval_45_4.ImageProcessorTestSaveImage.test_save_image_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 42, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_save_image_4 (ClassEval_45_4.ImageProcessorTestSaveImage.test_save_image_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 42, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_save_image_5 (ClassEval_45_4.ImageProcessorTestSaveImage.test_save_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 42, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.020s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_resize_image (ClassEval_45_4.ImageProcessorTestResizeImage.test_resize_image)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 88, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_resize_image_2 (ClassEval_45_4.ImageProcessorTestResizeImage.test_resize_image_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 88, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_resize_image_3 (ClassEval_45_4.ImageProcessorTestResizeImage.test_resize_image_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 88, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_resize_image_4 (ClassEval_45_4.ImageProcessorTestResizeImage.test_resize_image_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 88, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_resize_image_5 (ClassEval_45_4.ImageProcessorTestResizeImage.test_resize_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 88, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.025s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_rotate_image (ClassEval_45_4.ImageProcessorTestRotateImage.test_rotate_image)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 124, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_rotate_image_2 (ClassEval_45_4.ImageProcessorTestRotateImage.test_rotate_image_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 124, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_rotate_image_3 (ClassEval_45_4.ImageProcessorTestRotateImage.test_rotate_image_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 124, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_rotate_image_4 (ClassEval_45_4.ImageProcessorTestRotateImage.test_rotate_image_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 124, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_rotate_image_5 (ClassEval_45_4.ImageProcessorTestRotateImage.test_rotate_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 124, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.024s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_adjust_brightness (ClassEval_45_4.ImageProcessorTestAdjustBrightness.test_adjust_brightness)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 165, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_adjust_brightness_2 (ClassEval_45_4.ImageProcessorTestAdjustBrightness.test_adjust_brightness_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 165, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_adjust_brightness_3 (ClassEval_45_4.ImageProcessorTestAdjustBrightness.test_adjust_brightness_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 165, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_adjust_brightness_4 (ClassEval_45_4.ImageProcessorTestAdjustBrightness.test_adjust_brightness_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 165, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+======================================================================
+ERROR: test_adjust_brightness_5 (ClassEval_45_4.ImageProcessorTestAdjustBrightness.test_adjust_brightness_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 165, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.026s
+
+FAILED (errors=5)
+E
+======================================================================
+ERROR: test_main (ClassEval_45_4.ImageProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 211, in setUp
+    self.processor = ImageProcessor()
+                     ^^^^^^^^^^^^^^
+NameError: name 'ImageProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+FAILED (errors=1)
+..E..
+======================================================================
+ERROR: test_read_json_3 (ClassEval_50_1.JSONProcessorTestReadJson.test_read_json_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_50_1.py", line 99, in test_read_json_3
+    result = self.processor.read_json(self.file_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_50_1.py", line 21, in read_json
+    data = json.load(f)
+           ^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+..F..
+======================================================================
+FAIL: test_process_json_3 (ClassEval_50_1.JSONProcessorTestProcessJsonExistingKey.test_process_json_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_50_1.py", line 207, in test_process_json_3
+    self.assertEqual(self.processor.process_json(self.file_path, remove_key), 0)
+AssertionError: -1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+..F..
+======================================================================
+FAIL: test_process_json_3 (ClassEval_50_2.JSONProcessorTestProcessJsonExistingKey.test_process_json_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_50_2.py", line 214, in test_process_json_3
+    self.assertEqual(self.processor.process_json(self.file_path, remove_key), 0)
+AssertionError: -1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+..E..
+======================================================================
+ERROR: test_read_json_3 (ClassEval_50_3.JSONProcessorTestReadJson.test_read_json_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_50_3.py", line 99, in test_read_json_3
+    result = self.processor.read_json(self.file_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_50_3.py", line 21, in read_json
+    data = json.load(f)
+           ^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+FAILED (errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+..F..
+======================================================================
+FAIL: test_process_json_3 (ClassEval_50_3.JSONProcessorTestProcessJsonExistingKey.test_process_json_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_50_3.py", line 207, in test_process_json_3
+    self.assertEqual(self.processor.process_json(self.file_path, remove_key), 0)
+AssertionError: -1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+..E..
+======================================================================
+ERROR: test_read_json_3 (ClassEval_50_4.JSONProcessorTestReadJson.test_read_json_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_50_4.py", line 99, in test_read_json_3
+    result = self.processor.read_json(self.file_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_50_4.py", line 21, in read_json
+    data = json.load(f)
+           ^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+FAILED (errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+..E..
+======================================================================
+ERROR: test_process_json_3 (ClassEval_50_4.JSONProcessorTestProcessJsonExistingKey.test_process_json_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_50_4.py", line 207, in test_process_json_3
+    self.assertEqual(self.processor.process_json(self.file_path, remove_key), 0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_50_4.py", line 52, in process_json
+    data = json.load(f)
+           ^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+FAILED (errors=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+EEEEE
+======================================================================
+ERROR: test_read_file_as_json_1 (ClassEval_84_1.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 19, in test_read_file_as_json_1
+    textFileProcessor = TextFileProcessor(self.files[0])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_read_file_as_json_2 (ClassEval_84_1.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 27, in test_read_file_as_json_2
+    textFileProcessor = TextFileProcessor(self.files[1])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_read_file_as_json_3 (ClassEval_84_1.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 35, in test_read_file_as_json_3
+    textFileProcessor = TextFileProcessor(self.files[2])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_read_file_as_json_4 (ClassEval_84_1.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 42, in test_read_file_as_json_4
+    textFileProcessor = TextFileProcessor(self.files[3])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_read_file_as_json_5 (ClassEval_84_1.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 49, in test_read_file_as_json_5
+    textFileProcessor = TextFileProcessor(self.files[4])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.030s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_read_file_1 (ClassEval_84_1.TextFileProcessorTestReadFile.test_read_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 65, in test_read_file_1
+    textFileProcessor = TextFileProcessor(self.files[0])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_read_file_2 (ClassEval_84_1.TextFileProcessorTestReadFile.test_read_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 71, in test_read_file_2
+    textFileProcessor = TextFileProcessor(self.files[1])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_read_file_3 (ClassEval_84_1.TextFileProcessorTestReadFile.test_read_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 77, in test_read_file_3
+    textFileProcessor = TextFileProcessor(self.files[2])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_read_file_4 (ClassEval_84_1.TextFileProcessorTestReadFile.test_read_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 83, in test_read_file_4
+    textFileProcessor = TextFileProcessor(self.files[3])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_read_file_5 (ClassEval_84_1.TextFileProcessorTestReadFile.test_read_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 89, in test_read_file_5
+    textFileProcessor = TextFileProcessor(self.files[4])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.027s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_write_file_1 (ClassEval_84_1.TextFileProcessorTestWriteFile.test_write_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 106, in test_write_file_1
+    textFileProcessor = TextFileProcessor(self.files[0])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_write_file_2 (ClassEval_84_1.TextFileProcessorTestWriteFile.test_write_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 113, in test_write_file_2
+    textFileProcessor = TextFileProcessor(self.files[1])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_write_file_3 (ClassEval_84_1.TextFileProcessorTestWriteFile.test_write_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 120, in test_write_file_3
+    textFileProcessor = TextFileProcessor(self.files[2])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_write_file_4 (ClassEval_84_1.TextFileProcessorTestWriteFile.test_write_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 127, in test_write_file_4
+    textFileProcessor = TextFileProcessor(self.files[3])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_write_file_5 (ClassEval_84_1.TextFileProcessorTestWriteFile.test_write_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 134, in test_write_file_5
+    textFileProcessor = TextFileProcessor(self.files[4])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.028s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_process_file_1 (ClassEval_84_1.TextFileProcessorTestProcessFile.test_process_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 147, in test_process_file_1
+    textFileProcessor = TextFileProcessor(self.file)
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_process_file_2 (ClassEval_84_1.TextFileProcessorTestProcessFile.test_process_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 161, in test_process_file_2
+    textFileProcessor = TextFileProcessor(self.file)
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_process_file_3 (ClassEval_84_1.TextFileProcessorTestProcessFile.test_process_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 175, in test_process_file_3
+    textFileProcessor = TextFileProcessor(self.file)
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_process_file_4 (ClassEval_84_1.TextFileProcessorTestProcessFile.test_process_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 189, in test_process_file_4
+    textFileProcessor = TextFileProcessor(self.file)
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_process_file_5 (ClassEval_84_1.TextFileProcessorTestProcessFile.test_process_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 203, in test_process_file_5
+    textFileProcessor = TextFileProcessor(self.file)
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.026s
+
+FAILED (errors=5)
+E
+======================================================================
+ERROR: test_main (ClassEval_84_1.TextFileProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 221, in test_main
+    textFileProcessor = TextFileProcessor(self.file)
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+FAILED (errors=1)
+EEEEE
+======================================================================
+ERROR: test_read_file_as_json_1 (ClassEval_84_2.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 19, in test_read_file_as_json_1
+    textFileProcessor = TextFileProcessor(self.files[0])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_read_file_as_json_2 (ClassEval_84_2.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 27, in test_read_file_as_json_2
+    textFileProcessor = TextFileProcessor(self.files[1])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_read_file_as_json_3 (ClassEval_84_2.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 35, in test_read_file_as_json_3
+    textFileProcessor = TextFileProcessor(self.files[2])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_read_file_as_json_4 (ClassEval_84_2.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 42, in test_read_file_as_json_4
+    textFileProcessor = TextFileProcessor(self.files[3])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_read_file_as_json_5 (ClassEval_84_2.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 49, in test_read_file_as_json_5
+    textFileProcessor = TextFileProcessor(self.files[4])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.033s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_read_file_1 (ClassEval_84_2.TextFileProcessorTestReadFile.test_read_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 65, in test_read_file_1
+    textFileProcessor = TextFileProcessor(self.files[0])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_read_file_2 (ClassEval_84_2.TextFileProcessorTestReadFile.test_read_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 71, in test_read_file_2
+    textFileProcessor = TextFileProcessor(self.files[1])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_read_file_3 (ClassEval_84_2.TextFileProcessorTestReadFile.test_read_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 77, in test_read_file_3
+    textFileProcessor = TextFileProcessor(self.files[2])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_read_file_4 (ClassEval_84_2.TextFileProcessorTestReadFile.test_read_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 83, in test_read_file_4
+    textFileProcessor = TextFileProcessor(self.files[3])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_read_file_5 (ClassEval_84_2.TextFileProcessorTestReadFile.test_read_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 89, in test_read_file_5
+    textFileProcessor = TextFileProcessor(self.files[4])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.037s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_write_file_1 (ClassEval_84_2.TextFileProcessorTestWriteFile.test_write_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 106, in test_write_file_1
+    textFileProcessor = TextFileProcessor(self.files[0])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_write_file_2 (ClassEval_84_2.TextFileProcessorTestWriteFile.test_write_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 113, in test_write_file_2
+    textFileProcessor = TextFileProcessor(self.files[1])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_write_file_3 (ClassEval_84_2.TextFileProcessorTestWriteFile.test_write_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 120, in test_write_file_3
+    textFileProcessor = TextFileProcessor(self.files[2])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_write_file_4 (ClassEval_84_2.TextFileProcessorTestWriteFile.test_write_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 127, in test_write_file_4
+    textFileProcessor = TextFileProcessor(self.files[3])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_write_file_5 (ClassEval_84_2.TextFileProcessorTestWriteFile.test_write_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 134, in test_write_file_5
+    textFileProcessor = TextFileProcessor(self.files[4])
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.031s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_process_file_1 (ClassEval_84_2.TextFileProcessorTestProcessFile.test_process_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 147, in test_process_file_1
+    textFileProcessor = TextFileProcessor(self.file)
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_process_file_2 (ClassEval_84_2.TextFileProcessorTestProcessFile.test_process_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 161, in test_process_file_2
+    textFileProcessor = TextFileProcessor(self.file)
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_process_file_3 (ClassEval_84_2.TextFileProcessorTestProcessFile.test_process_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 175, in test_process_file_3
+    textFileProcessor = TextFileProcessor(self.file)
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_process_file_4 (ClassEval_84_2.TextFileProcessorTestProcessFile.test_process_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 189, in test_process_file_4
+    textFileProcessor = TextFileProcessor(self.file)
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+======================================================================
+ERROR: test_process_file_5 (ClassEval_84_2.TextFileProcessorTestProcessFile.test_process_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 203, in test_process_file_5
+    textFileProcessor = TextFileProcessor(self.file)
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.030s
+
+FAILED (errors=5)
+E
+======================================================================
+ERROR: test_main (ClassEval_84_2.TextFileProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 221, in test_main
+    textFileProcessor = TextFileProcessor(self.file)
+                        ^^^^^^^^^^^^^^^^^
+NameError: name 'TextFileProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 0.007s
+
+FAILED (errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_file_1 (ClassEval_84_4.TextFileProcessorTestProcessFile.test_process_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_4.py", line 202, in test_process_file_1
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloWorld'
+
+======================================================================
+FAIL: test_process_file_2 (ClassEval_84_4.TextFileProcessorTestProcessFile.test_process_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_4.py", line 216, in test_process_file_2
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloabcWorld'
+
+======================================================================
+FAIL: test_process_file_3 (ClassEval_84_4.TextFileProcessorTestProcessFile.test_process_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_4.py", line 230, in test_process_file_3
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != ''
+
+======================================================================
+FAIL: test_process_file_4 (ClassEval_84_4.TextFileProcessorTestProcessFile.test_process_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_4.py", line 244, in test_process_file_4
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloWorld'
+
+======================================================================
+FAIL: test_process_file_5 (ClassEval_84_4.TextFileProcessorTestProcessFile.test_process_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_4.py", line 258, in test_process_file_5
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloaWorld'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_84_4.TextFileProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_4.py", line 283, in test_main
+    self.assertEqual(str, type(data3))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+.....E
+======================================================================
+ERROR: test_read_xml_6 (ClassEval_98_0.XMLProcessorTestReadXml.test_read_xml_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 166, in test_read_xml_6
+    root = self.processor.read_xml()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 23, in read_xml
+    self.root = ET.parse(self.file_name).getroot()
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 1204, in parse
+    tree.parse(source, parser)
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 558, in parse
+    source = open(source, "rb")
+             ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+FAILED (errors=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.007s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 319, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'red apple' != 'APPLE'
+- red apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 344, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'red apple' != 'APPLE'
+- red apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 368, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'red apple' != 'APPLE'
+- red apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 391, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'red apple' != 'APPLE'
+- red apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 415, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'aaa' != 'AAA'
+- aaa
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_0.XMLProcessorTest.test_XMLProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 553, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'red apple' != 'APPLE'
+- red apple
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+.....E
+======================================================================
+ERROR: test_read_xml_6 (ClassEval_98_1.XMLProcessorTestReadXml.test_read_xml_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 163, in test_read_xml_6
+    root = self.processor.read_xml()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 23, in read_xml
+    tree = ET.parse(self.file_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 1204, in parse
+    tree.parse(source, parser)
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 558, in parse
+    source = open(source, "rb")
+             ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.005s
+
+FAILED (errors=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+EEEEEE
+======================================================================
+ERROR: test_read_xml_1 (ClassEval_98_2.XMLProcessorTestReadXml.test_read_xml_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 12, in test_read_xml_1
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_read_xml_2 (ClassEval_98_2.XMLProcessorTestReadXml.test_read_xml_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 29, in test_read_xml_2
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_read_xml_3 (ClassEval_98_2.XMLProcessorTestReadXml.test_read_xml_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 46, in test_read_xml_3
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_read_xml_4 (ClassEval_98_2.XMLProcessorTestReadXml.test_read_xml_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 61, in test_read_xml_4
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_read_xml_5 (ClassEval_98_2.XMLProcessorTestReadXml.test_read_xml_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 77, in test_read_xml_5
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_read_xml_6 (ClassEval_98_2.XMLProcessorTestReadXml.test_read_xml_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 91, in test_read_xml_6
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.021s
+
+FAILED (errors=6)
+EEEEEE
+======================================================================
+ERROR: test_write_xml_1 (ClassEval_98_2.XMLProcessorTestWriteXml.test_write_xml_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 102, in test_write_xml_1
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_write_xml_2 (ClassEval_98_2.XMLProcessorTestWriteXml.test_write_xml_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 127, in test_write_xml_2
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_write_xml_3 (ClassEval_98_2.XMLProcessorTestWriteXml.test_write_xml_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 151, in test_write_xml_3
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_write_xml_4 (ClassEval_98_2.XMLProcessorTestWriteXml.test_write_xml_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 174, in test_write_xml_4
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_write_xml_5 (ClassEval_98_2.XMLProcessorTestWriteXml.test_write_xml_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 199, in test_write_xml_5
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_write_xml_6 (ClassEval_98_2.XMLProcessorTestWriteXml.test_write_xml_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 221, in test_write_xml_6
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.019s
+
+FAILED (errors=6)
+EEEEE
+======================================================================
+ERROR: test_process_xml_data_1 (ClassEval_98_2.XMLProcessorTestProcessXmlData.test_process_xml_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 232, in test_process_xml_data_1
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_process_xml_data_2 (ClassEval_98_2.XMLProcessorTestProcessXmlData.test_process_xml_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 257, in test_process_xml_data_2
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_process_xml_data_3 (ClassEval_98_2.XMLProcessorTestProcessXmlData.test_process_xml_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 281, in test_process_xml_data_3
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_process_xml_data_4 (ClassEval_98_2.XMLProcessorTestProcessXmlData.test_process_xml_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 304, in test_process_xml_data_4
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_process_xml_data_5 (ClassEval_98_2.XMLProcessorTestProcessXmlData.test_process_xml_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 328, in test_process_xml_data_5
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.018s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_find_element_1 (ClassEval_98_2.XMLProcessorTestFindElement.test_find_element_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 355, in test_find_element_1
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_find_element_2 (ClassEval_98_2.XMLProcessorTestFindElement.test_find_element_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 373, in test_find_element_2
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_find_element_3 (ClassEval_98_2.XMLProcessorTestFindElement.test_find_element_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 390, in test_find_element_3
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_find_element_4 (ClassEval_98_2.XMLProcessorTestFindElement.test_find_element_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 406, in test_find_element_4
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_find_element_5 (ClassEval_98_2.XMLProcessorTestFindElement.test_find_element_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 423, in test_find_element_5
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.016s
+
+FAILED (errors=5)
+E
+======================================================================
+ERROR: test_XMLProcessor (ClassEval_98_2.XMLProcessorTest.test_XMLProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 443, in test_XMLProcessor
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (errors=1)
+.....E
+======================================================================
+ERROR: test_read_xml_6 (ClassEval_98_3.XMLProcessorTestReadXml.test_read_xml_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 163, in test_read_xml_6
+    root = self.processor.read_xml()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 23, in read_xml
+    self.root = ET.parse(self.file_name).getroot()
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 1204, in parse
+    tree.parse(source, parser)
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 558, in parse
+    source = open(source, "rb")
+             ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.005s
+
+FAILED (errors=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_3.XMLProcessorTestProcessXmlData.test_process_xml_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 316, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'red apple' != 'APPLE'
+- red apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_3.XMLProcessorTestProcessXmlData.test_process_xml_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 341, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'red apple' != 'APPLE'
+- red apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_3.XMLProcessorTestProcessXmlData.test_process_xml_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 365, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'red apple' != 'APPLE'
+- red apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_3.XMLProcessorTestProcessXmlData.test_process_xml_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 388, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'red apple' != 'APPLE'
+- red apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_3.XMLProcessorTestProcessXmlData.test_process_xml_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 412, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'aaa' != 'AAA'
+- aaa
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_3.XMLProcessorTest.test_XMLProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 550, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'red apple' != 'APPLE'
+- red apple
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+EEEEEE
+======================================================================
+ERROR: test_read_xml_1 (ClassEval_98_4.XMLProcessorTestReadXml.test_read_xml_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 12, in test_read_xml_1
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_read_xml_2 (ClassEval_98_4.XMLProcessorTestReadXml.test_read_xml_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 29, in test_read_xml_2
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_read_xml_3 (ClassEval_98_4.XMLProcessorTestReadXml.test_read_xml_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 46, in test_read_xml_3
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_read_xml_4 (ClassEval_98_4.XMLProcessorTestReadXml.test_read_xml_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 61, in test_read_xml_4
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_read_xml_5 (ClassEval_98_4.XMLProcessorTestReadXml.test_read_xml_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 77, in test_read_xml_5
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_read_xml_6 (ClassEval_98_4.XMLProcessorTestReadXml.test_read_xml_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 91, in test_read_xml_6
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.020s
+
+FAILED (errors=6)
+EEEEEE
+======================================================================
+ERROR: test_write_xml_1 (ClassEval_98_4.XMLProcessorTestWriteXml.test_write_xml_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 102, in test_write_xml_1
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_write_xml_2 (ClassEval_98_4.XMLProcessorTestWriteXml.test_write_xml_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 127, in test_write_xml_2
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_write_xml_3 (ClassEval_98_4.XMLProcessorTestWriteXml.test_write_xml_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 151, in test_write_xml_3
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_write_xml_4 (ClassEval_98_4.XMLProcessorTestWriteXml.test_write_xml_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 174, in test_write_xml_4
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_write_xml_5 (ClassEval_98_4.XMLProcessorTestWriteXml.test_write_xml_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 199, in test_write_xml_5
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_write_xml_6 (ClassEval_98_4.XMLProcessorTestWriteXml.test_write_xml_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 221, in test_write_xml_6
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.018s
+
+FAILED (errors=6)
+EEEEE
+======================================================================
+ERROR: test_process_xml_data_1 (ClassEval_98_4.XMLProcessorTestProcessXmlData.test_process_xml_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 232, in test_process_xml_data_1
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_process_xml_data_2 (ClassEval_98_4.XMLProcessorTestProcessXmlData.test_process_xml_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 257, in test_process_xml_data_2
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_process_xml_data_3 (ClassEval_98_4.XMLProcessorTestProcessXmlData.test_process_xml_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 281, in test_process_xml_data_3
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_process_xml_data_4 (ClassEval_98_4.XMLProcessorTestProcessXmlData.test_process_xml_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 304, in test_process_xml_data_4
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_process_xml_data_5 (ClassEval_98_4.XMLProcessorTestProcessXmlData.test_process_xml_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 328, in test_process_xml_data_5
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.014s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_find_element_1 (ClassEval_98_4.XMLProcessorTestFindElement.test_find_element_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 355, in test_find_element_1
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_find_element_2 (ClassEval_98_4.XMLProcessorTestFindElement.test_find_element_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 373, in test_find_element_2
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_find_element_3 (ClassEval_98_4.XMLProcessorTestFindElement.test_find_element_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 390, in test_find_element_3
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_find_element_4 (ClassEval_98_4.XMLProcessorTestFindElement.test_find_element_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 406, in test_find_element_4
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+======================================================================
+ERROR: test_find_element_5 (ClassEval_98_4.XMLProcessorTestFindElement.test_find_element_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 423, in test_find_element_5
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.016s
+
+FAILED (errors=5)
+E
+======================================================================
+ERROR: test_XMLProcessor (ClassEval_98_4.XMLProcessorTest.test_XMLProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 443, in test_XMLProcessor
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^
+NameError: name 'XMLProcessor' is not defined. Did you mean: 'XMLProcessorTest'?
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (errors=1)
+.....E
+======================================================================
+ERROR: test_read_zip_file_6 (ClassEval_99_0.ZipFileProcessorTestReadZipFile.test_read_zip_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 196, in test_read_zip_file_6
+    zip_file = processor.read_zip_file()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 24, in read_zip_file
+    with zipfile.ZipFile(self.file_name, 'r') as zip_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1331, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+FAILED (errors=1)
+FFFFFE
+======================================================================
+ERROR: test_extract_all_6 (ClassEval_99_0.ZipFileProcessorTestExtractAll.test_extract_all_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 319, in test_extract_all_6
+    success = processor.extract_all("")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 36, in extract_all
+    zip_file = self.read_zip_file()
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 24, in read_zip_file
+    with zipfile.ZipFile(self.file_name, 'r') as zip_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1331, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+======================================================================
+FAIL: test_extract_all_1 (ClassEval_99_0.ZipFileProcessorTestExtractAll.test_extract_all_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 217, in test_extract_all_1
+    self.assertTrue(success)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_extract_all_2 (ClassEval_99_0.ZipFileProcessorTestExtractAll.test_extract_all_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 240, in test_extract_all_2
+    self.assertTrue(success)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_extract_all_3 (ClassEval_99_0.ZipFileProcessorTestExtractAll.test_extract_all_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 263, in test_extract_all_3
+    self.assertTrue(success)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_extract_all_4 (ClassEval_99_0.ZipFileProcessorTestExtractAll.test_extract_all_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 286, in test_extract_all_4
+    self.assertTrue(success)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_extract_all_5 (ClassEval_99_0.ZipFileProcessorTestExtractAll.test_extract_all_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 309, in test_extract_all_5
+    self.assertTrue(success)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+FAILED (failures=5, errors=1)
+FFFFFE
+======================================================================
+ERROR: test_extract_file_6 (ClassEval_99_0.ZipFileProcessorTestExtractFile.test_extract_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 441, in test_extract_file_6
+    success = processor.extract_file("", "")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 52, in extract_file
+    zip_file = self.read_zip_file()
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 24, in read_zip_file
+    with zipfile.ZipFile(self.file_name, 'r') as zip_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1331, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+======================================================================
+FAIL: test_extract_file_1 (ClassEval_99_0.ZipFileProcessorTestExtractFile.test_extract_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 340, in test_extract_file_1
+    self.assertTrue(success)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_extract_file_2 (ClassEval_99_0.ZipFileProcessorTestExtractFile.test_extract_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 363, in test_extract_file_2
+    self.assertTrue(success)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_extract_file_3 (ClassEval_99_0.ZipFileProcessorTestExtractFile.test_extract_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 386, in test_extract_file_3
+    self.assertTrue(success)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_extract_file_4 (ClassEval_99_0.ZipFileProcessorTestExtractFile.test_extract_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 409, in test_extract_file_4
+    self.assertTrue(success)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_extract_file_5 (ClassEval_99_0.ZipFileProcessorTestExtractFile.test_extract_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 431, in test_extract_file_5
+    self.assertTrue(success)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.007s
+
+FAILED (failures=5, errors=1)
+EEEE..
+======================================================================
+ERROR: test_create_zip_file_1 (ClassEval_99_0.ZipFileProcessorTestCreateZipFile.test_create_zip_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 467, in test_create_zip_file_1
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_create_zip_file_2 (ClassEval_99_0.ZipFileProcessorTestCreateZipFile.test_create_zip_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 490, in test_create_zip_file_2
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_create_zip_file_3 (ClassEval_99_0.ZipFileProcessorTestCreateZipFile.test_create_zip_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 513, in test_create_zip_file_3
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_create_zip_file_4 (ClassEval_99_0.ZipFileProcessorTestCreateZipFile.test_create_zip_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 536, in test_create_zip_file_4
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+FAILED (errors=4)
+F
+======================================================================
+FAIL: test_ZipFileProcessor (ClassEval_99_0.ZipFileProcessorTest.test_ZipFileProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 589, in test_ZipFileProcessor
+    self.assertTrue(success)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+EEEEEE
+======================================================================
+ERROR: test_read_zip_file_1 (ClassEval_99_1.ZipFileProcessorTestReadZipFile.test_read_zip_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 100, in test_read_zip_file_1
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_read_zip_file_2 (ClassEval_99_1.ZipFileProcessorTestReadZipFile.test_read_zip_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 122, in test_read_zip_file_2
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_read_zip_file_3 (ClassEval_99_1.ZipFileProcessorTestReadZipFile.test_read_zip_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 144, in test_read_zip_file_3
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_read_zip_file_4 (ClassEval_99_1.ZipFileProcessorTestReadZipFile.test_read_zip_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 166, in test_read_zip_file_4
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_read_zip_file_5 (ClassEval_99_1.ZipFileProcessorTestReadZipFile.test_read_zip_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 190, in test_read_zip_file_5
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_read_zip_file_6 (ClassEval_99_1.ZipFileProcessorTestReadZipFile.test_read_zip_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 195, in test_read_zip_file_6
+    zip_file = processor.read_zip_file()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 24, in read_zip_file
+    with zipfile.ZipFile(self.file_name, 'r') as zip_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1331, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+FAILED (errors=6)
+EEEEEE
+======================================================================
+ERROR: test_extract_all_1 (ClassEval_99_1.ZipFileProcessorTestExtractAll.test_extract_all_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 215, in test_extract_all_1
+    success = processor.extract_all(output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 39, in extract_all
+    zip_file.extractall(output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1744, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+======================================================================
+ERROR: test_extract_all_2 (ClassEval_99_1.ZipFileProcessorTestExtractAll.test_extract_all_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 238, in test_extract_all_2
+    success = processor.extract_all(output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 39, in extract_all
+    zip_file.extractall(output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1744, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+======================================================================
+ERROR: test_extract_all_3 (ClassEval_99_1.ZipFileProcessorTestExtractAll.test_extract_all_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 261, in test_extract_all_3
+    success = processor.extract_all(output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 39, in extract_all
+    zip_file.extractall(output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1744, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+======================================================================
+ERROR: test_extract_all_4 (ClassEval_99_1.ZipFileProcessorTestExtractAll.test_extract_all_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 284, in test_extract_all_4
+    success = processor.extract_all(output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 39, in extract_all
+    zip_file.extractall(output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1744, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+======================================================================
+ERROR: test_extract_all_5 (ClassEval_99_1.ZipFileProcessorTestExtractAll.test_extract_all_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 307, in test_extract_all_5
+    success = processor.extract_all(output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 39, in extract_all
+    zip_file.extractall(output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1744, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+======================================================================
+ERROR: test_extract_all_6 (ClassEval_99_1.ZipFileProcessorTestExtractAll.test_extract_all_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 318, in test_extract_all_6
+    success = processor.extract_all("")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 36, in extract_all
+    zip_file = self.read_zip_file()
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 24, in read_zip_file
+    with zipfile.ZipFile(self.file_name, 'r') as zip_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1331, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+FAILED (errors=6)
+EEEEEE
+======================================================================
+ERROR: test_extract_file_1 (ClassEval_99_1.ZipFileProcessorTestExtractFile.test_extract_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 338, in test_extract_file_1
+    success = processor.extract_file('example1.txt', output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 53, in extract_file
+    zip_file.extract(file_name, output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1726, in extract
+    return self._extract_member(member, path, pwd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+======================================================================
+ERROR: test_extract_file_2 (ClassEval_99_1.ZipFileProcessorTestExtractFile.test_extract_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 361, in test_extract_file_2
+    success = processor.extract_file('example2.txt', output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 53, in extract_file
+    zip_file.extract(file_name, output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1726, in extract
+    return self._extract_member(member, path, pwd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+======================================================================
+ERROR: test_extract_file_3 (ClassEval_99_1.ZipFileProcessorTestExtractFile.test_extract_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 384, in test_extract_file_3
+    success = processor.extract_file('example3.txt', output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 53, in extract_file
+    zip_file.extract(file_name, output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1726, in extract
+    return self._extract_member(member, path, pwd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+======================================================================
+ERROR: test_extract_file_4 (ClassEval_99_1.ZipFileProcessorTestExtractFile.test_extract_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 407, in test_extract_file_4
+    success = processor.extract_file('example4.txt', output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 53, in extract_file
+    zip_file.extract(file_name, output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1726, in extract
+    return self._extract_member(member, path, pwd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+======================================================================
+ERROR: test_extract_file_5 (ClassEval_99_1.ZipFileProcessorTestExtractFile.test_extract_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 429, in test_extract_file_5
+    success = processor.extract_file('example5.txt', output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 53, in extract_file
+    zip_file.extract(file_name, output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1726, in extract
+    return self._extract_member(member, path, pwd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+======================================================================
+ERROR: test_extract_file_6 (ClassEval_99_1.ZipFileProcessorTestExtractFile.test_extract_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 440, in test_extract_file_6
+    success = processor.extract_file("", "")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 49, in extract_file
+    zip_file = self.read_zip_file()
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 24, in read_zip_file
+    with zipfile.ZipFile(self.file_name, 'r') as zip_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1331, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.014s
+
+FAILED (errors=6)
+EEEE..
+======================================================================
+ERROR: test_create_zip_file_1 (ClassEval_99_1.ZipFileProcessorTestCreateZipFile.test_create_zip_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 466, in test_create_zip_file_1
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_create_zip_file_2 (ClassEval_99_1.ZipFileProcessorTestCreateZipFile.test_create_zip_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 489, in test_create_zip_file_2
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_create_zip_file_3 (ClassEval_99_1.ZipFileProcessorTestCreateZipFile.test_create_zip_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 512, in test_create_zip_file_3
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_create_zip_file_4 (ClassEval_99_1.ZipFileProcessorTestCreateZipFile.test_create_zip_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 535, in test_create_zip_file_4
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+FAILED (errors=4)
+E
+======================================================================
+ERROR: test_ZipFileProcessor (ClassEval_99_1.ZipFileProcessorTest.test_ZipFileProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 587, in test_ZipFileProcessor
+    success = processor.extract_all(output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 39, in extract_all
+    zip_file.extractall(output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1744, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (errors=1)
+EEEEEE
+======================================================================
+ERROR: test_read_zip_file_1 (ClassEval_99_2.ZipFileProcessorTestReadZipFile.test_read_zip_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 19, in test_read_zip_file_1
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+======================================================================
+ERROR: test_read_zip_file_2 (ClassEval_99_2.ZipFileProcessorTestReadZipFile.test_read_zip_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 41, in test_read_zip_file_2
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+======================================================================
+ERROR: test_read_zip_file_3 (ClassEval_99_2.ZipFileProcessorTestReadZipFile.test_read_zip_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 63, in test_read_zip_file_3
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+======================================================================
+ERROR: test_read_zip_file_4 (ClassEval_99_2.ZipFileProcessorTestReadZipFile.test_read_zip_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 85, in test_read_zip_file_4
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+======================================================================
+ERROR: test_read_zip_file_5 (ClassEval_99_2.ZipFileProcessorTestReadZipFile.test_read_zip_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 107, in test_read_zip_file_5
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+======================================================================
+ERROR: test_read_zip_file_6 (ClassEval_99_2.ZipFileProcessorTestReadZipFile.test_read_zip_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 121, in test_read_zip_file_6
+    processor = ZipFileProcessor("")
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.025s
+
+FAILED (errors=6)
+EEEEEE
+======================================================================
+ERROR: test_extract_all_1 (ClassEval_99_2.ZipFileProcessorTestExtractAll.test_extract_all_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 139, in test_extract_all_1
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+======================================================================
+ERROR: test_extract_all_2 (ClassEval_99_2.ZipFileProcessorTestExtractAll.test_extract_all_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 162, in test_extract_all_2
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+======================================================================
+ERROR: test_extract_all_3 (ClassEval_99_2.ZipFileProcessorTestExtractAll.test_extract_all_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 185, in test_extract_all_3
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+======================================================================
+ERROR: test_extract_all_4 (ClassEval_99_2.ZipFileProcessorTestExtractAll.test_extract_all_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 208, in test_extract_all_4
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+======================================================================
+ERROR: test_extract_all_5 (ClassEval_99_2.ZipFileProcessorTestExtractAll.test_extract_all_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 231, in test_extract_all_5
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+======================================================================
+ERROR: test_extract_all_6 (ClassEval_99_2.ZipFileProcessorTestExtractAll.test_extract_all_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 244, in test_extract_all_6
+    processor = ZipFileProcessor("")
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.025s
+
+FAILED (errors=6)
+EEEEEE
+======================================================================
+ERROR: test_extract_file_1 (ClassEval_99_2.ZipFileProcessorTestExtractFile.test_extract_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 262, in test_extract_file_1
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+======================================================================
+ERROR: test_extract_file_2 (ClassEval_99_2.ZipFileProcessorTestExtractFile.test_extract_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 285, in test_extract_file_2
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+======================================================================
+ERROR: test_extract_file_3 (ClassEval_99_2.ZipFileProcessorTestExtractFile.test_extract_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 308, in test_extract_file_3
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+======================================================================
+ERROR: test_extract_file_4 (ClassEval_99_2.ZipFileProcessorTestExtractFile.test_extract_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 331, in test_extract_file_4
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+======================================================================
+ERROR: test_extract_file_5 (ClassEval_99_2.ZipFileProcessorTestExtractFile.test_extract_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 354, in test_extract_file_5
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+======================================================================
+ERROR: test_extract_file_6 (ClassEval_99_2.ZipFileProcessorTestExtractFile.test_extract_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 366, in test_extract_file_6
+    processor = ZipFileProcessor("")
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.024s
+
+FAILED (errors=6)
+EEEEEE
+======================================================================
+ERROR: test_create_zip_file_1 (ClassEval_99_2.ZipFileProcessorTestCreateZipFile.test_create_zip_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 384, in test_create_zip_file_1
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+======================================================================
+ERROR: test_create_zip_file_2 (ClassEval_99_2.ZipFileProcessorTestCreateZipFile.test_create_zip_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 407, in test_create_zip_file_2
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+======================================================================
+ERROR: test_create_zip_file_3 (ClassEval_99_2.ZipFileProcessorTestCreateZipFile.test_create_zip_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 430, in test_create_zip_file_3
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+======================================================================
+ERROR: test_create_zip_file_4 (ClassEval_99_2.ZipFileProcessorTestCreateZipFile.test_create_zip_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 453, in test_create_zip_file_4
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+======================================================================
+ERROR: test_create_zip_file_5 (ClassEval_99_2.ZipFileProcessorTestCreateZipFile.test_create_zip_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 476, in test_create_zip_file_5
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+======================================================================
+ERROR: test_create_zip_file_6 (ClassEval_99_2.ZipFileProcessorTestCreateZipFile.test_create_zip_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 488, in test_create_zip_file_6
+    processor = ZipFileProcessor("")
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.024s
+
+FAILED (errors=6)
+E
+======================================================================
+ERROR: test_ZipFileProcessor (ClassEval_99_2.ZipFileProcessorTest.test_ZipFileProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_2.py", line 506, in test_ZipFileProcessor
+    processor = ZipFileProcessor(zip_file_name)
+                ^^^^^^^^^^^^^^^^
+NameError: name 'ZipFileProcessor' is not defined. Did you mean: 'ZipFileProcessorTest'?
+
+----------------------------------------------------------------------
+Ran 1 test in 0.007s
+
+FAILED (errors=1)
+EEEEEE
+======================================================================
+ERROR: test_read_zip_file_1 (ClassEval_99_3.ZipFileProcessorTestReadZipFile.test_read_zip_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_3.py", line 100, in test_read_zip_file_1
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_read_zip_file_2 (ClassEval_99_3.ZipFileProcessorTestReadZipFile.test_read_zip_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_3.py", line 122, in test_read_zip_file_2
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_read_zip_file_3 (ClassEval_99_3.ZipFileProcessorTestReadZipFile.test_read_zip_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_3.py", line 144, in test_read_zip_file_3
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_read_zip_file_4 (ClassEval_99_3.ZipFileProcessorTestReadZipFile.test_read_zip_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_3.py", line 166, in test_read_zip_file_4
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_read_zip_file_5 (ClassEval_99_3.ZipFileProcessorTestReadZipFile.test_read_zip_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_3.py", line 190, in test_read_zip_file_5
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_read_zip_file_6 (ClassEval_99_3.ZipFileProcessorTestReadZipFile.test_read_zip_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_3.py", line 195, in test_read_zip_file_6
+    zip_file = processor.read_zip_file()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_3.py", line 24, in read_zip_file
+    with zipfile.ZipFile(self.file_name, 'r') as zip_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1331, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.014s
+
+FAILED (errors=6)
+EEEE.E
+======================================================================
+ERROR: test_extract_all_1 (ClassEval_99_3.ZipFileProcessorTestExtractAll.test_extract_all_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_3.py", line 221, in test_extract_all_1
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_extract_all_2 (ClassEval_99_3.ZipFileProcessorTestExtractAll.test_extract_all_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_3.py", line 244, in test_extract_all_2
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_extract_all_3 (ClassEval_99_3.ZipFileProcessorTestExtractAll.test_extract_all_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_3.py", line 267, in test_extract_all_3
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_extract_all_4 (ClassEval_99_3.ZipFileProcessorTestExtractAll.test_extract_all_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_3.py", line 290, in test_extract_all_4
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_extract_all_6 (ClassEval_99_3.ZipFileProcessorTestExtractAll.test_extract_all_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_3.py", line 318, in test_extract_all_6
+    success = processor.extract_all("")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_3.py", line 37, in extract_all
+    with zipfile.ZipFile(self.file_name, 'r') as zip_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1331, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+FAILED (errors=5)
+.....E
+======================================================================
+ERROR: test_extract_file_6 (ClassEval_99_3.ZipFileProcessorTestExtractFile.test_extract_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_3.py", line 440, in test_extract_file_6
+    success = processor.extract_file("", "")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_3.py", line 52, in extract_file
+    with zipfile.ZipFile(self.file_name, 'r') as zip_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1331, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+FAILED (errors=1)
+.....E
+======================================================================
+ERROR: test_create_zip_file_6 (ClassEval_99_3.ZipFileProcessorTestCreateZipFile.test_create_zip_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_3.py", line 562, in test_create_zip_file_6
+    success = processor.create_zip_file("", "")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_3.py", line 67, in create_zip_file
+    with zipfile.ZipFile(output_file_name, 'w') as zip_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1331, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+FAILED (errors=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+.....E
+======================================================================
+ERROR: test_read_zip_file_6 (ClassEval_99_4.ZipFileProcessorTestReadZipFile.test_read_zip_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 195, in test_read_zip_file_6
+    zip_file = processor.read_zip_file()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 24, in read_zip_file
+    with zipfile.ZipFile(self.file_name, 'r') as zip_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1331, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.007s
+
+FAILED (errors=1)
+EEEEEE
+======================================================================
+ERROR: test_extract_all_1 (ClassEval_99_4.ZipFileProcessorTestExtractAll.test_extract_all_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 215, in test_extract_all_1
+    success = processor.extract_all(output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 39, in extract_all
+    zip_file.extractall(output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1744, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+======================================================================
+ERROR: test_extract_all_2 (ClassEval_99_4.ZipFileProcessorTestExtractAll.test_extract_all_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 238, in test_extract_all_2
+    success = processor.extract_all(output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 39, in extract_all
+    zip_file.extractall(output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1744, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+======================================================================
+ERROR: test_extract_all_3 (ClassEval_99_4.ZipFileProcessorTestExtractAll.test_extract_all_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 261, in test_extract_all_3
+    success = processor.extract_all(output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 39, in extract_all
+    zip_file.extractall(output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1744, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+======================================================================
+ERROR: test_extract_all_4 (ClassEval_99_4.ZipFileProcessorTestExtractAll.test_extract_all_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 284, in test_extract_all_4
+    success = processor.extract_all(output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 39, in extract_all
+    zip_file.extractall(output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1744, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+======================================================================
+ERROR: test_extract_all_5 (ClassEval_99_4.ZipFileProcessorTestExtractAll.test_extract_all_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 307, in test_extract_all_5
+    success = processor.extract_all(output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 39, in extract_all
+    zip_file.extractall(output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1744, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+======================================================================
+ERROR: test_extract_all_6 (ClassEval_99_4.ZipFileProcessorTestExtractAll.test_extract_all_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 318, in test_extract_all_6
+    success = processor.extract_all("")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 36, in extract_all
+    zip_file = self.read_zip_file()
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 24, in read_zip_file
+    with zipfile.ZipFile(self.file_name, 'r') as zip_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1331, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.007s
+
+FAILED (errors=6)
+EEEEEE
+======================================================================
+ERROR: test_extract_file_1 (ClassEval_99_4.ZipFileProcessorTestExtractFile.test_extract_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 338, in test_extract_file_1
+    success = processor.extract_file('example1.txt', output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 53, in extract_file
+    zip_file.extract(file_name, output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1726, in extract
+    return self._extract_member(member, path, pwd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+======================================================================
+ERROR: test_extract_file_2 (ClassEval_99_4.ZipFileProcessorTestExtractFile.test_extract_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 361, in test_extract_file_2
+    success = processor.extract_file('example2.txt', output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 53, in extract_file
+    zip_file.extract(file_name, output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1726, in extract
+    return self._extract_member(member, path, pwd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+======================================================================
+ERROR: test_extract_file_3 (ClassEval_99_4.ZipFileProcessorTestExtractFile.test_extract_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 384, in test_extract_file_3
+    success = processor.extract_file('example3.txt', output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 53, in extract_file
+    zip_file.extract(file_name, output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1726, in extract
+    return self._extract_member(member, path, pwd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+======================================================================
+ERROR: test_extract_file_4 (ClassEval_99_4.ZipFileProcessorTestExtractFile.test_extract_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 407, in test_extract_file_4
+    success = processor.extract_file('example4.txt', output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 53, in extract_file
+    zip_file.extract(file_name, output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1726, in extract
+    return self._extract_member(member, path, pwd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+======================================================================
+ERROR: test_extract_file_5 (ClassEval_99_4.ZipFileProcessorTestExtractFile.test_extract_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 429, in test_extract_file_5
+    success = processor.extract_file('example5.txt', output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 53, in extract_file
+    zip_file.extract(file_name, output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1726, in extract
+    return self._extract_member(member, path, pwd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+======================================================================
+ERROR: test_extract_file_6 (ClassEval_99_4.ZipFileProcessorTestExtractFile.test_extract_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 440, in test_extract_file_6
+    success = processor.extract_file("", "")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 49, in extract_file
+    zip_file = self.read_zip_file()
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 24, in read_zip_file
+    with zipfile.ZipFile(self.file_name, 'r') as zip_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1331, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+FAILED (errors=6)
+EEEE..
+======================================================================
+ERROR: test_create_zip_file_1 (ClassEval_99_4.ZipFileProcessorTestCreateZipFile.test_create_zip_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 466, in test_create_zip_file_1
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_create_zip_file_2 (ClassEval_99_4.ZipFileProcessorTestCreateZipFile.test_create_zip_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 489, in test_create_zip_file_2
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_create_zip_file_3 (ClassEval_99_4.ZipFileProcessorTestCreateZipFile.test_create_zip_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 512, in test_create_zip_file_3
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_create_zip_file_4 (ClassEval_99_4.ZipFileProcessorTestCreateZipFile.test_create_zip_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 535, in test_create_zip_file_4
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.007s
+
+FAILED (errors=4)
+E
+======================================================================
+ERROR: test_ZipFileProcessor (ClassEval_99_4.ZipFileProcessorTest.test_ZipFileProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 587, in test_ZipFileProcessor
+    success = processor.extract_all(output_directory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_4.py", line 39, in extract_all
+    zip_file.extractall(output_path)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1744, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1800, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1591, in open
+    raise ValueError(
+ValueError: Attempt to use ZIP archive that was already closed
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (errors=1)

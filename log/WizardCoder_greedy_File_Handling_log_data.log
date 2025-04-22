@@ -1,0 +1,304 @@
+.....E
+======================================================================
+ERROR: test_read_xml_6 (ClassEval_98_0.XMLProcessorTestReadXml.test_read_xml_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 166, in test_read_xml_6
+    root = self.processor.read_xml()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 23, in read_xml
+    self.root = ET.parse(self.file_name).getroot()
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 1204, in parse
+    tree.parse(source, parser)
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 558, in parse
+    source = open(source, "rb")
+             ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+FAILED (errors=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 319, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'red apple' != 'APPLE'
+- red apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 344, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'red apple' != 'APPLE'
+- red apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 368, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'red apple' != 'APPLE'
+- red apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 391, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'red apple' != 'APPLE'
+- red apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 415, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'aaa' != 'AAA'
+- aaa
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_0.XMLProcessorTest.test_XMLProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 553, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'red apple' != 'APPLE'
+- red apple
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+.....E
+======================================================================
+ERROR: test_read_zip_file_6 (ClassEval_99_0.ZipFileProcessorTestReadZipFile.test_read_zip_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 196, in test_read_zip_file_6
+    zip_file = processor.read_zip_file()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 24, in read_zip_file
+    with zipfile.ZipFile(self.file_name, 'r') as zip_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1331, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+FAILED (errors=1)
+FFFFFE
+======================================================================
+ERROR: test_extract_all_6 (ClassEval_99_0.ZipFileProcessorTestExtractAll.test_extract_all_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 319, in test_extract_all_6
+    success = processor.extract_all("")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 36, in extract_all
+    zip_file = self.read_zip_file()
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 24, in read_zip_file
+    with zipfile.ZipFile(self.file_name, 'r') as zip_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1331, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+======================================================================
+FAIL: test_extract_all_1 (ClassEval_99_0.ZipFileProcessorTestExtractAll.test_extract_all_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 217, in test_extract_all_1
+    self.assertTrue(success)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_extract_all_2 (ClassEval_99_0.ZipFileProcessorTestExtractAll.test_extract_all_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 240, in test_extract_all_2
+    self.assertTrue(success)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_extract_all_3 (ClassEval_99_0.ZipFileProcessorTestExtractAll.test_extract_all_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 263, in test_extract_all_3
+    self.assertTrue(success)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_extract_all_4 (ClassEval_99_0.ZipFileProcessorTestExtractAll.test_extract_all_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 286, in test_extract_all_4
+    self.assertTrue(success)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_extract_all_5 (ClassEval_99_0.ZipFileProcessorTestExtractAll.test_extract_all_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 309, in test_extract_all_5
+    self.assertTrue(success)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+FAILED (failures=5, errors=1)
+FFFFFE
+======================================================================
+ERROR: test_extract_file_6 (ClassEval_99_0.ZipFileProcessorTestExtractFile.test_extract_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 441, in test_extract_file_6
+    success = processor.extract_file("", "")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 52, in extract_file
+    zip_file = self.read_zip_file()
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 24, in read_zip_file
+    with zipfile.ZipFile(self.file_name, 'r') as zip_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/zipfile/__init__.py", line 1331, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+======================================================================
+FAIL: test_extract_file_1 (ClassEval_99_0.ZipFileProcessorTestExtractFile.test_extract_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 340, in test_extract_file_1
+    self.assertTrue(success)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_extract_file_2 (ClassEval_99_0.ZipFileProcessorTestExtractFile.test_extract_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 363, in test_extract_file_2
+    self.assertTrue(success)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_extract_file_3 (ClassEval_99_0.ZipFileProcessorTestExtractFile.test_extract_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 386, in test_extract_file_3
+    self.assertTrue(success)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_extract_file_4 (ClassEval_99_0.ZipFileProcessorTestExtractFile.test_extract_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 409, in test_extract_file_4
+    self.assertTrue(success)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_extract_file_5 (ClassEval_99_0.ZipFileProcessorTestExtractFile.test_extract_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 431, in test_extract_file_5
+    self.assertTrue(success)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+FAILED (failures=5, errors=1)
+EEEE..
+======================================================================
+ERROR: test_create_zip_file_1 (ClassEval_99_0.ZipFileProcessorTestCreateZipFile.test_create_zip_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 467, in test_create_zip_file_1
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_create_zip_file_2 (ClassEval_99_0.ZipFileProcessorTestCreateZipFile.test_create_zip_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 490, in test_create_zip_file_2
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_create_zip_file_3 (ClassEval_99_0.ZipFileProcessorTestCreateZipFile.test_create_zip_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 513, in test_create_zip_file_3
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+======================================================================
+ERROR: test_create_zip_file_4 (ClassEval_99_0.ZipFileProcessorTestCreateZipFile.test_create_zip_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 536, in test_create_zip_file_4
+    os.rmdir(test_folder)
+OSError: [Errno 66] Directory not empty: 'test_folder'
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+FAILED (errors=4)
+F
+======================================================================
+FAIL: test_ZipFileProcessor (ClassEval_99_0.ZipFileProcessorTest.test_ZipFileProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 589, in test_ZipFileProcessor
+    self.assertTrue(success)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)

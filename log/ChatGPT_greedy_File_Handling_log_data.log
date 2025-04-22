@@ -1,0 +1,300 @@
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.....E
+======================================================================
+ERROR: test_write_csv_6 (ClassEval_26_0.CSVProcessorTestWriteCSV.test_write_csv_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 216, in test_write_csv_6
+    self.assertEqual(0, csvProcessor.write_csv([], file_path))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 37, in write_csv
+    with open(file_name, 'w', newline='') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+FAILED (errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.030s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+EEEEE
+======================================================================
+ERROR: test_process_file_1 (ClassEval_84_0.TextFileProcessorTestProcessFile.test_process_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_0.py", line 213, in test_process_file_1
+    result = textFileProcessor.process_file()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_0.py", line 59, in process_file
+    with open(self.file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
+
+======================================================================
+ERROR: test_process_file_2 (ClassEval_84_0.TextFileProcessorTestProcessFile.test_process_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_0.py", line 227, in test_process_file_2
+    result = textFileProcessor.process_file()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_0.py", line 59, in process_file
+    with open(self.file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
+
+======================================================================
+ERROR: test_process_file_3 (ClassEval_84_0.TextFileProcessorTestProcessFile.test_process_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_0.py", line 241, in test_process_file_3
+    result = textFileProcessor.process_file()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_0.py", line 59, in process_file
+    with open(self.file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
+
+======================================================================
+ERROR: test_process_file_4 (ClassEval_84_0.TextFileProcessorTestProcessFile.test_process_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_0.py", line 255, in test_process_file_4
+    result = textFileProcessor.process_file()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_0.py", line 59, in process_file
+    with open(self.file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
+
+======================================================================
+ERROR: test_process_file_5 (ClassEval_84_0.TextFileProcessorTestProcessFile.test_process_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_0.py", line 269, in test_process_file_5
+    result = textFileProcessor.process_file()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_0.py", line 59, in process_file
+    with open(self.file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+FAILED (errors=5)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....E
+======================================================================
+ERROR: test_read_xml_6 (ClassEval_98_0.XMLProcessorTestReadXml.test_read_xml_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 167, in test_read_xml_6
+    root = self.processor.read_xml()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 23, in read_xml
+    tree = ET.parse(self.file_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 1204, in parse
+    tree.parse(source, parser)
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 558, in parse
+    source = open(source, "rb")
+             ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+FAILED (errors=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 320, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 345, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 369, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 392, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 416, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'aaa' != 'AAA'
+- aaa
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_0.XMLProcessorTest.test_XMLProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 554, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK

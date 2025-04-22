@@ -1,0 +1,248 @@
+{
+    "ClassEval_26": {
+        "ClassEval_26_0": {
+            "CSVProcessorTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "CSVProcessorTestProcessCSVData": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CSVProcessorTestReadCSV": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CSVProcessorTestWriteCSV": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 6
+            }
+        }
+    },
+    "ClassEval_34": {
+        "ClassEval_34_0": {
+            "DocFileHandlerTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DocFileHandlerTestAddHeading": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DocFileHandlerTestAddTable": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DocFileHandlerTestReadText": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DocFileHandlerTestWriteText": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        }
+    },
+    "ClassEval_38": {
+        "ClassEval_38_0": {
+            "ExcelProcessorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "ExcelProcessorTestProcessExcelData": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "ExcelProcessorTestReadExcel": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "ExcelProcessorTestWriteExcel": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        }
+    },
+    "ClassEval_45": {
+        "ClassEval_45_0": {
+            "ImageProcessorTestAdjustBrightness": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ImageProcessorTestLoadImage": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ImageProcessorTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "ImageProcessorTestResizeImage": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ImageProcessorTestRotateImage": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ImageProcessorTestSaveImage": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_50": {
+        "ClassEval_50_0": {
+            "JSONProcessorTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "JSONProcessorTestProcessJsonExistingKey": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "JSONProcessorTestReadJson": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "JSONProcessorTestWriteJson": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_69": {
+        "ClassEval_69_0": {
+            "PDFHandlerTestExtractTextFromPdfs": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "PDFHandlerTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "PDFHandlerTestMergePdfs": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "TestPDFHandler": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        }
+    },
+    "ClassEval_84": {
+        "ClassEval_84_0": {
+            "TextFileProcessorTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "TextFileProcessorTestProcessFile": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "TextFileProcessorTestReadFile": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "TextFileProcessorTestReadFileAsJson": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "TextFileProcessorTestWriteFile": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_98": {
+        "ClassEval_98_0": {
+            "XMLProcessorTest": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "XMLProcessorTestFindElement": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "XMLProcessorTestProcessXmlData": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "XMLProcessorTestReadXml": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "XMLProcessorTestWriteXml": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            }
+        }
+    },
+    "ClassEval_99": {
+        "ClassEval_99_0": {
+            "ZipFileProcessorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "ZipFileProcessorTestCreateZipFile": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "ZipFileProcessorTestExtractAll": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "ZipFileProcessorTestExtractFile": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "ZipFileProcessorTestReadZipFile": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            }
+        }
+    }
+}
