@@ -13,9 +13,9 @@ for file_path in "$folder_path"/*; do
         last_element="${elements[-1]}"
 
         if [[ $last_element == *"greedy"* ]]; then
-            python evaluation.py --source_file_name "$file_name_no_extension" --eval_data ClassEval_data --greedy 1
+            python evaluation.py --source_file_name "$file_name_no_extension" --eval_data Data_Formatting --greedy 1
         else
-            python evaluation.py --source_file_name "$file_name_no_extension" --eval_data ClassEval_data --greedy 0
+            python evaluation.py --source_file_name "$file_name_no_extension" --eval_data Data_Formatting --greedy 0
         fi
     fi
 done
