@@ -91,41 +91,41 @@ domain_classnames = {
 }
 
 
-# Print result summary
-for domain, task_ids in domain_classnames.items():
-    # if domain == 'Uncategorized':
-    print(f"{domain}: ({len(task_ids)})")
-        # for task_id in task_ids:
-        #     print(f"  - {task_id}")
+# # Print result summary
+# for domain, task_ids in domain_classnames.items():
+#     # if domain == 'Uncategorized':
+#     print(f"{domain}: ({len(task_ids)})")
+#         # for task_id in task_ids:
+#         #     print(f"  - {task_id}")
 
 
 
-# === Prepare output directory ===
-output_dir = "separated_domains"
-os.makedirs(output_dir, exist_ok=True)
+# # === Prepare output directory ===
+# output_dir = "separated_domains"
+# os.makedirs(output_dir, exist_ok=True)
 
-# === Build reverse lookup for fast filtering ===
-class_to_domain = {}
-for domain, class_list in domain_classnames.items():
-    for cname in class_list:
-        class_to_domain[cname] = domain
+# # === Build reverse lookup for fast filtering ===
+# class_to_domain = {}
+# for domain, class_list in domain_classnames.items():
+#     for cname in class_list:
+#         class_to_domain[cname] = domain
 
-# === Group tasks ===
-domain_tasks = {domain: [] for domain in domain_classnames}
-# domain_tasks["Uncategorized"] = []
+# # === Group tasks ===
+# domain_tasks = {domain: [] for domain in domain_classnames}
+# # domain_tasks["Uncategorized"] = []
 
-for task in data:
-    cname = task.get("class_name")
-    domain = class_to_domain.get(cname)
-    if domain:
-        domain_tasks[domain].append(task)
-    else:
-        domain_tasks["Uncategorized"].append(task)
+# for task in data:
+#     cname = task.get("class_name")
+#     domain = class_to_domain.get(cname)
+#     if domain:
+#         domain_tasks[domain].append(task)
+#     else:
+#         domain_tasks["Uncategorized"].append(task)
 
-# === Save to separate files ===
-for domain, tasks in domain_tasks.items():
-    fname = f"{domain.replace(' ', '_')}.json"
-    path = os.path.join(output_dir, fname)
-    with open(path, "w") as f:
-        json.dump(tasks, f, indent=2)
+# # === Save to separate files ===
+# for domain, tasks in domain_tasks.items():
+#     fname = f"{domain.replace(' ', '_')}.json"
+#     path = os.path.join(output_dir, fname)
+#     with open(path, "w") as f:
+#         json.dump(tasks, f, indent=2)
 
