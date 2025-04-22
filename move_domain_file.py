@@ -4,7 +4,7 @@ import shutil
 # Configurations
 source_root = 'separated_output'
 destination_folder = 'output/model_output'
-target_domain = 'Game_Development'  # <-- Change domain here
+target_domain = 'Management_Systems'  # <-- Change domain here
 
 # Ensure destination exists
 os.makedirs(destination_folder, exist_ok=True)

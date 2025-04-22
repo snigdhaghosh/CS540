@@ -1,508 +1,2344 @@
 {
-    "WizardCoder_greedy_Game_Development": {
-        "ClassEval_12": {
-            "BlackjackGameTestCalculateHandValue": {
+    "WizardCoder_Management_Systems": {
+        "ClassEval_0": {
+            "AccessGatewayFilterTest": {
                 "EachTestResult": [
+                    "error",
+                    "success",
+                    "success",
+                    "fail",
                     "error"
                 ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "BlackjackGameTestCheckWinner": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "BlackjackGameTestCreateDeck": {
-                "EachTestResult": [
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 1
-            },
-            "BlackjackGameTestMain": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "TestClass": {
-                "ClassEachTestResult": [
-                    "class_fail"
-                ],
-                "class_fail": 1,
-                "class_partial_success": 0,
-                "class_success": 0
-            }
-        },
-        "ClassEval_35": {
-            "EightPuzzleTestFindBlank": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "EightPuzzleTestGetPossibleMoves": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "EightPuzzleTestMove": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "EightPuzzleTestSolve": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "TestClass": {
-                "ClassEachTestResult": [
-                    "class_fail"
-                ],
-                "class_fail": 1,
-                "class_partial_success": 0,
-                "class_success": 0
-            }
-        },
-        "ClassEval_41": {
-            "GomokuGameTestCheckFiveInARow": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "GomokuGameTestCheckWinner": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "GomokuGameTestMain": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "GomokuGameTestMakeMove": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "TestClass": {
-                "ClassEachTestResult": [
-                    "class_fail"
-                ],
-                "class_fail": 1,
-                "class_partial_success": 0,
-                "class_success": 0
-            }
-        },
-        "ClassEval_54": {
-            "MahjongConnectTest": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "MahjongConnectTestCreateBoard": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "MahjongConnectTestHasPath": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "MahjongConnectTestIsGameOver": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "MahjongConnectTestIsValidMove": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "MahjongConnectTestRemoveIcons": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "TestClass": {
-                "ClassEachTestResult": [
-                    "class_fail"
-                ],
-                "class_fail": 1,
-                "class_partial_success": 0,
-                "class_success": 0
-            }
-        },
-        "ClassEval_58": {
-            "MinesweeperGameTestCheckWon": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "MinesweeperGameTestGenerateMineSweeperMap": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "MinesweeperGameTestGeneratePlayerMap": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "MinesweeperGameTestMain": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "MinesweeperGameTestSweep": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "TestClass": {
-                "ClassEachTestResult": [
-                    "class_fail"
-                ],
-                "class_fail": 1,
-                "class_partial_success": 0,
-                "class_success": 0
-            }
-        },
-        "ClassEval_71": {
-            "PushBoxGameTestCheckWin": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "PushBoxGameTestInitGame": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "PushBoxGameTestMove": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "TestClass": {
-                "ClassEachTestResult": [
-                    "class_fail"
-                ],
-                "class_fail": 1,
-                "class_partial_success": 0,
-                "class_success": 0
-            }
-        },
-        "ClassEval_73": {
-            "RPGCharacterTestAttack": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "RPGCharacterTestGainExp": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "RPGCharacterTestHeal": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "RPGCharacterTestIsAlive": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "RPGCharacterTestLevelUp": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "RPGCharacterTestMain": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "TestClass": {
-                "ClassEachTestResult": [
-                    "class_fail"
-                ],
-                "class_fail": 1,
-                "class_partial_success": 0,
-                "class_success": 0
-            }
-        },
-        "ClassEval_77": {
-            "SnakeTest": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "SnakeTestEatFood": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "SnakeTestMove": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "SnakeTestRandomFoodPosition": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "SnakeTestReset": {
-                "EachTestResult": [
-                    "error"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "TestClass": {
-                "ClassEachTestResult": [
-                    "class_fail"
-                ],
-                "class_fail": 1,
-                "class_partial_success": 0,
-                "class_success": 0
-            }
-        },
-        "ClassEval_86": {
-            "TestClass": {
-                "ClassEachTestResult": [
-                    "class_fail"
-                ],
-                "class_fail": 1,
-                "class_partial_success": 0,
-                "class_success": 0
-            },
-            "TicTacToeTestCheckWinner": {
-                "EachTestResult": [
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 1
-            },
-            "TicTacToeTestIsBoardFull": {
-                "EachTestResult": [
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 1
-            },
-            "TicTacToeTestMain": {
-                "EachTestResult": [
-                    "fail"
-                ],
-                "error": 0,
+                "error": 2,
                 "fail": 1,
                 "partial_success": 0,
+                "success": 2
+            },
+            "AccessGatewayFilterTestFilter": {
+                "EachTestResult": [
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 5,
                 "success": 0
             },
-            "TicTacToeTestMakeMove": {
+            "AccessGatewayFilterTestGetJwtUser": {
                 "EachTestResult": [
-                    "success"
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success"
                 ],
                 "error": 0,
                 "fail": 0,
-                "partial_success": 0,
-                "success": 1
-            }
-        },
-        "ClassEval_89": {
+                "partial_success": 5,
+                "success": 0
+            },
+            "AccessGatewayFilterTestIsStartWith": {
+                "EachTestResult": [
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 5,
+                "success": 0
+            },
             "TestClass": {
                 "ClassEachTestResult": [
-                    "class_partial_success"
+                    "class_fail",
+                    "class_partial_success",
+                    "class_partial_success",
+                    "class_fail",
+                    "class_fail"
                 ],
-                "class_fail": 0,
-                "class_partial_success": 1,
+                "class_fail": 3,
+                "class_partial_success": 2,
                 "class_success": 0
-            },
-            "TwentyFourPointGameTest": {
+            }
+        },
+        "ClassEval_13": {
+            "BookManagementTestAddBook": {
                 "EachTestResult": [
+                    "error",
+                    "error",
+                    "success",
+                    "success",
+                    "error"
+                ],
+                "error": 3,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 2
+            },
+            "BookManagementTestMain": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "fail",
+                    "fail",
+                    "error"
+                ],
+                "error": 3,
+                "fail": 2,
+                "partial_success": 0,
+                "success": 0
+            },
+            "BookManagementTestRemoveBook": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "partial_success",
+                    "partial_success",
+                    "error"
+                ],
+                "error": 3,
+                "fail": 0,
+                "partial_success": 2,
+                "success": 0
+            },
+            "BookManagementTestViewBookQuantity": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "success",
+                    "success",
+                    "error"
+                ],
+                "error": 3,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 2
+            },
+            "BookManagementTestViewInventory": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "partial_success",
+                    "partial_success",
+                    "error"
+                ],
+                "error": 3,
+                "fail": 0,
+                "partial_success": 2,
+                "success": 0
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            }
+        },
+        "ClassEval_17": {
+            "CalendarTestAddEvent": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "CalendarTestGetAvailableSlots": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "CalendarTestGetEvents": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "CalendarTestGetUpcomingEvents": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "CalendarTestIsAvailable": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "CalendarTestMain": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "CalendarTestRemoveEvent": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            }
+        },
+        "ClassEval_20": {
+            "ChatTestAddUser": {
+                "EachTestResult": [
+                    "success",
+                    "error",
+                    "success",
+                    "success",
+                    "error"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "ChatTestGetMessages": {
+                "EachTestResult": [
+                    "success",
+                    "error",
+                    "success",
+                    "success",
+                    "error"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "ChatTestMain": {
+                "EachTestResult": [
+                    "fail",
+                    "error",
+                    "fail",
+                    "fail",
+                    "error"
+                ],
+                "error": 2,
+                "fail": 3,
+                "partial_success": 0,
+                "success": 0
+            },
+            "ChatTestRemoveUser": {
+                "EachTestResult": [
+                    "success",
+                    "error",
+                    "success",
+                    "success",
+                    "error"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "ChatTestSendMessage": {
+                "EachTestResult": [
+                    "partial_success",
+                    "error",
+                    "partial_success",
+                    "partial_success",
+                    "error"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 3,
+                "success": 0
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            }
+        },
+        "ClassEval_21": {
+            "ClassroomTestAddCourse": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "ClassroomTestCheckCourseConflict": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "ClassroomTestIsFreeAt": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "ClassroomTestMain": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "ClassroomTestRemoveCourse": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_success"
+                ],
+                "class_fail": 4,
+                "class_partial_success": 0,
+                "class_success": 1
+            }
+        },
+        "ClassEval_22": {
+            "ClassRegistrationSystemTest": {
+                "EachTestResult": [
+                    "error",
+                    "success",
+                    "error",
+                    "success",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "ClassRegistrationSystemTestGetMajor": {
+                "EachTestResult": [
+                    "error",
+                    "success",
+                    "error",
+                    "success",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "ClassRegistrationSystemTestGetStudent": {
+                "EachTestResult": [
+                    "error",
+                    "success",
+                    "error",
+                    "success",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "ClassRegistrationSystemTestPopularClass": {
+                "EachTestResult": [
+                    "error",
+                    "success",
+                    "error",
+                    "success",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "ClassRegistrationSystemTestRegisterClass": {
+                "EachTestResult": [
+                    "error",
+                    "success",
+                    "error",
+                    "success",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "ClassRegistrationSystemTestRegisterStudent": {
+                "EachTestResult": [
+                    "error",
+                    "success",
+                    "error",
+                    "success",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_success",
+                    "class_fail",
+                    "class_success",
+                    "class_success"
+                ],
+                "class_fail": 2,
+                "class_partial_success": 0,
+                "class_success": 3
+            }
+        },
+        "ClassEval_25": {
+            "CookiesUtilTestGetCookies": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
                     "success"
                 ],
                 "error": 0,
                 "fail": 0,
                 "partial_success": 0,
-                "success": 1
+                "success": 5
             },
-            "TwentyFourPointGameTestAnswer": {
+            "CookiesUtilTestLoadCookies": {
                 "EachTestResult": [
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 5,
+                "success": 0
+            },
+            "CookiesUtilTestMain": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "CookiesUtilTestSaveCookies": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
                     "partial_success"
                 ],
                 "error": 0,
                 "fail": 0,
                 "partial_success": 1,
+                "success": 4
+            },
+            "CookiesUtilTestSetCookies": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
                 "success": 0
             },
-            "TwentyFourPointGameTestEvaluateExpression": {
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            }
+        },
+        "ClassEval_33": {
+            "DiscountStrategyTest": {
                 "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "DiscountStrategyTestBulkItemPromo": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "success",
+                    "success",
+                    "error"
+                ],
+                "error": 3,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 2
+            },
+            "DiscountStrategyTestDue": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "DiscountStrategyTestFidelityPromo": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "partial_success",
+                    "partial_success",
+                    "error"
+                ],
+                "error": 3,
+                "fail": 0,
+                "partial_success": 2,
+                "success": 0
+            },
+            "DiscountStrategyTestLargeOrderPromo": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "success",
+                    "success",
+                    "error"
+                ],
+                "error": 3,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 2
+            },
+            "DiscountStrategyTestTotal": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            }
+        },
+        "ClassEval_36": {
+            "EmailClientTestClearInbox": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "partial_success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 0
+            },
+            "EmailClientTestFetch": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
                     "success"
                 ],
-                "error": 0,
+                "error": 4,
                 "fail": 0,
                 "partial_success": 0,
                 "success": 1
             },
-            "TwentyFourPointGameTestGetMyCards": {
+            "EmailClientTestGetOccupiedSize": {
                 "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
                     "success"
                 ],
-                "error": 0,
+                "error": 4,
                 "fail": 0,
                 "partial_success": 0,
                 "success": 1
+            },
+            "EmailClientTestIsFullWithOneMoreEmail": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "EmailClientTestMain": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "EmailClientTestSendTo": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "fail"
+                ],
+                "error": 4,
+                "fail": 1,
+                "partial_success": 0,
+                "success": 0
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            }
+        },
+        "ClassEval_4": {
+            "AssessmentSystemTestAddCourseScore": {
+                "EachTestResult": [
+                    "error",
+                    "success",
+                    "error",
+                    "partial_success",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 2
+            },
+            "AssessmentSystemTestAddStudent": {
+                "EachTestResult": [
+                    "error",
+                    "success",
+                    "error",
+                    "success",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "AssessmentSystemTestGetAllStudentsWithFailCourse": {
+                "EachTestResult": [
+                    "error",
+                    "success",
+                    "error",
+                    "success",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "AssessmentSystemTestGetCourseAverage": {
+                "EachTestResult": [
+                    "error",
+                    "partial_success",
+                    "error",
+                    "partial_success",
+                    "partial_success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 3,
+                "success": 0
+            },
+            "AssessmentSystemTestGetGPA": {
+                "EachTestResult": [
+                    "error",
+                    "success",
+                    "error",
+                    "success",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "AssessmentSystemTestGetTopStudent": {
+                "EachTestResult": [
+                    "error",
+                    "partial_success",
+                    "error",
+                    "partial_success",
+                    "partial_success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 3,
+                "success": 0
+            },
+            "AssessmentSystemTestMain": {
+                "EachTestResult": [
+                    "error",
+                    "success",
+                    "error",
+                    "success",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_partial_success",
+                    "class_fail",
+                    "class_partial_success",
+                    "class_partial_success"
+                ],
+                "class_fail": 2,
+                "class_partial_success": 3,
+                "class_success": 0
+            }
+        },
+        "ClassEval_40": {
+            "FitnessTrackerTestCaculateCalorieIntake": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "FitnessTrackerTestConditionJudge": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "FitnessTrackerTestGetBMI": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "FitnessTrackerTestMain": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            }
+        },
+        "ClassEval_42": {
+            "HotelTestAvailableRooms": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "HotelTestBookRoom": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "HotelTestCheckIn": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "HotelTestCheckOut": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "HotelTestMain": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            }
+        },
+        "ClassEval_43": {
+            "HRManagementSystemTestAddEmployee": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "success",
+                    "success",
+                    "error"
+                ],
+                "error": 3,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 2
+            },
+            "HRManagementSystemTestGetEmployee": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "success",
+                    "success",
+                    "error"
+                ],
+                "error": 3,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 2
+            },
+            "HRManagementSystemTestListEmployees": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "partial_success",
+                    "success",
+                    "error"
+                ],
+                "error": 3,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 1
+            },
+            "HRManagementSystemTestMain": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "fail",
+                    "fail",
+                    "error"
+                ],
+                "error": 3,
+                "fail": 2,
+                "partial_success": 0,
+                "success": 0
+            },
+            "HRManagementSystemTestRemoveEmployee": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "success",
+                    "success",
+                    "error"
+                ],
+                "error": 3,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 2
+            },
+            "HRManagementSystemTestUpdateEmployee": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "partial_success",
+                    "partial_success",
+                    "error"
+                ],
+                "error": 3,
+                "fail": 0,
+                "partial_success": 2,
+                "success": 0
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            }
+        },
+        "ClassEval_49": {
+            "JobMarketplaceTestGetJobApplicants": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "JobMarketplaceTestMain": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "JobMarketplaceTestMatchesRequirements": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "JobMarketplaceTestPostJob": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "JobMarketplaceTestRemoveJob": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "JobMarketplaceTestSearchJobs": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "JobMarketplaceTestSubmitResume": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "JobMarketplaceTestWithdrawResume": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            }
+        },
+        "ClassEval_5": {
+            "AutomaticGuitarSimulatorTest": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "fail",
+                    "error"
+                ],
+                "error": 4,
+                "fail": 1,
+                "partial_success": 0,
+                "success": 0
+            },
+            "AutomaticGuitarSimulatorTestDisplay": {
+                "EachTestResult": [
+                    "error",
+                    "fail",
+                    "error",
+                    "fail",
+                    "fail"
+                ],
+                "error": 2,
+                "fail": 3,
+                "partial_success": 0,
+                "success": 0
+            },
+            "AutomaticGuitarSimulatorTestInterpret": {
+                "EachTestResult": [
+                    "error",
+                    "partial_success",
+                    "error",
+                    "partial_success",
+                    "partial_success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 3,
+                "success": 0
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            }
+        },
+        "ClassEval_59": {
+            "MovieBookingSystemTestAddMovie": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "MovieBookingSystemTestAvailableMovies": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "partial_success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 0
+            },
+            "MovieBookingSystemTestBookTicket": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "partial_success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 0
+            },
+            "MovieBookingSystemTestMain": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_partial_success"
+                ],
+                "class_fail": 4,
+                "class_partial_success": 1,
+                "class_success": 0
+            }
+        },
+        "ClassEval_61": {
+            "MusicPlayerTestAddSong": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "MusicPlayerTestMain": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "MusicPlayerTestPlay": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "partial_success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 0
+            },
+            "MusicPlayerTestPreviousSong": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "partial_success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 0
+            },
+            "MusicPlayerTestRemoveSong": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "partial_success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 0
+            },
+            "MusicPlayerTestSetVolume": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "partial_success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 0
+            },
+            "MusicPlayerTestShuffle": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "MusicPlayerTestStop": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "MusicPlayerTestSwitchSong": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "partial_success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 0
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_partial_success"
+                ],
+                "class_fail": 4,
+                "class_partial_success": 1,
+                "class_success": 0
+            }
+        },
+        "ClassEval_67": {
+            "OrderTest": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "OrderTestAddDish": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "OrderTestCalculateTotal": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "OrderTestCheckout": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            }
+        },
+        "ClassEval_68": {
+            "PageUtilTest": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "success",
+                    "error"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "PageUtilTestGetPage": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "success",
+                    "error"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "PageUtilTestGetPageInfo": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "partial_success",
+                    "error"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 0
+            },
+            "PageUtilTestSearch": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "success",
+                    "error"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_partial_success",
+                    "class_fail"
+                ],
+                "class_fail": 4,
+                "class_partial_success": 1,
+                "class_success": 0
+            }
+        },
+        "ClassEval_74": {
+            "ServerTest": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "fail",
+                    "error"
+                ],
+                "error": 4,
+                "fail": 1,
+                "partial_success": 0,
+                "success": 0
+            },
+            "ServerTestAddWhiteList": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "success",
+                    "error"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "ServerTestDelWhiteList": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "success",
+                    "error"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "ServerTestRecv": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "partial_success",
+                    "error"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 0
+            },
+            "ServerTestSend": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "partial_success",
+                    "error"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 0
+            },
+            "ServerTestShow": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "partial_success",
+                    "error"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 0
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            }
+        },
+        "ClassEval_75": {
+            "ShoppingCartTest": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "ShoppingCartTestAddItem": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "ShoppingCartTestRemoveItem": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "ShoppingCartTestTotalPrice": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "ShoppingCartTestViewItems": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            }
+        },
+        "ClassEval_76": {
+            "SignInSystemTestAddUser": {
+                "EachTestResult": [
+                    "success",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "SignInSystemTestAllNotSignedIn": {
+                "EachTestResult": [
+                    "success",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "SignInSystemTestAllSignedIn": {
+                "EachTestResult": [
+                    "success",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "SignInSystemTestCheckSignIn": {
+                "EachTestResult": [
+                    "success",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "SignInSystemTestMain": {
+                "EachTestResult": [
+                    "success",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "SignInSystemTestSignIn": {
+                "EachTestResult": [
+                    "success",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_success",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 4,
+                "class_partial_success": 0,
+                "class_success": 1
+            }
+        },
+        "ClassEval_8": {
+            "BankAccountTest": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "success",
+                    "error",
+                    "success"
+                ],
+                "error": 3,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 2
+            },
+            "BankAccountTestDeposit": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "success",
+                    "error",
+                    "success"
+                ],
+                "error": 3,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 2
+            },
+            "BankAccountTestTransfer": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "success",
+                    "error",
+                    "success"
+                ],
+                "error": 3,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 2
+            },
+            "BankAccountTestViewBalance": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "success",
+                    "error",
+                    "success"
+                ],
+                "error": 3,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 2
+            },
+            "BankAccountTestWithdraw": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "success",
+                    "error",
+                    "success"
+                ],
+                "error": 3,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 2
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_success",
+                    "class_fail",
+                    "class_success"
+                ],
+                "class_fail": 3,
+                "class_partial_success": 0,
+                "class_success": 2
+            }
+        },
+        "ClassEval_85": {
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            },
+            "ThermostatTestAutoCheckConflict": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "ThermostatTestAutoSetMode": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "ThermostatTestGetMode": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "ThermostatTestGetTargetTemperature": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "ThermostatTestMain": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "ThermostatTestSetMode": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "ThermostatTestSetTargetTemperature": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "ThermostatTestSimulateOperation": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            }
+        },
+        "ClassEval_94": {
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            },
+            "VendingMachineTestAddItem": {
+                "EachTestResult": [
+                    "error",
+                    "success",
+                    "partial_success",
+                    "error",
+                    "partial_success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 2,
+                "success": 1
+            },
+            "VendingMachineTestDisplayItems": {
+                "EachTestResult": [
+                    "error",
+                    "partial_success",
+                    "partial_success",
+                    "error",
+                    "partial_success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 3,
+                "success": 0
+            },
+            "VendingMachineTestInsertCoin": {
+                "EachTestResult": [
+                    "error",
+                    "success",
+                    "success",
+                    "error",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "VendingMachineTestMain": {
+                "EachTestResult": [
+                    "error",
+                    "fail",
+                    "fail",
+                    "error",
+                    "fail"
+                ],
+                "error": 2,
+                "fail": 3,
+                "partial_success": 0,
+                "success": 0
+            },
+            "VendingMachineTestPurchaseItem": {
+                "EachTestResult": [
+                    "error",
+                    "partial_success",
+                    "partial_success",
+                    "error",
+                    "partial_success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 3,
+                "success": 0
+            },
+            "VendingMachineTestRestockItem": {
+                "EachTestResult": [
+                    "error",
+                    "success",
+                    "success",
+                    "error",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            }
+        },
+        "ClassEval_95": {
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            },
+            "WarehouseTestAddProduct": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "WarehouseTestChangeOrderStatus": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "WarehouseTestCreateOrder": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "WarehouseTestGetProductQuantity": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "WarehouseTestMain": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "WarehouseTestTrackOrder": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "WarehouseTestUpdateProductQuantity": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            }
+        },
+        "ClassEval_96": {
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            },
+            "WeatherSystemTestCelsiusToFahrenheit": {
+                "EachTestResult": [
+                    "success",
+                    "error",
+                    "success",
+                    "partial_success",
+                    "error"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 2
+            },
+            "WeatherSystemTestFahrenheitToCelsius": {
+                "EachTestResult": [
+                    "success",
+                    "error",
+                    "success",
+                    "partial_success",
+                    "error"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 2
+            },
+            "WeatherSystemTestMain": {
+                "EachTestResult": [
+                    "fail",
+                    "error",
+                    "fail",
+                    "fail",
+                    "error"
+                ],
+                "error": 2,
+                "fail": 3,
+                "partial_success": 0,
+                "success": 0
+            },
+            "WeatherSystemTestQuery": {
+                "EachTestResult": [
+                    "partial_success",
+                    "error",
+                    "partial_success",
+                    "fail",
+                    "error"
+                ],
+                "error": 2,
+                "fail": 1,
+                "partial_success": 2,
+                "success": 0
+            },
+            "WeatherSystemTestSetCity": {
+                "EachTestResult": [
+                    "success",
+                    "error",
+                    "success",
+                    "partial_success",
+                    "error"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 2
             }
         }
     }
