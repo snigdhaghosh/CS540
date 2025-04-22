@@ -24,6 +24,12 @@
             "fun_partial_success": 0.6190476190476191,
             "fun_success": 0.5666666666666667
         },
+        "ChatGPT_Game_Development": {
+            "class_partial_success": 0.48,
+            "class_success": 0.1,
+            "fun_partial_success": 0.8133333333333336,
+            "fun_success": 0.6133333333333334
+        },
         "ChatGPT_greedy": {
             "class_partial_success": 0.08800000000000001,
             "class_success": 0.048000000000000015,
@@ -47,6 +53,12 @@
             "class_success": 0.06666666666666668,
             "fun_partial_success": 0.12380952380952386,
             "fun_success": 0.11428571428571432
+        },
+        "ChatGPT_greedy_Game_Development": {
+            "class_partial_success": 0.1,
+            "class_success": 0.02,
+            "fun_partial_success": 0.16888888888888898,
+            "fun_success": 0.12000000000000005
         },
         "Deepseek-r1-distill-llama-70b": {
             "class_partial_success": 0.644,
@@ -72,6 +84,12 @@
             "fun_partial_success": 0.6380952380952382,
             "fun_success": 0.6142857142857144
         },
+        "Deepseek-r1-distill-llama-70b_Game_Development": {
+            "class_partial_success": 0.82,
+            "class_success": 0.33999999999999997,
+            "fun_partial_success": 0.951111111111111,
+            "fun_success": 0.7733333333333333
+        },
         "Deepseek-r1-distill-llama-70b_greedy": {
             "class_partial_success": 0.12599999999999986,
             "class_success": 0.06800000000000003,
@@ -95,6 +113,12 @@
             "class_success": 0.1111111111111111,
             "fun_partial_success": 0.12857142857142861,
             "fun_success": 0.12857142857142861
+        },
+        "Deepseek-r1-distill-llama-70b_greedy_Game_Development": {
+            "class_partial_success": 0.18,
+            "class_success": 0.08,
+            "fun_partial_success": 0.19555555555555557,
+            "fun_success": 0.1600000000000001
         },
         "GPT-4": {
             "class_partial_success": 0.53,
@@ -120,6 +144,12 @@
             "fun_partial_success": 0.638095238095238,
             "fun_success": 0.6047619047619047
         },
+        "GPT-4_Game_Development": {
+            "class_partial_success": 0.42000000000000004,
+            "class_success": 0.2,
+            "fun_partial_success": 0.7111111111111112,
+            "fun_success": 0.5244444444444445
+        },
         "GPT-4_greedy": {
             "class_partial_success": 0.10199999999999995,
             "class_success": 0.060000000000000026,
@@ -143,6 +173,12 @@
             "class_success": 0.08888888888888889,
             "fun_partial_success": 0.12380952380952386,
             "fun_success": 0.1190476190476191
+        },
+        "GPT-4_greedy_Game_Development": {
+            "class_partial_success": 0.08,
+            "class_success": 0.04,
+            "fun_partial_success": 0.12888888888888894,
+            "fun_success": 0.09777777777777781
         },
         "Llama4-maverick-instruct": {
             "class_partial_success": 0.6479999999999998,
@@ -168,6 +204,12 @@
             "fun_partial_success": 0.6142857142857144,
             "fun_success": 0.542857142857143
         },
+        "Llama4-maverick-instruct_Game_Development": {
+            "class_partial_success": 0.6799999999999999,
+            "class_success": 0.36,
+            "fun_partial_success": 0.8977777777777776,
+            "fun_success": 0.7111111111111111
+        },
         "Llama4-maverick-instruct_greedy": {
             "class_partial_success": 0.13599999999999984,
             "class_success": 0.07000000000000003,
@@ -191,6 +233,12 @@
             "class_success": 0.06666666666666668,
             "fun_partial_success": 0.12380952380952386,
             "fun_success": 0.11428571428571432
+        },
+        "Llama4-maverick-instruct_greedy_Game_Development": {
+            "class_partial_success": 0.13999999999999999,
+            "class_success": 0.08,
+            "fun_partial_success": 0.17777777777777787,
+            "fun_success": 0.14666666666666675
         },
         "SantaCoder": {
             "class_partial_success": 0.013999999999999999,
@@ -216,6 +264,12 @@
             "fun_partial_success": 0.009523809523809525,
             "fun_success": 0.0
         },
+        "SantaCoder_Game_Development": {
+            "class_partial_success": 0.04,
+            "class_success": 0.0,
+            "fun_partial_success": 0.20888888888888885,
+            "fun_success": 0.035555555555555556
+        },
         "SantaCoder_greedy": {
             "class_partial_success": 0.004,
             "class_success": 0.0,
@@ -239,6 +293,12 @@
             "class_success": 0.0,
             "fun_partial_success": 0.0,
             "fun_success": 0.0
+        },
+        "SantaCoder_greedy_Game_Development": {
+            "class_partial_success": 0.02,
+            "class_success": 0.0,
+            "fun_partial_success": 0.035555555555555556,
+            "fun_success": 0.008888888888888889
         },
         "WizardCoder": {
             "class_partial_success": 0.14199999999999996,
@@ -264,6 +324,12 @@
             "fun_partial_success": 0.18571428571428572,
             "fun_success": 0.10000000000000002
         },
+        "WizardCoder_Game_Development": {
+            "class_partial_success": 0.12,
+            "class_success": 0.0,
+            "fun_partial_success": 0.17333333333333334,
+            "fun_success": 0.12444444444444444
+        },
         "WizardCoder_greedy": {
             "class_partial_success": 0.019999999999999997,
             "class_success": 0.016,
@@ -287,6 +353,12 @@
             "class_success": 0.0,
             "fun_partial_success": 0.023809523809523808,
             "fun_success": 0.009523809523809525
+        },
+        "WizardCoder_greedy_Game_Development": {
+            "class_partial_success": 0.02,
+            "class_success": 0.0,
+            "fun_partial_success": 0.035555555555555556,
+            "fun_success": 0.03111111111111111
         }
     },
     "pass_3": {
@@ -314,6 +386,12 @@
             "fun_partial_success": 0.6190476190476191,
             "fun_success": 0.5714285714285714
         },
+        "ChatGPT_Game_Development": {
+            "class_partial_success": 0.5,
+            "class_success": 0.1,
+            "fun_partial_success": 0.8444444444444444,
+            "fun_success": 0.6444444444444445
+        },
         "ChatGPT_greedy": {
             "class_partial_success": 0.2640000000000002,
             "class_success": 0.14399999999999996,
@@ -337,6 +415,12 @@
             "class_success": 0.19999999999999998,
             "fun_partial_success": 0.3714285714285713,
             "fun_success": 0.34285714285714275
+        },
+        "ChatGPT_greedy_Game_Development": {
+            "class_partial_success": 0.3,
+            "class_success": 0.06,
+            "fun_partial_success": 0.5066666666666669,
+            "fun_success": 0.35999999999999993
         },
         "Deepseek-r1-distill-llama-70b": {
             "class_partial_success": 0.7079999999999999,
@@ -362,6 +446,12 @@
             "fun_partial_success": 0.6428571428571429,
             "fun_success": 0.6404761904761904
         },
+        "Deepseek-r1-distill-llama-70b_Game_Development": {
+            "class_partial_success": 0.89,
+            "class_success": 0.48,
+            "fun_partial_success": 0.9755555555555555,
+            "fun_success": 0.851111111111111
+        },
         "Deepseek-r1-distill-llama-70b_greedy": {
             "class_partial_success": 0.37800000000000045,
             "class_success": 0.20400000000000007,
@@ -385,6 +475,12 @@
             "class_success": 0.3333333333333333,
             "fun_partial_success": 0.3857142857142856,
             "fun_success": 0.3857142857142856
+        },
+        "Deepseek-r1-distill-llama-70b_greedy_Game_Development": {
+            "class_partial_success": 0.5399999999999999,
+            "class_success": 0.24,
+            "fun_partial_success": 0.5866666666666671,
+            "fun_success": 0.4800000000000002
         },
         "GPT-4": {
             "class_partial_success": 0.586,
@@ -410,6 +506,12 @@
             "fun_partial_success": 0.6619047619047619,
             "fun_success": 0.638095238095238
         },
+        "GPT-4_Game_Development": {
+            "class_partial_success": 0.5,
+            "class_success": 0.2,
+            "fun_partial_success": 0.8155555555555556,
+            "fun_success": 0.5977777777777777
+        },
         "GPT-4_greedy": {
             "class_partial_success": 0.30600000000000027,
             "class_success": 0.18,
@@ -433,6 +535,12 @@
             "class_success": 0.26666666666666666,
             "fun_partial_success": 0.3714285714285713,
             "fun_success": 0.35714285714285704
+        },
+        "GPT-4_greedy_Game_Development": {
+            "class_partial_success": 0.24,
+            "class_success": 0.12,
+            "fun_partial_success": 0.38666666666666666,
+            "fun_success": 0.2933333333333332
         },
         "Llama4-maverick-instruct": {
             "class_partial_success": 0.711,
@@ -458,6 +566,12 @@
             "fun_partial_success": 0.6428571428571429,
             "fun_success": 0.6095238095238096
         },
+        "Llama4-maverick-instruct_Game_Development": {
+            "class_partial_success": 0.76,
+            "class_success": 0.45999999999999996,
+            "fun_partial_success": 0.9444444444444444,
+            "fun_success": 0.7933333333333334
+        },
         "Llama4-maverick-instruct_greedy": {
             "class_partial_success": 0.40800000000000053,
             "class_success": 0.21000000000000008,
@@ -481,6 +595,12 @@
             "class_success": 0.19999999999999998,
             "fun_partial_success": 0.3714285714285713,
             "fun_success": 0.34285714285714275
+        },
+        "Llama4-maverick-instruct_greedy_Game_Development": {
+            "class_partial_success": 0.42000000000000004,
+            "class_success": 0.24,
+            "fun_partial_success": 0.5333333333333337,
+            "fun_success": 0.4400000000000001
         },
         "SantaCoder": {
             "class_partial_success": 0.019,
@@ -506,6 +626,12 @@
             "fun_partial_success": 0.02142857142857143,
             "fun_success": 0.0
         },
+        "SantaCoder_Game_Development": {
+            "class_partial_success": 0.09,
+            "class_success": 0.0,
+            "fun_partial_success": 0.2866666666666667,
+            "fun_success": 0.044444444444444446
+        },
         "SantaCoder_greedy": {
             "class_partial_success": 0.012,
             "class_success": 0.0,
@@ -529,6 +655,12 @@
             "class_success": 0.0,
             "fun_partial_success": 0.0,
             "fun_success": 0.0
+        },
+        "SantaCoder_greedy_Game_Development": {
+            "class_partial_success": 0.06,
+            "class_success": 0.0,
+            "fun_partial_success": 0.10666666666666666,
+            "fun_success": 0.026666666666666665
         },
         "WizardCoder": {
             "class_partial_success": 0.25300000000000006,
@@ -554,6 +686,12 @@
             "fun_partial_success": 0.32619047619047614,
             "fun_success": 0.1952380952380952
         },
+        "WizardCoder_Game_Development": {
+            "class_partial_success": 0.16,
+            "class_success": 0.0,
+            "fun_partial_success": 0.2822222222222222,
+            "fun_success": 0.19111111111111115
+        },
         "WizardCoder_greedy": {
             "class_partial_success": 0.05999999999999999,
             "class_success": 0.048,
@@ -577,6 +715,12 @@
             "class_success": 0.0,
             "fun_partial_success": 0.07142857142857142,
             "fun_success": 0.02857142857142857
+        },
+        "WizardCoder_greedy_Game_Development": {
+            "class_partial_success": 0.06,
+            "class_success": 0.0,
+            "fun_partial_success": 0.10666666666666666,
+            "fun_success": 0.09333333333333334
         }
     },
     "pass_5": {
@@ -604,6 +748,12 @@
             "fun_partial_success": 0.6190476190476191,
             "fun_success": 0.5714285714285714
         },
+        "ChatGPT_Game_Development": {
+            "class_partial_success": 0.5,
+            "class_success": 0.1,
+            "fun_partial_success": 0.8444444444444444,
+            "fun_success": 0.6444444444444445
+        },
         "ChatGPT_greedy": {
             "class_partial_success": 0.44,
             "class_success": 0.24,
@@ -627,6 +777,12 @@
             "class_success": 0.3333333333333333,
             "fun_partial_success": 0.6190476190476191,
             "fun_success": 0.5714285714285714
+        },
+        "ChatGPT_greedy_Game_Development": {
+            "class_partial_success": 0.5,
+            "class_success": 0.1,
+            "fun_partial_success": 0.8444444444444444,
+            "fun_success": 0.6
         },
         "Deepseek-r1-distill-llama-70b": {
             "class_partial_success": 0.72,
@@ -652,6 +808,12 @@
             "fun_partial_success": 0.6428571428571429,
             "fun_success": 0.6428571428571429
         },
+        "Deepseek-r1-distill-llama-70b_Game_Development": {
+            "class_partial_success": 0.9,
+            "class_success": 0.5,
+            "fun_partial_success": 0.9777777777777777,
+            "fun_success": 0.8666666666666667
+        },
         "Deepseek-r1-distill-llama-70b_greedy": {
             "class_partial_success": 0.63,
             "class_success": 0.34,
@@ -675,6 +837,12 @@
             "class_success": 0.5555555555555556,
             "fun_partial_success": 0.6428571428571429,
             "fun_success": 0.6428571428571429
+        },
+        "Deepseek-r1-distill-llama-70b_greedy_Game_Development": {
+            "class_partial_success": 0.9,
+            "class_success": 0.4,
+            "fun_partial_success": 0.9777777777777777,
+            "fun_success": 0.8
         },
         "GPT-4": {
             "class_partial_success": 0.6,
@@ -700,6 +868,12 @@
             "fun_partial_success": 0.6666666666666666,
             "fun_success": 0.6428571428571429
         },
+        "GPT-4_Game_Development": {
+            "class_partial_success": 0.5,
+            "class_success": 0.2,
+            "fun_partial_success": 0.8222222222222222,
+            "fun_success": 0.6
+        },
         "GPT-4_greedy": {
             "class_partial_success": 0.51,
             "class_success": 0.3,
@@ -723,6 +897,12 @@
             "class_success": 0.4444444444444444,
             "fun_partial_success": 0.6190476190476191,
             "fun_success": 0.5952380952380952
+        },
+        "GPT-4_greedy_Game_Development": {
+            "class_partial_success": 0.4,
+            "class_success": 0.2,
+            "fun_partial_success": 0.6444444444444445,
+            "fun_success": 0.4888888888888889
         },
         "Llama4-maverick-instruct": {
             "class_partial_success": 0.73,
@@ -748,6 +928,12 @@
             "fun_partial_success": 0.6428571428571429,
             "fun_success": 0.6190476190476191
         },
+        "Llama4-maverick-instruct_Game_Development": {
+            "class_partial_success": 0.8,
+            "class_success": 0.5,
+            "fun_partial_success": 0.9555555555555556,
+            "fun_success": 0.8222222222222222
+        },
         "Llama4-maverick-instruct_greedy": {
             "class_partial_success": 0.68,
             "class_success": 0.35,
@@ -771,6 +957,12 @@
             "class_success": 0.3333333333333333,
             "fun_partial_success": 0.6190476190476191,
             "fun_success": 0.5714285714285714
+        },
+        "Llama4-maverick-instruct_greedy_Game_Development": {
+            "class_partial_success": 0.7,
+            "class_success": 0.4,
+            "fun_partial_success": 0.8888888888888888,
+            "fun_success": 0.7333333333333333
         },
         "SantaCoder": {
             "class_partial_success": 0.02,
@@ -796,6 +988,12 @@
             "fun_partial_success": 0.023809523809523808,
             "fun_success": 0.0
         },
+        "SantaCoder_Game_Development": {
+            "class_partial_success": 0.1,
+            "class_success": 0.0,
+            "fun_partial_success": 0.28888888888888886,
+            "fun_success": 0.044444444444444446
+        },
         "SantaCoder_greedy": {
             "class_partial_success": 0.02,
             "class_success": 0.0,
@@ -819,6 +1017,12 @@
             "class_success": 0.0,
             "fun_partial_success": 0.0,
             "fun_success": 0.0
+        },
+        "SantaCoder_greedy_Game_Development": {
+            "class_partial_success": 0.1,
+            "class_success": 0.0,
+            "fun_partial_success": 0.17777777777777778,
+            "fun_success": 0.044444444444444446
         },
         "WizardCoder": {
             "class_partial_success": 0.32,
@@ -844,6 +1048,12 @@
             "fun_partial_success": 0.40476190476190477,
             "fun_success": 0.2619047619047619
         },
+        "WizardCoder_Game_Development": {
+            "class_partial_success": 0.2,
+            "class_success": 0.0,
+            "fun_partial_success": 0.35555555555555557,
+            "fun_success": 0.2222222222222222
+        },
         "WizardCoder_greedy": {
             "class_partial_success": 0.1,
             "class_success": 0.08,
@@ -867,6 +1077,12 @@
             "class_success": 0.0,
             "fun_partial_success": 0.11904761904761904,
             "fun_success": 0.047619047619047616
+        },
+        "WizardCoder_greedy_Game_Development": {
+            "class_partial_success": 0.1,
+            "class_success": 0.0,
+            "fun_partial_success": 0.17777777777777778,
+            "fun_success": 0.15555555555555556
         }
     }
 }
