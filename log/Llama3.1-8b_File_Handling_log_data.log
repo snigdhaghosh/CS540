@@ -1,0 +1,1899 @@
+FFFFF
+======================================================================
+FAIL: test_read_csv_1 (ClassEval_26_0.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 93, in test_read_csv_1
+    self.assertEqual(expected_data, data)
+AssertionError: Lists differ: [['hElLo', 'YoU', 'ME', 'LoW']] != [['Hello', 'You', 'Me', 'Low']]
+
+First differing element 0:
+['hElLo', 'YoU', 'ME', 'LoW']
+['Hello', 'You', 'Me', 'Low']
+
+- [['hElLo', 'YoU', 'ME', 'LoW']]
+?    ^^ ^       ^     ^      ^
+
++ [['Hello', 'You', 'Me', 'Low']]
+?    ^^ ^       ^     ^      ^
+
+
+======================================================================
+FAIL: test_read_csv_2 (ClassEval_26_0.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 105, in test_read_csv_2
+    self.assertEqual(expected_data, data)
+AssertionError: Lists differ: [['hElLo', 'YoU', 'ME', 'LoW']] != [['Hello', 'You', 'Me', 'Low']]
+
+First differing element 0:
+['hElLo', 'YoU', 'ME', 'LoW']
+['Hello', 'You', 'Me', 'Low']
+
+- [['hElLo', 'YoU', 'ME', 'LoW']]
+?    ^^ ^       ^     ^      ^
+
++ [['Hello', 'You', 'Me', 'Low']]
+?    ^^ ^       ^     ^      ^
+
+
+======================================================================
+FAIL: test_read_csv_3 (ClassEval_26_0.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 118, in test_read_csv_3
+    self.assertEqual(expected_data, data)
+AssertionError: Lists differ: [['hElLo', 'YoU', 'ME', 'LoW']] != [['Hello', 'You', 'Me', 'Low']]
+
+First differing element 0:
+['hElLo', 'YoU', 'ME', 'LoW']
+['Hello', 'You', 'Me', 'Low']
+
+- [['hElLo', 'YoU', 'ME', 'LoW']]
+?    ^^ ^       ^     ^      ^
+
++ [['Hello', 'You', 'Me', 'Low']]
+?    ^^ ^       ^     ^      ^
+
+
+======================================================================
+FAIL: test_read_csv_4 (ClassEval_26_0.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 131, in test_read_csv_4
+    self.assertEqual(expected_data, data)
+AssertionError: Lists differ: [['hElLo', 'YoU', 'ME', 'LoW']] != [['Hello', 'You', 'Me', 'Low']]
+
+First differing element 0:
+['hElLo', 'YoU', 'ME', 'LoW']
+['Hello', 'You', 'Me', 'Low']
+
+- [['hElLo', 'YoU', 'ME', 'LoW']]
+?    ^^ ^       ^     ^      ^
+
++ [['Hello', 'You', 'Me', 'Low']]
+?    ^^ ^       ^     ^      ^
+
+
+======================================================================
+FAIL: test_read_csv_5 (ClassEval_26_0.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 144, in test_read_csv_5
+    self.assertEqual(expected_data, data)
+AssertionError: Lists differ: [['hElLo', 'YoU', 'ME', 'LoW']] != [['Hello', 'You', 'Me', 'Low']]
+
+First differing element 0:
+['hElLo', 'YoU', 'ME', 'LoW']
+['Hello', 'You', 'Me', 'Low']
+
+- [['hElLo', 'YoU', 'ME', 'LoW']]
+?    ^^ ^       ^     ^      ^
+
++ [['Hello', 'You', 'Me', 'Low']]
+?    ^^ ^       ^     ^      ^
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+FAILED (failures=5)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_csv_data_1 (ClassEval_26_0.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 246, in test_process_csv_data_1
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: [] != ['a', 'b', 'c', 'd']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'a'
+
+- []
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_2 (ClassEval_26_0.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 256, in test_process_csv_data_2
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: [] != ['a', 'b', 'c', 'd']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'a'
+
+- []
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_3 (ClassEval_26_0.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 266, in test_process_csv_data_3
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: [] != ['a', 'b', 'c', 'd']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'a'
+
+- []
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_4 (ClassEval_26_0.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 276, in test_process_csv_data_4
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: [] != ['a', 'b', 'c', 'd']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'a'
+
+- []
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_0.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 286, in test_process_csv_data_5
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: [] != ['a', 'b', 'c', 'd']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'a'
+
+- []
++ ['a', 'b', 'c', 'd']
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_26_0.CSVProcessorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 305, in test_main
+    self.assertEqual(expected_data, data)
+AssertionError: Lists differ: [['hElLo', 'YoU', 'ME', 'LoW']] != [['Hello', 'You', 'Me', 'Low']]
+
+First differing element 0:
+['hElLo', 'YoU', 'ME', 'LoW']
+['Hello', 'You', 'Me', 'Low']
+
+- [['hElLo', 'YoU', 'ME', 'LoW']]
+?    ^^ ^       ^     ^      ^
+
++ [['Hello', 'You', 'Me', 'Low']]
+?    ^^ ^       ^     ^      ^
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+FAILED (failures=1)
+FFFFF
+======================================================================
+FAIL: test_read_csv_1 (ClassEval_26_1.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 89, in test_read_csv_1
+    self.assertEqual(expected_data, data)
+AssertionError: Lists differ: [['hElLo', 'YoU', 'ME', 'LoW']] != [['HELLO', 'YOU', 'ME', 'LOW']]
+
+First differing element 0:
+['hElLo', 'YoU', 'ME', 'LoW']
+['HELLO', 'YOU', 'ME', 'LOW']
+
+- [['hElLo', 'YoU', 'ME', 'LoW']]
+?    ^ - ^     ^            ^
+
++ [['HELLO', 'YOU', 'ME', 'LOW']]
+?    ^  ^^     ^            ^
+
+
+======================================================================
+FAIL: test_read_csv_2 (ClassEval_26_1.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 101, in test_read_csv_2
+    self.assertEqual(expected_data, data)
+AssertionError: Lists differ: [['hElLo', 'YoU', 'ME', 'LoW']] != [['HELLO', 'YOU', 'ME', 'LOW']]
+
+First differing element 0:
+['hElLo', 'YoU', 'ME', 'LoW']
+['HELLO', 'YOU', 'ME', 'LOW']
+
+- [['hElLo', 'YoU', 'ME', 'LoW']]
+?    ^ - ^     ^            ^
+
++ [['HELLO', 'YOU', 'ME', 'LOW']]
+?    ^  ^^     ^            ^
+
+
+======================================================================
+FAIL: test_read_csv_3 (ClassEval_26_1.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 114, in test_read_csv_3
+    self.assertEqual(expected_data, data)
+AssertionError: Lists differ: [['hElLo', 'YoU', 'ME', 'LoW']] != [['HELLO', 'YOU', 'ME', 'LOW']]
+
+First differing element 0:
+['hElLo', 'YoU', 'ME', 'LoW']
+['HELLO', 'YOU', 'ME', 'LOW']
+
+- [['hElLo', 'YoU', 'ME', 'LoW']]
+?    ^ - ^     ^            ^
+
++ [['HELLO', 'YOU', 'ME', 'LOW']]
+?    ^  ^^     ^            ^
+
+
+======================================================================
+FAIL: test_read_csv_4 (ClassEval_26_1.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 127, in test_read_csv_4
+    self.assertEqual(expected_data, data)
+AssertionError: Lists differ: [['hElLo', 'YoU', 'ME', 'LoW']] != [['HELLO', 'YOU', 'ME', 'LOW']]
+
+First differing element 0:
+['hElLo', 'YoU', 'ME', 'LoW']
+['HELLO', 'YOU', 'ME', 'LOW']
+
+- [['hElLo', 'YoU', 'ME', 'LoW']]
+?    ^ - ^     ^            ^
+
++ [['HELLO', 'YOU', 'ME', 'LOW']]
+?    ^  ^^     ^            ^
+
+
+======================================================================
+FAIL: test_read_csv_5 (ClassEval_26_1.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 140, in test_read_csv_5
+    self.assertEqual(expected_data, data)
+AssertionError: Lists differ: [['hElLo', 'YoU', 'ME', 'LoW']] != [['HELLO', 'YOU', 'ME', 'LOW']]
+
+First differing element 0:
+['hElLo', 'YoU', 'ME', 'LoW']
+['HELLO', 'YOU', 'ME', 'LOW']
+
+- [['hElLo', 'YoU', 'ME', 'LoW']]
+?    ^ - ^     ^            ^
+
++ [['HELLO', 'YOU', 'ME', 'LOW']]
+?    ^  ^^     ^            ^
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+FAILED (failures=5)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.014s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_csv_data_1 (ClassEval_26_1.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 242, in test_process_csv_data_1
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['HELLO'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'HELLO'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['HELLO']
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_2 (ClassEval_26_1.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 252, in test_process_csv_data_2
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['YOU'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'YOU'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['YOU']
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_3 (ClassEval_26_1.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 262, in test_process_csv_data_3
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['ME'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'ME'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['ME']
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_4 (ClassEval_26_1.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 272, in test_process_csv_data_4
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['LOW'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'LOW'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['LOW']
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_1.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 282, in test_process_csv_data_5
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['ABC'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'ABC'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['ABC']
++ ['a', 'b', 'c', 'd']
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_26_1.CSVProcessorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 301, in test_main
+    self.assertEqual(expected_data, data)
+AssertionError: Lists differ: [['hElLo', 'YoU', 'ME', 'LoW']] != [['HELLO', 'YOU', 'ME', 'LOW']]
+
+First differing element 0:
+['hElLo', 'YoU', 'ME', 'LoW']
+['HELLO', 'YOU', 'ME', 'LOW']
+
+- [['hElLo', 'YoU', 'ME', 'LoW']]
+?    ^ - ^     ^            ^
+
++ [['HELLO', 'YOU', 'ME', 'LOW']]
+?    ^  ^^     ^            ^
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_csv_data_1 (ClassEval_26_2.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_2.py", line 245, in test_process_csv_data_1
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['ABC'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'ABC'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['ABC']
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_2 (ClassEval_26_2.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_2.py", line 255, in test_process_csv_data_2
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['ABC'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'ABC'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['ABC']
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_3 (ClassEval_26_2.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_2.py", line 265, in test_process_csv_data_3
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['ABC'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'ABC'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['ABC']
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_4 (ClassEval_26_2.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_2.py", line 275, in test_process_csv_data_4
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['ABC'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'ABC'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['ABC']
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_2.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_2.py", line 285, in test_process_csv_data_5
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['ABC'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'ABC'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['ABC']
++ ['a', 'b', 'c', 'd']
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_26_2.CSVProcessorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_2.py", line 312, in test_main
+    self.assertEqual(read_title, title)
+AssertionError: None != ['a', 'b', 'c', 'd']
+
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.015s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_csv_data_1 (ClassEval_26_3.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_3.py", line 257, in test_process_csv_data_1
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['ABC'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'ABC'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['ABC']
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_2 (ClassEval_26_3.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_3.py", line 267, in test_process_csv_data_2
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['ABC'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'ABC'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['ABC']
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_3 (ClassEval_26_3.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_3.py", line 277, in test_process_csv_data_3
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['ABC'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'ABC'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['ABC']
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_4 (ClassEval_26_3.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_3.py", line 287, in test_process_csv_data_4
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['ABC'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'ABC'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['ABC']
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_3.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_3.py", line 297, in test_process_csv_data_5
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['ABC'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'ABC'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['ABC']
++ ['a', 'b', 'c', 'd']
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_26_3.CSVProcessorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_3.py", line 324, in test_main
+    self.assertEqual(read_title, title)
+AssertionError: None != ['a', 'b', 'c', 'd']
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.007s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_csv_data_1 (ClassEval_26_4.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 243, in test_process_csv_data_1
+    self.assertEqual(read_data[0], data)
+AssertionError: Lists differ: ["['HELLO']"] != ['HELLO']
+
+First differing element 0:
+"['HELLO']"
+'HELLO'
+
+- ["['HELLO']"]
+? --         --
+
++ ['HELLO']
+
+======================================================================
+FAIL: test_process_csv_data_2 (ClassEval_26_4.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 253, in test_process_csv_data_2
+    self.assertEqual(read_data[0], data)
+AssertionError: Lists differ: ["['YOU']"] != ['YOU']
+
+First differing element 0:
+"['YOU']"
+'YOU'
+
+- ["['YOU']"]
+? --       --
+
++ ['YOU']
+
+======================================================================
+FAIL: test_process_csv_data_3 (ClassEval_26_4.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 263, in test_process_csv_data_3
+    self.assertEqual(read_data[0], data)
+AssertionError: Lists differ: ["['ME']"] != ['ME']
+
+First differing element 0:
+"['ME']"
+'ME'
+
+- ["['ME']"]
+? --      --
+
++ ['ME']
+
+======================================================================
+FAIL: test_process_csv_data_4 (ClassEval_26_4.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 273, in test_process_csv_data_4
+    self.assertEqual(read_data[0], data)
+AssertionError: Lists differ: ["['LOW']"] != ['LOW']
+
+First differing element 0:
+"['LOW']"
+'LOW'
+
+- ["['LOW']"]
+? --       --
+
++ ['LOW']
+
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_4.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 283, in test_process_csv_data_5
+    self.assertEqual(read_data[0], data)
+AssertionError: Lists differ: ["['ABC']"] != ['ABC']
+
+First differing element 0:
+"['ABC']"
+'ABC'
+
+- ["['ABC']"]
+? --       --
+
++ ['ABC']
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.017s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_26_4.CSVProcessorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 310, in test_main
+    self.assertEqual(read_data[0], data)
+AssertionError: Lists differ: ["['HELLO']"] != ['HELLO']
+
+First differing element 0:
+"['HELLO']"
+'HELLO'
+
+- ["['HELLO']"]
+? --         --
+
++ ['HELLO']
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.027s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.024s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.013s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.029s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.020s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.018s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.017s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.016s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.021s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.018s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+..F..
+======================================================================
+FAIL: test_process_json_3 (ClassEval_50_0.JSONProcessorTestProcessJsonExistingKey)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_50_0.py", line 222, in test_process_json_3
+    self.assertEqual(self.processor.process_json(self.file_path, remove_key), 0)
+AssertionError: -1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.013s
+
+OK
+..E..
+======================================================================
+ERROR: test_process_json_3 (ClassEval_50_1.JSONProcessorTestProcessJsonExistingKey)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_50_1.py", line 222, in test_process_json_3
+    self.assertEqual(self.processor.process_json(self.file_path, remove_key), 0)
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_50_1.py", line 73, in process_json
+    if remove_key not in data:
+TypeError: argument of type 'int' is not iterable
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.013s
+
+FAILED (errors=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.020s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.013s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.009s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.020s
+
+OK
+..F..
+======================================================================
+FAIL: test_process_json_3 (ClassEval_50_3.JSONProcessorTestProcessJsonExistingKey)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_50_3.py", line 212, in test_process_json_3
+    self.assertEqual(self.processor.process_json(self.file_path, remove_key), 0)
+AssertionError: -1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.025s
+
+OK
+..F..
+======================================================================
+FAIL: test_process_json_3 (ClassEval_50_4.JSONProcessorTestProcessJsonExistingKey)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_50_4.py", line 222, in test_process_json_3
+    self.assertEqual(self.processor.process_json(self.file_path, remove_key), 0)
+AssertionError: -1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_file_1 (ClassEval_84_0.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_0.py", line 240, in test_process_file_1
+    self.assertEqual(result, self.expected_result)
+AssertionError: '' != 'HelloWorld'
++ HelloWorld
+
+======================================================================
+FAIL: test_process_file_2 (ClassEval_84_0.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_0.py", line 254, in test_process_file_2
+    self.assertEqual(result, self.expected_result)
+AssertionError: '' != 'HelloabcWorld'
++ HelloabcWorld
+
+======================================================================
+FAIL: test_process_file_3 (ClassEval_84_0.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_0.py", line 269, in test_process_file_3
+    textFileProcessor.read_file.assert_called_once()
+  File "C:\Users\tanuj\AppData\Local\Programs\Python\Python310\lib\unittest\mock.py", line 898, in assert_called_once
+    raise AssertionError(msg)
+AssertionError: Expected 'mock' to have been called once. Called 0 times.
+
+======================================================================
+FAIL: test_process_file_4 (ClassEval_84_0.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_0.py", line 282, in test_process_file_4
+    self.assertEqual(result, self.expected_result)
+AssertionError: '' != 'HelloWorld'
++ HelloWorld
+
+======================================================================
+FAIL: test_process_file_5 (ClassEval_84_0.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_0.py", line 296, in test_process_file_5
+    self.assertEqual(result, self.expected_result)
+AssertionError: '' != 'HelloaWorld'
++ HelloaWorld
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+FAILED (failures=5)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_file_1 (ClassEval_84_1.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 222, in test_process_file_1
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloWorld'
+
+======================================================================
+FAIL: test_process_file_2 (ClassEval_84_1.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 236, in test_process_file_2
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloabcWorld'
+
+======================================================================
+FAIL: test_process_file_3 (ClassEval_84_1.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 250, in test_process_file_3
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != ''
+
+======================================================================
+FAIL: test_process_file_4 (ClassEval_84_1.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 264, in test_process_file_4
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloWorld'
+
+======================================================================
+FAIL: test_process_file_5 (ClassEval_84_1.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 278, in test_process_file_5
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloaWorld'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_84_1.TextFileProcessorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 303, in test_main
+    self.assertEqual(str, type(data3))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.015s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_file_1 (ClassEval_84_2.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_2.py", line 226, in test_process_file_1
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloWorld'
+
+======================================================================
+FAIL: test_process_file_2 (ClassEval_84_2.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_2.py", line 240, in test_process_file_2
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloabcWorld'
+
+======================================================================
+FAIL: test_process_file_3 (ClassEval_84_2.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_2.py", line 254, in test_process_file_3
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != ''
+
+======================================================================
+FAIL: test_process_file_4 (ClassEval_84_2.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_2.py", line 268, in test_process_file_4
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloWorld'
+
+======================================================================
+FAIL: test_process_file_5 (ClassEval_84_2.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_2.py", line 282, in test_process_file_5
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloaWorld'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_84_2.TextFileProcessorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_2.py", line 307, in test_main
+    self.assertEqual(str, type(data3))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.016s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_file_1 (ClassEval_84_3.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 232, in test_process_file_1
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloWorld'
+
+======================================================================
+FAIL: test_process_file_2 (ClassEval_84_3.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 246, in test_process_file_2
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloabcWorld'
+
+======================================================================
+FAIL: test_process_file_3 (ClassEval_84_3.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 260, in test_process_file_3
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != ''
+
+======================================================================
+FAIL: test_process_file_4 (ClassEval_84_3.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 274, in test_process_file_4
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloWorld'
+
+======================================================================
+FAIL: test_process_file_5 (ClassEval_84_3.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 288, in test_process_file_5
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloaWorld'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_84_3.TextFileProcessorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 313, in test_main
+    self.assertEqual(str, type(data3))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.015s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.014s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_file_1 (ClassEval_84_4.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_4.py", line 209, in test_process_file_1
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloWorld'
+
+======================================================================
+FAIL: test_process_file_2 (ClassEval_84_4.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_4.py", line 223, in test_process_file_2
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloabcWorld'
+
+======================================================================
+FAIL: test_process_file_3 (ClassEval_84_4.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_4.py", line 237, in test_process_file_3
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != ''
+
+======================================================================
+FAIL: test_process_file_4 (ClassEval_84_4.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_4.py", line 251, in test_process_file_4
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloWorld'
+
+======================================================================
+FAIL: test_process_file_5 (ClassEval_84_4.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_4.py", line 265, in test_process_file_5
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloaWorld'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_84_4.TextFileProcessorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_4.py", line 290, in test_main
+    self.assertEqual(str, type(data3))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_1.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_1.py", line 331, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_1.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_1.py", line 356, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_1.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_1.py", line 380, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_1.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_1.py", line 403, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_1.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_1.py", line 427, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'aaa' != 'AAA'
+- aaa
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.016s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_1.XMLProcessorTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_1.py", line 565, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_3.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_3.py", line 329, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'modified apple' != 'APPLE'
+- modified apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_3.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_3.py", line 354, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'modified apple' != 'APPLE'
+- modified apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_3.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_3.py", line 378, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'modified apple' != 'APPLE'
+- modified apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_3.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_3.py", line 401, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'modified apple' != 'APPLE'
+- modified apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_3.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_3.py", line 425, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'modified aaa' != 'AAA'
+- modified aaa
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.015s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_3.XMLProcessorTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_3.py", line 563, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'modified apple' != 'APPLE'
+- modified apple
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.007s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.026s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_4.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_4.py", line 331, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_4.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_4.py", line 356, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_4.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_4.py", line 380, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_4.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_4.py", line 403, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_4.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_4.py", line 427, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'aaa' != 'AAA'
+- aaa
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.013s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_4.XMLProcessorTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_4.py", line 565, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.020s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.028s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.018s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.034s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.008s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.026s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.022s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.026s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.016s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.008s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.018s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.020s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.022s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.023s
+
+OK
+F
+======================================================================
+FAIL: test_ZipFileProcessor (ClassEval_99_2.ZipFileProcessorTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_99_2.py", line 596, in test_ZipFileProcessor
+    self.assertTrue(success)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+FAILED (failures=1)
+EEEEE.
+======================================================================
+ERROR: test_read_zip_file_1 (ClassEval_99_3.ZipFileProcessorTestReadZipFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_99_3.py", line 116, in test_read_zip_file_1
+    os.rmdir(test_folder)
+OSError: [WinError 145] The directory is not empty: 'test_folder'
+
+======================================================================
+ERROR: test_read_zip_file_2 (ClassEval_99_3.ZipFileProcessorTestReadZipFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_99_3.py", line 138, in test_read_zip_file_2
+    os.rmdir(test_folder)
+OSError: [WinError 145] The directory is not empty: 'test_folder'
+
+======================================================================
+ERROR: test_read_zip_file_3 (ClassEval_99_3.ZipFileProcessorTestReadZipFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_99_3.py", line 160, in test_read_zip_file_3
+    os.rmdir(test_folder)
+OSError: [WinError 145] The directory is not empty: 'test_folder'
+
+======================================================================
+ERROR: test_read_zip_file_4 (ClassEval_99_3.ZipFileProcessorTestReadZipFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_99_3.py", line 182, in test_read_zip_file_4
+    os.rmdir(test_folder)
+OSError: [WinError 145] The directory is not empty: 'test_folder'
+
+======================================================================
+ERROR: test_read_zip_file_5 (ClassEval_99_3.ZipFileProcessorTestReadZipFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_99_3.py", line 206, in test_read_zip_file_5
+    os.rmdir(test_folder)
+OSError: [WinError 145] The directory is not empty: 'test_folder'
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.048s
+
+FAILED (errors=5)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.034s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.027s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.031s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.015s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.032s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.019s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.029s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+OK

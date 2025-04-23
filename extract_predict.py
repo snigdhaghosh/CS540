@@ -1,7 +1,7 @@
 import json
 import os
 
-input_dir = 'model_outputs'
+input_dir = 'output/entire_models'
 output_dir = 'modified_outputs'
 
 os.makedirs(output_dir, exist_ok=True)

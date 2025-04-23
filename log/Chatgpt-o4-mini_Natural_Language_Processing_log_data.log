@@ -1,0 +1,525 @@
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+...FF
+======================================================================
+FAIL: test_find_longest_word_4 (ClassEval_53_0.LongestWordTestFindLongestWord)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_53_0.py", line 119, in test_find_longest_word_4
+    self.assertEqual('apple', longestWord.find_longest_word(sentence))
+AssertionError: 'apple' != ''
+- apple
++ 
+
+
+======================================================================
+FAIL: test_find_longest_word_5 (ClassEval_53_0.LongestWordTestFindLongestWord)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_53_0.py", line 126, in test_find_longest_word_5
+    self.assertEqual('apple', longestWord.find_longest_word(sentence))
+AssertionError: 'apple' != 'red'
+- apple
++ red
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=2)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+...FF
+======================================================================
+FAIL: test_find_longest_word_4 (ClassEval_53_1.LongestWordTestFindLongestWord)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_53_1.py", line 110, in test_find_longest_word_4
+    self.assertEqual('apple', longestWord.find_longest_word(sentence))
+AssertionError: 'apple' != ''
+- apple
++ 
+
+
+======================================================================
+FAIL: test_find_longest_word_5 (ClassEval_53_1.LongestWordTestFindLongestWord)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_53_1.py", line 117, in test_find_longest_word_5
+    self.assertEqual('apple', longestWord.find_longest_word(sentence))
+AssertionError: 'apple' != 'red'
+- apple
++ red
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=2)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+...FF
+======================================================================
+FAIL: test_find_longest_word_4 (ClassEval_53_2.LongestWordTestFindLongestWord)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_53_2.py", line 112, in test_find_longest_word_4
+    self.assertEqual('apple', longestWord.find_longest_word(sentence))
+AssertionError: 'apple' != ''
+- apple
++ 
+
+
+======================================================================
+FAIL: test_find_longest_word_5 (ClassEval_53_2.LongestWordTestFindLongestWord)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_53_2.py", line 119, in test_find_longest_word_5
+    self.assertEqual('apple', longestWord.find_longest_word(sentence))
+AssertionError: 'apple' != 'red'
+- apple
++ red
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=2)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+...FF
+======================================================================
+FAIL: test_find_longest_word_4 (ClassEval_53_3.LongestWordTestFindLongestWord)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_53_3.py", line 107, in test_find_longest_word_4
+    self.assertEqual('apple', longestWord.find_longest_word(sentence))
+AssertionError: 'apple' != ''
+- apple
++ 
+
+
+======================================================================
+FAIL: test_find_longest_word_5 (ClassEval_53_3.LongestWordTestFindLongestWord)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_53_3.py", line 114, in test_find_longest_word_5
+    self.assertEqual('apple', longestWord.find_longest_word(sentence))
+AssertionError: 'apple' != 'red'
+- apple
++ red
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=2)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+...FF
+======================================================================
+FAIL: test_find_longest_word_4 (ClassEval_53_4.LongestWordTestFindLongestWord)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_53_4.py", line 108, in test_find_longest_word_4
+    self.assertEqual('apple', longestWord.find_longest_word(sentence))
+AssertionError: 'apple' != ''
+- apple
++ 
+
+
+======================================================================
+FAIL: test_find_longest_word_5 (ClassEval_53_4.LongestWordTestFindLongestWord)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_53_4.py", line 115, in test_find_longest_word_5
+    self.assertEqual('apple', longestWord.find_longest_word(sentence))
+AssertionError: 'apple' != 'red'
+- apple
++ red
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=2)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+....F
+======================================================================
+FAIL: test_remove_stop_words_5 (ClassEval_62_0.NLPDataProcessorTestRemove)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_62_0.py", line 91, in test_remove_stop_words_5
+    self.assertEqual(words_list, expected_words_list)
+AssertionError: Lists differ: [['This', 'test'], ['This', 'apple'], ['This', 'dog']] != [['is', 'test'], ['is', 'apple'], ['is', 'dog']]
+
+First differing element 0:
+['This', 'test']
+['is', 'test']
+
+- [['This', 'test'], ['This', 'apple'], ['This', 'dog']]
+?    --                --                 --
+
++ [['is', 'test'], ['is', 'apple'], ['is', 'dog']]
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+....F
+======================================================================
+FAIL: test_remove_stop_words_5 (ClassEval_62_1.NLPDataProcessorTestRemove)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_62_1.py", line 94, in test_remove_stop_words_5
+    self.assertEqual(words_list, expected_words_list)
+AssertionError: Lists differ: [['This', 'test'], ['This', 'apple'], ['This', 'dog']] != [['is', 'test'], ['is', 'apple'], ['is', 'dog']]
+
+First differing element 0:
+['This', 'test']
+['is', 'test']
+
+- [['This', 'test'], ['This', 'apple'], ['This', 'dog']]
+?    --                --                 --
+
++ [['is', 'test'], ['is', 'apple'], ['is', 'dog']]
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+....F
+======================================================================
+FAIL: test_remove_stop_words_5 (ClassEval_62_2.NLPDataProcessorTestRemove)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_62_2.py", line 91, in test_remove_stop_words_5
+    self.assertEqual(words_list, expected_words_list)
+AssertionError: Lists differ: [['This', 'test'], ['This', 'apple'], ['This', 'dog']] != [['is', 'test'], ['is', 'apple'], ['is', 'dog']]
+
+First differing element 0:
+['This', 'test']
+['is', 'test']
+
+- [['This', 'test'], ['This', 'apple'], ['This', 'dog']]
+?    --                --                 --
+
++ [['is', 'test'], ['is', 'apple'], ['is', 'dog']]
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+....F
+======================================================================
+FAIL: test_remove_stop_words_5 (ClassEval_62_3.NLPDataProcessorTestRemove)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_62_3.py", line 92, in test_remove_stop_words_5
+    self.assertEqual(words_list, expected_words_list)
+AssertionError: Lists differ: [['This', 'test'], ['This', 'apple'], ['This', 'dog']] != [['is', 'test'], ['is', 'apple'], ['is', 'dog']]
+
+First differing element 0:
+['This', 'test']
+['is', 'test']
+
+- [['This', 'test'], ['This', 'apple'], ['This', 'dog']]
+?    --                --                 --
+
++ [['is', 'test'], ['is', 'apple'], ['is', 'dog']]
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+....F
+======================================================================
+FAIL: test_remove_stop_words_5 (ClassEval_62_4.NLPDataProcessorTestRemove)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_62_4.py", line 89, in test_remove_stop_words_5
+    self.assertEqual(words_list, expected_words_list)
+AssertionError: Lists differ: [['This', 'test'], ['This', 'apple'], ['This', 'dog']] != [['is', 'test'], ['is', 'apple'], ['is', 'dog']]
+
+First differing element 0:
+['This', 'test']
+['is', 'test']
+
+- [['This', 'test'], ['This', 'apple'], ['This', 'dog']]
+?    --                --                 --
+
++ [['is', 'test'], ['is', 'apple'], ['is', 'dog']]
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+F.F...
+======================================================================
+FAIL: test_is_valid_input (ClassEval_97_0.Words2NumbersTestIsValidInput)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_97_0.py", line 159, in test_is_valid_input
+    self.assertTrue(w2n.is_valid_input("twenty-five thousand three hundred and forty-two"))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_is_valid_input3 (ClassEval_97_0.Words2NumbersTestIsValidInput)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_97_0.py", line 167, in test_is_valid_input3
+    self.assertTrue(w2n.is_valid_input("twenty-fifth thousand three hundred and forty-second"))
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+FAILED (failures=2)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+F.F...
+======================================================================
+FAIL: test_is_valid_input (ClassEval_97_1.Words2NumbersTestIsValidInput)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_97_1.py", line 149, in test_is_valid_input
+    self.assertTrue(w2n.is_valid_input("twenty-five thousand three hundred and forty-two"))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_is_valid_input3 (ClassEval_97_1.Words2NumbersTestIsValidInput)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_97_1.py", line 157, in test_is_valid_input3
+    self.assertTrue(w2n.is_valid_input("twenty-fifth thousand three hundred and forty-second"))
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=2)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+F.F...
+======================================================================
+FAIL: test_is_valid_input (ClassEval_97_2.Words2NumbersTestIsValidInput)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_97_2.py", line 175, in test_is_valid_input
+    self.assertTrue(w2n.is_valid_input("twenty-five thousand three hundred and forty-two"))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_is_valid_input3 (ClassEval_97_2.Words2NumbersTestIsValidInput)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_97_2.py", line 183, in test_is_valid_input3
+    self.assertTrue(w2n.is_valid_input("twenty-fifth thousand three hundred and forty-second"))
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=2)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+F.F...
+======================================================================
+FAIL: test_is_valid_input (ClassEval_97_3.Words2NumbersTestIsValidInput)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_97_3.py", line 158, in test_is_valid_input
+    self.assertTrue(w2n.is_valid_input("twenty-five thousand three hundred and forty-two"))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_is_valid_input3 (ClassEval_97_3.Words2NumbersTestIsValidInput)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_97_3.py", line 166, in test_is_valid_input3
+    self.assertTrue(w2n.is_valid_input("twenty-fifth thousand three hundred and forty-second"))
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=2)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+F.F...
+======================================================================
+FAIL: test_is_valid_input (ClassEval_97_4.Words2NumbersTestIsValidInput)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_97_4.py", line 161, in test_is_valid_input
+    self.assertTrue(w2n.is_valid_input("twenty-five thousand three hundred and forty-two"))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_is_valid_input3 (ClassEval_97_4.Words2NumbersTestIsValidInput)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_97_4.py", line 169, in test_is_valid_input3
+    self.assertTrue(w2n.is_valid_input("twenty-fifth thousand three hundred and forty-second"))
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=2)

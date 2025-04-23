@@ -1,0 +1,1101 @@
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+OK
+....F
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_3.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_3.py", line 290, in test_process_csv_data_5
+    self.assertEqual(1, csvProcessor.process_csv_data(4, self.file))
+AssertionError: 1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.018s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+OK
+....F
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_4.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 301, in test_process_csv_data_5
+    self.assertEqual(1, csvProcessor.process_csv_data(4, self.file))
+AssertionError: 1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.013s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+....F
+======================================================================
+FAIL: test_rotate_image_5 (ClassEval_45_0.ImageProcessorTestRotateImage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_0.py", line 235, in test_rotate_image_5
+    self.assertTrue(ImageChops.difference(original_image.rotate(45), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_45_0.ImageProcessorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_0.py", line 308, in test_main
+    self.assertTrue(ImageChops.difference(original_image.rotate(90), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+....F
+======================================================================
+FAIL: test_rotate_image_5 (ClassEval_45_1.ImageProcessorTestRotateImage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_1.py", line 225, in test_rotate_image_5
+    self.assertTrue(ImageChops.difference(original_image.rotate(45), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_45_1.ImageProcessorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_1.py", line 298, in test_main
+    self.assertTrue(ImageChops.difference(original_image.rotate(90), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+....F
+======================================================================
+FAIL: test_rotate_image_5 (ClassEval_45_2.ImageProcessorTestRotateImage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_2.py", line 240, in test_rotate_image_5
+    self.assertTrue(ImageChops.difference(original_image.rotate(45), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_45_2.ImageProcessorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_2.py", line 313, in test_main
+    self.assertTrue(ImageChops.difference(original_image.rotate(90), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+....F
+======================================================================
+FAIL: test_rotate_image_5 (ClassEval_45_3.ImageProcessorTestRotateImage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_3.py", line 239, in test_rotate_image_5
+    self.assertTrue(ImageChops.difference(original_image.rotate(45), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_45_3.ImageProcessorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_3.py", line 312, in test_main
+    self.assertTrue(ImageChops.difference(original_image.rotate(90), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+EEEEE
+======================================================================
+ERROR: test_resize_image (ClassEval_45_4.ImageProcessorTestResizeImage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_4.py", line 175, in test_resize_image
+    self.processor.resize_image(30, 15)
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_4.py", line 53, in resize_image
+    self.image = self.image.resize((width, height), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+
+======================================================================
+ERROR: test_resize_image_2 (ClassEval_45_4.ImageProcessorTestResizeImage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_4.py", line 180, in test_resize_image_2
+    self.processor.resize_image(30, 15)
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_4.py", line 53, in resize_image
+    self.image = self.image.resize((width, height), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+
+======================================================================
+ERROR: test_resize_image_3 (ClassEval_45_4.ImageProcessorTestResizeImage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_4.py", line 185, in test_resize_image_3
+    self.processor.resize_image(30, 15)
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_4.py", line 53, in resize_image
+    self.image = self.image.resize((width, height), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+
+======================================================================
+ERROR: test_resize_image_4 (ClassEval_45_4.ImageProcessorTestResizeImage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_4.py", line 190, in test_resize_image_4
+    self.processor.resize_image(40, 20)
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_4.py", line 53, in resize_image
+    self.image = self.image.resize((width, height), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+
+======================================================================
+ERROR: test_resize_image_5 (ClassEval_45_4.ImageProcessorTestResizeImage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_4.py", line 195, in test_resize_image_5
+    self.processor.resize_image(50, 25)
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_4.py", line 53, in resize_image
+    self.image = self.image.resize((width, height), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (errors=5)
+....F
+======================================================================
+FAIL: test_rotate_image_5 (ClassEval_45_4.ImageProcessorTestRotateImage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_4.py", line 237, in test_rotate_image_5
+    self.assertTrue(ImageChops.difference(original_image.rotate(45), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+E
+======================================================================
+ERROR: test_main (ClassEval_45_4.ImageProcessorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_4.py", line 305, in test_main
+    self.processor.resize_image(30, 15)
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_45_4.py", line 53, in resize_image
+    self.image = self.image.resize((width, height), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+..F..
+======================================================================
+FAIL: test_process_json_3 (ClassEval_50_0.JSONProcessorTestProcessJsonExistingKey)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_50_0.py", line 227, in test_process_json_3
+    self.assertEqual(self.processor.process_json(self.file_path, remove_key), 0)
+AssertionError: -1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.018s
+
+OK
+..F..
+======================================================================
+FAIL: test_process_json_3 (ClassEval_50_1.JSONProcessorTestProcessJsonExistingKey)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_50_1.py", line 220, in test_process_json_3
+    self.assertEqual(self.processor.process_json(self.file_path, remove_key), 0)
+AssertionError: -1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK
+..F..
+======================================================================
+FAIL: test_process_json_3 (ClassEval_50_2.JSONProcessorTestProcessJsonExistingKey)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_50_2.py", line 224, in test_process_json_3
+    self.assertEqual(self.processor.process_json(self.file_path, remove_key), 0)
+AssertionError: -1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK
+..F..
+======================================================================
+FAIL: test_process_json_3 (ClassEval_50_3.JSONProcessorTestProcessJsonExistingKey)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_50_3.py", line 212, in test_process_json_3
+    self.assertEqual(self.processor.process_json(self.file_path, remove_key), 0)
+AssertionError: -1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_file_1 (ClassEval_84_0.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_0.py", line 212, in test_process_file_1
+    textFileProcessor.write_file.assert_called_once_with(self.expected_result)
+  File "C:\Users\tanuj\AppData\Local\Programs\Python\Python310\lib\unittest\mock.py", line 930, in assert_called_once_with
+    raise AssertionError(msg)
+AssertionError: Expected 'mock' to be called once. Called 0 times.
+
+======================================================================
+FAIL: test_process_file_2 (ClassEval_84_0.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_0.py", line 226, in test_process_file_2
+    textFileProcessor.write_file.assert_called_once_with(self.expected_result)
+  File "C:\Users\tanuj\AppData\Local\Programs\Python\Python310\lib\unittest\mock.py", line 930, in assert_called_once_with
+    raise AssertionError(msg)
+AssertionError: Expected 'mock' to be called once. Called 0 times.
+
+======================================================================
+FAIL: test_process_file_3 (ClassEval_84_0.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_0.py", line 240, in test_process_file_3
+    textFileProcessor.write_file.assert_called_once_with(self.expected_result)
+  File "C:\Users\tanuj\AppData\Local\Programs\Python\Python310\lib\unittest\mock.py", line 930, in assert_called_once_with
+    raise AssertionError(msg)
+AssertionError: Expected 'mock' to be called once. Called 0 times.
+
+======================================================================
+FAIL: test_process_file_4 (ClassEval_84_0.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_0.py", line 254, in test_process_file_4
+    textFileProcessor.write_file.assert_called_once_with(self.expected_result)
+  File "C:\Users\tanuj\AppData\Local\Programs\Python\Python310\lib\unittest\mock.py", line 930, in assert_called_once_with
+    raise AssertionError(msg)
+AssertionError: Expected 'mock' to be called once. Called 0 times.
+
+======================================================================
+FAIL: test_process_file_5 (ClassEval_84_0.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_0.py", line 268, in test_process_file_5
+    textFileProcessor.write_file.assert_called_once_with(self.expected_result)
+  File "C:\Users\tanuj\AppData\Local\Programs\Python\Python310\lib\unittest\mock.py", line 930, in assert_called_once_with
+    raise AssertionError(msg)
+AssertionError: Expected 'mock' to be called once. Called 0 times.
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+FAILED (failures=5)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.013s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.029s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.061s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.038s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.027s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.020s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.018s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.023s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_1.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_1.py", line 327, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple_processed' != 'APPLE'
+- apple_processed
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_1.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_1.py", line 352, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple_processed' != 'APPLE'
+- apple_processed
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_1.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_1.py", line 376, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple_processed' != 'APPLE'
+- apple_processed
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_1.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_1.py", line 399, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple_processed' != 'APPLE'
+- apple_processed
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_1.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_1.py", line 423, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'aaa_processed' != 'AAA'
+- aaa_processed
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_1.XMLProcessorTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_1.py", line 561, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple_processed' != 'APPLE'
+- apple_processed
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+OK
+FFFFF.
+======================================================================
+FAIL: test_write_xml_1 (ClassEval_98_2.XMLProcessorTestWriteXml)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_2.py", line 189, in test_write_xml_1
+    self.assertTrue(result)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_write_xml_2 (ClassEval_98_2.XMLProcessorTestWriteXml)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_2.py", line 214, in test_write_xml_2
+    self.assertTrue(result)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_write_xml_3 (ClassEval_98_2.XMLProcessorTestWriteXml)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_2.py", line 238, in test_write_xml_3
+    self.assertTrue(result)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_write_xml_4 (ClassEval_98_2.XMLProcessorTestWriteXml)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_2.py", line 261, in test_write_xml_4
+    self.assertTrue(result)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_write_xml_5 (ClassEval_98_2.XMLProcessorTestWriteXml)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_2.py", line 286, in test_write_xml_5
+    self.assertTrue(result)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.005s
+
+FAILED (failures=5)
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_2.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_2.py", line 319, in test_process_xml_data_1
+    self.assertTrue(result)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_2.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_2.py", line 344, in test_process_xml_data_2
+    self.assertTrue(result)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_2.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_2.py", line 368, in test_process_xml_data_3
+    self.assertTrue(result)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_2.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_2.py", line 391, in test_process_xml_data_4
+    self.assertTrue(result)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_2.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_2.py", line 415, in test_process_xml_data_5
+    self.assertTrue(result)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.012s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.007s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.017s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.007s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.026s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.017s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.033s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.018s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.028s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.015s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.022s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.031s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.015s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.013s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.020s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.027s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.015s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.008s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.014s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.028s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.024s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.018s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.014s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.014s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.025s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.022s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.023s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+OK

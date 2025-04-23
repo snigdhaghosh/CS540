@@ -1,0 +1,2269 @@
+{
+    "ClassEval_1": {
+        "ClassEval_1_0": {
+            "AreaCalculatorTestCalculateAnnulusArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "AreaCalculatorTestCalculateCircleArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "AreaCalculatorTestCalculateCylinderArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "AreaCalculatorTestCalculateMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "AreaCalculatorTestCalculateSectorArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "AreaCalculatorTestCalculateSphereArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_1_1": {
+            "AreaCalculatorTestCalculateAnnulusArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "AreaCalculatorTestCalculateCircleArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "AreaCalculatorTestCalculateCylinderArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "AreaCalculatorTestCalculateMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "AreaCalculatorTestCalculateSectorArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "AreaCalculatorTestCalculateSphereArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_1_2": {
+            "AreaCalculatorTestCalculateAnnulusArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "AreaCalculatorTestCalculateCircleArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "AreaCalculatorTestCalculateCylinderArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "AreaCalculatorTestCalculateMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "AreaCalculatorTestCalculateSectorArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "AreaCalculatorTestCalculateSphereArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_1_3": {
+            "AreaCalculatorTestCalculateAnnulusArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "AreaCalculatorTestCalculateCircleArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "AreaCalculatorTestCalculateCylinderArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "AreaCalculatorTestCalculateMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "AreaCalculatorTestCalculateSectorArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "AreaCalculatorTestCalculateSphereArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_1_4": {
+            "AreaCalculatorTestCalculateAnnulusArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "AreaCalculatorTestCalculateCircleArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "AreaCalculatorTestCalculateCylinderArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "AreaCalculatorTestCalculateMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "AreaCalculatorTestCalculateSectorArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "AreaCalculatorTestCalculateSphereArea": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_16": {
+        "ClassEval_16_0": {
+            "CalculatorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "CalculatorTestApplyOperator": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CalculatorTestCalculate": {
+                "errors": 2,
+                "failures": 0,
+                "testsRun": 8
+            },
+            "CalculatorTestPrecedence": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_16_1": {
+            "CalculatorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "CalculatorTestApplyOperator": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CalculatorTestCalculate": {
+                "errors": 2,
+                "failures": 0,
+                "testsRun": 8
+            },
+            "CalculatorTestPrecedence": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_16_2": {
+            "CalculatorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "CalculatorTestApplyOperator": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CalculatorTestCalculate": {
+                "errors": 2,
+                "failures": 0,
+                "testsRun": 8
+            },
+            "CalculatorTestPrecedence": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_16_3": {
+            "CalculatorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "CalculatorTestApplyOperator": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CalculatorTestCalculate": {
+                "errors": 3,
+                "failures": 0,
+                "testsRun": 8
+            },
+            "CalculatorTestPrecedence": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_16_4": {
+            "CalculatorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "CalculatorTestApplyOperator": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CalculatorTestCalculate": {
+                "errors": 3,
+                "failures": 0,
+                "testsRun": 8
+            },
+            "CalculatorTestPrecedence": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_19": {
+        "ClassEval_19_0": {
+            "ChandrasekharSieveTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "ChandrasekharSieveTestGeneratePrimes": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ChandrasekharSieveTestGetPrimes": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_19_1": {
+            "ChandrasekharSieveTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "ChandrasekharSieveTestGeneratePrimes": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ChandrasekharSieveTestGetPrimes": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_19_2": {
+            "ChandrasekharSieveTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "ChandrasekharSieveTestGeneratePrimes": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ChandrasekharSieveTestGetPrimes": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_19_3": {
+            "ChandrasekharSieveTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "ChandrasekharSieveTestGeneratePrimes": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ChandrasekharSieveTestGetPrimes": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_19_4": {
+            "ChandrasekharSieveTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "ChandrasekharSieveTestGeneratePrimes": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ChandrasekharSieveTestGetPrimes": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_23": {
+        "ClassEval_23_0": {
+            "CombinationCalculatorTestCount": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CombinationCalculatorTestCountAll": {
+                "errors": 0,
+                "failures": 4,
+                "testsRun": 5
+            },
+            "CombinationCalculatorTestMain": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "CombinationCalculatorTestSelect": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CombinationCalculatorTestSelect2": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CombinationCalculatorTestSelectAll": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_23_1": {
+            "CombinationCalculatorTestCount": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CombinationCalculatorTestCountAll": {
+                "errors": 0,
+                "failures": 4,
+                "testsRun": 5
+            },
+            "CombinationCalculatorTestMain": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "CombinationCalculatorTestSelect": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CombinationCalculatorTestSelect2": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CombinationCalculatorTestSelectAll": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_23_2": {
+            "CombinationCalculatorTestCount": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CombinationCalculatorTestCountAll": {
+                "errors": 0,
+                "failures": 4,
+                "testsRun": 5
+            },
+            "CombinationCalculatorTestMain": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "CombinationCalculatorTestSelect": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CombinationCalculatorTestSelect2": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CombinationCalculatorTestSelectAll": {
+                "errors": 0,
+                "failures": 4,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_23_3": {
+            "CombinationCalculatorTestCount": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CombinationCalculatorTestCountAll": {
+                "errors": 0,
+                "failures": 4,
+                "testsRun": 5
+            },
+            "CombinationCalculatorTestMain": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "CombinationCalculatorTestSelect": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CombinationCalculatorTestSelect2": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CombinationCalculatorTestSelectAll": {
+                "errors": 0,
+                "failures": 4,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_23_4": {
+            "CombinationCalculatorTestCount": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CombinationCalculatorTestCountAll": {
+                "errors": 0,
+                "failures": 3,
+                "testsRun": 5
+            },
+            "CombinationCalculatorTestMain": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "CombinationCalculatorTestSelect": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CombinationCalculatorTestSelect2": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "CombinationCalculatorTestSelectAll": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_24": {
+        "ClassEval_24_0": {
+            "ComplexCalculatorTestAdd": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ComplexCalculatorTestDivide": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ComplexCalculatorTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "ComplexCalculatorTestMultiply": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ComplexCalculatorTestSubtract": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_24_1": {
+            "ComplexCalculatorTestAdd": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ComplexCalculatorTestDivide": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ComplexCalculatorTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "ComplexCalculatorTestMultiply": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ComplexCalculatorTestSubtract": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_24_2": {
+            "ComplexCalculatorTestAdd": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ComplexCalculatorTestDivide": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ComplexCalculatorTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "ComplexCalculatorTestMultiply": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ComplexCalculatorTestSubtract": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_24_3": {
+            "ComplexCalculatorTestAdd": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ComplexCalculatorTestDivide": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ComplexCalculatorTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "ComplexCalculatorTestMultiply": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ComplexCalculatorTestSubtract": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_24_4": {
+            "ComplexCalculatorTestAdd": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ComplexCalculatorTestDivide": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ComplexCalculatorTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "ComplexCalculatorTestMultiply": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ComplexCalculatorTestSubtract": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_29": {
+        "ClassEval_29_0": {
+            "DataStatisticsTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "DataStatisticsTestMean": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatisticsTestMedian": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatisticsTestMode": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_29_1": {
+            "DataStatisticsTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "DataStatisticsTestMean": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatisticsTestMedian": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatisticsTestMode": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_29_2": {
+            "DataStatisticsTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "DataStatisticsTestMean": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatisticsTestMedian": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatisticsTestMode": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_29_3": {
+            "DataStatisticsTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "DataStatisticsTestMean": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatisticsTestMedian": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatisticsTestMode": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_29_4": {
+            "DataStatisticsTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "DataStatisticsTestMean": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatisticsTestMedian": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatisticsTestMode": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_3": {
+        "ClassEval_3_0": {
+            "ArrangementCalculatorTest": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "ArrangementCalculatorTestCount": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ArrangementCalculatorTestCountAll": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ArrangementCalculatorTestFactorial": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ArrangementCalculatorTestSelect": {
+                "errors": 0,
+                "failures": 6,
+                "testsRun": 6
+            },
+            "ArrangementCalculatorTestSelectAll": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_3_1": {
+            "ArrangementCalculatorTest": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "ArrangementCalculatorTestCount": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ArrangementCalculatorTestCountAll": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ArrangementCalculatorTestFactorial": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ArrangementCalculatorTestSelect": {
+                "errors": 0,
+                "failures": 6,
+                "testsRun": 6
+            },
+            "ArrangementCalculatorTestSelectAll": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_3_2": {
+            "ArrangementCalculatorTest": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "ArrangementCalculatorTestCount": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ArrangementCalculatorTestCountAll": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ArrangementCalculatorTestFactorial": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ArrangementCalculatorTestSelect": {
+                "errors": 0,
+                "failures": 6,
+                "testsRun": 6
+            },
+            "ArrangementCalculatorTestSelectAll": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_3_3": {
+            "ArrangementCalculatorTest": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "ArrangementCalculatorTestCount": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ArrangementCalculatorTestCountAll": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ArrangementCalculatorTestFactorial": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ArrangementCalculatorTestSelect": {
+                "errors": 0,
+                "failures": 6,
+                "testsRun": 6
+            },
+            "ArrangementCalculatorTestSelectAll": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_3_4": {
+            "ArrangementCalculatorTest": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "ArrangementCalculatorTestCount": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ArrangementCalculatorTestCountAll": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ArrangementCalculatorTestFactorial": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ArrangementCalculatorTestSelect": {
+                "errors": 0,
+                "failures": 6,
+                "testsRun": 6
+            },
+            "ArrangementCalculatorTestSelectAll": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_30": {
+        "ClassEval_30_0": {
+            "DataStatistics2Test": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "DataStatistics2TestGetCorrelation": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetMax": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetMin": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetStdDeviation": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetSum": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetVariance": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_30_1": {
+            "DataStatistics2Test": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "DataStatistics2TestGetCorrelation": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetMax": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetMin": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetStdDeviation": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetSum": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetVariance": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_30_2": {
+            "DataStatistics2Test": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "DataStatistics2TestGetCorrelation": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetMax": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetMin": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetStdDeviation": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetSum": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetVariance": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_30_3": {
+            "DataStatistics2Test": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "DataStatistics2TestGetCorrelation": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetMax": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetMin": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetStdDeviation": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetSum": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetVariance": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_30_4": {
+            "DataStatistics2Test": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "DataStatistics2TestGetCorrelation": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetMax": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetMin": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetStdDeviation": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetSum": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics2TestGetVariance": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_31": {
+        "ClassEval_31_0": {
+            "DataStatistics4TestCorrelationCoefficient": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "DataStatistics4TestKurtosis": {
+                "errors": 0,
+                "failures": 3,
+                "testsRun": 5
+            },
+            "DataStatistics4TestMain": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "DataStatistics4TestPDF": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics4TestSkewness": {
+                "errors": 0,
+                "failures": 3,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_31_1": {
+            "DataStatistics4TestCorrelationCoefficient": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "DataStatistics4TestKurtosis": {
+                "errors": 0,
+                "failures": 3,
+                "testsRun": 5
+            },
+            "DataStatistics4TestMain": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "DataStatistics4TestPDF": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics4TestSkewness": {
+                "errors": 0,
+                "failures": 3,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_31_2": {
+            "DataStatistics4TestCorrelationCoefficient": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "DataStatistics4TestKurtosis": {
+                "errors": 0,
+                "failures": 3,
+                "testsRun": 5
+            },
+            "DataStatistics4TestMain": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "DataStatistics4TestPDF": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics4TestSkewness": {
+                "errors": 0,
+                "failures": 3,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_31_3": {
+            "DataStatistics4TestCorrelationCoefficient": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "DataStatistics4TestKurtosis": {
+                "errors": 0,
+                "failures": 3,
+                "testsRun": 5
+            },
+            "DataStatistics4TestMain": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "DataStatistics4TestPDF": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics4TestSkewness": {
+                "errors": 0,
+                "failures": 3,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_31_4": {
+            "DataStatistics4TestCorrelationCoefficient": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "DataStatistics4TestKurtosis": {
+                "errors": 0,
+                "failures": 3,
+                "testsRun": 5
+            },
+            "DataStatistics4TestMain": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "DataStatistics4TestPDF": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "DataStatistics4TestSkewness": {
+                "errors": 0,
+                "failures": 3,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_39": {
+        "ClassEval_39_0": {
+            "ExpressionCalculatorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "ExpressionCalculatorTestCalculate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "ExpressionCalculatorTestCalculateMethod": {
+                "errors": 5,
+                "failures": 1,
+                "testsRun": 7
+            },
+            "ExpressionCalculatorTestCompare": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 7
+            },
+            "ExpressionCalculatorTestIsOperator": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ExpressionCalculatorTestPrepare": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 6
+            },
+            "ExpressionCalculatorTestTransform": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 6
+            }
+        },
+        "ClassEval_39_1": {
+            "ExpressionCalculatorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "ExpressionCalculatorTestCalculate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "ExpressionCalculatorTestCalculateMethod": {
+                "errors": 5,
+                "failures": 1,
+                "testsRun": 7
+            },
+            "ExpressionCalculatorTestCompare": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 7
+            },
+            "ExpressionCalculatorTestIsOperator": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ExpressionCalculatorTestPrepare": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "ExpressionCalculatorTestTransform": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 6
+            }
+        },
+        "ClassEval_39_2": {
+            "ExpressionCalculatorTest": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "ExpressionCalculatorTestCalculate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "ExpressionCalculatorTestCalculateMethod": {
+                "errors": 5,
+                "failures": 1,
+                "testsRun": 7
+            },
+            "ExpressionCalculatorTestCompare": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 7
+            },
+            "ExpressionCalculatorTestIsOperator": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ExpressionCalculatorTestPrepare": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 6
+            },
+            "ExpressionCalculatorTestTransform": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 6
+            }
+        },
+        "ClassEval_39_3": {
+            "ExpressionCalculatorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "ExpressionCalculatorTestCalculate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "ExpressionCalculatorTestCalculateMethod": {
+                "errors": 5,
+                "failures": 1,
+                "testsRun": 7
+            },
+            "ExpressionCalculatorTestCompare": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 7
+            },
+            "ExpressionCalculatorTestIsOperator": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ExpressionCalculatorTestPrepare": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 6
+            },
+            "ExpressionCalculatorTestTransform": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 6
+            }
+        },
+        "ClassEval_39_4": {
+            "ExpressionCalculatorTest": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "ExpressionCalculatorTestCalculate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ExpressionCalculatorTestCalculateMethod": {
+                "errors": 5,
+                "failures": 1,
+                "testsRun": 7
+            },
+            "ExpressionCalculatorTestCompare": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 7
+            },
+            "ExpressionCalculatorTestIsOperator": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "ExpressionCalculatorTestPrepare": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "ExpressionCalculatorTestTransform": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 6
+            }
+        }
+    },
+    "ClassEval_51": {
+        "ClassEval_51_0": {
+            "KappaCalculatorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "KappaCalculatorTestFleissKappa": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "KappaCalculatorTestKappa": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        },
+        "ClassEval_51_1": {
+            "KappaCalculatorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "KappaCalculatorTestFleissKappa": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "KappaCalculatorTestKappa": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        },
+        "ClassEval_51_2": {
+            "KappaCalculatorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "KappaCalculatorTestFleissKappa": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "KappaCalculatorTestKappa": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        },
+        "ClassEval_51_3": {
+            "KappaCalculatorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "KappaCalculatorTestFleissKappa": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "KappaCalculatorTestKappa": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        },
+        "ClassEval_51_4": {
+            "KappaCalculatorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "KappaCalculatorTestFleissKappa": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "KappaCalculatorTestKappa": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        }
+    },
+    "ClassEval_56": {
+        "ClassEval_56_0": {
+            "MetricsCalculatorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "MetricsCalculatorTestAccuracy": {
+                "errors": 1,
+                "failures": 1,
+                "testsRun": 6
+            },
+            "MetricsCalculatorTestF1Score": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "MetricsCalculatorTestPrecision": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "MetricsCalculatorTestRecall": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "MetricsCalculatorTestUpdate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_56_1": {
+            "MetricsCalculatorTest": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "MetricsCalculatorTestAccuracy": {
+                "errors": 6,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "MetricsCalculatorTestF1Score": {
+                "errors": 6,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "MetricsCalculatorTestPrecision": {
+                "errors": 6,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "MetricsCalculatorTestRecall": {
+                "errors": 6,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "MetricsCalculatorTestUpdate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_56_2": {
+            "MetricsCalculatorTest": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "MetricsCalculatorTestAccuracy": {
+                "errors": 6,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "MetricsCalculatorTestF1Score": {
+                "errors": 6,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "MetricsCalculatorTestPrecision": {
+                "errors": 6,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "MetricsCalculatorTestRecall": {
+                "errors": 6,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "MetricsCalculatorTestUpdate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_56_3": {
+            "MetricsCalculatorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "MetricsCalculatorTestAccuracy": {
+                "errors": 1,
+                "failures": 1,
+                "testsRun": 6
+            },
+            "MetricsCalculatorTestF1Score": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "MetricsCalculatorTestPrecision": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "MetricsCalculatorTestRecall": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "MetricsCalculatorTestUpdate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_56_4": {
+            "MetricsCalculatorTest": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "MetricsCalculatorTestAccuracy": {
+                "errors": 6,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "MetricsCalculatorTestF1Score": {
+                "errors": 6,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "MetricsCalculatorTestPrecision": {
+                "errors": 6,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "MetricsCalculatorTestRecall": {
+                "errors": 6,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "MetricsCalculatorTestUpdate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_57": {
+        "ClassEval_57_0": {
+            "MetricsCalculator2Test": {
+                "errors": 4,
+                "failures": 0,
+                "testsRun": 4
+            },
+            "MetricsCalculator2TestMap": {
+                "errors": 7,
+                "failures": 0,
+                "testsRun": 8
+            },
+            "MetricsCalculator2TestMrr": {
+                "errors": 7,
+                "failures": 0,
+                "testsRun": 8
+            }
+        },
+        "ClassEval_57_1": {
+            "MetricsCalculator2Test": {
+                "errors": 3,
+                "failures": 1,
+                "testsRun": 4
+            },
+            "MetricsCalculator2TestMap": {
+                "errors": 3,
+                "failures": 4,
+                "testsRun": 8
+            },
+            "MetricsCalculator2TestMrr": {
+                "errors": 7,
+                "failures": 0,
+                "testsRun": 8
+            }
+        },
+        "ClassEval_57_2": {
+            "MetricsCalculator2Test": {
+                "errors": 4,
+                "failures": 0,
+                "testsRun": 4
+            },
+            "MetricsCalculator2TestMap": {
+                "errors": 7,
+                "failures": 0,
+                "testsRun": 8
+            },
+            "MetricsCalculator2TestMrr": {
+                "errors": 7,
+                "failures": 0,
+                "testsRun": 8
+            }
+        },
+        "ClassEval_57_3": {
+            "MetricsCalculator2Test": {
+                "errors": 4,
+                "failures": 0,
+                "testsRun": 4
+            },
+            "MetricsCalculator2TestMap": {
+                "errors": 7,
+                "failures": 0,
+                "testsRun": 8
+            },
+            "MetricsCalculator2TestMrr": {
+                "errors": 7,
+                "failures": 0,
+                "testsRun": 8
+            }
+        },
+        "ClassEval_57_4": {
+            "MetricsCalculator2Test": {
+                "errors": 4,
+                "failures": 0,
+                "testsRun": 4
+            },
+            "MetricsCalculator2TestMap": {
+                "errors": 7,
+                "failures": 0,
+                "testsRun": 8
+            },
+            "MetricsCalculator2TestMrr": {
+                "errors": 7,
+                "failures": 0,
+                "testsRun": 8
+            }
+        }
+    },
+    "ClassEval_81": {
+        "ClassEval_81_0": {
+            "Statistics3TestCorrelation": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            },
+            "Statistics3TestCorrelationMatrix": {
+                "errors": 0,
+                "failures": 4,
+                "testsRun": 5
+            },
+            "Statistics3TestMain": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "Statistics3TestMean": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "Statistics3TestMedian": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "Statistics3TestMode": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "Statistics3TestStandardDeviation": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "Statistics3TestZScore": {
+                "errors": 0,
+                "failures": 3,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_81_1": {
+            "Statistics3TestCorrelation": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            },
+            "Statistics3TestCorrelationMatrix": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "Statistics3TestMain": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "Statistics3TestMean": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "Statistics3TestMedian": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "Statistics3TestMode": {
+                "errors": 0,
+                "failures": 4,
+                "testsRun": 5
+            },
+            "Statistics3TestStandardDeviation": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            },
+            "Statistics3TestZScore": {
+                "errors": 4,
+                "failures": 1,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_81_2": {
+            "Statistics3TestCorrelation": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            },
+            "Statistics3TestCorrelationMatrix": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "Statistics3TestMain": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "Statistics3TestMean": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "Statistics3TestMedian": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "Statistics3TestMode": {
+                "errors": 0,
+                "failures": 4,
+                "testsRun": 5
+            },
+            "Statistics3TestStandardDeviation": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            },
+            "Statistics3TestZScore": {
+                "errors": 4,
+                "failures": 1,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_81_3": {
+            "Statistics3TestCorrelation": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            },
+            "Statistics3TestCorrelationMatrix": {
+                "errors": 0,
+                "failures": 4,
+                "testsRun": 5
+            },
+            "Statistics3TestMain": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "Statistics3TestMean": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "Statistics3TestMedian": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "Statistics3TestMode": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "Statistics3TestStandardDeviation": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            },
+            "Statistics3TestZScore": {
+                "errors": 3,
+                "failures": 2,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_81_4": {
+            "Statistics3TestCorrelation": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            },
+            "Statistics3TestCorrelationMatrix": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "Statistics3TestMain": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "Statistics3TestMean": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "Statistics3TestMedian": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "Statistics3TestMode": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "Statistics3TestStandardDeviation": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "Statistics3TestZScore": {
+                "errors": 3,
+                "failures": 2,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_88": {
+        "ClassEval_88_0": {
+            "TriCalculatorTest": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "TriCalculatorTestCos": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            },
+            "TriCalculatorTestFactorial": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "TriCalculatorTestSin": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 5
+            },
+            "TriCalculatorTestTan": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            },
+            "TriCalculatorTestTaylor": {
+                "errors": 0,
+                "failures": 4,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_88_1": {
+            "TriCalculatorTest": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "TriCalculatorTestCos": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            },
+            "TriCalculatorTestFactorial": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "TriCalculatorTestSin": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            },
+            "TriCalculatorTestTan": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 5
+            },
+            "TriCalculatorTestTaylor": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_88_2": {
+            "TriCalculatorTest": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "TriCalculatorTestCos": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            },
+            "TriCalculatorTestFactorial": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "TriCalculatorTestSin": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 5
+            },
+            "TriCalculatorTestTan": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            },
+            "TriCalculatorTestTaylor": {
+                "errors": 0,
+                "failures": 4,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_88_3": {
+            "TriCalculatorTest": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "TriCalculatorTestCos": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            },
+            "TriCalculatorTestFactorial": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "TriCalculatorTestSin": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 5
+            },
+            "TriCalculatorTestTan": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            },
+            "TriCalculatorTestTaylor": {
+                "errors": 0,
+                "failures": 4,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_88_4": {
+            "TriCalculatorTest": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "TriCalculatorTestCos": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            },
+            "TriCalculatorTestFactorial": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "TriCalculatorTestSin": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            },
+            "TriCalculatorTestTan": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            },
+            "TriCalculatorTestTaylor": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_9": {
+        "ClassEval_9_0": {
+            "BigNumCalculatorTestAdd": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "BigNumCalculatorTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BigNumCalculatorTestMultiply": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "BigNumCalculatorTestSubtract": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_9_1": {
+            "BigNumCalculatorTestAdd": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "BigNumCalculatorTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BigNumCalculatorTestMultiply": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "BigNumCalculatorTestSubtract": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_9_2": {
+            "BigNumCalculatorTestAdd": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "BigNumCalculatorTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BigNumCalculatorTestMultiply": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "BigNumCalculatorTestSubtract": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_9_3": {
+            "BigNumCalculatorTestAdd": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "BigNumCalculatorTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BigNumCalculatorTestMultiply": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "BigNumCalculatorTestSubtract": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_9_4": {
+            "BigNumCalculatorTestAdd": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "BigNumCalculatorTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BigNumCalculatorTestMultiply": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "BigNumCalculatorTestSubtract": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    }
+}

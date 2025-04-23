@@ -1,0 +1,437 @@
+{
+    "ClassEval_52": {
+        "ClassEval_52_0": {
+            "LemmatizationTestGetPosTag": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "LemmatizationTestLemmatizeSentence": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "LemmatizationTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "LemmatizationTestRemovePunctuation": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        },
+        "ClassEval_52_1": {
+            "LemmatizationTestGetPosTag": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "LemmatizationTestLemmatizeSentence": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "LemmatizationTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "LemmatizationTestRemovePunctuation": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        },
+        "ClassEval_52_2": {
+            "LemmatizationTestGetPosTag": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "LemmatizationTestLemmatizeSentence": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "LemmatizationTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "LemmatizationTestRemovePunctuation": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        },
+        "ClassEval_52_3": {
+            "LemmatizationTestGetPosTag": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "LemmatizationTestLemmatizeSentence": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "LemmatizationTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "LemmatizationTestRemovePunctuation": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        },
+        "ClassEval_52_4": {
+            "LemmatizationTestGetPosTag": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "LemmatizationTestLemmatizeSentence": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "LemmatizationTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "LemmatizationTestRemovePunctuation": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        }
+    },
+    "ClassEval_53": {
+        "ClassEval_53_0": {
+            "LongestWordTestAddWord": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "LongestWordTestFindLongestWord": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_53_1": {
+            "LongestWordTestAddWord": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "LongestWordTestFindLongestWord": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_53_2": {
+            "LongestWordTestAddWord": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "LongestWordTestFindLongestWord": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_53_3": {
+            "LongestWordTestAddWord": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "LongestWordTestFindLongestWord": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_53_4": {
+            "LongestWordTestAddWord": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "LongestWordTestFindLongestWord": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_62": {
+        "ClassEval_62_0": {
+            "NLPDataProcessorTestConstruct": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "NLPDataProcessorTestProcess": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "NLPDataProcessorTestRemove": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_62_1": {
+            "NLPDataProcessorTestConstruct": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "NLPDataProcessorTestProcess": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "NLPDataProcessorTestRemove": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_62_2": {
+            "NLPDataProcessorTestConstruct": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "NLPDataProcessorTestProcess": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "NLPDataProcessorTestRemove": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_62_3": {
+            "NLPDataProcessorTestConstruct": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "NLPDataProcessorTestProcess": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "NLPDataProcessorTestRemove": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_62_4": {
+            "NLPDataProcessorTestConstruct": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "NLPDataProcessorTestProcess": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "NLPDataProcessorTestRemove": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_63": {
+        "ClassEval_63_0": {
+            "NLPDataProcessorTestCalculate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "NLPDataProcessorTestProcess": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "NLPDataProcessorTestProcessData": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_63_1": {
+            "NLPDataProcessorTestCalculate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "NLPDataProcessorTestProcess": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "NLPDataProcessorTestProcessData": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_63_2": {
+            "NLPDataProcessorTestCalculate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "NLPDataProcessorTestProcess": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "NLPDataProcessorTestProcessData": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_63_3": {
+            "NLPDataProcessorTestCalculate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "NLPDataProcessorTestProcess": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "NLPDataProcessorTestProcessData": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_63_4": {
+            "NLPDataProcessorTestCalculate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "NLPDataProcessorTestProcess": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "NLPDataProcessorTestProcessData": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_97": {
+        "ClassEval_97_0": {
+            " Words2NumbersTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "Words2NumbersTestIsValidInput": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 6
+            },
+            "Words2NumbersTestText2Int": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            }
+        },
+        "ClassEval_97_1": {
+            " Words2NumbersTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "Words2NumbersTestIsValidInput": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 6
+            },
+            "Words2NumbersTestText2Int": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            }
+        },
+        "ClassEval_97_2": {
+            " Words2NumbersTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "Words2NumbersTestIsValidInput": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 6
+            },
+            "Words2NumbersTestText2Int": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            }
+        },
+        "ClassEval_97_3": {
+            " Words2NumbersTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "Words2NumbersTestIsValidInput": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 6
+            },
+            "Words2NumbersTestText2Int": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            }
+        },
+        "ClassEval_97_4": {
+            " Words2NumbersTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "Words2NumbersTestIsValidInput": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 6
+            },
+            "Words2NumbersTestText2Int": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            }
+        }
+    }
+}

@@ -1,0 +1,986 @@
+{
+    "ClassEval_14": {
+        "ClassEval_14_0": {
+            "BookManagementDBTestAddBook": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestBorrowBook": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestCreateTable": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 2
+            },
+            "BookManagementDBTestRemoveBook": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestReturnBook": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestSearchBooks": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            }
+        },
+        "ClassEval_14_1": {
+            "BookManagementDBTestAddBook": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestBorrowBook": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestCreateTable": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 2
+            },
+            "BookManagementDBTestRemoveBook": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestReturnBook": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestSearchBooks": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            }
+        },
+        "ClassEval_14_2": {
+            "BookManagementDBTestAddBook": {
+                "errors": 1,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "BookManagementDBTestBorrowBook": {
+                "errors": 2,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestCreateTable": {
+                "errors": 2,
+                "failures": 0,
+                "testsRun": 2
+            },
+            "BookManagementDBTestRemoveBook": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestReturnBook": {
+                "errors": 2,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestSearchBooks": {
+                "errors": 1,
+                "failures": 1,
+                "testsRun": 1
+            }
+        },
+        "ClassEval_14_3": {
+            "BookManagementDBTestAddBook": {
+                "errors": 1,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "BookManagementDBTestBorrowBook": {
+                "errors": 2,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestCreateTable": {
+                "errors": 2,
+                "failures": 0,
+                "testsRun": 2
+            },
+            "BookManagementDBTestRemoveBook": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestReturnBook": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestSearchBooks": {
+                "errors": 1,
+                "failures": 1,
+                "testsRun": 1
+            }
+        },
+        "ClassEval_14_4": {
+            "BookManagementDBTestAddBook": {
+                "errors": 1,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "BookManagementDBTestBorrowBook": {
+                "errors": 2,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestCreateTable": {
+                "errors": 2,
+                "failures": 0,
+                "testsRun": 2
+            },
+            "BookManagementDBTestRemoveBook": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestReturnBook": {
+                "errors": 2,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestSearchBooks": {
+                "errors": 1,
+                "failures": 1,
+                "testsRun": 1
+            }
+        }
+    },
+    "ClassEval_28": {
+        "ClassEval_28_0": {
+            "DatabaseProcessorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestCreateTable": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestDeteleFromDatabase": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestInsertIntoDatabase": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestSearchDatabase": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        },
+        "ClassEval_28_1": {
+            "DatabaseProcessorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestCreateTable": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestDeteleFromDatabase": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestInsertIntoDatabase": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestSearchDatabase": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        },
+        "ClassEval_28_2": {
+            "DatabaseProcessorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestCreateTable": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestDeteleFromDatabase": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestInsertIntoDatabase": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestSearchDatabase": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        },
+        "ClassEval_28_3": {
+            "DatabaseProcessorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestCreateTable": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestDeteleFromDatabase": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestInsertIntoDatabase": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestSearchDatabase": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        },
+        "ClassEval_28_4": {
+            "DatabaseProcessorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestCreateTable": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestDeteleFromDatabase": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestInsertIntoDatabase": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestSearchDatabase": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        }
+    },
+    "ClassEval_60": {
+        "ClassEval_60_0": {
+            "MovieTicketDBTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "MovieTicketDBTestDeleteTicket": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "MovieTicketDBTestInsertTicket": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "MovieTicketDBTestSearchTicketsByCustomer": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        },
+        "ClassEval_60_1": {
+            "MovieTicketDBTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "MovieTicketDBTestDeleteTicket": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "MovieTicketDBTestInsertTicket": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "MovieTicketDBTestSearchTicketsByCustomer": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_60_2": {
+            "MovieTicketDBTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "MovieTicketDBTestDeleteTicket": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "MovieTicketDBTestInsertTicket": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "MovieTicketDBTestSearchTicketsByCustomer": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_60_3": {
+            "MovieTicketDBTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "MovieTicketDBTestDeleteTicket": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "MovieTicketDBTestInsertTicket": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "MovieTicketDBTestSearchTicketsByCustomer": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_60_4": {
+            "MovieTicketDBTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "MovieTicketDBTestDeleteTicket": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "MovieTicketDBTestInsertTicket": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "MovieTicketDBTestSearchTicketsByCustomer": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_79": {
+        "ClassEval_79_0": {
+            "SQLGeneratorTestDelete": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "SQLGeneratorTestInsert": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "SQLGeneratorTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "SQLGeneratorTestSelect": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "SQLGeneratorTestSelectByAgeRange": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "SQLGeneratorTestSelectFemaleUnderAge": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "SQLGeneratorTestUpdate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_79_1": {
+            "SQLGeneratorTestDelete": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "SQLGeneratorTestInsert": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "SQLGeneratorTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "SQLGeneratorTestSelect": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "SQLGeneratorTestSelectByAgeRange": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "SQLGeneratorTestSelectFemaleUnderAge": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "SQLGeneratorTestUpdate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_79_2": {
+            "SQLGeneratorTestDelete": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "SQLGeneratorTestInsert": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "SQLGeneratorTestMain": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "SQLGeneratorTestSelect": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 6
+            },
+            "SQLGeneratorTestSelectByAgeRange": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "SQLGeneratorTestSelectFemaleUnderAge": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "SQLGeneratorTestUpdate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_79_3": {
+            "SQLGeneratorTestDelete": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "SQLGeneratorTestInsert": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "SQLGeneratorTestMain": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "SQLGeneratorTestSelect": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 6
+            },
+            "SQLGeneratorTestSelectByAgeRange": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "SQLGeneratorTestSelectFemaleUnderAge": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "SQLGeneratorTestUpdate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_79_4": {
+            "SQLGeneratorTestDelete": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "SQLGeneratorTestInsert": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "SQLGeneratorTestMain": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "SQLGeneratorTestSelect": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "SQLGeneratorTestSelectByAgeRange": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "SQLGeneratorTestSelectFemaleUnderAge": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "SQLGeneratorTestUpdate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_80": {
+        "ClassEval_80_0": {
+            "SQLQueryBuilderTestDetele": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 6
+            },
+            "SQLQueryBuilderTestInsert": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "SQLQueryBuilderTestMain": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "SQLQueryBuilderTestSelect": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 7
+            },
+            "SQLQueryBuilderTestUpdate": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 6
+            }
+        },
+        "ClassEval_80_1": {
+            "SQLQueryBuilderTestDetele": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "SQLQueryBuilderTestInsert": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "SQLQueryBuilderTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "SQLQueryBuilderTestSelect": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 7
+            },
+            "SQLQueryBuilderTestUpdate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            }
+        },
+        "ClassEval_80_2": {
+            "SQLQueryBuilderTestDetele": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "SQLQueryBuilderTestInsert": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "SQLQueryBuilderTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "SQLQueryBuilderTestSelect": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 7
+            },
+            "SQLQueryBuilderTestUpdate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            }
+        },
+        "ClassEval_80_3": {
+            "SQLQueryBuilderTestDetele": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "SQLQueryBuilderTestInsert": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "SQLQueryBuilderTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "SQLQueryBuilderTestSelect": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 7
+            },
+            "SQLQueryBuilderTestUpdate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            }
+        },
+        "ClassEval_80_4": {
+            "SQLQueryBuilderTestDetele": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "SQLQueryBuilderTestInsert": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "SQLQueryBuilderTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "SQLQueryBuilderTestSelect": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 7
+            },
+            "SQLQueryBuilderTestUpdate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 6
+            }
+        }
+    },
+    "ClassEval_83": {
+        "ClassEval_83_0": {
+            "StudentDatabaseProcessorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "StudentDatabaseProcessorTestDeleteStudentByName": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "StudentDatabaseProcessorTestInsertStudent": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "StudentDatabaseProcessorTestSearchStudentByName": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_83_1": {
+            "StudentDatabaseProcessorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "StudentDatabaseProcessorTestDeleteStudentByName": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "StudentDatabaseProcessorTestInsertStudent": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "StudentDatabaseProcessorTestSearchStudentByName": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_83_2": {
+            "StudentDatabaseProcessorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "StudentDatabaseProcessorTestDeleteStudentByName": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "StudentDatabaseProcessorTestInsertStudent": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "StudentDatabaseProcessorTestSearchStudentByName": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_83_3": {
+            "StudentDatabaseProcessorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "StudentDatabaseProcessorTestDeleteStudentByName": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "StudentDatabaseProcessorTestInsertStudent": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "StudentDatabaseProcessorTestSearchStudentByName": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_83_4": {
+            "StudentDatabaseProcessorTest": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "StudentDatabaseProcessorTestDeleteStudentByName": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "StudentDatabaseProcessorTestInsertStudent": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "StudentDatabaseProcessorTestSearchStudentByName": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_92": {
+        "ClassEval_92_0": {
+            "UserLoginDBTest": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "UserLoginDBTestDeleteUserByUsername": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "UserLoginDBTestInsertUser": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "UserLoginDBTestSearchUserByUsername": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "UserLoginDBTestValidateUserLogin": {
+                "errors": 4,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_92_1": {
+            "UserLoginDBTest": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "UserLoginDBTestDeleteUserByUsername": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "UserLoginDBTestInsertUser": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "UserLoginDBTestSearchUserByUsername": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "UserLoginDBTestValidateUserLogin": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_92_2": {
+            "UserLoginDBTest": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "UserLoginDBTestDeleteUserByUsername": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "UserLoginDBTestInsertUser": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "UserLoginDBTestSearchUserByUsername": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "UserLoginDBTestValidateUserLogin": {
+                "errors": 0,
+                "failures": 3,
+                "testsRun": 5
+            }
+        },
+        "ClassEval_92_3": {
+            "UserLoginDBTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "UserLoginDBTestDeleteUserByUsername": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "UserLoginDBTestInsertUser": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "UserLoginDBTestSearchUserByUsername": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "UserLoginDBTestValidateUserLogin": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        },
+        "ClassEval_92_4": {
+            "UserLoginDBTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "UserLoginDBTestDeleteUserByUsername": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "UserLoginDBTestInsertUser": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "UserLoginDBTestSearchUserByUsername": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "UserLoginDBTestValidateUserLogin": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    }
+}

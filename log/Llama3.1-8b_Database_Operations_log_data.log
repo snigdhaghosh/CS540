@@ -1,0 +1,2248 @@
+FF
+======================================================================
+FAIL: test_create_table_1 (ClassEval_14_0.BookManagementDBTestCreateTable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_0.py", line 111, in test_create_table_1
+    self.assertIsNotNone(result)
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_create_table_2 (ClassEval_14_0.BookManagementDBTestCreateTable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_0.py", line 120, in test_create_table_2
+    self.assertEqual(column_names, expected_column_names)
+AssertionError: Lists differ: [] != ['id', 'title', 'author', 'available']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'id'
+
+- []
++ ['id', 'title', 'author', 'available']
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.032s
+
+FAILED (failures=2)
+E
+======================================================================
+ERROR: test_add_book (ClassEval_14_0.BookManagementDBTestAddBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_0.py", line 142, in test_add_book
+    self.cursor.execute("SELECT title, author, available FROM books WHERE id=1")
+sqlite3.OperationalError: no such table: books
+
+----------------------------------------------------------------------
+Ran 1 test in 0.035s
+
+FAILED (errors=1)
+E
+======================================================================
+ERROR: test_remove_book (ClassEval_14_0.BookManagementDBTestRemoveBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_0.py", line 169, in test_remove_book
+    self.cursor.execute("SELECT * FROM books WHERE id=1")
+sqlite3.OperationalError: no such table: books
+
+----------------------------------------------------------------------
+Ran 1 test in 0.031s
+
+FAILED (errors=1)
+E
+======================================================================
+ERROR: test_borrow_book (ClassEval_14_0.BookManagementDBTestBorrowBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_0.py", line 193, in test_borrow_book
+    self.cursor.execute("SELECT available FROM books WHERE id=1")
+sqlite3.OperationalError: no such table: books
+
+----------------------------------------------------------------------
+Ran 1 test in 0.041s
+
+FAILED (errors=1)
+E
+======================================================================
+ERROR: test_return_book (ClassEval_14_0.BookManagementDBTestReturnBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_0.py", line 218, in test_return_book
+    self.cursor.execute("SELECT available FROM books WHERE id=1")
+sqlite3.OperationalError: no such table: books
+
+----------------------------------------------------------------------
+Ran 1 test in 0.067s
+
+FAILED (errors=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.056s
+
+OK
+FF
+======================================================================
+FAIL: test_create_table_1 (ClassEval_14_1.BookManagementDBTestCreateTable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_1.py", line 148, in test_create_table_1
+    self.assertIsNotNone(result)
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_create_table_2 (ClassEval_14_1.BookManagementDBTestCreateTable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_1.py", line 157, in test_create_table_2
+    self.assertEqual(column_names, expected_column_names)
+AssertionError: Lists differ: [] != ['id', 'title', 'author', 'available']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'id'
+
+- []
++ ['id', 'title', 'author', 'available']
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.033s
+
+FAILED (failures=2)
+E
+======================================================================
+ERROR: test_add_book (ClassEval_14_1.BookManagementDBTestAddBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_1.py", line 179, in test_add_book
+    self.cursor.execute("SELECT title, author, available FROM books WHERE id=1")
+sqlite3.OperationalError: no such table: books
+
+----------------------------------------------------------------------
+Ran 1 test in 0.015s
+
+FAILED (errors=1)
+E
+======================================================================
+ERROR: test_remove_book (ClassEval_14_1.BookManagementDBTestRemoveBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_1.py", line 206, in test_remove_book
+    self.cursor.execute("SELECT * FROM books WHERE id=1")
+sqlite3.OperationalError: no such table: books
+
+----------------------------------------------------------------------
+Ran 1 test in 0.040s
+
+FAILED (errors=1)
+E
+======================================================================
+ERROR: test_borrow_book (ClassEval_14_1.BookManagementDBTestBorrowBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_1.py", line 230, in test_borrow_book
+    self.cursor.execute("SELECT available FROM books WHERE id=1")
+sqlite3.OperationalError: no such table: books
+
+----------------------------------------------------------------------
+Ran 1 test in 0.037s
+
+FAILED (errors=1)
+E
+======================================================================
+ERROR: test_return_book (ClassEval_14_1.BookManagementDBTestReturnBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_1.py", line 255, in test_return_book
+    self.cursor.execute("SELECT available FROM books WHERE id=1")
+sqlite3.OperationalError: no such table: books
+
+----------------------------------------------------------------------
+Ran 1 test in 0.051s
+
+FAILED (errors=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.049s
+
+OK
+EE
+======================================================================
+ERROR: test_create_table_1 (ClassEval_14_2.BookManagementDBTestCreateTable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_2.py", line 151, in tearDown
+    os.remove(self.db_name)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.db'
+
+======================================================================
+ERROR: test_create_table_2 (ClassEval_14_2.BookManagementDBTestCreateTable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_2.py", line 151, in tearDown
+    os.remove(self.db_name)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.db'
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.018s
+
+FAILED (errors=2)
+FE
+======================================================================
+ERROR: test_add_book (ClassEval_14_2.BookManagementDBTestAddBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_2.py", line 178, in tearDown
+    os.remove(self.db_name)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.db'
+
+======================================================================
+FAIL: test_add_book (ClassEval_14_2.BookManagementDBTestAddBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_2.py", line 170, in test_add_book
+    self.assertEqual(result[0], title)
+AssertionError: 'book1' != 'Introduction to Python'
+- book1
++ Introduction to Python
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.017s
+
+FAILED (failures=1, errors=1)
+E
+======================================================================
+ERROR: test_remove_book (ClassEval_14_2.BookManagementDBTestRemoveBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_2.py", line 202, in tearDown
+    os.remove(self.db_name)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.db'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.017s
+
+FAILED (errors=1)
+EE
+======================================================================
+ERROR: test_borrow_book (ClassEval_14_2.BookManagementDBTestBorrowBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_2.py", line 220, in test_borrow_book
+    self.assertEqual(result[0], 0)
+TypeError: 'NoneType' object is not subscriptable
+
+======================================================================
+ERROR: test_borrow_book (ClassEval_14_2.BookManagementDBTestBorrowBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_2.py", line 226, in tearDown
+    os.remove(self.db_name)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.db'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.019s
+
+FAILED (errors=2)
+EE
+======================================================================
+ERROR: test_return_book (ClassEval_14_2.BookManagementDBTestReturnBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_2.py", line 245, in test_return_book
+    self.assertEqual(result[0], 1)
+TypeError: 'NoneType' object is not subscriptable
+
+======================================================================
+ERROR: test_return_book (ClassEval_14_2.BookManagementDBTestReturnBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_2.py", line 251, in tearDown
+    os.remove(self.db_name)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.db'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.011s
+
+FAILED (errors=2)
+FE
+======================================================================
+ERROR: test_search_books (ClassEval_14_2.BookManagementDBTestSearchBooks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_2.py", line 280, in tearDown
+    os.remove(self.db_name)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.db'
+
+======================================================================
+FAIL: test_search_books (ClassEval_14_2.BookManagementDBTestSearchBooks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_2.py", line 269, in test_search_books
+    self.assertEqual(len(books), 3)
+AssertionError: 7 != 3
+
+----------------------------------------------------------------------
+Ran 1 test in 0.047s
+
+FAILED (failures=1, errors=1)
+EE
+======================================================================
+ERROR: test_create_table_1 (ClassEval_14_3.BookManagementDBTestCreateTable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_3.py", line 156, in tearDown
+    os.remove(self.db_name)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.db'
+
+======================================================================
+ERROR: test_create_table_2 (ClassEval_14_3.BookManagementDBTestCreateTable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_3.py", line 156, in tearDown
+    os.remove(self.db_name)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.db'
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.005s
+
+FAILED (errors=2)
+FE
+======================================================================
+ERROR: test_add_book (ClassEval_14_3.BookManagementDBTestAddBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_3.py", line 183, in tearDown
+    os.remove(self.db_name)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.db'
+
+======================================================================
+FAIL: test_add_book (ClassEval_14_3.BookManagementDBTestAddBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_3.py", line 174, in test_add_book
+    self.assertIsNotNone(result)
+AssertionError: unexpectedly None
+
+----------------------------------------------------------------------
+Ran 1 test in 0.011s
+
+FAILED (failures=1, errors=1)
+E
+======================================================================
+ERROR: test_remove_book (ClassEval_14_3.BookManagementDBTestRemoveBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_3.py", line 207, in tearDown
+    os.remove(self.db_name)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.db'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.017s
+
+FAILED (errors=1)
+EE
+======================================================================
+ERROR: test_borrow_book (ClassEval_14_3.BookManagementDBTestBorrowBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_3.py", line 220, in test_borrow_book
+    self.db.borrow_book(1)
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_3.py", line 74, in borrow_book
+    self.cursor.execute(query, (book_id,))
+sqlite3.OperationalError: no such column: is_borrowed
+
+======================================================================
+ERROR: test_borrow_book (ClassEval_14_3.BookManagementDBTestBorrowBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_3.py", line 231, in tearDown
+    os.remove(self.db_name)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.db'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.012s
+
+FAILED (errors=2)
+E
+======================================================================
+ERROR: test_return_book (ClassEval_14_3.BookManagementDBTestReturnBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_3.py", line 242, in setUp
+    self.db.borrow_book(1)  # Mark the book as borrowed
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_3.py", line 74, in borrow_book
+    self.cursor.execute(query, (book_id,))
+sqlite3.OperationalError: no such column: is_borrowed
+
+----------------------------------------------------------------------
+Ran 1 test in 0.008s
+
+FAILED (errors=1)
+FE
+======================================================================
+ERROR: test_search_books (ClassEval_14_3.BookManagementDBTestSearchBooks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_3.py", line 285, in tearDown
+    os.remove(self.db_name)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.db'
+
+======================================================================
+FAIL: test_search_books (ClassEval_14_3.BookManagementDBTestSearchBooks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_3.py", line 274, in test_search_books
+    self.assertEqual(len(books), 3)
+AssertionError: 14 != 3
+
+----------------------------------------------------------------------
+Ran 1 test in 0.023s
+
+FAILED (failures=1, errors=1)
+EE
+======================================================================
+ERROR: test_create_table_1 (ClassEval_14_4.BookManagementDBTestCreateTable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_4.py", line 125, in tearDown
+    os.remove(self.db_name)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.db'
+
+======================================================================
+ERROR: test_create_table_2 (ClassEval_14_4.BookManagementDBTestCreateTable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_4.py", line 125, in tearDown
+    os.remove(self.db_name)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.db'
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.008s
+
+FAILED (errors=2)
+FE
+======================================================================
+ERROR: test_add_book (ClassEval_14_4.BookManagementDBTestAddBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_4.py", line 152, in tearDown
+    os.remove(self.db_name)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.db'
+
+======================================================================
+FAIL: test_add_book (ClassEval_14_4.BookManagementDBTestAddBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_4.py", line 143, in test_add_book
+    self.assertIsNotNone(result)
+AssertionError: unexpectedly None
+
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+FAILED (failures=1, errors=1)
+E
+======================================================================
+ERROR: test_remove_book (ClassEval_14_4.BookManagementDBTestRemoveBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_4.py", line 176, in tearDown
+    os.remove(self.db_name)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.db'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.011s
+
+FAILED (errors=1)
+EE
+======================================================================
+ERROR: test_borrow_book (ClassEval_14_4.BookManagementDBTestBorrowBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_4.py", line 194, in test_borrow_book
+    self.assertEqual(result[0], 0)
+TypeError: 'NoneType' object is not subscriptable
+
+======================================================================
+ERROR: test_borrow_book (ClassEval_14_4.BookManagementDBTestBorrowBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_4.py", line 200, in tearDown
+    os.remove(self.db_name)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.db'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+FAILED (errors=2)
+EE
+======================================================================
+ERROR: test_return_book (ClassEval_14_4.BookManagementDBTestReturnBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_4.py", line 219, in test_return_book
+    self.assertEqual(result[0], 1)
+TypeError: 'NoneType' object is not subscriptable
+
+======================================================================
+ERROR: test_return_book (ClassEval_14_4.BookManagementDBTestReturnBook)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_4.py", line 225, in tearDown
+    os.remove(self.db_name)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.db'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+FAILED (errors=2)
+FE
+======================================================================
+ERROR: test_search_books (ClassEval_14_4.BookManagementDBTestSearchBooks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_4.py", line 254, in tearDown
+    os.remove(self.db_name)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.db'
+
+======================================================================
+FAIL: test_search_books (ClassEval_14_4.BookManagementDBTestSearchBooks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_14_4.py", line 243, in test_search_books
+    self.assertEqual(len(books), 3)
+AssertionError: 6 != 3
+
+----------------------------------------------------------------------
+Ran 1 test in 0.023s
+
+FAILED (failures=1, errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.070s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.091s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.123s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.018s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.089s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.227s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.127s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.021s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.100s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.084s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.119s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.029s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.096s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.093s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.135s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.034s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....F
+======================================================================
+FAIL: test_select_6 (ClassEval_79_2.SQLGeneratorTestSelect)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_2.py", line 124, in test_select_6
+    self.assertEqual(result, "SELECT field1 FROM table1;")
+AssertionError: 'SELECT field1 FROM table1' != 'SELECT field1 FROM table1;'
+- SELECT field1 FROM table1
++ SELECT field1 FROM table1;
+?                          +
+
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_select_female_under_age (ClassEval_79_2.SQLGeneratorTestSelectFemaleUnderAge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_2.py", line 227, in test_select_female_under_age
+    self.assertEqual(result, "SELECT * FROM table1 WHERE age < 30 AND gender = 'female';")
+AssertionError: "SELECT * FROM table1 WHERE age < 30 AND gender = 'female'" != "SELECT * FROM table1 WHERE age < 30 AND gender = 'female';"
+- SELECT * FROM table1 WHERE age < 30 AND gender = 'female'
++ SELECT * FROM table1 WHERE age < 30 AND gender = 'female';
+?                                                          +
+
+
+======================================================================
+FAIL: test_select_female_under_age_2 (ClassEval_79_2.SQLGeneratorTestSelectFemaleUnderAge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_2.py", line 232, in test_select_female_under_age_2
+    self.assertEqual(result,"SELECT * FROM table1 WHERE age < 40 AND gender = 'female';")
+AssertionError: "SELECT * FROM table1 WHERE age < 40 AND gender = 'female'" != "SELECT * FROM table1 WHERE age < 40 AND gender = 'female';"
+- SELECT * FROM table1 WHERE age < 40 AND gender = 'female'
++ SELECT * FROM table1 WHERE age < 40 AND gender = 'female';
+?                                                          +
+
+
+======================================================================
+FAIL: test_select_female_under_age_3 (ClassEval_79_2.SQLGeneratorTestSelectFemaleUnderAge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_2.py", line 237, in test_select_female_under_age_3
+    self.assertEqual(result,"SELECT * FROM table1 WHERE age < 20 AND gender = 'female';")
+AssertionError: "SELECT * FROM table1 WHERE age < 20 AND gender = 'female'" != "SELECT * FROM table1 WHERE age < 20 AND gender = 'female';"
+- SELECT * FROM table1 WHERE age < 20 AND gender = 'female'
++ SELECT * FROM table1 WHERE age < 20 AND gender = 'female';
+?                                                          +
+
+
+======================================================================
+FAIL: test_select_female_under_age_4 (ClassEval_79_2.SQLGeneratorTestSelectFemaleUnderAge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_2.py", line 242, in test_select_female_under_age_4
+    self.assertEqual(result,"SELECT * FROM table1 WHERE age < 10 AND gender = 'female';")
+AssertionError: "SELECT * FROM table1 WHERE age < 10 AND gender = 'female'" != "SELECT * FROM table1 WHERE age < 10 AND gender = 'female';"
+- SELECT * FROM table1 WHERE age < 10 AND gender = 'female'
++ SELECT * FROM table1 WHERE age < 10 AND gender = 'female';
+?                                                          +
+
+
+======================================================================
+FAIL: test_select_female_under_age_5 (ClassEval_79_2.SQLGeneratorTestSelectFemaleUnderAge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_2.py", line 247, in test_select_female_under_age_5
+    self.assertEqual(result,"SELECT * FROM table1 WHERE age < 50 AND gender = 'female';")
+AssertionError: "SELECT * FROM table1 WHERE age < 50 AND gender = 'female'" != "SELECT * FROM table1 WHERE age < 50 AND gender = 'female';"
+- SELECT * FROM table1 WHERE age < 50 AND gender = 'female'
++ SELECT * FROM table1 WHERE age < 50 AND gender = 'female';
+?                                                          +
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=5)
+FFFFF
+======================================================================
+FAIL: test_select_by_age_range (ClassEval_79_2.SQLGeneratorTestSelectByAgeRange)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_2.py", line 253, in test_select_by_age_range
+    self.assertEqual(result, "SELECT * FROM table1 WHERE age BETWEEN 20 AND 30;")
+AssertionError: 'SELECT * FROM table1 WHERE age BETWEEN 20 AND 30' != 'SELECT * FROM table1 WHERE age BETWEEN 20 AND 30;'
+- SELECT * FROM table1 WHERE age BETWEEN 20 AND 30
++ SELECT * FROM table1 WHERE age BETWEEN 20 AND 30;
+?                                                 +
+
+
+======================================================================
+FAIL: test_select_by_age_range_2 (ClassEval_79_2.SQLGeneratorTestSelectByAgeRange)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_2.py", line 258, in test_select_by_age_range_2
+    self.assertEqual(result, "SELECT * FROM table1 WHERE age BETWEEN 10 AND 20;")
+AssertionError: 'SELECT * FROM table1 WHERE age BETWEEN 10 AND 20' != 'SELECT * FROM table1 WHERE age BETWEEN 10 AND 20;'
+- SELECT * FROM table1 WHERE age BETWEEN 10 AND 20
++ SELECT * FROM table1 WHERE age BETWEEN 10 AND 20;
+?                                                 +
+
+
+======================================================================
+FAIL: test_select_by_age_range_3 (ClassEval_79_2.SQLGeneratorTestSelectByAgeRange)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_2.py", line 263, in test_select_by_age_range_3
+    self.assertEqual(result, "SELECT * FROM table1 WHERE age BETWEEN 30 AND 40;")
+AssertionError: 'SELECT * FROM table1 WHERE age BETWEEN 30 AND 40' != 'SELECT * FROM table1 WHERE age BETWEEN 30 AND 40;'
+- SELECT * FROM table1 WHERE age BETWEEN 30 AND 40
++ SELECT * FROM table1 WHERE age BETWEEN 30 AND 40;
+?                                                 +
+
+
+======================================================================
+FAIL: test_select_by_age_range_4 (ClassEval_79_2.SQLGeneratorTestSelectByAgeRange)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_2.py", line 268, in test_select_by_age_range_4
+    self.assertEqual(result, "SELECT * FROM table1 WHERE age BETWEEN 40 AND 50;")
+AssertionError: 'SELECT * FROM table1 WHERE age BETWEEN 40 AND 50' != 'SELECT * FROM table1 WHERE age BETWEEN 40 AND 50;'
+- SELECT * FROM table1 WHERE age BETWEEN 40 AND 50
++ SELECT * FROM table1 WHERE age BETWEEN 40 AND 50;
+?                                                 +
+
+
+======================================================================
+FAIL: test_select_by_age_range_5 (ClassEval_79_2.SQLGeneratorTestSelectByAgeRange)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_2.py", line 273, in test_select_by_age_range_5
+    self.assertEqual(result, "SELECT * FROM table1 WHERE age BETWEEN 50 AND 60;")
+AssertionError: 'SELECT * FROM table1 WHERE age BETWEEN 50 AND 60' != 'SELECT * FROM table1 WHERE age BETWEEN 50 AND 60;'
+- SELECT * FROM table1 WHERE age BETWEEN 50 AND 60
++ SELECT * FROM table1 WHERE age BETWEEN 50 AND 60;
+?                                                 +
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_79_2.SQLGeneratorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_2.py", line 288, in test_main
+    self.assertEqual(sql.select_female_under_age(30),
+AssertionError: "SELECT * FROM table1 WHERE age < 30 AND gender = 'female'" != "SELECT * FROM table1 WHERE age < 30 AND gender = 'female';"
+- SELECT * FROM table1 WHERE age < 30 AND gender = 'female'
++ SELECT * FROM table1 WHERE age < 30 AND gender = 'female';
+?                                                          +
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+.F...F
+======================================================================
+FAIL: test_select_2 (ClassEval_79_3.SQLGeneratorTestSelect)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_3.py", line 104, in test_select_2
+    self.assertEqual(result, "SELECT field1, field2 FROM table1 WHERE field3 = value1;")
+AssertionError: 'SELECT field1 , field2 FROM table1 WHERE field3 = value1;' != 'SELECT field1, field2 FROM table1 WHERE field3 = value1;'
+- SELECT field1 , field2 FROM table1 WHERE field3 = value1;
+?              -
++ SELECT field1, field2 FROM table1 WHERE field3 = value1;
+
+
+======================================================================
+FAIL: test_select_6 (ClassEval_79_3.SQLGeneratorTestSelect)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_3.py", line 124, in test_select_6
+    self.assertEqual(result, "SELECT field1 FROM table1;")
+AssertionError: 'SELECT field1 FROM table1' != 'SELECT field1 FROM table1;'
+- SELECT field1 FROM table1
++ SELECT field1 FROM table1;
+?                          +
+
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=2)
+FFFFF
+======================================================================
+FAIL: test_insert (ClassEval_79_3.SQLGeneratorTestInsert)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_3.py", line 132, in test_insert
+    self.assertEqual(result, "INSERT INTO table1 (field1, field2) VALUES ('value1', 'value2');")
+AssertionError: "INSERT INTO table1 (field1,field2) VALUES ('value1','value2');" != "INSERT INTO table1 (field1, field2) VALUES ('value1', 'value2');"
+- INSERT INTO table1 (field1,field2) VALUES ('value1','value2');
++ INSERT INTO table1 (field1, field2) VALUES ('value1', 'value2');
+?                            +                         +
+
+
+======================================================================
+FAIL: test_insert_2 (ClassEval_79_3.SQLGeneratorTestInsert)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_3.py", line 137, in test_insert_2
+    self.assertEqual(result, "INSERT INTO table1 (field1, field2, field3) VALUES ('value1', 'value2', 'value3');")
+AssertionError: "INSE[16 chars]field1,field2,field3) VALUES ('value1','value2','value3');" != "INSE[16 chars]field1, field2, field3) VALUES ('value1', 'value2', 'value3');"
+- INSERT INTO table1 (field1,field2,field3) VALUES ('value1','value2','value3');
++ INSERT INTO table1 (field1, field2, field3) VALUES ('value1', 'value2', 'value3');
+?                            +       +                         +         +
+
+
+======================================================================
+FAIL: test_insert_3 (ClassEval_79_3.SQLGeneratorTestInsert)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_3.py", line 142, in test_insert_3
+    self.assertEqual(result,
+AssertionError: "INSE[18 chars]eld1,field2,field3,field4) VALUES ('value1','v[22 chars]4');" != "INSE[18 chars]eld1, field2, field3, field4) VALUES ('value1'[28 chars]4');"
+- INSERT INTO table1 (field1,field2,field3,field4) VALUES ('value1','value2','value3','value4');
++ INSERT INTO table1 (field1, field2, field3, field4) VALUES ('value1', 'value2', 'value3', 'value4');
+?                            +       +       +                         +         +         +
+
+
+======================================================================
+FAIL: test_insert_4 (ClassEval_79_3.SQLGeneratorTestInsert)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_3.py", line 149, in test_insert_4
+    self.assertEqual(result,
+AssertionError: "INSE[18 chars]eld1,field2,field3,field4,field5) VALUES ('val[38 chars]5');" != "INSE[18 chars]eld1, field2, field3, field4, field5) VALUES ([46 chars]5');"
+- INSERT INTO table1 (field1,field2,field3,field4,field5) VALUES ('value1','value2','value3','value4','value5');
++ INSERT INTO table1 (field1, field2, field3, field4, field5) VALUES ('value1', 'value2', 'value3', 'value4', 'value5');
+?                            +       +       +       +                         +         +         +         +
+
+
+======================================================================
+FAIL: test_insert_5 (ClassEval_79_3.SQLGeneratorTestInsert)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_3.py", line 156, in test_insert_5
+    self.assertEqual(result,
+AssertionError: "INSE[18 chars]eld1,field2,field3,field4,field5,field6) VALUE[54 chars]6');" != "INSE[18 chars]eld1, field2, field3, field4, field5, field6) [64 chars]6');"
+- INSERT INTO table1 (field1,field2,field3,field4,field5,field6) VALUES ('value1','value2','value3','value4','value5','value6');
++ INSERT INTO table1 (field1, field2, field3, field4, field5, field6) VALUES ('value1', 'value2', 'value3', 'value4', 'value5', 'value6');
+?                            +       +       +       +       +                         +         +         +         +         +
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_79_3.SQLGeneratorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_3.py", line 279, in test_main
+    self.assertEqual(sql.select(['field1', 'field2'], "field3 = value1"),
+AssertionError: 'SELECT field1 , field2 FROM table1 WHERE field3 = value1;' != 'SELECT field1, field2 FROM table1 WHERE field3 = value1;'
+- SELECT field1 , field2 FROM table1 WHERE field3 = value1;
+?              -
++ SELECT field1, field2 FROM table1 WHERE field3 = value1;
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_insert (ClassEval_79_4.SQLGeneratorTestInsert)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_4.py", line 122, in test_insert
+    self.assertEqual(result, "INSERT INTO table1 (field1, field2) VALUES ('value1', 'value2');")
+AssertionError: "INSE[16 chars]field1, field2) VALUES (field1 = 'value1', field2 = 'value2');" != "INSE[16 chars]field1, field2) VALUES ('value1', 'value2');"
+- INSERT INTO table1 (field1, field2) VALUES (field1 = 'value1', field2 = 'value2');
+?                                             ---------         ---------
++ INSERT INTO table1 (field1, field2) VALUES ('value1', 'value2');
+
+
+======================================================================
+FAIL: test_insert_2 (ClassEval_79_4.SQLGeneratorTestInsert)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_4.py", line 127, in test_insert_2
+    self.assertEqual(result, "INSERT INTO table1 (field1, field2, field3) VALUES ('value1', 'value2', 'value3');")
+AssertionError: "INSE[43 chars]UES (field1 = 'value1', field2 = 'value2', field3 = 'value3');" != "INSE[43 chars]UES ('value1', 'value2', 'value3');"
+- INSERT INTO table1 (field1, field2, field3) VALUES (field1 = 'value1', field2 = 'value2', field3 = 'value3');
+?                                                     ---------          ---------         ---------
++ INSERT INTO table1 (field1, field2, field3) VALUES ('value1', 'value2', 'value3');
+
+
+======================================================================
+FAIL: test_insert_3 (ClassEval_79_4.SQLGeneratorTestInsert)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_4.py", line 132, in test_insert_3
+    self.assertEqual(result,
+AssertionError: "INSE[51 chars]UES (field1 = 'value1', field2 = 'value2', fie[31 chars]4');" != "INSE[51 chars]UES ('value1', 'value2', 'value3', 'value4');"
+- INSERT INTO table1 (field1, field2, field3, field4) VALUES (field1 = 'value1', field2 = 'value2', field3 = 'value3', field4 = 'value4');
+?                                                             ---------          ---------          ---------         ---------
++ INSERT INTO table1 (field1, field2, field3, field4) VALUES ('value1', 'value2', 'value3', 'value4');
+
+
+======================================================================
+FAIL: test_insert_4 (ClassEval_79_4.SQLGeneratorTestInsert)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_4.py", line 139, in test_insert_4
+    self.assertEqual(result,
+AssertionError: "INSE[59 chars]UES (field1 = 'value1', field2 = 'value2', fie[50 chars]5');" != "INSE[59 chars]UES ('value1', 'value2', 'value3', 'value4', 'value5');"
+- INSERT INTO table1 (field1, field2, field3, field4, field5) VALUES (field1 = 'value1', field2 = 'value2', field3 = 'value3', field4 = 'value4', field5 = 'value5');
+?                                                                     ---------          ---------          ---------          ---------         ---------
++ INSERT INTO table1 (field1, field2, field3, field4, field5) VALUES ('value1', 'value2', 'value3', 'value4', 'value5');
+
+
+======================================================================
+FAIL: test_insert_5 (ClassEval_79_4.SQLGeneratorTestInsert)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_4.py", line 146, in test_insert_5
+    self.assertEqual(result,
+AssertionError: "INSE[67 chars]UES (field1 = 'value1', field2 = 'value2', fie[69 chars]6');" != "INSE[67 chars]UES ('value1', 'value2', 'value3', 'value4', '[15 chars]6');"
+- INSERT INTO table1 (field1, field2, field3, field4, field5, field6) VALUES (field1 = 'value1', field2 = 'value2', field3 = 'value3', field4 = 'value4', field5 = 'value5', field6 = 'value6');
+?                                                                             ---------          ---------          ---------          ---------          ---------         ---------
++ INSERT INTO table1 (field1, field2, field3, field4, field5, field6) VALUES ('value1', 'value2', 'value3', 'value4', 'value5', 'value6');
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_select_female_under_age (ClassEval_79_4.SQLGeneratorTestSelectFemaleUnderAge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_4.py", line 217, in test_select_female_under_age
+    self.assertEqual(result, "SELECT * FROM table1 WHERE age < 30 AND gender = 'female';")
+AssertionError: 'SELECT * FROM table1 WHERE age < 30 AND gender = "female";' != "SELECT * FROM table1 WHERE age < 30 AND gender = 'female';"
+- SELECT * FROM table1 WHERE age < 30 AND gender = "female";
+?                                                  ^      ^
++ SELECT * FROM table1 WHERE age < 30 AND gender = 'female';
+?                                                  ^      ^
+
+
+======================================================================
+FAIL: test_select_female_under_age_2 (ClassEval_79_4.SQLGeneratorTestSelectFemaleUnderAge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_4.py", line 222, in test_select_female_under_age_2
+    self.assertEqual(result,"SELECT * FROM table1 WHERE age < 40 AND gender = 'female';")
+AssertionError: 'SELECT * FROM table1 WHERE age < 40 AND gender = "female";' != "SELECT * FROM table1 WHERE age < 40 AND gender = 'female';"
+- SELECT * FROM table1 WHERE age < 40 AND gender = "female";
+?                                                  ^      ^
++ SELECT * FROM table1 WHERE age < 40 AND gender = 'female';
+?                                                  ^      ^
+
+
+======================================================================
+FAIL: test_select_female_under_age_3 (ClassEval_79_4.SQLGeneratorTestSelectFemaleUnderAge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_4.py", line 227, in test_select_female_under_age_3
+    self.assertEqual(result,"SELECT * FROM table1 WHERE age < 20 AND gender = 'female';")
+AssertionError: 'SELECT * FROM table1 WHERE age < 20 AND gender = "female";' != "SELECT * FROM table1 WHERE age < 20 AND gender = 'female';"
+- SELECT * FROM table1 WHERE age < 20 AND gender = "female";
+?                                                  ^      ^
++ SELECT * FROM table1 WHERE age < 20 AND gender = 'female';
+?                                                  ^      ^
+
+
+======================================================================
+FAIL: test_select_female_under_age_4 (ClassEval_79_4.SQLGeneratorTestSelectFemaleUnderAge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_4.py", line 232, in test_select_female_under_age_4
+    self.assertEqual(result,"SELECT * FROM table1 WHERE age < 10 AND gender = 'female';")
+AssertionError: 'SELECT * FROM table1 WHERE age < 10 AND gender = "female";' != "SELECT * FROM table1 WHERE age < 10 AND gender = 'female';"
+- SELECT * FROM table1 WHERE age < 10 AND gender = "female";
+?                                                  ^      ^
++ SELECT * FROM table1 WHERE age < 10 AND gender = 'female';
+?                                                  ^      ^
+
+
+======================================================================
+FAIL: test_select_female_under_age_5 (ClassEval_79_4.SQLGeneratorTestSelectFemaleUnderAge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_4.py", line 237, in test_select_female_under_age_5
+    self.assertEqual(result,"SELECT * FROM table1 WHERE age < 50 AND gender = 'female';")
+AssertionError: 'SELECT * FROM table1 WHERE age < 50 AND gender = "female";' != "SELECT * FROM table1 WHERE age < 50 AND gender = 'female';"
+- SELECT * FROM table1 WHERE age < 50 AND gender = "female";
+?                                                  ^      ^
++ SELECT * FROM table1 WHERE age < 50 AND gender = 'female';
+?                                                  ^      ^
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_79_4.SQLGeneratorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_79_4.py", line 271, in test_main
+    self.assertEqual(sql.insert({'field1': 'value1', 'field2': 'value2'}),
+AssertionError: "INSE[16 chars]field1, field2) VALUES (field1 = 'value1', field2 = 'value2');" != "INSE[16 chars]field1, field2) VALUES ('value1', 'value2');"
+- INSERT INTO table1 (field1, field2) VALUES (field1 = 'value1', field2 = 'value2');
+?                                             ---------         ---------
++ INSERT INTO table1 (field1, field2) VALUES ('value1', 'value2');
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+FFFFF..
+======================================================================
+FAIL: test_select_1 (ClassEval_80_0.SQLQueryBuilderTestSelect)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_80_0.py", line 87, in test_select_1
+    self.assertEqual(
+AssertionError: "SELECT id, name FROM users WHEREage='30'" != "SELECT id, name FROM users WHERE age='30'"
+- SELECT id, name FROM users WHEREage='30'
++ SELECT id, name FROM users WHERE age='30'
+?                                 +
+
+
+======================================================================
+FAIL: test_select_2 (ClassEval_80_0.SQLQueryBuilderTestSelect)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_80_0.py", line 93, in test_select_2
+    self.assertEqual(
+AssertionError: "SELECT id, name FROM students WHEREage='18'" != "SELECT id, name FROM students WHERE age='18'"
+- SELECT id, name FROM students WHEREage='18'
++ SELECT id, name FROM students WHERE age='18'
+?                                    +
+
+
+======================================================================
+FAIL: test_select_3 (ClassEval_80_0.SQLQueryBuilderTestSelect)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_80_0.py", line 99, in test_select_3
+    self.assertEqual(
+AssertionError: "SELECT id, name FROM items WHEREprice='1.0'" != "SELECT id, name FROM items WHERE price='1.0'"
+- SELECT id, name FROM items WHEREprice='1.0'
++ SELECT id, name FROM items WHERE price='1.0'
+?                                 +
+
+
+======================================================================
+FAIL: test_select_4 (ClassEval_80_0.SQLQueryBuilderTestSelect)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_80_0.py", line 105, in test_select_4
+    self.assertEqual(
+AssertionError: "SELECT id FROM users WHEREage='30'" != "SELECT id FROM users WHERE age='30'"
+- SELECT id FROM users WHEREage='30'
++ SELECT id FROM users WHERE age='30'
+?                           +
+
+
+======================================================================
+FAIL: test_select_5 (ClassEval_80_0.SQLQueryBuilderTestSelect)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_80_0.py", line 111, in test_select_5
+    self.assertEqual(
+AssertionError: "SELECT name FROM users WHEREage='30'" != "SELECT name FROM users WHERE age='30'"
+- SELECT name FROM users WHEREage='30'
++ SELECT name FROM users WHERE age='30'
+?                             +
+
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.002s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+FFFFF.
+======================================================================
+FAIL: test_delete_1 (ClassEval_80_0.SQLQueryBuilderTestDetele)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_80_0.py", line 163, in test_delete_1
+    self.assertEqual(
+AssertionError: "DELETE FROM users WHEREname='Tom'" != "DELETE FROM users WHERE name='Tom'"
+- DELETE FROM users WHEREname='Tom'
++ DELETE FROM users WHERE name='Tom'
+?                        +
+
+
+======================================================================
+FAIL: test_delete_2 (ClassEval_80_0.SQLQueryBuilderTestDetele)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_80_0.py", line 169, in test_delete_2
+    self.assertEqual(
+AssertionError: "DELETE FROM students WHEREname='Tom'" != "DELETE FROM students WHERE name='Tom'"
+- DELETE FROM students WHEREname='Tom'
++ DELETE FROM students WHERE name='Tom'
+?                           +
+
+
+======================================================================
+FAIL: test_delete_3 (ClassEval_80_0.SQLQueryBuilderTestDetele)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_80_0.py", line 175, in test_delete_3
+    self.assertEqual(
+AssertionError: "DELETE FROM items WHEREname='apple'" != "DELETE FROM items WHERE name='apple'"
+- DELETE FROM items WHEREname='apple'
++ DELETE FROM items WHERE name='apple'
+?                        +
+
+
+======================================================================
+FAIL: test_delete_4 (ClassEval_80_0.SQLQueryBuilderTestDetele)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_80_0.py", line 181, in test_delete_4
+    self.assertEqual(
+AssertionError: "DELETE FROM items WHEREname='aaa'" != "DELETE FROM items WHERE name='aaa'"
+- DELETE FROM items WHEREname='aaa'
++ DELETE FROM items WHERE name='aaa'
+?                        +
+
+
+======================================================================
+FAIL: test_delete_5 (ClassEval_80_0.SQLQueryBuilderTestDetele)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_80_0.py", line 187, in test_delete_5
+    self.assertEqual(
+AssertionError: "DELETE FROM items WHEREname='bbb'" != "DELETE FROM items WHERE name='bbb'"
+- DELETE FROM items WHEREname='bbb'
++ DELETE FROM items WHERE name='bbb'
+?                        +
+
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+FAILED (failures=5)
+FFFFF.
+======================================================================
+FAIL: test_update_1 (ClassEval_80_0.SQLQueryBuilderTestUpdate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_80_0.py", line 201, in test_update_1
+    self.assertEqual(
+AssertionError: "UPDATE users SET age='35' WHEREname='Tom'" != "UPDATE users SET age='35' WHERE name='Tom'"
+- UPDATE users SET age='35' WHEREname='Tom'
++ UPDATE users SET age='35' WHERE name='Tom'
+?                                +
+
+
+======================================================================
+FAIL: test_update_2 (ClassEval_80_0.SQLQueryBuilderTestUpdate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_80_0.py", line 207, in test_update_2
+    self.assertEqual(
+AssertionError: "UPDATE students SET age='18' WHEREname='Tom'" != "UPDATE students SET age='18' WHERE name='Tom'"
+- UPDATE students SET age='18' WHEREname='Tom'
++ UPDATE students SET age='18' WHERE name='Tom'
+?                                   +
+
+
+======================================================================
+FAIL: test_update_3 (ClassEval_80_0.SQLQueryBuilderTestUpdate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_80_0.py", line 213, in test_update_3
+    self.assertEqual(
+AssertionError: "UPDATE items SET price='1.0' WHEREname='apple'" != "UPDATE items SET price='1.0' WHERE name='apple'"
+- UPDATE items SET price='1.0' WHEREname='apple'
++ UPDATE items SET price='1.0' WHERE name='apple'
+?                                   +
+
+
+======================================================================
+FAIL: test_update_4 (ClassEval_80_0.SQLQueryBuilderTestUpdate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_80_0.py", line 219, in test_update_4
+    self.assertEqual(
+AssertionError: "UPDATE items SET price='1.0' WHEREname='aaa'" != "UPDATE items SET price='1.0' WHERE name='aaa'"
+- UPDATE items SET price='1.0' WHEREname='aaa'
++ UPDATE items SET price='1.0' WHERE name='aaa'
+?                                   +
+
+
+======================================================================
+FAIL: test_update_5 (ClassEval_80_0.SQLQueryBuilderTestUpdate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_80_0.py", line 225, in test_update_5
+    self.assertEqual(
+AssertionError: "UPDATE items SET price='1.0' WHEREname='bbb'" != "UPDATE items SET price='1.0' WHERE name='bbb'"
+- UPDATE items SET price='1.0' WHEREname='bbb'
++ UPDATE items SET price='1.0' WHERE name='bbb'
+?                                   +
+
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_80_0.SQLQueryBuilderTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_80_0.py", line 239, in test_main
+    self.assertEqual(
+AssertionError: "SELECT id, name FROM users WHEREage='30'" != "SELECT id, name FROM users WHERE age='30'"
+- SELECT id, name FROM users WHEREage='30'
++ SELECT id, name FROM users WHERE age='30'
+?                                 +
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.139s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.151s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.187s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.063s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.113s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.092s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.136s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.036s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.157s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.120s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.160s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.048s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.324s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.122s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.154s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.036s
+
+OK
+EEEEE
+======================================================================
+ERROR: test_insert_student_1 (ClassEval_83_4.StudentDatabaseProcessorTestInsertStudent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_83_4.py", line 15, in setUp
+    self.processor = StudentDatabaseProcessor("test_database.db")
+NameError: name 'StudentDatabaseProcessor' is not defined
+
+======================================================================
+ERROR: test_insert_student_2 (ClassEval_83_4.StudentDatabaseProcessorTestInsertStudent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_83_4.py", line 15, in setUp
+    self.processor = StudentDatabaseProcessor("test_database.db")
+NameError: name 'StudentDatabaseProcessor' is not defined
+
+======================================================================
+ERROR: test_insert_student_3 (ClassEval_83_4.StudentDatabaseProcessorTestInsertStudent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_83_4.py", line 15, in setUp
+    self.processor = StudentDatabaseProcessor("test_database.db")
+NameError: name 'StudentDatabaseProcessor' is not defined
+
+======================================================================
+ERROR: test_insert_student_4 (ClassEval_83_4.StudentDatabaseProcessorTestInsertStudent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_83_4.py", line 15, in setUp
+    self.processor = StudentDatabaseProcessor("test_database.db")
+NameError: name 'StudentDatabaseProcessor' is not defined
+
+======================================================================
+ERROR: test_insert_student_5 (ClassEval_83_4.StudentDatabaseProcessorTestInsertStudent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_83_4.py", line 15, in setUp
+    self.processor = StudentDatabaseProcessor("test_database.db")
+NameError: name 'StudentDatabaseProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_search_student_by_name_1 (ClassEval_83_4.StudentDatabaseProcessorTestSearchStudentByName)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_83_4.py", line 117, in setUp
+    self.processor = StudentDatabaseProcessor("test_database.db")
+NameError: name 'StudentDatabaseProcessor' is not defined
+
+======================================================================
+ERROR: test_search_student_by_name_2 (ClassEval_83_4.StudentDatabaseProcessorTestSearchStudentByName)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_83_4.py", line 117, in setUp
+    self.processor = StudentDatabaseProcessor("test_database.db")
+NameError: name 'StudentDatabaseProcessor' is not defined
+
+======================================================================
+ERROR: test_search_student_by_name_3 (ClassEval_83_4.StudentDatabaseProcessorTestSearchStudentByName)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_83_4.py", line 117, in setUp
+    self.processor = StudentDatabaseProcessor("test_database.db")
+NameError: name 'StudentDatabaseProcessor' is not defined
+
+======================================================================
+ERROR: test_search_student_by_name_4 (ClassEval_83_4.StudentDatabaseProcessorTestSearchStudentByName)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_83_4.py", line 117, in setUp
+    self.processor = StudentDatabaseProcessor("test_database.db")
+NameError: name 'StudentDatabaseProcessor' is not defined
+
+======================================================================
+ERROR: test_search_student_by_name_5 (ClassEval_83_4.StudentDatabaseProcessorTestSearchStudentByName)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_83_4.py", line 117, in setUp
+    self.processor = StudentDatabaseProcessor("test_database.db")
+NameError: name 'StudentDatabaseProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_delete_student_by_name_1 (ClassEval_83_4.StudentDatabaseProcessorTestDeleteStudentByName)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_83_4.py", line 199, in setUp
+    self.processor = StudentDatabaseProcessor("test_database.db")
+NameError: name 'StudentDatabaseProcessor' is not defined
+
+======================================================================
+ERROR: test_delete_student_by_name_2 (ClassEval_83_4.StudentDatabaseProcessorTestDeleteStudentByName)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_83_4.py", line 199, in setUp
+    self.processor = StudentDatabaseProcessor("test_database.db")
+NameError: name 'StudentDatabaseProcessor' is not defined
+
+======================================================================
+ERROR: test_delete_student_by_name_3 (ClassEval_83_4.StudentDatabaseProcessorTestDeleteStudentByName)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_83_4.py", line 199, in setUp
+    self.processor = StudentDatabaseProcessor("test_database.db")
+NameError: name 'StudentDatabaseProcessor' is not defined
+
+======================================================================
+ERROR: test_delete_student_by_name_4 (ClassEval_83_4.StudentDatabaseProcessorTestDeleteStudentByName)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_83_4.py", line 199, in setUp
+    self.processor = StudentDatabaseProcessor("test_database.db")
+NameError: name 'StudentDatabaseProcessor' is not defined
+
+======================================================================
+ERROR: test_delete_student_by_name_5 (ClassEval_83_4.StudentDatabaseProcessorTestDeleteStudentByName)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_83_4.py", line 199, in setUp
+    self.processor = StudentDatabaseProcessor("test_database.db")
+NameError: name 'StudentDatabaseProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=5)
+E
+======================================================================
+ERROR: test_StudentDatabaseProcessor (ClassEval_83_4.StudentDatabaseProcessorTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_83_4.py", line 306, in setUp
+    self.processor = StudentDatabaseProcessor("test_database.db")
+NameError: name 'StudentDatabaseProcessor' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+FFFFF
+======================================================================
+FAIL: test_insert_user_1 (ClassEval_92_0.UserLoginDBTestInsertUser)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 119, in test_insert_user_1
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('user1', 'pass1') != 'user1'
+
+======================================================================
+FAIL: test_insert_user_2 (ClassEval_92_0.UserLoginDBTestInsertUser)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 126, in test_insert_user_2
+    self.assertEqual(user[0], 'user2')
+AssertionError: ('user2', 'pass2') != 'user2'
+
+======================================================================
+FAIL: test_insert_user_3 (ClassEval_92_0.UserLoginDBTestInsertUser)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 133, in test_insert_user_3
+    self.assertEqual(user[0], 'user3')
+AssertionError: ('user3', 'pass3') != 'user3'
+
+======================================================================
+FAIL: test_insert_user_4 (ClassEval_92_0.UserLoginDBTestInsertUser)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 140, in test_insert_user_4
+    self.assertEqual(user[0], 'user4')
+AssertionError: ('user4', 'pass4') != 'user4'
+
+======================================================================
+FAIL: test_insert_user_5 (ClassEval_92_0.UserLoginDBTestInsertUser)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 147, in test_insert_user_5
+    self.assertEqual(user[0], 'user5')
+AssertionError: ('user5', 'pass5') != 'user5'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.068s
+
+FAILED (failures=5)
+FFFFF
+======================================================================
+FAIL: test_search_user_by_username_1 (ClassEval_92_0.UserLoginDBTestSearchUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 176, in test_search_user_by_username_1
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('user1', 'pass1') != 'user1'
+
+======================================================================
+FAIL: test_search_user_by_username_2 (ClassEval_92_0.UserLoginDBTestSearchUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 183, in test_search_user_by_username_2
+    self.assertEqual(user[0], 'user2')
+AssertionError: ('user2', 'pass2') != 'user2'
+
+======================================================================
+FAIL: test_search_user_by_username_3 (ClassEval_92_0.UserLoginDBTestSearchUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 190, in test_search_user_by_username_3
+    self.assertEqual(user[0], 'user3')
+AssertionError: ('user3', 'pass3') != 'user3'
+
+======================================================================
+FAIL: test_search_user_by_username_4 (ClassEval_92_0.UserLoginDBTestSearchUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 197, in test_search_user_by_username_4
+    self.assertEqual(user[0], 'user4')
+AssertionError: ('user4', 'pass4') != 'user4'
+
+======================================================================
+FAIL: test_search_user_by_username_5 (ClassEval_92_0.UserLoginDBTestSearchUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 204, in test_search_user_by_username_5
+    self.assertEqual(user[0], 'user5')
+AssertionError: ('user5', 'pass5') != 'user5'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.074s
+
+FAILED (failures=5)
+FFFFF
+======================================================================
+FAIL: test_delete_user_by_username_1 (ClassEval_92_0.UserLoginDBTestDeleteUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 233, in test_delete_user_by_username_1
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_2 (ClassEval_92_0.UserLoginDBTestDeleteUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 239, in test_delete_user_by_username_2
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_3 (ClassEval_92_0.UserLoginDBTestDeleteUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 245, in test_delete_user_by_username_3
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_4 (ClassEval_92_0.UserLoginDBTestDeleteUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 251, in test_delete_user_by_username_4
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_5 (ClassEval_92_0.UserLoginDBTestDeleteUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 257, in test_delete_user_by_username_5
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.095s
+
+FAILED (failures=5)
+EE.EE
+======================================================================
+ERROR: test_validate_user_login_1 (ClassEval_92_0.UserLoginDBTestValidateUserLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 283, in test_validate_user_login_1
+    valid = self.db.validate_user_login('user1', 'pass1')
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 82, in validate_user_login
+    user_password = results[0][2]  # 2 represents the index of the password column
+IndexError: tuple index out of range
+
+======================================================================
+ERROR: test_validate_user_login_2 (ClassEval_92_0.UserLoginDBTestValidateUserLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 288, in test_validate_user_login_2
+    invalid = self.db.validate_user_login('user1', 'wrongpass')
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 82, in validate_user_login
+    user_password = results[0][2]  # 2 represents the index of the password column
+IndexError: tuple index out of range
+
+======================================================================
+ERROR: test_validate_user_login_4 (ClassEval_92_0.UserLoginDBTestValidateUserLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 297, in test_validate_user_login_4
+    valid = self.db.validate_user_login('user2', 'pass2')
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 82, in validate_user_login
+    user_password = results[0][2]  # 2 represents the index of the password column
+IndexError: tuple index out of range
+
+======================================================================
+ERROR: test_validate_user_login_5 (ClassEval_92_0.UserLoginDBTestValidateUserLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 302, in test_validate_user_login_5
+    valid = self.db.validate_user_login('user3', 'pass3')
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 82, in validate_user_login
+    user_password = results[0][2]  # 2 represents the index of the password column
+IndexError: tuple index out of range
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.066s
+
+FAILED (errors=4)
+F
+======================================================================
+FAIL: test_UserLoginDB (ClassEval_92_0.UserLoginDBTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_0.py", line 331, in test_UserLoginDB
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('user1', 'pass1') != 'user1'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.015s
+
+FAILED (failures=1)
+FFFFF
+======================================================================
+FAIL: test_insert_user_1 (ClassEval_92_1.UserLoginDBTestInsertUser)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_1.py", line 110, in test_insert_user_1
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('pass1',) != 'user1'
+
+======================================================================
+FAIL: test_insert_user_2 (ClassEval_92_1.UserLoginDBTestInsertUser)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_1.py", line 117, in test_insert_user_2
+    self.assertEqual(user[0], 'user2')
+AssertionError: ('pass2',) != 'user2'
+
+======================================================================
+FAIL: test_insert_user_3 (ClassEval_92_1.UserLoginDBTestInsertUser)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_1.py", line 124, in test_insert_user_3
+    self.assertEqual(user[0], 'user3')
+AssertionError: ('pass3',) != 'user3'
+
+======================================================================
+FAIL: test_insert_user_4 (ClassEval_92_1.UserLoginDBTestInsertUser)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_1.py", line 131, in test_insert_user_4
+    self.assertEqual(user[0], 'user4')
+AssertionError: ('pass4',) != 'user4'
+
+======================================================================
+FAIL: test_insert_user_5 (ClassEval_92_1.UserLoginDBTestInsertUser)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_1.py", line 138, in test_insert_user_5
+    self.assertEqual(user[0], 'user5')
+AssertionError: ('pass5',) != 'user5'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.079s
+
+FAILED (failures=5)
+FFFFF
+======================================================================
+FAIL: test_search_user_by_username_1 (ClassEval_92_1.UserLoginDBTestSearchUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_1.py", line 167, in test_search_user_by_username_1
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('pass1',) != 'user1'
+
+======================================================================
+FAIL: test_search_user_by_username_2 (ClassEval_92_1.UserLoginDBTestSearchUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_1.py", line 174, in test_search_user_by_username_2
+    self.assertEqual(user[0], 'user2')
+AssertionError: ('pass2',) != 'user2'
+
+======================================================================
+FAIL: test_search_user_by_username_3 (ClassEval_92_1.UserLoginDBTestSearchUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_1.py", line 181, in test_search_user_by_username_3
+    self.assertEqual(user[0], 'user3')
+AssertionError: ('pass3',) != 'user3'
+
+======================================================================
+FAIL: test_search_user_by_username_4 (ClassEval_92_1.UserLoginDBTestSearchUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_1.py", line 188, in test_search_user_by_username_4
+    self.assertEqual(user[0], 'user4')
+AssertionError: ('pass4',) != 'user4'
+
+======================================================================
+FAIL: test_search_user_by_username_5 (ClassEval_92_1.UserLoginDBTestSearchUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_1.py", line 195, in test_search_user_by_username_5
+    self.assertEqual(user[0], 'user5')
+AssertionError: ('pass5',) != 'user5'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.071s
+
+FAILED (failures=5)
+FFFFF
+======================================================================
+FAIL: test_delete_user_by_username_1 (ClassEval_92_1.UserLoginDBTestDeleteUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_1.py", line 224, in test_delete_user_by_username_1
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_2 (ClassEval_92_1.UserLoginDBTestDeleteUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_1.py", line 230, in test_delete_user_by_username_2
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_3 (ClassEval_92_1.UserLoginDBTestDeleteUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_1.py", line 236, in test_delete_user_by_username_3
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_4 (ClassEval_92_1.UserLoginDBTestDeleteUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_1.py", line 242, in test_delete_user_by_username_4
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_5 (ClassEval_92_1.UserLoginDBTestDeleteUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_1.py", line 248, in test_delete_user_by_username_5
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.118s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.066s
+
+OK
+F
+======================================================================
+FAIL: test_UserLoginDB (ClassEval_92_1.UserLoginDBTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_1.py", line 322, in test_UserLoginDB
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('pass1',) != 'user1'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.014s
+
+FAILED (failures=1)
+FFFFF
+======================================================================
+FAIL: test_insert_user_1 (ClassEval_92_2.UserLoginDBTestInsertUser)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_2.py", line 126, in test_insert_user_1
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('user1', 'pass1') != 'user1'
+
+======================================================================
+FAIL: test_insert_user_2 (ClassEval_92_2.UserLoginDBTestInsertUser)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_2.py", line 133, in test_insert_user_2
+    self.assertEqual(user[0], 'user2')
+AssertionError: ('user2', 'pass2') != 'user2'
+
+======================================================================
+FAIL: test_insert_user_3 (ClassEval_92_2.UserLoginDBTestInsertUser)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_2.py", line 140, in test_insert_user_3
+    self.assertEqual(user[0], 'user3')
+AssertionError: ('user3', 'pass3') != 'user3'
+
+======================================================================
+FAIL: test_insert_user_4 (ClassEval_92_2.UserLoginDBTestInsertUser)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_2.py", line 147, in test_insert_user_4
+    self.assertEqual(user[0], 'user4')
+AssertionError: ('user4', 'pass4') != 'user4'
+
+======================================================================
+FAIL: test_insert_user_5 (ClassEval_92_2.UserLoginDBTestInsertUser)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_2.py", line 154, in test_insert_user_5
+    self.assertEqual(user[0], 'user5')
+AssertionError: ('user5', 'pass5') != 'user5'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.084s
+
+FAILED (failures=5)
+FFFFF
+======================================================================
+FAIL: test_search_user_by_username_1 (ClassEval_92_2.UserLoginDBTestSearchUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_2.py", line 183, in test_search_user_by_username_1
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('user1', 'pass1') != 'user1'
+
+======================================================================
+FAIL: test_search_user_by_username_2 (ClassEval_92_2.UserLoginDBTestSearchUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_2.py", line 190, in test_search_user_by_username_2
+    self.assertEqual(user[0], 'user2')
+AssertionError: ('user2', 'pass2') != 'user2'
+
+======================================================================
+FAIL: test_search_user_by_username_3 (ClassEval_92_2.UserLoginDBTestSearchUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_2.py", line 197, in test_search_user_by_username_3
+    self.assertEqual(user[0], 'user3')
+AssertionError: ('user3', 'pass3') != 'user3'
+
+======================================================================
+FAIL: test_search_user_by_username_4 (ClassEval_92_2.UserLoginDBTestSearchUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_2.py", line 204, in test_search_user_by_username_4
+    self.assertEqual(user[0], 'user4')
+AssertionError: ('user4', 'pass4') != 'user4'
+
+======================================================================
+FAIL: test_search_user_by_username_5 (ClassEval_92_2.UserLoginDBTestSearchUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_2.py", line 211, in test_search_user_by_username_5
+    self.assertEqual(user[0], 'user5')
+AssertionError: ('user5', 'pass5') != 'user5'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.094s
+
+FAILED (failures=5)
+FFFFF
+======================================================================
+FAIL: test_delete_user_by_username_1 (ClassEval_92_2.UserLoginDBTestDeleteUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_2.py", line 240, in test_delete_user_by_username_1
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_2 (ClassEval_92_2.UserLoginDBTestDeleteUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_2.py", line 246, in test_delete_user_by_username_2
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_3 (ClassEval_92_2.UserLoginDBTestDeleteUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_2.py", line 252, in test_delete_user_by_username_3
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_4 (ClassEval_92_2.UserLoginDBTestDeleteUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_2.py", line 258, in test_delete_user_by_username_4
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_5 (ClassEval_92_2.UserLoginDBTestDeleteUserByUsername)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_2.py", line 264, in test_delete_user_by_username_5
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.118s
+
+FAILED (failures=5)
+F..FF
+======================================================================
+FAIL: test_validate_user_login_1 (ClassEval_92_2.UserLoginDBTestValidateUserLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_2.py", line 291, in test_validate_user_login_1
+    self.assertTrue(valid)
+AssertionError: None is not true
+
+======================================================================
+FAIL: test_validate_user_login_4 (ClassEval_92_2.UserLoginDBTestValidateUserLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_2.py", line 305, in test_validate_user_login_4
+    self.assertTrue(valid)
+AssertionError: None is not true
+
+======================================================================
+FAIL: test_validate_user_login_5 (ClassEval_92_2.UserLoginDBTestValidateUserLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_2.py", line 310, in test_validate_user_login_5
+    self.assertTrue(valid)
+AssertionError: None is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.074s
+
+FAILED (failures=3)
+F
+======================================================================
+FAIL: test_UserLoginDB (ClassEval_92_2.UserLoginDBTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_92_2.py", line 338, in test_UserLoginDB
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('user1', 'pass1') != 'user1'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.021s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.099s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.079s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.127s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.072s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.024s
+
+OK
