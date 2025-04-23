@@ -185,7 +185,11 @@ class AutoTest:
         # save result
         self.save_result(model_name, result_dict, "class")
         time.sleep(5)
-        self.tear_down()
+        try:
+            self.tear_down()
+        except:
+            print("Error in tear down")
+            pass
 
     def get_test_answer(self, test_result):
         if test_result['testsRun'] == 0 or test_result['errors'] == test_result['testsRun']:

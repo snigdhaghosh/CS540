@@ -192,55 +192,55 @@
         "ClassEval_28_1": {
             "DatabaseProcessorTest": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 1,
+                "testsRun": 1
             },
             "DatabaseProcessorTestCreateTable": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 5,
+                "testsRun": 5
             },
             "DatabaseProcessorTestDeteleFromDatabase": {
-                "errors": 0,
+                "errors": 5,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "DatabaseProcessorTestInsertIntoDatabase": {
-                "errors": 0,
+                "errors": 5,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "DatabaseProcessorTestSearchDatabase": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 2,
+                "testsRun": 5
             }
         },
         "ClassEval_28_2": {
             "DatabaseProcessorTest": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 1,
+                "testsRun": 1
             },
             "DatabaseProcessorTestCreateTable": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 5,
+                "testsRun": 5
             },
             "DatabaseProcessorTestDeteleFromDatabase": {
-                "errors": 0,
+                "errors": 5,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "DatabaseProcessorTestInsertIntoDatabase": {
-                "errors": 0,
+                "errors": 5,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "DatabaseProcessorTestSearchDatabase": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 2,
+                "testsRun": 5
             }
         },
         "ClassEval_28_3": {
@@ -273,28 +273,28 @@
         "ClassEval_28_4": {
             "DatabaseProcessorTest": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 1,
+                "testsRun": 1
             },
             "DatabaseProcessorTestCreateTable": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 5,
+                "testsRun": 5
             },
             "DatabaseProcessorTestDeteleFromDatabase": {
-                "errors": 0,
+                "errors": 5,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "DatabaseProcessorTestInsertIntoDatabase": {
-                "errors": 0,
+                "errors": 5,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "DatabaseProcessorTestSearchDatabase": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 2,
+                "testsRun": 5
             }
         }
     },
