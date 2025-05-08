@@ -1,0 +1,4529 @@
+FF..F.FF
+======================================================================
+FAIL: test_filter_1 (ClassEval_0_0.AccessGatewayFilterTestFilter.test_filter_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_0_0.py", line 283, in test_filter_1
+    self.assertTrue(res)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_filter_2 (ClassEval_0_0.AccessGatewayFilterTestFilter.test_filter_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_0_0.py", line 289, in test_filter_2
+    self.assertTrue(res)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_filter_5 (ClassEval_0_0.AccessGatewayFilterTestFilter.test_filter_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_0_0.py", line 310, in test_filter_5
+    self.assertTrue(res)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_filter_7 (ClassEval_0_0.AccessGatewayFilterTestFilter.test_filter_7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_0_0.py", line 328, in test_filter_7
+    self.assertIsNone(res)
+AssertionError: False is not None
+
+======================================================================
+FAIL: test_filter_8 (ClassEval_0_0.AccessGatewayFilterTestFilter.test_filter_8)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_0_0.py", line 337, in test_filter_8
+    self.assertTrue(res)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.007s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+F
+======================================================================
+FAIL: test_AccessGatewayFilter (ClassEval_0_0.AccessGatewayFilterTest.test_AccessGatewayFilter)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_0_0.py", line 414, in test_AccessGatewayFilter
+    self.assertTrue(res)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+....F
+======================================================================
+FAIL: test_convert_type_5 (ClassEval_2_0.ArgumentParserTestConvertType.test_convert_type_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_2_0.py", line 415, in test_convert_type_5
+    self.assertEqual(result, True)
+AssertionError: False != True
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+F
+======================================================================
+FAIL: test_main (ClassEval_2_0.ArgumentParserTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_2_0.py", line 432, in test_main
+    self.assertEqual(parser.arguments, arguments)
+AssertionError: {'arg1': 21, 'option1': 'True', 'arg2': 'value', 'option2': 'True'} != {'arg1': 21, 'option1': True, 'arg2': 'value', 'option2': True}
+- {'arg1': 21, 'arg2': 'value', 'option1': 'True', 'option2': 'True'}
+?                                          -    -             -    -
+
++ {'arg1': 21, 'arg2': 'value', 'option1': True, 'option2': True}
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.E...
+======================================================================
+ERROR: test_get_course_average_2 (ClassEval_4_0.AssessmentSystemTestGetCourseAverage.test_get_course_average_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_4_0.py", line 438, in test_get_course_average_2
+    self.assertEqual(assessment_system.get_course_average('Physics'), 85)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_4_0.py", line 149, in get_course_average
+    total_score += student_info['courses'][course]
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.........
+----------------------------------------------------------------------
+Ran 9 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+..F..
+======================================================================
+FAIL: test_deposit_3 (ClassEval_8_0.BankAccountTestDeposit.test_deposit_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_8_0.py", line 139, in test_deposit_3
+    self.assertEqual(str(context.exception), "Invalid amount")
+AssertionError: 'Deposit amount cannot be negative.' != 'Invalid amount'
+- Deposit amount cannot be negative.
++ Invalid amount
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+..F..
+======================================================================
+FAIL: test_withdraw_3 (ClassEval_8_0.BankAccountTestWithdraw.test_withdraw_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_8_0.py", line 171, in test_withdraw_3
+    self.assertEqual(str(context.exception), "Invalid amount")
+AssertionError: 'Withdrawal amount cannot be negative.' != 'Invalid amount'
+- Withdrawal amount cannot be negative.
++ Invalid amount
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.FF..
+======================================================================
+FAIL: test_transfer_2 (ClassEval_8_0.BankAccountTestTransfer.test_transfer_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_8_0.py", line 228, in test_transfer_2
+    self.assertEqual(str(context.exception), "Insufficient balance.")
+AssertionError: 'Insufficient balance for transfer.' != 'Insufficient balance.'
+- Insufficient balance for transfer.
+?                     -------------
++ Insufficient balance.
+
+
+======================================================================
+FAIL: test_transfer_3 (ClassEval_8_0.BankAccountTestTransfer.test_transfer_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_8_0.py", line 237, in test_transfer_3
+    self.assertEqual(str(context.exception), "Invalid amount")
+AssertionError: 'Transfer amount cannot be negative.' != 'Invalid amount'
+- Transfer amount cannot be negative.
++ Invalid amount
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=2)
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....E
+======================================================================
+ERROR: test_calculate_hand_value_6 (ClassEval_12_0.BlackjackGameTestCalculateHandValue.test_calculate_hand_value_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_12_0.py", line 192, in test_calculate_hand_value_6
+    self.assertEqual(blackjackGame.calculate_hand_value(hand), 20)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_12_0.py", line 65, in calculate_hand_value
+    value += int(rank) # For ranks '2' through '10'
+             ^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'B'
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (errors=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+..FFF
+======================================================================
+FAIL: test_remove_book_3 (ClassEval_13_0.BookManagementTestRemoveBook.test_remove_book_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_13_0.py", line 185, in test_remove_book_3
+    with self.assertRaises(Exception):
+AssertionError: Exception not raised
+
+======================================================================
+FAIL: test_remove_book_4 (ClassEval_13_0.BookManagementTestRemoveBook.test_remove_book_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_13_0.py", line 190, in test_remove_book_4
+    with self.assertRaises(Exception):
+AssertionError: Exception not raised
+
+======================================================================
+FAIL: test_remove_book_5 (ClassEval_13_0.BookManagementTestRemoveBook.test_remove_book_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_13_0.py", line 194, in test_remove_book_5
+    with self.assertRaises(Exception):
+AssertionError: Exception not raised
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=3)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.F
+======================================================================
+FAIL: test_create_table_2 (ClassEval_14_0.BookManagementDBTestCreateTable.test_create_table_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_14_0.py", line 318, in test_create_table_2
+    self.assertEqual(column_names, expected_column_names)
+AssertionError: Lists differ: ['id', 'title', 'author', 'availability'] != ['id', 'title', 'author', 'available']
+
+First differing element 3:
+'availability'
+'available'
+
+- ['id', 'title', 'author', 'availability']
+?                                   - ^^^
+
++ ['id', 'title', 'author', 'available']
+?                                    ^
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.006s
+
+FAILED (failures=1)
+E
+======================================================================
+ERROR: test_add_book (ClassEval_14_0.BookManagementDBTestAddBook.test_add_book)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_14_0.py", line 340, in test_add_book
+    self.cursor.execute("SELECT title, author, available FROM books WHERE id=1")
+sqlite3.OperationalError: no such column: available
+
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+FAILED (errors=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.007s
+
+OK
+E
+======================================================================
+ERROR: test_borrow_book (ClassEval_14_0.BookManagementDBTestBorrowBook.test_borrow_book)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_14_0.py", line 391, in test_borrow_book
+    self.cursor.execute("SELECT available FROM books WHERE id=1")
+sqlite3.OperationalError: no such column: available
+
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+FAILED (errors=1)
+E
+======================================================================
+ERROR: test_return_book (ClassEval_14_0.BookManagementDBTestReturnBook.test_return_book)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_14_0.py", line 416, in test_return_book
+    self.cursor.execute("SELECT available FROM books WHERE id=1")
+sqlite3.OperationalError: no such column: available
+
+----------------------------------------------------------------------
+Ran 1 test in 0.009s
+
+FAILED (errors=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+........
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.FFFF
+======================================================================
+FAIL: test_get_available_slots_2 (ClassEval_17_0.CalendarTestGetAvailableSlots.test_get_available_slots_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_17_0.py", line 514, in test_get_available_slots_2
+    self.assertEqual(len(calendar.get_available_slots(datetime(2023, 1, 1))), 23)
+AssertionError: 2 != 23
+
+======================================================================
+FAIL: test_get_available_slots_3 (ClassEval_17_0.CalendarTestGetAvailableSlots.test_get_available_slots_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_17_0.py", line 520, in test_get_available_slots_3
+    self.assertEqual(len(calendar.get_available_slots(datetime(2023, 1, 1))), 24)
+AssertionError: 1 != 24
+
+======================================================================
+FAIL: test_get_available_slots_4 (ClassEval_17_0.CalendarTestGetAvailableSlots.test_get_available_slots_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_17_0.py", line 526, in test_get_available_slots_4
+    self.assertEqual(len(calendar.get_available_slots(datetime(2023, 1, 1))), 24)
+AssertionError: 1 != 24
+
+======================================================================
+FAIL: test_get_available_slots_5 (ClassEval_17_0.CalendarTestGetAvailableSlots.test_get_available_slots_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_17_0.py", line 532, in test_get_available_slots_5
+    self.assertEqual(len(calendar.get_available_slots(datetime(2023, 1, 1))), 24)
+AssertionError: 1 != 24
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=4)
+FFFFF
+======================================================================
+FAIL: test_get_upcoming_events (ClassEval_17_0.CalendarTestGetUpcomingEvents.test_get_upcoming_events)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_17_0.py", line 540, in test_get_upcoming_events
+    self.assertEqual(calendar.get_upcoming_events(1), [])
+AssertionError: Lists differ: [{'date': datetime.datetime(2023, 1, 1, 0,[128 chars]ar'}] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+{'date': datetime.datetime(2023, 1, 1, 0, 0), 'start_time': datetime.datetime(2023, 1, 1, 0, 0), 'end_time': datetime.datetime(2023, 1, 1, 23, 0), 'description': 'New Year'}
+
++ []
+- [{'date': datetime.datetime(2023, 1, 1, 0, 0),
+-   'description': 'New Year',
+-   'end_time': datetime.datetime(2023, 1, 1, 23, 0),
+-   'start_time': datetime.datetime(2023, 1, 1, 0, 0)}]
+
+======================================================================
+FAIL: test_get_upcoming_events_2 (ClassEval_17_0.CalendarTestGetUpcomingEvents.test_get_upcoming_events_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_17_0.py", line 546, in test_get_upcoming_events_2
+    self.assertEqual(calendar.get_upcoming_events(1), [])
+AssertionError: Lists differ: [{'date': datetime.datetime(2023, 1, 1, 0,[127 chars]ar'}] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+{'date': datetime.datetime(2023, 1, 1, 0, 0), 'start_time': datetime.datetime(2023, 1, 1, 1, 0), 'end_time': datetime.datetime(2023, 1, 1, 2, 0), 'description': 'New Year'}
+
++ []
+- [{'date': datetime.datetime(2023, 1, 1, 0, 0),
+-   'description': 'New Year',
+-   'end_time': datetime.datetime(2023, 1, 1, 2, 0),
+-   'start_time': datetime.datetime(2023, 1, 1, 1, 0)}]
+
+======================================================================
+FAIL: test_get_upcoming_events_3 (ClassEval_17_0.CalendarTestGetUpcomingEvents.test_get_upcoming_events_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_17_0.py", line 552, in test_get_upcoming_events_3
+    self.assertEqual(calendar.get_upcoming_events(1), [])
+AssertionError: Lists differ: [{'date': datetime.datetime(2023, 1, 1, 0,[127 chars]ar'}] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+{'date': datetime.datetime(2023, 1, 1, 0, 0), 'start_time': datetime.datetime(2023, 1, 2, 1, 0), 'end_time': datetime.datetime(2023, 1, 2, 2, 0), 'description': 'New Year'}
+
++ []
+- [{'date': datetime.datetime(2023, 1, 1, 0, 0),
+-   'description': 'New Year',
+-   'end_time': datetime.datetime(2023, 1, 2, 2, 0),
+-   'start_time': datetime.datetime(2023, 1, 2, 1, 0)}]
+
+======================================================================
+FAIL: test_get_upcoming_events_4 (ClassEval_17_0.CalendarTestGetUpcomingEvents.test_get_upcoming_events_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_17_0.py", line 558, in test_get_upcoming_events_4
+    self.assertEqual(calendar.get_upcoming_events(2), [])
+AssertionError: Lists differ: [{'date': datetime.datetime(2023, 1, 1, 0,[127 chars]ar'}] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+{'date': datetime.datetime(2023, 1, 1, 0, 0), 'start_time': datetime.datetime(2023, 1, 2, 1, 0), 'end_time': datetime.datetime(2023, 1, 2, 2, 0), 'description': 'New Year'}
+
++ []
+- [{'date': datetime.datetime(2023, 1, 1, 0, 0),
+-   'description': 'New Year',
+-   'end_time': datetime.datetime(2023, 1, 2, 2, 0),
+-   'start_time': datetime.datetime(2023, 1, 2, 1, 0)}]
+
+======================================================================
+FAIL: test_get_upcoming_events_5 (ClassEval_17_0.CalendarTestGetUpcomingEvents.test_get_upcoming_events_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_17_0.py", line 567, in test_get_upcoming_events_5
+    self.assertEqual(calendar.get_upcoming_events(1), [
+AssertionError: Lists differ: [{'da[21 chars]e(2023, 1, 1, 0, 0), 'start_time': datetime.da[98 chars]ar'}] != [{'da[21 chars]e(2024, 1, 2, 0, 0), 'start_time': datetime.da[99 chars] 2'}]
+
+First differing element 0:
+{'dat[20 chars]e(2023, 1, 1, 0, 0), 'start_time': datetime.da[97 chars]ear'}
+{'dat[20 chars]e(2024, 1, 2, 0, 0), 'start_time': datetime.da[98 chars]r 2'}
+
+Diff is 695 characters long. Set self.maxDiff to None to see it.
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_17_0.CalendarTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_17_0.py", line 591, in test_main
+    self.assertEqual(calendar.get_upcoming_events(1), [])
+AssertionError: Lists differ: [{'date': datetime.datetime(2023, 1, 1, 0,[128 chars]ar'}] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+{'date': datetime.datetime(2023, 1, 1, 0, 0), 'start_time': datetime.datetime(2023, 1, 1, 0, 0), 'end_time': datetime.datetime(2023, 1, 1, 23, 0), 'description': 'New Year'}
+
++ []
+- [{'date': datetime.datetime(2023, 1, 1, 0, 0),
+-   'description': 'New Year',
+-   'end_time': datetime.datetime(2023, 1, 1, 23, 0),
+-   'start_time': datetime.datetime(2023, 1, 1, 0, 0)}]
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....E
+======================================================================
+ERROR: test_convert_key_6 (ClassEval_18_0.CamelCaseMapTestConvertKey.test_convert_key_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_18_0.py", line 524, in test_convert_key_6
+    self.assertEqual(camelize_map._convert_key(1234), 1234)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_18_0.py", line 173, in _convert_key
+    raise TypeError(f"Key must be a string, not {type(key).__name__}")
+TypeError: Key must be a string, not int
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+..F...
+======================================================================
+FAIL: test_check_course_conflict_3 (ClassEval_21_0.ClassroomTestCheckCourseConflict.test_check_course_conflict_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_21_0.py", line 373, in test_check_course_conflict_3
+    self.assertFalse(result)
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+..F
+======================================================================
+FAIL: test_get_all_major3 (ClassEval_22_0.ClassRegistrationSystemTestGetMajor.test_get_all_major3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_22_0.py", line 381, in test_get_all_major3
+    self.assertEqual(majors, ["Computer Science", "Mathematics", "Physics"])
+AssertionError: Lists differ: ['Computer Science', 'Physics', 'Mathematics'] != ['Computer Science', 'Mathematics', 'Physics']
+
+First differing element 1:
+'Physics'
+'Mathematics'
+
+- ['Computer Science', 'Physics', 'Mathematics']
+?                     -----------
+
++ ['Computer Science', 'Mathematics', 'Physics']
+?                                   +++++++++++
+
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (failures=1)
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+..F.F
+======================================================================
+FAIL: test_count_all_3 (ClassEval_23_0.CombinationCalculatorTestCountAll.test_count_all_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_23_0.py", line 287, in test_count_all_3
+    self.assertEqual(CombinationCalculator.count_all(65), False)
+AssertionError: inf != False
+
+======================================================================
+FAIL: test_count_all_5 (ClassEval_23_0.CombinationCalculatorTestCountAll.test_count_all_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_23_0.py", line 293, in test_count_all_5
+    self.assertEqual(CombinationCalculator.count_all(63), float("inf"))
+AssertionError: 9223372036854775807 != inf
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=2)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+OK
+E
+======================================================================
+ERROR: test_set_cookies (ClassEval_25_0.CookiesUtilTestSetCookies.test_set_cookies)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_25_0.py", line 286, in test_set_cookies
+    self.cookies_util.set_cookies(request)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CookiesUtil' object has no attribute 'set_cookies'. Did you mean: 'get_cookies'?
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+OK
+....F
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_0.CSVProcessorTestProcessCSVData.test_process_csv_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 461, in test_process_csv_data_5
+    self.assertEqual(1, csvProcessor.process_csv_data(4, self.file))
+AssertionError: 1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.026s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.025s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.046s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_correlation_coefficient (ClassEval_31_0.DataStatistics4TestCorrelationCoefficient.test_correlation_coefficient)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 261, in test_correlation_coefficient
+    self.assertEqual(DataStatistics4.correlation_coefficient([1, 2, 3], [4, 5, 6]), 0.9999999999999998)
+AssertionError: 1.0 != 0.9999999999999998
+
+======================================================================
+FAIL: test_correlation_coefficient_2 (ClassEval_31_0.DataStatistics4TestCorrelationCoefficient.test_correlation_coefficient_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 264, in test_correlation_coefficient_2
+    self.assertEqual(DataStatistics4.correlation_coefficient([1, 1, 1], [2, 2, 2]), 0)
+AssertionError: nan != 0
+
+======================================================================
+FAIL: test_correlation_coefficient_3 (ClassEval_31_0.DataStatistics4TestCorrelationCoefficient.test_correlation_coefficient_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 267, in test_correlation_coefficient_3
+    self.assertEqual(DataStatistics4.correlation_coefficient([1, 2, 3], [1, 2, 3]), 0.9999999999999998)
+AssertionError: 1.0 != 0.9999999999999998
+
+======================================================================
+FAIL: test_correlation_coefficient_4 (ClassEval_31_0.DataStatistics4TestCorrelationCoefficient.test_correlation_coefficient_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 270, in test_correlation_coefficient_4
+    self.assertEqual(DataStatistics4.correlation_coefficient([1, 2, 3], [1, 2, 4]), 0.9819805060619659)
+AssertionError: 0.9819805060619656 != 0.9819805060619659
+
+======================================================================
+FAIL: test_correlation_coefficient_5 (ClassEval_31_0.DataStatistics4TestCorrelationCoefficient.test_correlation_coefficient_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 273, in test_correlation_coefficient_5
+    self.assertEqual(DataStatistics4.correlation_coefficient([1, 2, 3], [1, 5, 3]), 0.4999999999999999)
+AssertionError: 0.5 != 0.4999999999999999
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=5)
+FF.F.
+======================================================================
+FAIL: test_skewness (ClassEval_31_0.DataStatistics4TestSkewness.test_skewness)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 278, in test_skewness
+    self.assertEqual(DataStatistics4.skewness([1, 2, 5]), 2.3760224064818463)
+AssertionError: 1.2933427807333966 != 2.3760224064818463
+
+======================================================================
+FAIL: test_skewness_2 (ClassEval_31_0.DataStatistics4TestSkewness.test_skewness_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 281, in test_skewness_2
+    self.assertEqual(DataStatistics4.skewness([1, 1, 1]), 0)
+AssertionError: nan != 0
+
+======================================================================
+FAIL: test_skewness_4 (ClassEval_31_0.DataStatistics4TestSkewness.test_skewness_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 287, in test_skewness_4
+    self.assertEqual(DataStatistics4.skewness([1, 2, 4]), 1.7181079837227264)
+AssertionError: 0.9352195295828234 != 1.7181079837227264
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=3)
+..FFF
+======================================================================
+FAIL: test_kurtosis_3 (ClassEval_31_0.DataStatistics4TestKurtosis.test_kurtosis_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 301, in test_kurtosis_3
+    self.assertEqual(DataStatistics4.kurtosis([1, 2, 3]), -1.5000000000000002)
+AssertionError: -1.5 != -1.5000000000000002
+
+======================================================================
+FAIL: test_kurtosis_4 (ClassEval_31_0.DataStatistics4TestKurtosis.test_kurtosis_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 304, in test_kurtosis_4
+    self.assertEqual(DataStatistics4.kurtosis([1, 2, 4]), -1.4999999999999996)
+AssertionError: -1.5000000000000002 != -1.4999999999999996
+
+======================================================================
+FAIL: test_kurtosis_5 (ClassEval_31_0.DataStatistics4TestKurtosis.test_kurtosis_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 307, in test_kurtosis_5
+    self.assertEqual(DataStatistics4.kurtosis([1, 5, 3]), -1.5000000000000002)
+AssertionError: -1.5 != -1.5000000000000002
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=3)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_31_0.DataStatistics4TestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 334, in test_main
+    self.assertEqual(DataStatistics4.correlation_coefficient([1, 2, 3], [4, 5, 6]), 0.9999999999999998)
+AssertionError: 1.0 != 0.9999999999999998
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+..FFF
+======================================================================
+FAIL: test_find_blank_3 (ClassEval_35_0.EightPuzzleTestFindBlank.test_find_blank_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 201, in test_find_blank_3
+    self.assertEqual(eightPuzzle.find_blank(state), None)
+AssertionError: (-1, -1) != None
+
+======================================================================
+FAIL: test_find_blank_4 (ClassEval_35_0.EightPuzzleTestFindBlank.test_find_blank_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 206, in test_find_blank_4
+    self.assertEqual(eightPuzzle.find_blank(state), None)
+AssertionError: (-1, -1) != None
+
+======================================================================
+FAIL: test_find_blank_5 (ClassEval_35_0.EightPuzzleTestFindBlank.test_find_blank_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 211, in test_find_blank_5
+    self.assertEqual(eightPuzzle.find_blank(state), None)
+AssertionError: (-1, -1) != None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=3)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+EEEEE
+======================================================================
+ERROR: test_get_possible_moves_1 (ClassEval_35_0.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 247, in test_get_possible_moves_1
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 17, in __init__
+    self.initial_state = [list(row) for row in initial_state]
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+======================================================================
+ERROR: test_get_possible_moves_2 (ClassEval_35_0.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 255, in test_get_possible_moves_2
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 17, in __init__
+    self.initial_state = [list(row) for row in initial_state]
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+======================================================================
+ERROR: test_get_possible_moves_3 (ClassEval_35_0.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 263, in test_get_possible_moves_3
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 17, in __init__
+    self.initial_state = [list(row) for row in initial_state]
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+======================================================================
+ERROR: test_get_possible_moves_4 (ClassEval_35_0.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 271, in test_get_possible_moves_4
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 17, in __init__
+    self.initial_state = [list(row) for row in initial_state]
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+======================================================================
+ERROR: test_get_possible_moves_5 (ClassEval_35_0.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 279, in test_get_possible_moves_5
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 17, in __init__
+    self.initial_state = [list(row) for row in initial_state]
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (errors=5)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.124s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.F...
+======================================================================
+FAIL: test_clear_inbox_2 (ClassEval_36_0.EmailClientTestClearInbox.test_clear_inbox_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_36_0.py", line 383, in test_clear_inbox_2
+    self.assertEqual(receiver.inbox, [{'size': 10},{'size': 20},{'size': 15}])
+AssertionError: Lists differ: [{'size': 15}] != [{'size': 10}, {'size': 20}, {'size': 15}]
+
+First differing element 0:
+{'size': 15}
+{'size': 10}
+
+Second list contains 2 additional elements.
+First extra element 1:
+{'size': 20}
+
+- [{'size': 15}]
++ [{'size': 10}, {'size': 20}, {'size': 15}]
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK
+....FF
+======================================================================
+FAIL: test_transform_5 (ClassEval_39_0.ExpressionCalculatorTestTransform.test_transform_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 539, in test_transform_5
+    self.assertEqual(result, "~2+(~3)*4")
+AssertionError: '-2+(-3)*4' != '~2+(~3)*4'
+- -2+(-3)*4
+? ^   ^
++ ~2+(~3)*4
+? ^   ^
+
+
+======================================================================
+FAIL: test_transform_6 (ClassEval_39_0.ExpressionCalculatorTestTransform.test_transform_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 543, in test_transform_6
+    self.assertEqual(result, "0-(1+1)")
+AssertionError: '~(1+1)' != '0-(1+1)'
+- ~(1+1)
+? ^
++ 0-(1+1)
+? ^^
+
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=2)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+...FF
+======================================================================
+FAIL: test_check_winner_4 (ClassEval_41_0.GomokuGameTestCheckWinner.test_check_winner_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_41_0.py", line 312, in test_check_winner_4
+    self.assertEqual(gomokuGame.check_winner(), 'O')
+AssertionError: 'X' != 'O'
+- X
++ O
+
+
+======================================================================
+FAIL: test_check_winner_5 (ClassEval_41_0.GomokuGameTestCheckWinner.test_check_winner_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_41_0.py", line 319, in test_check_winner_5
+    self.assertEqual('O', gomokuGame.check_winner())
+AssertionError: 'O' != 'X'
+- O
++ X
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=2)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+...F..
+======================================================================
+FAIL: test_check_in_4 (ClassEval_42_0.HotelTestCheckIn.test_check_in_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_42_0.py", line 252, in test_check_in_4
+    self.assertEqual(self.hotel.booked_rooms, {'double': {}, 'single': {'guest 1': 2}})
+AssertionError: {'single': {'guest 1': 2}} != {'double': {}, 'single': {'guest 1': 2}}
+- {'single': {'guest 1': 2}}
++ {'double': {}, 'single': {'guest 1': 2}}
+?  ++++++++++++++
+
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_42_0.HotelTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_42_0.py", line 334, in test_main
+    self.assertEqual(self.hotel.booked_rooms, {'single': {}})
+AssertionError: {} != {'single': {}}
+- {}
++ {'single': {}}
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....F
+======================================================================
+FAIL: test_update_employee_6 (ClassEval_43_0.HRManagementSystemTestUpdateEmployee.test_update_employee_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_43_0.py", line 274, in test_update_employee_6
+    self.assertEqual(hr_system.update_employee(1, {'Name': 'John', 'position': 'Manager', 'department': 'Sales', 'salary': 20000}), False)
+AssertionError: True != False
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.036s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+....F
+======================================================================
+FAIL: test_rotate_image_5 (ClassEval_45_0.ImageProcessorTestRotateImage.test_rotate_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_0.py", line 391, in test_rotate_image_5
+    self.assertTrue(ImageChops.difference(original_image.rotate(45), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.013s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_45_0.ImageProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_0.py", line 464, in test_main
+    self.assertTrue(ImageChops.difference(original_image.rotate(90), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)
+.EEEEEE
+======================================================================
+ERROR: test_interpolate_1d_2 (ClassEval_46_0.InterpolationTestInterpolate1d.test_interpolate_1d_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_46_0.py", line 205, in test_interpolate_1d_2
+    self.assertEqual(interpolation.interpolate_1d([1, 6, 4], [1, 2, 5], [1.5, 2.5]), [1.1, 1.3])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_46_0.py", line 55, in interpolate_1d
+    raise ValueError("x must be sorted in increasing order")
+ValueError: x must be sorted in increasing order
+
+======================================================================
+ERROR: test_interpolate_1d_3 (ClassEval_46_0.InterpolationTestInterpolate1d.test_interpolate_1d_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_46_0.py", line 209, in test_interpolate_1d_3
+    self.assertEqual(interpolation.interpolate_1d([1, 6, 4], [1, 7, 5], [1.5, 2.5]), [1.6, 2.8])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_46_0.py", line 55, in interpolate_1d
+    raise ValueError("x must be sorted in increasing order")
+ValueError: x must be sorted in increasing order
+
+======================================================================
+ERROR: test_interpolate_1d_4 (ClassEval_46_0.InterpolationTestInterpolate1d.test_interpolate_1d_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_46_0.py", line 213, in test_interpolate_1d_4
+    self.assertEqual(interpolation.interpolate_1d([1, 6, 4], [1, 2, 5], [2, 3]), [1.2, 1.4])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_46_0.py", line 55, in interpolate_1d
+    raise ValueError("x must be sorted in increasing order")
+ValueError: x must be sorted in increasing order
+
+======================================================================
+ERROR: test_interpolate_1d_5 (ClassEval_46_0.InterpolationTestInterpolate1d.test_interpolate_1d_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_46_0.py", line 217, in test_interpolate_1d_5
+    self.assertEqual(interpolation.interpolate_1d([1, 6, 4], [1, 7, 5], [2, 3]), [2.2, 3.4])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_46_0.py", line 55, in interpolate_1d
+    raise ValueError("x must be sorted in increasing order")
+ValueError: x must be sorted in increasing order
+
+======================================================================
+ERROR: test_interpolate_1d_6 (ClassEval_46_0.InterpolationTestInterpolate1d.test_interpolate_1d_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_46_0.py", line 221, in test_interpolate_1d_6
+    self.assertEqual(interpolation.interpolate_1d([1, 6, 4], [1, 7, 5], []), [])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_46_0.py", line 55, in interpolate_1d
+    raise ValueError("x must be sorted in increasing order")
+ValueError: x must be sorted in increasing order
+
+======================================================================
+ERROR: test_interpolate_1d_7 (ClassEval_46_0.InterpolationTestInterpolate1d.test_interpolate_1d_7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_46_0.py", line 225, in test_interpolate_1d_7
+    self.assertEqual(interpolation.interpolate_1d([], [], [[], []]), [])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_46_0.py", line 51, in interpolate_1d
+    raise ValueError("At least two data points are required for interpolation")
+ValueError: At least two data points are required for interpolation
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.003s
+
+FAILED (errors=6)
+.EEE.
+======================================================================
+ERROR: test_interpolate_2d_2 (ClassEval_46_0.InterpolationTestInterpolate2d.test_interpolate_2d_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_46_0.py", line 238, in test_interpolate_2d_2
+    interpolation.interpolate_2d([1, 2, 3], [1, 2, 3], [[1, 2, 3], [4, 5, 6], [7, 8, 9]], [1.5, 2.5], [3, 4]),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_46_0.py", line 156, in interpolate_2d
+    raise ValueError(f"Interpolation point ({val_x}, {val_y}) is outside the data range "
+ValueError: Interpolation point (2.5, 4) is outside the data range ([x=1:3], [y=1:3])
+
+======================================================================
+ERROR: test_interpolate_2d_3 (ClassEval_46_0.InterpolationTestInterpolate2d.test_interpolate_2d_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_46_0.py", line 244, in test_interpolate_2d_3
+    interpolation.interpolate_2d([1, 2, 3], [1, 2, 3], [[1, 2, 3], [4, 5, 6], [7, 8, 9]], [3, 4], [1.5, 2.5]),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_46_0.py", line 156, in interpolate_2d
+    raise ValueError(f"Interpolation point ({val_x}, {val_y}) is outside the data range "
+ValueError: Interpolation point (4, 2.5) is outside the data range ([x=1:3], [y=1:3])
+
+======================================================================
+ERROR: test_interpolate_2d_4 (ClassEval_46_0.InterpolationTestInterpolate2d.test_interpolate_2d_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_46_0.py", line 250, in test_interpolate_2d_4
+    interpolation.interpolate_2d([1, 2, 3], [1, 2, 3], [[1, 2, 3], [4, 5, 6], [7, 8, 9]], [3, 4], [3, 4]),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_46_0.py", line 156, in interpolate_2d
+    raise ValueError(f"Interpolation point ({val_x}, {val_y}) is outside the data range "
+ValueError: Interpolation point (4, 4) is outside the data range ([x=1:3], [y=1:3])
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (errors=3)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+EEEEE
+======================================================================
+ERROR: test_matches_requirements (ClassEval_49_0.JobMarketplaceTestMatchesRequirements.test_matches_requirements)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_49_0.py", line 380, in test_matches_requirements
+    self.assertEqual(jobMarketplace.matches_requirements({"name": "Tom", "skills": ['skill1', 'skill2'], "experience": "experience"}, ['skill1', 'skill2']), True)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'JobMarketplace' object has no attribute 'matches_requirements'. Did you mean: '_matches_requirements'?
+
+======================================================================
+ERROR: test_matches_requirements_2 (ClassEval_49_0.JobMarketplaceTestMatchesRequirements.test_matches_requirements_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_49_0.py", line 384, in test_matches_requirements_2
+    self.assertEqual(jobMarketplace.matches_requirements({"name": "Tom", "skills": ['skill1', 'skill2'], "experience": "experience"}, ['skill3', 'skill4']), False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'JobMarketplace' object has no attribute 'matches_requirements'. Did you mean: '_matches_requirements'?
+
+======================================================================
+ERROR: test_matches_requirements_3 (ClassEval_49_0.JobMarketplaceTestMatchesRequirements.test_matches_requirements_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_49_0.py", line 388, in test_matches_requirements_3
+    self.assertEqual(jobMarketplace.matches_requirements({"name": "Tom", "skills": ['skill1', 'skill2'], "experience": "experience"}, ['skill5', 'skill6']), False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'JobMarketplace' object has no attribute 'matches_requirements'. Did you mean: '_matches_requirements'?
+
+======================================================================
+ERROR: test_matches_requirements_4 (ClassEval_49_0.JobMarketplaceTestMatchesRequirements.test_matches_requirements_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_49_0.py", line 392, in test_matches_requirements_4
+    self.assertEqual(jobMarketplace.matches_requirements({"name": "Tom", "skills": ['skill1', 'skill2'], "experience": "experience"}, ['skill1', 'skill3']), False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'JobMarketplace' object has no attribute 'matches_requirements'. Did you mean: '_matches_requirements'?
+
+======================================================================
+ERROR: test_matches_requirements_5 (ClassEval_49_0.JobMarketplaceTestMatchesRequirements.test_matches_requirements_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_49_0.py", line 396, in test_matches_requirements_5
+    self.assertEqual(jobMarketplace.matches_requirements({"name": "Tom", "skills": ['skill1', 'skill2'], "experience": "experience"}, ['skill1']), False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'JobMarketplace' object has no attribute 'matches_requirements'. Did you mean: '_matches_requirements'?
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (errors=5)
+E
+======================================================================
+ERROR: test_main (ClassEval_49_0.JobMarketplaceTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_49_0.py", line 413, in test_main
+    self.assertEqual(jobMarketplace.matches_requirements({"name": "Tom", "skills": ['skill1', 'skill2'], "experience": "experience"}, ['skill1', 'skill2']), True)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'JobMarketplace' object has no attribute 'matches_requirements'. Did you mean: '_matches_requirements'?
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+.EEEE
+======================================================================
+ERROR: test_fleiss_kappa_2 (ClassEval_51_0.KappaCalculatorTestFleissKappa.test_fleiss_kappa_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 190, in test_fleiss_kappa_2
+    self.assertEqual(KappaCalculator.fleiss_kappa([[1, 0, 0, 0, 14],
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 119, in fleiss_kappa
+    raise ValueError(f"Sum of elements in each row must equal the number of raters (n={n}). Got row sums: {row_sums}")
+ValueError: Sum of elements in each row must equal the number of raters (n=14). Got row sums: [15 14 14 14 14 14 14 14 14 14]
+
+======================================================================
+ERROR: test_fleiss_kappa_3 (ClassEval_51_0.KappaCalculatorTestFleissKappa.test_fleiss_kappa_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 202, in test_fleiss_kappa_3
+    self.assertEqual(KappaCalculator.fleiss_kappa([[0, 1, 0, 0, 14],
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 119, in fleiss_kappa
+    raise ValueError(f"Sum of elements in each row must equal the number of raters (n={n}). Got row sums: {row_sums}")
+ValueError: Sum of elements in each row must equal the number of raters (n=14). Got row sums: [15 14 14 14 14 14 14 14 14 14]
+
+======================================================================
+ERROR: test_fleiss_kappa_4 (ClassEval_51_0.KappaCalculatorTestFleissKappa.test_fleiss_kappa_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 214, in test_fleiss_kappa_4
+    self.assertEqual(KappaCalculator.fleiss_kappa([[0, 0, 1, 0, 14],
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 119, in fleiss_kappa
+    raise ValueError(f"Sum of elements in each row must equal the number of raters (n={n}). Got row sums: {row_sums}")
+ValueError: Sum of elements in each row must equal the number of raters (n=14). Got row sums: [15 14 14 14 14 14 14 14 14 14]
+
+======================================================================
+ERROR: test_fleiss_kappa_5 (ClassEval_51_0.KappaCalculatorTestFleissKappa.test_fleiss_kappa_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 226, in test_fleiss_kappa_5
+    self.assertEqual(KappaCalculator.fleiss_kappa([[0, 0, 0, 1, 14],
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 119, in fleiss_kappa
+    raise ValueError(f"Sum of elements in each row must equal the number of raters (n={n}). Got row sums: {row_sums}")
+ValueError: Sum of elements in each row must equal the number of raters (n=14). Got row sums: [15 14 14 14 14 14 14 14 14 14]
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (errors=4)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+...FF
+======================================================================
+FAIL: test_find_longest_word_4 (ClassEval_53_0.LongestWordTestFindLongestWord.test_find_longest_word_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_53_0.py", line 191, in test_find_longest_word_4
+    self.assertEqual('apple', longestWord.find_longest_word(sentence))
+AssertionError: 'apple' != ''
+- apple
+
+
+======================================================================
+FAIL: test_find_longest_word_5 (ClassEval_53_0.LongestWordTestFindLongestWord.test_find_longest_word_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_53_0.py", line 198, in test_find_longest_word_5
+    self.assertEqual('apple', longestWord.find_longest_word(sentence))
+AssertionError: 'apple' != 'red'
+- apple
++ red
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=2)
+..FFF
+======================================================================
+FAIL: test_create_board_3 (ClassEval_54_0.MahjongConnectTestCreateBoard.test_create_board_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_0.py", line 438, in test_create_board_3
+    self.assertIn(icon, mc.ICONS)
+AssertionError: ' ' not found in ['a', 'b', 'c']
+
+======================================================================
+FAIL: test_create_board_4 (ClassEval_54_0.MahjongConnectTestCreateBoard.test_create_board_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_0.py", line 446, in test_create_board_4
+    self.assertIn(icon, mc.ICONS)
+AssertionError: ' ' not found in ['a', 'b', 'c']
+
+======================================================================
+FAIL: test_create_board_5 (ClassEval_54_0.MahjongConnectTestCreateBoard.test_create_board_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_0.py", line 454, in test_create_board_5
+    self.assertIn(icon, mc.ICONS)
+AssertionError: ' ' not found in ['a', 'b', 'c']
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=3)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+.FF..F
+======================================================================
+FAIL: test_has_path_2 (ClassEval_54_0.MahjongConnectTestHasPath.test_has_path_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_0.py", line 530, in test_has_path_2
+    self.assertEqual(res, True)
+AssertionError: False != True
+
+======================================================================
+FAIL: test_has_path_3 (ClassEval_54_0.MahjongConnectTestHasPath.test_has_path_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_0.py", line 539, in test_has_path_3
+    self.assertEqual(res, True)
+AssertionError: False != True
+
+======================================================================
+FAIL: test_has_path_6 (ClassEval_54_0.MahjongConnectTestHasPath.test_has_path_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_0.py", line 566, in test_has_path_6
+    self.assertEqual(res, True)
+AssertionError: False != True
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+FAILED (failures=3)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+......FF
+======================================================================
+FAIL: test_mrr_7 (ClassEval_57_0.MetricsCalculator2TestMrr.test_mrr_7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_57_0.py", line 171, in test_mrr_7
+    self.assertEqual(res2, [0.0])
+AssertionError: Lists differ: [] != [0.0]
+
+Second list contains 1 additional elements.
+First extra element 0:
+0.0
+
+- []
++ [0.0]
+
+======================================================================
+FAIL: test_mrr_8 (ClassEval_57_0.MetricsCalculator2TestMrr.test_mrr_8)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_57_0.py", line 175, in test_mrr_8
+    self.assertEqual(res1, 0.0)
+AssertionError: 0.75 != 0.0
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+FAILED (failures=2)
+......F.
+======================================================================
+FAIL: test_map_7 (ClassEval_57_0.MetricsCalculator2TestMap.test_map_7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_57_0.py", line 214, in test_map_7
+    self.assertEqual(res2, [0.0])
+AssertionError: Lists differ: [] != [0.0]
+
+Second list contains 1 additional elements.
+First extra element 0:
+0.0
+
+- []
++ [0.0]
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+FAILED (failures=1)
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+...EE
+======================================================================
+ERROR: test_generate_playerMap_4 (ClassEval_58_0.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 352, in test_generate_playerMap_4
+    minesweeper_game = MinesweeperGame(1, 4)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 20, in __init__
+    raise ValueError(f"Number of mines k must be a non-negative integer up to n*n ({n*n}).")
+ValueError: Number of mines k must be a non-negative integer up to n*n (1).
+
+======================================================================
+ERROR: test_generate_playerMap_5 (ClassEval_58_0.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 356, in test_generate_playerMap_5
+    minesweeper_game = MinesweeperGame(2, 5)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 20, in __init__
+    raise ValueError(f"Number of mines k must be a non-negative integer up to n*n ({n*n}).")
+ValueError: Number of mines k must be a non-negative integer up to n*n (4).
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=2)
+...F.
+======================================================================
+FAIL: test_check_won_4 (ClassEval_58_0.MinesweeperGameTestCheckWon.test_check_won_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 382, in test_check_won_4
+    self.assertEqual(minesweeper_game.check_won(minesweeper_game.player_map), True)
+AssertionError: False != True
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+F.FFF
+======================================================================
+FAIL: test_sweep (ClassEval_58_0.MinesweeperGameTestSweep.test_sweep)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 396, in test_sweep
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_sweep_3 (ClassEval_58_0.MinesweeperGameTestSweep.test_sweep_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 409, in test_sweep_3
+    self.assertEqual(minesweeper_game.sweep(0,1), True)
+AssertionError: [['-', 1, '0'], ['1', '1', '0'], ['0', '0', '0']] != True
+
+======================================================================
+FAIL: test_sweep_4 (ClassEval_58_0.MinesweeperGameTestSweep.test_sweep_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 416, in test_sweep_4
+    self.assertEqual(minesweeper_game.sweep(0,2), [['-', '-', 0], ['-', '-', '0'], ['0', '0', '0']])
+AssertionError: Lists differ: [['-', 1, 0], ['-', 1, '0'], ['0', '0', '0']] != [['-', '-', 0], ['-', '-', '0'], ['0', '0', '0']]
+
+First differing element 0:
+['-', 1, 0]
+['-', '-', 0]
+
+- [['-', 1, 0], ['-', 1, '0'], ['0', '0', '0']]
+?        ^            ^
+
++ [['-', '-', 0], ['-', '-', '0'], ['0', '0', '0']]
+?        ^^^            ^^^
+
+
+======================================================================
+FAIL: test_sweep_5 (ClassEval_58_0.MinesweeperGameTestSweep.test_sweep_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 424, in test_sweep_5
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=4)
+FF
+======================================================================
+FAIL: test_minesweeper_main (ClassEval_58_0.MinesweeperGameTestMain.test_minesweeper_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 442, in test_minesweeper_main
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_minesweeper_main_2 (ClassEval_58_0.MinesweeperGameTestMain.test_minesweeper_main_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 458, in test_minesweeper_main_2
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=2)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+..F..
+======================================================================
+FAIL: test_available_movies_3 (ClassEval_59_0.MovieBookingSystemTestAvailableMovies.test_available_movies_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_59_0.py", line 264, in test_available_movies_3
+    self.assertEqual(result, ['Batman'])
+AssertionError: Lists differ: ['Batman', 'Spiderman'] != ['Batman']
+
+First list contains 1 additional elements.
+First extra element 1:
+'Spiderman'
+
+- ['Batman', 'Spiderman']
++ ['Batman']
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.019s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.018s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.025s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.FFF.
+======================================================================
+FAIL: test_play_2 (ClassEval_61_0.MusicPlayerTestPlay.test_play_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_61_0.py", line 433, in test_play_2
+    self.assertEqual(musicPlayer.play(), None)
+AssertionError: 'song2' != None
+
+======================================================================
+FAIL: test_play_3 (ClassEval_61_0.MusicPlayerTestPlay.test_play_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_61_0.py", line 438, in test_play_3
+    self.assertEqual(musicPlayer.play(),False)
+AssertionError: 'song1' != False
+
+======================================================================
+FAIL: test_play_4 (ClassEval_61_0.MusicPlayerTestPlay.test_play_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_61_0.py", line 444, in test_play_4
+    self.assertEqual(musicPlayer.play(), "song1")
+AssertionError: 'song3' != 'song1'
+- song3
+?     ^
++ song1
+?     ^
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=3)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.FFF.
+======================================================================
+FAIL: test_switch_song2 (ClassEval_61_0.MusicPlayerTestSwitchSong.test_switch_song2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_61_0.py", line 493, in test_switch_song2
+    self.assertEqual(musicPlayer.switch_song(), False)
+AssertionError: True != False
+
+======================================================================
+FAIL: test_switch_song3 (ClassEval_61_0.MusicPlayerTestSwitchSong.test_switch_song3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_61_0.py", line 499, in test_switch_song3
+    self.assertEqual(musicPlayer.switch_song(), False)
+AssertionError: True != False
+
+======================================================================
+FAIL: test_switch_song4 (ClassEval_61_0.MusicPlayerTestSwitchSong.test_switch_song4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_61_0.py", line 504, in test_switch_song4
+    self.assertEqual(musicPlayer.switch_song(), False)
+AssertionError: True != False
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=3)
+.F.F.
+======================================================================
+FAIL: test_previous_song2 (ClassEval_61_0.MusicPlayerTestPreviousSong.test_previous_song2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_61_0.py", line 522, in test_previous_song2
+    self.assertEqual(musicPlayer.previous_song(), False)
+AssertionError: True != False
+
+======================================================================
+FAIL: test_previous_song4 (ClassEval_61_0.MusicPlayerTestPreviousSong.test_previous_song4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_61_0.py", line 533, in test_previous_song4
+    self.assertEqual(musicPlayer.previous_song(), False)
+AssertionError: True != False
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=2)
+FFF..
+======================================================================
+FAIL: test_set_volume (ClassEval_61_0.MusicPlayerTestSetVolume.test_set_volume)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_61_0.py", line 543, in test_set_volume
+    self.assertEqual(musicPlayer.set_volume(50), None)
+AssertionError: True != None
+
+======================================================================
+FAIL: test_set_volume2 (ClassEval_61_0.MusicPlayerTestSetVolume.test_set_volume2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_61_0.py", line 548, in test_set_volume2
+    self.assertEqual(musicPlayer.set_volume(100), None)
+AssertionError: True != None
+
+======================================================================
+FAIL: test_set_volume3 (ClassEval_61_0.MusicPlayerTestSetVolume.test_set_volume3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_61_0.py", line 553, in test_set_volume3
+    self.assertEqual(musicPlayer.set_volume(0), None)
+AssertionError: True != None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=3)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+....F
+======================================================================
+FAIL: test_remove_stop_words_5 (ClassEval_62_0.NLPDataProcessorTestRemove.test_remove_stop_words_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_62_0.py", line 140, in test_remove_stop_words_5
+    self.assertEqual(words_list, expected_words_list)
+AssertionError: Lists differ: [['test'], ['apple'], ['dog']] != [['is', 'test'], ['is', 'apple'], ['is', 'dog']]
+
+First differing element 0:
+['test']
+['is', 'test']
+
+- [['test'], ['apple'], ['dog']]
++ [['is', 'test'], ['is', 'apple'], ['is', 'dog']]
+?   ++++++          ++++++           ++++++
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+FF.FF
+======================================================================
+FAIL: test_calculate_word_frequency (ClassEval_63_0.NLPDataProcessorTestCalculate.test_calculate_word_frequency)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_63_0.py", line 164, in test_calculate_word_frequency
+    self.assertEqual(self.processor.calculate_word_frequency(words_list), expected_output)
+AssertionError: {'hello': 4, 'world': 3, 'this': 2, 'is': 2, 'test': 2, 'a': 1, 'another': 1} != {'hello': 4, 'world': 3, 'this': 2, 'is': 2, 'test': 2}
+- {'a': 1, 'another': 1, 'hello': 4, 'is': 2, 'test': 2, 'this': 2, 'world': 3}
+?  ----------------------
+
++ {'hello': 4, 'is': 2, 'test': 2, 'this': 2, 'world': 3}
+
+======================================================================
+FAIL: test_calculate_word_frequency2 (ClassEval_63_0.NLPDataProcessorTestCalculate.test_calculate_word_frequency2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_63_0.py", line 170, in test_calculate_word_frequency2
+    self.assertEqual(self.processor.calculate_word_frequency(words_list), expected_output)
+AssertionError: {'world': 6, 'hello': 4, 'this': 2, 'is': 2, 'test': 2, 'a': 1, 'another': 1} != {'world': 6, 'hello': 4, 'this': 2, 'is': 2, 'test': 2}
+- {'a': 1, 'another': 1, 'hello': 4, 'is': 2, 'test': 2, 'this': 2, 'world': 6}
+?  ----------------------
+
++ {'hello': 4, 'is': 2, 'test': 2, 'this': 2, 'world': 6}
+
+======================================================================
+FAIL: test_calculate_word_frequency4 (ClassEval_63_0.NLPDataProcessorTestCalculate.test_calculate_word_frequency4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_63_0.py", line 181, in test_calculate_word_frequency4
+    self.assertEqual(self.processor.calculate_word_frequency(words_list), expected_output)
+AssertionError: {'%%%': 6, 'hello': 5, 'world': 4, 'this': 2, 'is': 2, 'a': 2, 'another': 1} != {'%%%': 6, 'hello': 5, 'world': 4, 'is': 2, 'this': 2}
+- {'%%%': 6, 'a': 2, 'another': 1, 'hello': 5, 'is': 2, 'this': 2, 'world': 4}
+?           ----------------------
+
++ {'%%%': 6, 'hello': 5, 'is': 2, 'this': 2, 'world': 4}
+
+======================================================================
+FAIL: test_calculate_word_frequency5 (ClassEval_63_0.NLPDataProcessorTestCalculate.test_calculate_word_frequency5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_63_0.py", line 188, in test_calculate_word_frequency5
+    self.assertEqual(self.processor.calculate_word_frequency(words_list), expected_output)
+AssertionError: {'%%%': 12, 'hello': 10, 'world': 8, 'this': 4, 'is': 4, 'a': 4, 'another': 2} != {'%%%': 12, 'hello': 10, 'world': 8, 'is': 4, 'this': 4}
+- {'%%%': 12, 'a': 4, 'another': 2, 'hello': 10, 'is': 4, 'this': 4, 'world': 8}
+?            ----------------------
+
++ {'%%%': 12, 'hello': 10, 'is': 4, 'this': 4, 'world': 8}
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=4)
+.F..F.
+======================================================================
+FAIL: test_process (ClassEval_63_0.NLPDataProcessorTestProcess.test_process)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_63_0.py", line 198, in test_process
+    self.assertEqual(self.processor.process(string_list), expected_output)
+AssertionError: {'hello': 2, 'world': 2, 'this': 2, 'is': 2, 'a': 2, 'test': 2} != {'hello': 2, 'world': 2, 'this': 2, 'is': 2, 'a': 2}
+- {'a': 2, 'hello': 2, 'is': 2, 'test': 2, 'this': 2, 'world': 2}
+?                              -----------
+
++ {'a': 2, 'hello': 2, 'is': 2, 'this': 2, 'world': 2}
+
+======================================================================
+FAIL: test_process5 (ClassEval_63_0.NLPDataProcessorTestProcess.test_process5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_63_0.py", line 218, in test_process5
+    self.assertEqual(self.processor.process(string_list), expected_output)
+AssertionError: {'hello': 2, 'world': 2, 'this': 2, 'is': 2, 'a': 2, 'test': 2} != {'hello': 2, 'world': 2, 'this': 2, 'is': 2, 'a': 2}
+- {'a': 2, 'hello': 2, 'is': 2, 'test': 2, 'this': 2, 'world': 2}
+?                              -----------
+
++ {'a': 2, 'hello': 2, 'is': 2, 'this': 2, 'world': 2}
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+FAILED (failures=2)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+...F.E
+======================================================================
+ERROR: test_format_6 (ClassEval_65_0.NumberWordFormatterTestFormat.test_format_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_65_0.py", line 311, in test_format_6
+    self.assertEqual(formatter.format(None), "")
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_65_0.py", line 47, in format
+    return self.format_string(s)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_65_0.py", line 106, in format_string
+    chunk_int = int(chunk)
+                ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '00N'
+
+======================================================================
+FAIL: test_format_4 (ClassEval_65_0.NumberWordFormatterTestFormat.test_format_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_65_0.py", line 303, in test_format_4
+    self.assertEqual(formatter.format(1.23), "ONE AND CENTS TWENTY THREE ONLY")
+AssertionError: 'ONE POINT TWO THREE ONLY' != 'ONE AND CENTS TWENTY THREE ONLY'
+- ONE POINT TWO THREE ONLY
++ ONE AND CENTS TWENTY THREE ONLY
+
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=1, errors=1)
+...F..
+======================================================================
+FAIL: test_format_string_4 (ClassEval_65_0.NumberWordFormatterTestFormatString.test_format_string_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_65_0.py", line 330, in test_format_string_4
+    self.assertEqual(formatter.format_string('1.23'), "ONE AND CENTS TWENTY THREE ONLY")
+AssertionError: 'ONE POINT TWO THREE ONLY' != 'ONE AND CENTS TWENTY THREE ONLY'
+- ONE POINT TWO THREE ONLY
++ ONE AND CENTS TWENTY THREE ONLY
+
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.FF....F..F
+======================================================================
+FAIL: test_replace_10 (ClassEval_66_0.NumericEntityUnescaperTestReplace.test_replace_10)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_66_0.py", line 168, in test_replace_10
+    self.assertEqual(res, "")
+AssertionError: '&#X' != ''
+- &#X
+
+
+======================================================================
+FAIL: test_replace_11 (ClassEval_66_0.NumericEntityUnescaperTestReplace.test_replace_11)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_66_0.py", line 173, in test_replace_11
+    self.assertEqual(res, "")
+AssertionError: '&#c1d;BC' != ''
+- &#c1d;BC
+
+
+======================================================================
+FAIL: test_replace_6 (ClassEval_66_0.NumericEntityUnescaperTestReplace.test_replace_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_66_0.py", line 148, in test_replace_6
+    self.assertEqual(res, "")
+AssertionError: '&#' != ''
+- &#
+
+
+======================================================================
+FAIL: test_replace_9 (ClassEval_66_0.NumericEntityUnescaperTestReplace.test_replace_9)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_66_0.py", line 163, in test_replace_9
+    self.assertEqual(res, "CCC")
+AssertionError: 'CCC;' != 'CCC'
+- CCC;
+?    -
++ CCC
+
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.002s
+
+FAILED (failures=4)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....F
+======================================================================
+FAIL: test_add_dish_6 (ClassEval_67_0.OrderTestAddDish.test_add_dish_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_67_0.py", line 318, in test_add_dish_6
+    self.assertTrue(result)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+....F
+======================================================================
+FAIL: test_get_page_info_5 (ClassEval_68_0.PageUtilTestGetPageInfo.test_get_page_info_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_68_0.py", line 332, in test_get_page_info_5
+    self.assertEqual(actual_info, empty_info)
+AssertionError: {'current_page': 5, 'per_page': 3, 'total_[77 chars]: []} != {}
++ {}
+- {'current_page': 5,
+-  'data': [],
+-  'has_next': False,
+-  'has_previous': True,
+-  'per_page': 3,
+-  'total_items': 10,
+-  'total_pages': 4}
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+F....
+======================================================================
+FAIL: test_validate_phone_number_1 (ClassEval_72_0.RegexUtilsTestValidatePhoneNumber.test_validate_phone_number_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_72_0.py", line 491, in test_validate_phone_number_1
+    self.assertEqual(res, True)
+AssertionError: False != True
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+F
+======================================================================
+FAIL: test_regexutils (ClassEval_72_0.RegexUtilsTest.test_regexutils)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_72_0.py", line 573, in test_regexutils
+    self.assertEqual(res, True)
+AssertionError: False != True
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+..FFF
+======================================================================
+FAIL: test_recv_3 (ClassEval_74_0.ServerTestRecv.test_recv_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_74_0.py", line 235, in test_recv_3
+    self.assertEqual(flag, -1)
+AssertionError: False != -1
+
+======================================================================
+FAIL: test_recv_4 (ClassEval_74_0.ServerTestRecv.test_recv_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_74_0.py", line 241, in test_recv_4
+    self.assertEqual(flag, -1)
+AssertionError: False != -1
+
+======================================================================
+FAIL: test_recv_5 (ClassEval_74_0.ServerTestRecv.test_recv_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_74_0.py", line 247, in test_recv_5
+    self.assertEqual(flag, -1)
+AssertionError: False != -1
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=3)
+.FFF.
+======================================================================
+FAIL: test_send_2 (ClassEval_74_0.ServerTestSend.test_send_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_74_0.py", line 259, in test_send_2
+    self.assertEqual(flag, "info structure is not correct")
+AssertionError: "Invalid message format. Dictionary must contain 'addr' and 'content' keys." != 'info structure is not correct'
+- Invalid message format. Dictionary must contain 'addr' and 'content' keys.
++ info structure is not correct
+
+
+======================================================================
+FAIL: test_send_3 (ClassEval_74_0.ServerTestSend.test_send_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_74_0.py", line 264, in test_send_3
+    self.assertEqual(flag, "info structure is not correct")
+AssertionError: "Invalid message format. Dictionary must contain 'addr' and 'content' keys." != 'info structure is not correct'
+- Invalid message format. Dictionary must contain 'addr' and 'content' keys.
++ info structure is not correct
+
+
+======================================================================
+FAIL: test_send_4 (ClassEval_74_0.ServerTestSend.test_send_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_74_0.py", line 269, in test_send_4
+    self.assertEqual(flag, "info structure is not correct")
+AssertionError: "Invalid message format. Dictionary must contain 'addr' and 'content' keys." != 'info structure is not correct'
+- Invalid message format. Dictionary must contain 'addr' and 'content' keys.
++ info structure is not correct
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=3)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....F
+======================================================================
+FAIL: test_add_item_6 (ClassEval_75_0.ShoppingCartTestAddItem.test_add_item_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_75_0.py", line 173, in test_add_item_6
+    self.assertEqual(shoppingcart.items, {"apple": {"price": 1, "quantity": 5}})
+AssertionError: {'apple': {'price': 1, 'quantity': 10}} != {'apple': {'price': 1, 'quantity': 5}}
+- {'apple': {'price': 1, 'quantity': 10}}
+?                                    ^^
+
++ {'apple': {'price': 1, 'quantity': 5}}
+?                                    ^
+
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+...F.
+======================================================================
+FAIL: test_count_words_4 (ClassEval_78_0.SplitSentenceTestCountWords.test_count_words_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_78_0.py", line 224, in test_count_words_4
+    self.assertEqual(cnt, 3)
+AssertionError: 2 != 3
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+EEEEE
+======================================================================
+ERROR: test_correlation (ClassEval_81_0.Statistics3TestCorrelation.test_correlation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 314, in test_correlation
+    self.assertEqual(statistics3.correlation([1, 2, 3], [4, 5, 6]), 1.0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 156, in correlation
+    sum_sq_dev_x = sum([(xi - mean_val) ** 2 for xi in x])
+                              ^^^^^^^^
+NameError: name 'mean_val' is not defined
+
+======================================================================
+ERROR: test_correlation_2 (ClassEval_81_0.Statistics3TestCorrelation.test_correlation_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 318, in test_correlation_2
+    self.assertEqual(statistics3.correlation([1, 2, 3, 4], [5, 6, 7, 8]), 1.0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 156, in correlation
+    sum_sq_dev_x = sum([(xi - mean_val) ** 2 for xi in x])
+                              ^^^^^^^^
+NameError: name 'mean_val' is not defined
+
+======================================================================
+ERROR: test_correlation_3 (ClassEval_81_0.Statistics3TestCorrelation.test_correlation_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 322, in test_correlation_3
+    self.assertEqual(statistics3.correlation([1, 2, 3], [1,2,3]), 1.0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 156, in correlation
+    sum_sq_dev_x = sum([(xi - mean_val) ** 2 for xi in x])
+                              ^^^^^^^^
+NameError: name 'mean_val' is not defined
+
+======================================================================
+ERROR: test_correlation_4 (ClassEval_81_0.Statistics3TestCorrelation.test_correlation_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 326, in test_correlation_4
+    self.assertEqual(statistics3.correlation([1, 1,1], [2,2,2]), None)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 156, in correlation
+    sum_sq_dev_x = sum([(xi - mean_val) ** 2 for xi in x])
+                              ^^^^^^^^
+NameError: name 'mean_val' is not defined
+
+======================================================================
+ERROR: test_correlation_5 (ClassEval_81_0.Statistics3TestCorrelation.test_correlation_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 330, in test_correlation_5
+    self.assertEqual(statistics3.correlation([1, 1,1], [1,1,1]), None)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 156, in correlation
+    sum_sq_dev_x = sum([(xi - mean_val) ** 2 for xi in x])
+                              ^^^^^^^^
+NameError: name 'mean_val' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+FAILED (errors=5)
+.F...
+======================================================================
+FAIL: test_mean_2 (ClassEval_81_0.Statistics3TestMean.test_mean_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 339, in test_mean_2
+    self.assertEqual(statistics3.mean([]), None)
+AssertionError: 0.0 != None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+FAILED (failures=1)
+EEFEE
+======================================================================
+ERROR: test_correlation_matrix (ClassEval_81_0.Statistics3TestCorrelationMatrix.test_correlation_matrix)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 356, in test_correlation_matrix
+    self.assertEqual(statistics3.correlation_matrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]]), [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 222, in correlation_matrix
+    corr_matrix[i][j] = Statistics3.correlation(data[i], data[j])
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 156, in correlation
+    sum_sq_dev_x = sum([(xi - mean_val) ** 2 for xi in x])
+                              ^^^^^^^^
+NameError: name 'mean_val' is not defined
+
+======================================================================
+ERROR: test_correlation_matrix_2 (ClassEval_81_0.Statistics3TestCorrelationMatrix.test_correlation_matrix_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 360, in test_correlation_matrix_2
+    self.assertEqual(statistics3.correlation_matrix([[1, 2, 3], [4, 5, 6]]), [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 222, in correlation_matrix
+    corr_matrix[i][j] = Statistics3.correlation(data[i], data[j])
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 156, in correlation
+    sum_sq_dev_x = sum([(xi - mean_val) ** 2 for xi in x])
+                              ^^^^^^^^
+NameError: name 'mean_val' is not defined
+
+======================================================================
+ERROR: test_correlation_matrix_4 (ClassEval_81_0.Statistics3TestCorrelationMatrix.test_correlation_matrix_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 368, in test_correlation_matrix_4
+    self.assertEqual(statistics3.correlation_matrix([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11,12]]), [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 222, in correlation_matrix
+    corr_matrix[i][j] = Statistics3.correlation(data[i], data[j])
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 156, in correlation
+    sum_sq_dev_x = sum([(xi - mean_val) ** 2 for xi in x])
+                              ^^^^^^^^
+NameError: name 'mean_val' is not defined
+
+======================================================================
+ERROR: test_correlation_matrix_5 (ClassEval_81_0.Statistics3TestCorrelationMatrix.test_correlation_matrix_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 372, in test_correlation_matrix_5
+    self.assertEqual(statistics3.correlation_matrix([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11,12], [13, 14, 15]]), [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 222, in correlation_matrix
+    corr_matrix[i][j] = Statistics3.correlation(data[i], data[j])
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 156, in correlation
+    sum_sq_dev_x = sum([(xi - mean_val) ** 2 for xi in x])
+                              ^^^^^^^^
+NameError: name 'mean_val' is not defined
+
+======================================================================
+FAIL: test_correlation_matrix_3 (ClassEval_81_0.Statistics3TestCorrelationMatrix.test_correlation_matrix_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 364, in test_correlation_matrix_3
+    self.assertEqual(statistics3.correlation_matrix([[1, 2, 3]]), [[None, None, None], [None, None, None], [None, None, None]])
+AssertionError: Lists differ: [[1.0]] != [[None, None, None], [None, None, None], [None, None, None]]
+
+First differing element 0:
+[1.0]
+[None, None, None]
+
+Second list contains 2 additional elements.
+First extra element 1:
+[None, None, None]
+
+- [[1.0]]
++ [[None, None, None], [None, None, None], [None, None, None]]
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+FAILED (failures=1, errors=4)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.FF.F
+======================================================================
+FAIL: test_z_score_2 (ClassEval_81_0.Statistics3TestZScore.test_z_score_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 403, in test_z_score_2
+    self.assertEqual(statistics3.z_score([1, 1, 1, 1]), None)
+AssertionError: [0.0, 0.0, 0.0, 0.0] != None
+
+======================================================================
+FAIL: test_z_score_3 (ClassEval_81_0.Statistics3TestZScore.test_z_score_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 407, in test_z_score_3
+    self.assertEqual(statistics3.z_score([1]),None)
+AssertionError: [0.0] != None
+
+======================================================================
+FAIL: test_z_score_5 (ClassEval_81_0.Statistics3TestZScore.test_z_score_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 415, in test_z_score_5
+    self.assertEqual(statistics3.z_score([1, 1, 1, 1, 1]), None)
+AssertionError: [0.0, 0.0, 0.0, 0.0, 0.0] != None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=3)
+E
+======================================================================
+ERROR: test_main (ClassEval_81_0.Statistics3TestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 423, in test_main
+    self.assertEqual(statistics3.correlation([1, 2, 3], [4, 5, 6]), 1.0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 156, in correlation
+    sum_sq_dev_x = sum([(xi - mean_val) ** 2 for xi in x])
+                              ^^^^^^^^
+NameError: name 'mean_val' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (errors=1)
+.F.FF
+======================================================================
+FAIL: test_add_stock_2 (ClassEval_82_0.StockPortfolioTrackerTestAddStock.test_add_stock_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_82_0.py", line 347, in test_add_stock_2
+    self.assertEqual(tracker.portfolio, [{'name': 'AAPL', 'price': 150.0, 'quantity': 20}])
+AssertionError: Lists differ: [{'na[32 chars]antity': 10}, {'name': 'AAPL', 'price': 150.0, 'quantity': 10}] != [{'na[32 chars]antity': 20}]
+
+First differing element 0:
+{'name': 'AAPL', 'price': 150.0, 'quantity': 10}
+{'name': 'AAPL', 'price': 150.0, 'quantity': 20}
+
+First list contains 1 additional elements.
+First extra element 1:
+{'name': 'AAPL', 'price': 150.0, 'quantity': 10}
+
+- [{'name': 'AAPL', 'price': 150.0, 'quantity': 10},
+?                                               ^  ^
+
++ [{'name': 'AAPL', 'price': 150.0, 'quantity': 20}]
+?                                               ^  ^
+
+-  {'name': 'AAPL', 'price': 150.0, 'quantity': 10}]
+
+======================================================================
+FAIL: test_add_stock_4 (ClassEval_82_0.StockPortfolioTrackerTestAddStock.test_add_stock_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_82_0.py", line 361, in test_add_stock_4
+    self.assertEqual(tracker.portfolio, [{'name': 'AAPL', 'price': 150.0, 'quantity': 20},
+AssertionError: Lists differ: [{'na[36 chars]ty': 10}, {'name': 'AAPL', 'price': 150.0, 'qu[58 chars] 10}] != [{'na[36 chars]ty': 20}, {'name': 'MSFT', 'price': 150.0, 'quantity': 10}]
+
+First differing element 0:
+{'name': 'AAPL', 'price': 150.0, 'quantity': 10}
+{'name': 'AAPL', 'price': 150.0, 'quantity': 20}
+
+First list contains 1 additional elements.
+First extra element 2:
+{'name': 'MSFT', 'price': 150.0, 'quantity': 10}
+
+- [{'name': 'AAPL', 'price': 150.0, 'quantity': 10},
+?                                               ^
+
++ [{'name': 'AAPL', 'price': 150.0, 'quantity': 20},
+?                                               ^
+
+-  {'name': 'AAPL', 'price': 150.0, 'quantity': 10},
+   {'name': 'MSFT', 'price': 150.0, 'quantity': 10}]
+
+======================================================================
+FAIL: test_add_stock_5 (ClassEval_82_0.StockPortfolioTrackerTestAddStock.test_add_stock_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_82_0.py", line 370, in test_add_stock_5
+    self.assertEqual(tracker.portfolio, [{'name': 'AAPL', 'price': 150.0, 'quantity': 20},
+AssertionError: Lists differ: [{'na[36 chars]ty': 10}, {'name': 'AAPL', 'price': 150.0, 'qu[108 chars] 10}] != [{'na[36 chars]ty': 20}, {'name': 'MSFT', 'price': 150.0, 'quantity': 20}]
+
+First differing element 0:
+{'name': 'AAPL', 'price': 150.0, 'quantity': 10}
+{'name': 'AAPL', 'price': 150.0, 'quantity': 20}
+
+First list contains 2 additional elements.
+First extra element 2:
+{'name': 'MSFT', 'price': 150.0, 'quantity': 10}
+
+- [{'name': 'AAPL', 'price': 150.0, 'quantity': 10},
+?                                               ^
+
++ [{'name': 'AAPL', 'price': 150.0, 'quantity': 20},
+?                                               ^
+
+-  {'name': 'AAPL', 'price': 150.0, 'quantity': 10},
+-  {'name': 'MSFT', 'price': 150.0, 'quantity': 10},
+-  {'name': 'MSFT', 'price': 150.0, 'quantity': 10}]
+?                                               ^
+
++  {'name': 'MSFT', 'price': 150.0, 'quantity': 20}]
+?                                               ^
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=3)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.030s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.034s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.091s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.013s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+....F
+======================================================================
+FAIL: test_auto_check_conflict_5 (ClassEval_85_0.ThermostatTestAutoCheckConflict.test_auto_check_conflict_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_85_0.py", line 344, in test_auto_check_conflict_5
+    self.assertFalse(t.auto_check_conflict())
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+F..F.
+======================================================================
+FAIL: test_cos_1 (ClassEval_88_0.TriCalculatorTestCos.test_cos_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 219, in test_cos_1
+    self.assertEqual(tricalculator.cos(60), 0.5)
+AssertionError: 0.5000000000000001 != 0.5
+
+======================================================================
+FAIL: test_cos_4 (ClassEval_88_0.TriCalculatorTestCos.test_cos_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 231, in test_cos_4
+    self.assertEqual(tricalculator.cos(90), 0.0)
+AssertionError: 4.2539467343847745e-17 != 0.0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=2)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+F..F.
+======================================================================
+FAIL: test_sin_1 (ClassEval_88_0.TriCalculatorTestSin.test_sin_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 285, in test_sin_1
+    self.assertEqual(tricalculator.sin(30), 0.5)
+AssertionError: 0.49999999999999994 != 0.5
+
+======================================================================
+FAIL: test_sin_4 (ClassEval_88_0.TriCalculatorTestSin.test_sin_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 297, in test_sin_4
+    self.assertEqual(tricalculator.sin(90), 1.0)
+AssertionError: 1.0000000000000002 != 1.0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=2)
+.E...
+======================================================================
+ERROR: test_tan_2 (ClassEval_88_0.TriCalculatorTestTan.test_tan_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 311, in test_tan_2
+    self.assertEqual(tricalculator.tan(90), False)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 190, in tan
+    raise ValueError("Tangent is undefined for angles where cosine is zero.")
+ValueError: Tangent is undefined for angles where cosine is zero.
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (errors=1)
+F
+======================================================================
+FAIL: test_tricalculator (ClassEval_88_0.TriCalculatorTest.test_tricalculator)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 329, in test_tricalculator
+    self.assertEqual(tricalculator.cos(60), 0.5)
+AssertionError: 0.5000000000000001 != 0.5
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+E......
+======================================================================
+ERROR: test_answer_1 (ClassEval_89_0.TwentyFourPointGameTestAnswer.test_answer_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_89_0.py", line 231, in test_answer_1
+    self.assertEqual(len(cards), 4)
+                     ^^^^^^^^^^
+TypeError: object of type 'bool' has no len()
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+FAILED (errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....F
+======================================================================
+FAIL: test_get_scheme_6 (ClassEval_90_0.URLHandlerTestGetScheme.test_get_scheme_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_90_0.py", line 173, in test_get_scheme_6
+    self.assertIsNone(temp)
+AssertionError: '' is not None
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=1)
+.....F..
+======================================================================
+FAIL: test_get_host_6 (ClassEval_90_0.URLHandlerTestGetHost.test_get_host_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_90_0.py", line 206, in test_get_host_6
+    self.assertIsNone(temp)
+AssertionError: '' is not None
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+FAILED (failures=1)
+.....F
+======================================================================
+FAIL: test_get_path_6 (ClassEval_90_0.URLHandlerTestGetPath.test_get_path_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_90_0.py", line 250, in test_get_path_6
+    self.assertIsNone(temp)
+AssertionError: 'abcdefg' is not None
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+FAILED (failures=1)
+..F...
+======================================================================
+FAIL: test_get_query_params_3 (ClassEval_90_0.URLHandlerTestGetQueryParams.test_get_query_params_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_90_0.py", line 269, in test_get_query_params_3
+    self.assertEqual(temp, None)
+AssertionError: {} != None
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=1)
+.F...
+======================================================================
+FAIL: test_get_fragment_2 (ClassEval_90_0.URLHandlerTestGetFragment.test_get_fragment_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_90_0.py", line 297, in test_get_fragment_2
+    self.assertEqual(temp, None)
+AssertionError: '' != None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+EEEEE
+======================================================================
+ERROR: test_insert_user_1 (ClassEval_92_0.UserLoginDBTestInsertUser.test_insert_user_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 266, in test_insert_user_1
+    self.assertEqual(user[0], 'user1')
+                     ~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_insert_user_2 (ClassEval_92_0.UserLoginDBTestInsertUser.test_insert_user_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 273, in test_insert_user_2
+    self.assertEqual(user[0], 'user2')
+                     ~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_insert_user_3 (ClassEval_92_0.UserLoginDBTestInsertUser.test_insert_user_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 280, in test_insert_user_3
+    self.assertEqual(user[0], 'user3')
+                     ~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_insert_user_4 (ClassEval_92_0.UserLoginDBTestInsertUser.test_insert_user_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 287, in test_insert_user_4
+    self.assertEqual(user[0], 'user4')
+                     ~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_insert_user_5 (ClassEval_92_0.UserLoginDBTestInsertUser.test_insert_user_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 294, in test_insert_user_5
+    self.assertEqual(user[0], 'user5')
+                     ~~~~^^^
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.018s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_search_user_by_username_1 (ClassEval_92_0.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 323, in test_search_user_by_username_1
+    self.assertEqual(user[0], 'user1')
+                     ~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_search_user_by_username_2 (ClassEval_92_0.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 330, in test_search_user_by_username_2
+    self.assertEqual(user[0], 'user2')
+                     ~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_search_user_by_username_3 (ClassEval_92_0.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 337, in test_search_user_by_username_3
+    self.assertEqual(user[0], 'user3')
+                     ~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_search_user_by_username_4 (ClassEval_92_0.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 344, in test_search_user_by_username_4
+    self.assertEqual(user[0], 'user4')
+                     ~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_search_user_by_username_5 (ClassEval_92_0.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 351, in test_search_user_by_username_5
+    self.assertEqual(user[0], 'user5')
+                     ~~~~^^^
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.018s
+
+FAILED (errors=5)
+FFFFF
+======================================================================
+FAIL: test_delete_user_by_username_1 (ClassEval_92_0.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 380, in test_delete_user_by_username_1
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_2 (ClassEval_92_0.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 386, in test_delete_user_by_username_2
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_3 (ClassEval_92_0.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 392, in test_delete_user_by_username_3
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_4 (ClassEval_92_0.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 398, in test_delete_user_by_username_4
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_5 (ClassEval_92_0.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 404, in test_delete_user_by_username_5
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.035s
+
+FAILED (failures=5)
+F..FF
+======================================================================
+FAIL: test_validate_user_login_1 (ClassEval_92_0.UserLoginDBTestValidateUserLogin.test_validate_user_login_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 431, in test_validate_user_login_1
+    self.assertTrue(valid)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_validate_user_login_4 (ClassEval_92_0.UserLoginDBTestValidateUserLogin.test_validate_user_login_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 445, in test_validate_user_login_4
+    self.assertTrue(valid)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_validate_user_login_5 (ClassEval_92_0.UserLoginDBTestValidateUserLogin.test_validate_user_login_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 450, in test_validate_user_login_5
+    self.assertTrue(valid)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.018s
+
+FAILED (failures=3)
+E
+======================================================================
+ERROR: test_UserLoginDB (ClassEval_92_0.UserLoginDBTest.test_UserLoginDB)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 478, in test_UserLoginDB
+    self.assertEqual(user[0], 'user1')
+                     ~~~~^^^
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+FAILED (errors=1)
+.F.FF
+======================================================================
+FAIL: test_add_item_2 (ClassEval_94_0.VendingMachineTestAddItem.test_add_item_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_94_0.py", line 273, in test_add_item_2
+    self.assertEqual(vendingMachine.inventory, {'Coke': {'price': 1.25, 'quantity': 20}})
+AssertionError: {'Coke': {'price': 1.25, 'quantity': 10}} != {'Coke': {'price': 1.25, 'quantity': 20}}
+- {'Coke': {'price': 1.25, 'quantity': 10}}
+?                                      ^
+
++ {'Coke': {'price': 1.25, 'quantity': 20}}
+?                                      ^
+
+
+======================================================================
+FAIL: test_add_item_4 (ClassEval_94_0.VendingMachineTestAddItem.test_add_item_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_94_0.py", line 286, in test_add_item_4
+    self.assertEqual(vendingMachine.inventory, {'Coke': {'price': 1.25, 'quantity': 10}, 'Pizza': {'price': 1.25, 'quantity': 20}})
+AssertionError: {'Cok[15 chars].25, 'quantity': 10}, 'Pizza': {'price': 1.25, 'quantity': 10}} != {'Cok[15 chars].25, 'quantity': 10}, 'Pizza': {'price': 1.25, 'quantity': 20}}
+  {'Coke': {'price': 1.25, 'quantity': 10},
+-  'Pizza': {'price': 1.25, 'quantity': 10}}
+?                                       ^
+
++  'Pizza': {'price': 1.25, 'quantity': 20}}
+?                                       ^
+
+
+======================================================================
+FAIL: test_add_item_5 (ClassEval_94_0.VendingMachineTestAddItem.test_add_item_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_94_0.py", line 294, in test_add_item_5
+    self.assertEqual(vendingMachine.inventory, {'Coke': {'price': 1.25, 'quantity': 20}, 'Pizza': {'price': 1.25, 'quantity': 20}})
+AssertionError: {'Cok[15 chars].25, 'quantity': 10}, 'Pizza': {'price': 1.25, 'quantity': 10}} != {'Cok[15 chars].25, 'quantity': 20}, 'Pizza': {'price': 1.25, 'quantity': 20}}
+- {'Coke': {'price': 1.25, 'quantity': 10},
+?                                      ^
+
++ {'Coke': {'price': 1.25, 'quantity': 20},
+?                                      ^
+
+-  'Pizza': {'price': 1.25, 'quantity': 10}}
+?                                       ^
+
++  'Pizza': {'price': 1.25, 'quantity': 20}}
+?                                       ^
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=3)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+....F
+======================================================================
+FAIL: test_restock_item_5 (ClassEval_94_0.VendingMachineTestRestockItem.test_restock_item_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_94_0.py", line 392, in test_restock_item_5
+    self.assertEqual(vendingMachine.restock_item('Pizza', 0), True)
+AssertionError: False != True
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.F....
+======================================================================
+FAIL: test_query_2 (ClassEval_96_0.WeatherSystemTestQuery.test_query_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_96_0.py", line 194, in test_query_2
+    self.assertEqual(weatherSystem.query(weather_list), False)
+AssertionError: (None, None) != False
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+F.F..F
+======================================================================
+FAIL: test_is_valid_input (ClassEval_97_0.Words2NumbersTestIsValidInput.test_is_valid_input)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_97_0.py", line 282, in test_is_valid_input
+    self.assertTrue(w2n.is_valid_input("twenty-five thousand three hundred and forty-two"))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_is_valid_input3 (ClassEval_97_0.Words2NumbersTestIsValidInput.test_is_valid_input3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_97_0.py", line 290, in test_is_valid_input3
+    self.assertTrue(w2n.is_valid_input("twenty-fifth thousand three hundred and forty-second"))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_is_valid_input6 (ClassEval_97_0.Words2NumbersTestIsValidInput.test_is_valid_input6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_97_0.py", line 302, in test_is_valid_input6
+    self.assertTrue(w2n.is_valid_input("fifteenth hundred"))
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=3)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 565, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple(processed)' != 'APPLE'
+- apple(processed)
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 590, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple(processed)' != 'APPLE'
+- apple(processed)
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 614, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple(processed)' != 'APPLE'
+- apple(processed)
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 637, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple(processed)' != 'APPLE'
+- apple(processed)
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 661, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'aaa(processed)' != 'AAA'
+- aaa(processed)
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_0.XMLProcessorTest.test_XMLProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 799, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple(processed)' != 'APPLE'
+- apple(processed)
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+OK
+.....E
+======================================================================
+ERROR: test_extract_all_6 (ClassEval_99_0.ZipFileProcessorTestExtractAll.test_extract_all_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 495, in test_extract_all_6
+    success = processor.extract_all("")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 61, in extract_all
+    os.makedirs(output_path, exist_ok=True)
+  File "<frozen os>", line 225, in makedirs
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.014s
+
+FAILED (errors=1)
+.....E
+======================================================================
+ERROR: test_extract_file_6 (ClassEval_99_0.ZipFileProcessorTestExtractFile.test_extract_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 617, in test_extract_file_6
+    success = processor.extract_file("", "")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 98, in extract_file
+    os.makedirs(output_path, exist_ok=True)
+  File "<frozen os>", line 225, in makedirs
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.012s
+
+FAILED (errors=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK

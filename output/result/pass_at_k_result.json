@@ -102,6 +102,12 @@
             "fun_partial_success": 0.7920318725099609,
             "fun_success": 0.6541832669322714
         },
+        "Deepseek-r1-distill-llama-70b-testpred": {
+            "class_partial_success": 0.5819999999999999,
+            "class_success": 0.30400000000000005,
+            "fun_partial_success": 0.8067729083665345,
+            "fun_success": 0.6394422310756974
+        },
         "Deepseek-r1-distill-llama-70b_Data_Formatting": {
             "class_partial_success": 0.6230769230769231,
             "class_success": 0.3230769230769231,
@@ -191,6 +197,12 @@
             "class_success": 0.2,
             "fun_partial_success": 0.6666666666666666,
             "fun_success": 0.4
+        },
+        "Gemini-2.5-flash": {
+            "class_partial_success": 0.7119999999999999,
+            "class_success": 0.38600000000000007,
+            "fun_partial_success": 0.8609561752988054,
+            "fun_success": 0.7127490039840646
         },
         "Llama3.1-8b": {
             "class_partial_success": 0.33599999999999997,
@@ -398,6 +410,12 @@
             "fun_partial_success": 0.8844621513944223,
             "fun_success": 0.7350597609561753
         },
+        "Deepseek-r1-distill-llama-70b-testpred_greedy": {
+            "class_partial_success": 0.61,
+            "class_success": 0.37,
+            "fun_partial_success": 0.8306772908366534,
+            "fun_success": 0.6573705179282868
+        },
         "Deepseek-r1-distill-llama-70b_greedy": {
             "class_partial_success": 0.64,
             "class_success": 0.35,
@@ -409,6 +427,18 @@
             "class_success": 0.31,
             "fun_partial_success": 0.7589641434262948,
             "fun_success": 0.601593625498008
+        },
+        "Gemini-2.5-flash-testpred_greedy": {
+            "class_partial_success": 0.66,
+            "class_success": 0.34,
+            "fun_partial_success": 0.8326693227091634,
+            "fun_success": 0.651394422310757
+        },
+        "Gemini-2.5-flash_greedy": {
+            "class_partial_success": 0.75,
+            "class_success": 0.39,
+            "fun_partial_success": 0.8725099601593626,
+            "fun_success": 0.7270916334661355
         },
         "Llama3.1-8b_greedy": {
             "class_partial_success": 0.33,
@@ -538,6 +568,12 @@
             "fun_partial_success": 0.8376494023904382,
             "fun_success": 0.7105577689243027
         },
+        "Deepseek-r1-distill-llama-70b-testpred": {
+            "class_partial_success": 0.666,
+            "class_success": 0.389,
+            "fun_partial_success": 0.8585657370517928,
+            "fun_success": 0.7147410358565739
+        },
         "Deepseek-r1-distill-llama-70b_Data_Formatting": {
             "class_partial_success": 0.6884615384615385,
             "class_success": 0.3807692307692308,
@@ -627,6 +663,12 @@
             "class_success": 0.2,
             "fun_partial_success": 0.6666666666666666,
             "fun_success": 0.4
+        },
+        "Gemini-2.5-flash": {
+            "class_partial_success": 0.795,
+            "class_success": 0.49700000000000005,
+            "fun_partial_success": 0.901792828685259,
+            "fun_success": 0.7858565737051794
         },
         "Llama3.1-8b": {
             "class_partial_success": 0.48699999999999993,
@@ -924,6 +966,12 @@
             "fun_partial_success": 0.848605577689243,
             "fun_success": 0.7250996015936255
         },
+        "Deepseek-r1-distill-llama-70b-testpred": {
+            "class_partial_success": 0.7,
+            "class_success": 0.41,
+            "fun_partial_success": 0.8725099601593626,
+            "fun_success": 0.7370517928286853
+        },
         "Deepseek-r1-distill-llama-70b_Data_Formatting": {
             "class_partial_success": 0.6923076923076923,
             "class_success": 0.38461538461538464,
@@ -1013,6 +1061,12 @@
             "class_success": 0.2,
             "fun_partial_success": 0.6666666666666666,
             "fun_success": 0.4
+        },
+        "Gemini-2.5-flash": {
+            "class_partial_success": 0.82,
+            "class_success": 0.53,
+            "fun_partial_success": 0.9083665338645418,
+            "fun_success": 0.8027888446215139
         },
         "Llama3.1-8b": {
             "class_partial_success": 0.54,
