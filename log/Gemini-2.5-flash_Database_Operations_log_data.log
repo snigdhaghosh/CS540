@@ -1750,3 +1750,1755 @@ AssertionError: ('user1', 'pass1') != 'user1'
 Ran 1 test in 0.004s
 
 FAILED (failures=1)
+.F
+======================================================================
+FAIL: test_create_table_2 (ClassEval_14_0.BookManagementDBTestCreateTable.test_create_table_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_14_0.py", line 318, in test_create_table_2
+    self.assertEqual(column_names, expected_column_names)
+AssertionError: Lists differ: ['id', 'title', 'author', 'availability'] != ['id', 'title', 'author', 'available']
+
+First differing element 3:
+'availability'
+'available'
+
+- ['id', 'title', 'author', 'availability']
+?                                   - ^^^
+
++ ['id', 'title', 'author', 'available']
+?                                    ^
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.008s
+
+FAILED (failures=1)
+E
+======================================================================
+ERROR: test_add_book (ClassEval_14_0.BookManagementDBTestAddBook.test_add_book)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_14_0.py", line 340, in test_add_book
+    self.cursor.execute("SELECT title, author, available FROM books WHERE id=1")
+sqlite3.OperationalError: no such column: available
+
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+FAILED (errors=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+OK
+E
+======================================================================
+ERROR: test_borrow_book (ClassEval_14_0.BookManagementDBTestBorrowBook.test_borrow_book)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_14_0.py", line 391, in test_borrow_book
+    self.cursor.execute("SELECT available FROM books WHERE id=1")
+sqlite3.OperationalError: no such column: available
+
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+FAILED (errors=1)
+E
+======================================================================
+ERROR: test_return_book (ClassEval_14_0.BookManagementDBTestReturnBook.test_return_book)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_14_0.py", line 416, in test_return_book
+    self.cursor.execute("SELECT available FROM books WHERE id=1")
+sqlite3.OperationalError: no such column: available
+
+----------------------------------------------------------------------
+Ran 1 test in 0.007s
+
+FAILED (errors=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.007s
+
+OK
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.005s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.007s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.008s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.009s
+
+OK
+.F
+======================================================================
+FAIL: test_create_table_2 (ClassEval_14_2.BookManagementDBTestCreateTable.test_create_table_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_14_2.py", line 235, in test_create_table_2
+    self.assertEqual(column_names, expected_column_names)
+AssertionError: Lists differ: ['id', 'title', 'author', 'availability'] != ['id', 'title', 'author', 'available']
+
+First differing element 3:
+'availability'
+'available'
+
+- ['id', 'title', 'author', 'availability']
+?                                   - ^^^
+
++ ['id', 'title', 'author', 'available']
+?                                    ^
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.006s
+
+FAILED (failures=1)
+E
+======================================================================
+ERROR: test_add_book (ClassEval_14_2.BookManagementDBTestAddBook.test_add_book)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_14_2.py", line 257, in test_add_book
+    self.cursor.execute("SELECT title, author, available FROM books WHERE id=1")
+sqlite3.OperationalError: no such column: available
+
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+FAILED (errors=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+OK
+E
+======================================================================
+ERROR: test_borrow_book (ClassEval_14_2.BookManagementDBTestBorrowBook.test_borrow_book)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_14_2.py", line 308, in test_borrow_book
+    self.cursor.execute("SELECT available FROM books WHERE id=1")
+sqlite3.OperationalError: no such column: available
+
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+FAILED (errors=1)
+E
+======================================================================
+ERROR: test_return_book (ClassEval_14_2.BookManagementDBTestReturnBook.test_return_book)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_14_2.py", line 333, in test_return_book
+    self.cursor.execute("SELECT available FROM books WHERE id=1")
+sqlite3.OperationalError: no such column: available
+
+----------------------------------------------------------------------
+Ran 1 test in 0.007s
+
+FAILED (errors=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+OK
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.005s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.007s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+OK
+.F
+======================================================================
+FAIL: test_create_table_2 (ClassEval_14_4.BookManagementDBTestCreateTable.test_create_table_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_14_4.py", line 261, in test_create_table_2
+    self.assertEqual(column_names, expected_column_names)
+AssertionError: Lists differ: ['id', 'title', 'author', 'availability'] != ['id', 'title', 'author', 'available']
+
+First differing element 3:
+'availability'
+'available'
+
+- ['id', 'title', 'author', 'availability']
+?                                   - ^^^
+
++ ['id', 'title', 'author', 'available']
+?                                    ^
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.006s
+
+FAILED (failures=1)
+E
+======================================================================
+ERROR: test_add_book (ClassEval_14_4.BookManagementDBTestAddBook.test_add_book)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_14_4.py", line 283, in test_add_book
+    self.cursor.execute("SELECT title, author, available FROM books WHERE id=1")
+sqlite3.OperationalError: no such column: available
+
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+FAILED (errors=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+OK
+E
+======================================================================
+ERROR: test_borrow_book (ClassEval_14_4.BookManagementDBTestBorrowBook.test_borrow_book)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_14_4.py", line 334, in test_borrow_book
+    self.cursor.execute("SELECT available FROM books WHERE id=1")
+sqlite3.OperationalError: no such column: available
+
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+FAILED (errors=1)
+E
+======================================================================
+ERROR: test_return_book (ClassEval_14_4.BookManagementDBTestReturnBook.test_return_book)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_14_4.py", line 359, in test_return_book
+    self.cursor.execute("SELECT available FROM books WHERE id=1")
+sqlite3.OperationalError: no such column: available
+
+----------------------------------------------------------------------
+Ran 1 test in 0.007s
+
+FAILED (errors=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.019s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.040s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.039s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.057s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.015s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.038s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.034s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.051s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.010s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.031s
+
+OK
+..FFF
+======================================================================
+FAIL: test_search_database_3 (ClassEval_28_2.DatabaseProcessorTestSearchDatabase.test_search_database_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_28_2.py", line 471, in test_search_database_3
+    self.assertIsNone(result)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_search_database_4 (ClassEval_28_2.DatabaseProcessorTestSearchDatabase.test_search_database_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_28_2.py", line 483, in test_search_database_4
+    self.assertIsNone(result)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_search_database_5 (ClassEval_28_2.DatabaseProcessorTestSearchDatabase.test_search_database_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_28_2.py", line 495, in test_search_database_5
+    self.assertIsNone(result)
+AssertionError: [] is not None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.072s
+
+FAILED (failures=3)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.044s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.010s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.043s
+
+OK
+..FFF
+======================================================================
+FAIL: test_search_database_3 (ClassEval_28_3.DatabaseProcessorTestSearchDatabase.test_search_database_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_28_3.py", line 492, in test_search_database_3
+    self.assertIsNone(result)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_search_database_4 (ClassEval_28_3.DatabaseProcessorTestSearchDatabase.test_search_database_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_28_3.py", line 504, in test_search_database_4
+    self.assertIsNone(result)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_search_database_5 (ClassEval_28_3.DatabaseProcessorTestSearchDatabase.test_search_database_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_28_3.py", line 516, in test_search_database_5
+    self.assertIsNone(result)
+AssertionError: [] is not None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.043s
+
+FAILED (failures=3)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.057s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.013s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.032s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.034s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.046s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.012s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.020s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.021s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.030s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.029s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.018s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.029s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.022s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.019s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.026s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.020s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.016s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.020s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.017s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.016s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.024s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.032s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.034s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.040s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.015s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.033s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.032s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.037s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.010s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.030s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.091s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.034s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.010s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.024s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.027s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.032s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.019s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.022s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.025s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.008s
+
+OK
+EEEEE
+======================================================================
+ERROR: test_insert_user_1 (ClassEval_92_0.UserLoginDBTestInsertUser.test_insert_user_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 266, in test_insert_user_1
+    self.assertEqual(user[0], 'user1')
+                     ~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_insert_user_2 (ClassEval_92_0.UserLoginDBTestInsertUser.test_insert_user_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 273, in test_insert_user_2
+    self.assertEqual(user[0], 'user2')
+                     ~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_insert_user_3 (ClassEval_92_0.UserLoginDBTestInsertUser.test_insert_user_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 280, in test_insert_user_3
+    self.assertEqual(user[0], 'user3')
+                     ~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_insert_user_4 (ClassEval_92_0.UserLoginDBTestInsertUser.test_insert_user_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 287, in test_insert_user_4
+    self.assertEqual(user[0], 'user4')
+                     ~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_insert_user_5 (ClassEval_92_0.UserLoginDBTestInsertUser.test_insert_user_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 294, in test_insert_user_5
+    self.assertEqual(user[0], 'user5')
+                     ~~~~^^^
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.024s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_search_user_by_username_1 (ClassEval_92_0.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 323, in test_search_user_by_username_1
+    self.assertEqual(user[0], 'user1')
+                     ~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_search_user_by_username_2 (ClassEval_92_0.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 330, in test_search_user_by_username_2
+    self.assertEqual(user[0], 'user2')
+                     ~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_search_user_by_username_3 (ClassEval_92_0.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 337, in test_search_user_by_username_3
+    self.assertEqual(user[0], 'user3')
+                     ~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_search_user_by_username_4 (ClassEval_92_0.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 344, in test_search_user_by_username_4
+    self.assertEqual(user[0], 'user4')
+                     ~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_search_user_by_username_5 (ClassEval_92_0.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 351, in test_search_user_by_username_5
+    self.assertEqual(user[0], 'user5')
+                     ~~~~^^^
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.021s
+
+FAILED (errors=5)
+FFFFF
+======================================================================
+FAIL: test_delete_user_by_username_1 (ClassEval_92_0.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 380, in test_delete_user_by_username_1
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_2 (ClassEval_92_0.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 386, in test_delete_user_by_username_2
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_3 (ClassEval_92_0.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 392, in test_delete_user_by_username_3
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_4 (ClassEval_92_0.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 398, in test_delete_user_by_username_4
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_5 (ClassEval_92_0.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 404, in test_delete_user_by_username_5
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.027s
+
+FAILED (failures=5)
+F..FF
+======================================================================
+FAIL: test_validate_user_login_1 (ClassEval_92_0.UserLoginDBTestValidateUserLogin.test_validate_user_login_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 431, in test_validate_user_login_1
+    self.assertTrue(valid)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_validate_user_login_4 (ClassEval_92_0.UserLoginDBTestValidateUserLogin.test_validate_user_login_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 445, in test_validate_user_login_4
+    self.assertTrue(valid)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_validate_user_login_5 (ClassEval_92_0.UserLoginDBTestValidateUserLogin.test_validate_user_login_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 450, in test_validate_user_login_5
+    self.assertTrue(valid)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.019s
+
+FAILED (failures=3)
+E
+======================================================================
+ERROR: test_UserLoginDB (ClassEval_92_0.UserLoginDBTest.test_UserLoginDB)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_0.py", line 478, in test_UserLoginDB
+    self.assertEqual(user[0], 'user1')
+                     ~~~~^^^
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+FAILED (errors=1)
+FFFFF
+======================================================================
+FAIL: test_insert_user_1 (ClassEval_92_1.UserLoginDBTestInsertUser.test_insert_user_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_1.py", line 256, in test_insert_user_1
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('user1', 'pass1') != 'user1'
+
+======================================================================
+FAIL: test_insert_user_2 (ClassEval_92_1.UserLoginDBTestInsertUser.test_insert_user_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_1.py", line 263, in test_insert_user_2
+    self.assertEqual(user[0], 'user2')
+AssertionError: ('user2', 'pass2') != 'user2'
+
+======================================================================
+FAIL: test_insert_user_3 (ClassEval_92_1.UserLoginDBTestInsertUser.test_insert_user_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_1.py", line 270, in test_insert_user_3
+    self.assertEqual(user[0], 'user3')
+AssertionError: ('user3', 'pass3') != 'user3'
+
+======================================================================
+FAIL: test_insert_user_4 (ClassEval_92_1.UserLoginDBTestInsertUser.test_insert_user_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_1.py", line 277, in test_insert_user_4
+    self.assertEqual(user[0], 'user4')
+AssertionError: ('user4', 'pass4') != 'user4'
+
+======================================================================
+FAIL: test_insert_user_5 (ClassEval_92_1.UserLoginDBTestInsertUser.test_insert_user_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_1.py", line 284, in test_insert_user_5
+    self.assertEqual(user[0], 'user5')
+AssertionError: ('user5', 'pass5') != 'user5'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.019s
+
+FAILED (failures=5)
+FFFFF
+======================================================================
+FAIL: test_search_user_by_username_1 (ClassEval_92_1.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_1.py", line 313, in test_search_user_by_username_1
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('user1', 'pass1') != 'user1'
+
+======================================================================
+FAIL: test_search_user_by_username_2 (ClassEval_92_1.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_1.py", line 320, in test_search_user_by_username_2
+    self.assertEqual(user[0], 'user2')
+AssertionError: ('user2', 'pass2') != 'user2'
+
+======================================================================
+FAIL: test_search_user_by_username_3 (ClassEval_92_1.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_1.py", line 327, in test_search_user_by_username_3
+    self.assertEqual(user[0], 'user3')
+AssertionError: ('user3', 'pass3') != 'user3'
+
+======================================================================
+FAIL: test_search_user_by_username_4 (ClassEval_92_1.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_1.py", line 334, in test_search_user_by_username_4
+    self.assertEqual(user[0], 'user4')
+AssertionError: ('user4', 'pass4') != 'user4'
+
+======================================================================
+FAIL: test_search_user_by_username_5 (ClassEval_92_1.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_1.py", line 341, in test_search_user_by_username_5
+    self.assertEqual(user[0], 'user5')
+AssertionError: ('user5', 'pass5') != 'user5'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.019s
+
+FAILED (failures=5)
+FFFFF
+======================================================================
+FAIL: test_delete_user_by_username_1 (ClassEval_92_1.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_1.py", line 370, in test_delete_user_by_username_1
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_2 (ClassEval_92_1.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_1.py", line 376, in test_delete_user_by_username_2
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_3 (ClassEval_92_1.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_1.py", line 382, in test_delete_user_by_username_3
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_4 (ClassEval_92_1.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_1.py", line 388, in test_delete_user_by_username_4
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_5 (ClassEval_92_1.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_1.py", line 394, in test_delete_user_by_username_5
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.022s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.014s
+
+OK
+F
+======================================================================
+FAIL: test_UserLoginDB (ClassEval_92_1.UserLoginDBTest.test_UserLoginDB)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_1.py", line 468, in test_UserLoginDB
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('user1', 'pass1') != 'user1'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+FAILED (failures=1)
+FFFFF
+======================================================================
+FAIL: test_insert_user_1 (ClassEval_92_2.UserLoginDBTestInsertUser.test_insert_user_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_2.py", line 271, in test_insert_user_1
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('user1', 'pass1') != 'user1'
+
+======================================================================
+FAIL: test_insert_user_2 (ClassEval_92_2.UserLoginDBTestInsertUser.test_insert_user_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_2.py", line 278, in test_insert_user_2
+    self.assertEqual(user[0], 'user2')
+AssertionError: ('user2', 'pass2') != 'user2'
+
+======================================================================
+FAIL: test_insert_user_3 (ClassEval_92_2.UserLoginDBTestInsertUser.test_insert_user_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_2.py", line 285, in test_insert_user_3
+    self.assertEqual(user[0], 'user3')
+AssertionError: ('user3', 'pass3') != 'user3'
+
+======================================================================
+FAIL: test_insert_user_4 (ClassEval_92_2.UserLoginDBTestInsertUser.test_insert_user_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_2.py", line 292, in test_insert_user_4
+    self.assertEqual(user[0], 'user4')
+AssertionError: ('user4', 'pass4') != 'user4'
+
+======================================================================
+FAIL: test_insert_user_5 (ClassEval_92_2.UserLoginDBTestInsertUser.test_insert_user_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_2.py", line 299, in test_insert_user_5
+    self.assertEqual(user[0], 'user5')
+AssertionError: ('user5', 'pass5') != 'user5'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.018s
+
+FAILED (failures=5)
+FFFFF
+======================================================================
+FAIL: test_search_user_by_username_1 (ClassEval_92_2.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_2.py", line 328, in test_search_user_by_username_1
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('user1', 'pass1') != 'user1'
+
+======================================================================
+FAIL: test_search_user_by_username_2 (ClassEval_92_2.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_2.py", line 335, in test_search_user_by_username_2
+    self.assertEqual(user[0], 'user2')
+AssertionError: ('user2', 'pass2') != 'user2'
+
+======================================================================
+FAIL: test_search_user_by_username_3 (ClassEval_92_2.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_2.py", line 342, in test_search_user_by_username_3
+    self.assertEqual(user[0], 'user3')
+AssertionError: ('user3', 'pass3') != 'user3'
+
+======================================================================
+FAIL: test_search_user_by_username_4 (ClassEval_92_2.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_2.py", line 349, in test_search_user_by_username_4
+    self.assertEqual(user[0], 'user4')
+AssertionError: ('user4', 'pass4') != 'user4'
+
+======================================================================
+FAIL: test_search_user_by_username_5 (ClassEval_92_2.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_2.py", line 356, in test_search_user_by_username_5
+    self.assertEqual(user[0], 'user5')
+AssertionError: ('user5', 'pass5') != 'user5'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.017s
+
+FAILED (failures=5)
+FFFFF
+======================================================================
+FAIL: test_delete_user_by_username_1 (ClassEval_92_2.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_2.py", line 385, in test_delete_user_by_username_1
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_2 (ClassEval_92_2.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_2.py", line 391, in test_delete_user_by_username_2
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_3 (ClassEval_92_2.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_2.py", line 397, in test_delete_user_by_username_3
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_4 (ClassEval_92_2.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_2.py", line 403, in test_delete_user_by_username_4
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_5 (ClassEval_92_2.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_2.py", line 409, in test_delete_user_by_username_5
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.021s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.014s
+
+OK
+F
+======================================================================
+FAIL: test_UserLoginDB (ClassEval_92_2.UserLoginDBTest.test_UserLoginDB)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_2.py", line 483, in test_UserLoginDB
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('user1', 'pass1') != 'user1'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)
+FFFFF
+======================================================================
+FAIL: test_insert_user_1 (ClassEval_92_3.UserLoginDBTestInsertUser.test_insert_user_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_3.py", line 260, in test_insert_user_1
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('user1', 'pass1') != 'user1'
+
+======================================================================
+FAIL: test_insert_user_2 (ClassEval_92_3.UserLoginDBTestInsertUser.test_insert_user_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_3.py", line 267, in test_insert_user_2
+    self.assertEqual(user[0], 'user2')
+AssertionError: ('user2', 'pass2') != 'user2'
+
+======================================================================
+FAIL: test_insert_user_3 (ClassEval_92_3.UserLoginDBTestInsertUser.test_insert_user_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_3.py", line 274, in test_insert_user_3
+    self.assertEqual(user[0], 'user3')
+AssertionError: ('user3', 'pass3') != 'user3'
+
+======================================================================
+FAIL: test_insert_user_4 (ClassEval_92_3.UserLoginDBTestInsertUser.test_insert_user_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_3.py", line 281, in test_insert_user_4
+    self.assertEqual(user[0], 'user4')
+AssertionError: ('user4', 'pass4') != 'user4'
+
+======================================================================
+FAIL: test_insert_user_5 (ClassEval_92_3.UserLoginDBTestInsertUser.test_insert_user_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_3.py", line 288, in test_insert_user_5
+    self.assertEqual(user[0], 'user5')
+AssertionError: ('user5', 'pass5') != 'user5'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.023s
+
+FAILED (failures=5)
+FFFFF
+======================================================================
+FAIL: test_search_user_by_username_1 (ClassEval_92_3.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_3.py", line 317, in test_search_user_by_username_1
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('user1', 'pass1') != 'user1'
+
+======================================================================
+FAIL: test_search_user_by_username_2 (ClassEval_92_3.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_3.py", line 324, in test_search_user_by_username_2
+    self.assertEqual(user[0], 'user2')
+AssertionError: ('user2', 'pass2') != 'user2'
+
+======================================================================
+FAIL: test_search_user_by_username_3 (ClassEval_92_3.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_3.py", line 331, in test_search_user_by_username_3
+    self.assertEqual(user[0], 'user3')
+AssertionError: ('user3', 'pass3') != 'user3'
+
+======================================================================
+FAIL: test_search_user_by_username_4 (ClassEval_92_3.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_3.py", line 338, in test_search_user_by_username_4
+    self.assertEqual(user[0], 'user4')
+AssertionError: ('user4', 'pass4') != 'user4'
+
+======================================================================
+FAIL: test_search_user_by_username_5 (ClassEval_92_3.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_3.py", line 345, in test_search_user_by_username_5
+    self.assertEqual(user[0], 'user5')
+AssertionError: ('user5', 'pass5') != 'user5'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.020s
+
+FAILED (failures=5)
+FFFFF
+======================================================================
+FAIL: test_delete_user_by_username_1 (ClassEval_92_3.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_3.py", line 374, in test_delete_user_by_username_1
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_2 (ClassEval_92_3.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_3.py", line 380, in test_delete_user_by_username_2
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_3 (ClassEval_92_3.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_3.py", line 386, in test_delete_user_by_username_3
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_4 (ClassEval_92_3.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_3.py", line 392, in test_delete_user_by_username_4
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_5 (ClassEval_92_3.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_3.py", line 398, in test_delete_user_by_username_5
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.029s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.018s
+
+OK
+F
+======================================================================
+FAIL: test_UserLoginDB (ClassEval_92_3.UserLoginDBTest.test_UserLoginDB)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_3.py", line 472, in test_UserLoginDB
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('user1', 'pass1') != 'user1'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+FAILED (failures=1)
+FFFFF
+======================================================================
+FAIL: test_insert_user_1 (ClassEval_92_4.UserLoginDBTestInsertUser.test_insert_user_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_4.py", line 265, in test_insert_user_1
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('user1', 'pass1') != 'user1'
+
+======================================================================
+FAIL: test_insert_user_2 (ClassEval_92_4.UserLoginDBTestInsertUser.test_insert_user_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_4.py", line 272, in test_insert_user_2
+    self.assertEqual(user[0], 'user2')
+AssertionError: ('user2', 'pass2') != 'user2'
+
+======================================================================
+FAIL: test_insert_user_3 (ClassEval_92_4.UserLoginDBTestInsertUser.test_insert_user_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_4.py", line 279, in test_insert_user_3
+    self.assertEqual(user[0], 'user3')
+AssertionError: ('user3', 'pass3') != 'user3'
+
+======================================================================
+FAIL: test_insert_user_4 (ClassEval_92_4.UserLoginDBTestInsertUser.test_insert_user_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_4.py", line 286, in test_insert_user_4
+    self.assertEqual(user[0], 'user4')
+AssertionError: ('user4', 'pass4') != 'user4'
+
+======================================================================
+FAIL: test_insert_user_5 (ClassEval_92_4.UserLoginDBTestInsertUser.test_insert_user_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_4.py", line 293, in test_insert_user_5
+    self.assertEqual(user[0], 'user5')
+AssertionError: ('user5', 'pass5') != 'user5'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.021s
+
+FAILED (failures=5)
+FFFFF
+======================================================================
+FAIL: test_search_user_by_username_1 (ClassEval_92_4.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_4.py", line 322, in test_search_user_by_username_1
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('user1', 'pass1') != 'user1'
+
+======================================================================
+FAIL: test_search_user_by_username_2 (ClassEval_92_4.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_4.py", line 329, in test_search_user_by_username_2
+    self.assertEqual(user[0], 'user2')
+AssertionError: ('user2', 'pass2') != 'user2'
+
+======================================================================
+FAIL: test_search_user_by_username_3 (ClassEval_92_4.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_4.py", line 336, in test_search_user_by_username_3
+    self.assertEqual(user[0], 'user3')
+AssertionError: ('user3', 'pass3') != 'user3'
+
+======================================================================
+FAIL: test_search_user_by_username_4 (ClassEval_92_4.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_4.py", line 343, in test_search_user_by_username_4
+    self.assertEqual(user[0], 'user4')
+AssertionError: ('user4', 'pass4') != 'user4'
+
+======================================================================
+FAIL: test_search_user_by_username_5 (ClassEval_92_4.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_4.py", line 350, in test_search_user_by_username_5
+    self.assertEqual(user[0], 'user5')
+AssertionError: ('user5', 'pass5') != 'user5'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.026s
+
+FAILED (failures=5)
+FFFFF
+======================================================================
+FAIL: test_delete_user_by_username_1 (ClassEval_92_4.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_4.py", line 379, in test_delete_user_by_username_1
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_2 (ClassEval_92_4.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_4.py", line 385, in test_delete_user_by_username_2
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_3 (ClassEval_92_4.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_4.py", line 391, in test_delete_user_by_username_3
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_4 (ClassEval_92_4.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_4.py", line 397, in test_delete_user_by_username_4
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+======================================================================
+FAIL: test_delete_user_by_username_5 (ClassEval_92_4.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_4.py", line 403, in test_delete_user_by_username_5
+    self.assertIsNone(user)
+AssertionError: [] is not None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.031s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.018s
+
+OK
+F
+======================================================================
+FAIL: test_UserLoginDB (ClassEval_92_4.UserLoginDBTest.test_UserLoginDB)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_92_4.py", line 477, in test_UserLoginDB
+    self.assertEqual(user[0], 'user1')
+AssertionError: ('user1', 'pass1') != 'user1'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+FAILED (failures=1)

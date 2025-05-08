@@ -1,7 +1,46 @@
 {
-    "Gemini-2.5-flash-testpred_File_Handling": {
-        "ClassEval_26": {
-            "CSVProcessorTestMain": {
+    "Gemini-2.5-flash-testpred_Database_Operations": {
+        "ClassEval_14": {
+            "BookManagementDBTestAddBook": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "error",
+                    "error",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "BookManagementDBTestBorrowBook": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "error",
+                    "error",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "BookManagementDBTestCreateTable": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "partial_success",
+                    "partial_success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 2,
+                "success": 3
+            },
+            "BookManagementDBTestRemoveBook": {
                 "EachTestResult": [
                     "success",
                     "success",
@@ -14,205 +53,126 @@
                 "partial_success": 0,
                 "success": 5
             },
-            "CSVProcessorTestProcessCSVData": {
+            "BookManagementDBTestReturnBook": {
                 "EachTestResult": [
-                    "partial_success",
                     "success",
-                    "partial_success",
-                    "partial_success",
+                    "success",
+                    "error",
+                    "error",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "BookManagementDBTestSearchBooks": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_success",
+                    "class_success",
+                    "class_fail",
+                    "class_fail",
+                    "class_success"
+                ],
+                "class_fail": 2,
+                "class_partial_success": 0,
+                "class_success": 3
+            }
+        },
+        "ClassEval_28": {
+            "DatabaseProcessorTest": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "DatabaseProcessorTestCreateTable": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "DatabaseProcessorTestDeteleFromDatabase": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "DatabaseProcessorTestInsertIntoDatabase": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "DatabaseProcessorTestSearchDatabase": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
                     "partial_success"
                 ],
                 "error": 0,
                 "fail": 0,
-                "partial_success": 4,
-                "success": 1
-            },
-            "CSVProcessorTestReadCSV": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
-            "CSVProcessorTestWriteCSV": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
+                "partial_success": 1,
+                "success": 4
             },
             "TestClass": {
                 "ClassEachTestResult": [
-                    "class_partial_success",
                     "class_success",
-                    "class_partial_success",
-                    "class_partial_success",
+                    "class_success",
+                    "class_success",
+                    "class_success",
                     "class_partial_success"
                 ],
                 "class_fail": 0,
-                "class_partial_success": 4,
-                "class_success": 1
+                "class_partial_success": 1,
+                "class_success": 4
             }
         },
-        "ClassEval_34": {
-            "DocFileHandlerTest": {
-                "EachTestResult": [
-                    "error",
-                    "error",
-                    "error",
-                    "error",
-                    "error"
-                ],
-                "error": 5,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "DocFileHandlerTestAddHeading": {
-                "EachTestResult": [
-                    "error",
-                    "error",
-                    "error",
-                    "error",
-                    "error"
-                ],
-                "error": 5,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "DocFileHandlerTestAddTable": {
-                "EachTestResult": [
-                    "error",
-                    "error",
-                    "error",
-                    "error",
-                    "error"
-                ],
-                "error": 5,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "DocFileHandlerTestReadText": {
-                "EachTestResult": [
-                    "error",
-                    "error",
-                    "error",
-                    "error",
-                    "error"
-                ],
-                "error": 5,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "DocFileHandlerTestWriteText": {
-                "EachTestResult": [
-                    "error",
-                    "error",
-                    "error",
-                    "error",
-                    "error"
-                ],
-                "error": 5,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "TestClass": {
-                "ClassEachTestResult": [
-                    "class_fail",
-                    "class_fail",
-                    "class_fail",
-                    "class_fail",
-                    "class_fail"
-                ],
-                "class_fail": 5,
-                "class_partial_success": 0,
-                "class_success": 0
-            }
-        },
-        "ClassEval_38": {
-            "ExcelProcessorTest": {
-                "EachTestResult": [
-                    "error",
-                    "error",
-                    "error",
-                    "error",
-                    "error"
-                ],
-                "error": 5,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "ExcelProcessorTestProcessExcelData": {
-                "EachTestResult": [
-                    "error",
-                    "error",
-                    "error",
-                    "error",
-                    "error"
-                ],
-                "error": 5,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "ExcelProcessorTestReadExcel": {
-                "EachTestResult": [
-                    "error",
-                    "error",
-                    "error",
-                    "error",
-                    "error"
-                ],
-                "error": 5,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "ExcelProcessorTestWriteExcel": {
-                "EachTestResult": [
-                    "error",
-                    "error",
-                    "error",
-                    "error",
-                    "error"
-                ],
-                "error": 5,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "TestClass": {
-                "ClassEachTestResult": [
-                    "class_fail",
-                    "class_fail",
-                    "class_fail",
-                    "class_fail",
-                    "class_fail"
-                ],
-                "class_fail": 5,
-                "class_partial_success": 0,
-                "class_success": 0
-            }
-        },
-        "ClassEval_45": {
-            "ImageProcessorTestAdjustBrightness": {
+        "ClassEval_60": {
+            "MovieTicketDBTest": {
                 "EachTestResult": [
                     "success",
                     "success",
@@ -225,7 +185,7 @@
                 "partial_success": 0,
                 "success": 5
             },
-            "ImageProcessorTestLoadImage": {
+            "MovieTicketDBTestDeleteTicket": {
                 "EachTestResult": [
                     "success",
                     "success",
@@ -238,7 +198,309 @@
                 "partial_success": 0,
                 "success": 5
             },
-            "ImageProcessorTestMain": {
+            "MovieTicketDBTestInsertTicket": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "MovieTicketDBTestSearchTicketsByCustomer": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success"
+                ],
+                "class_fail": 0,
+                "class_partial_success": 0,
+                "class_success": 5
+            }
+        },
+        "ClassEval_79": {
+            "SQLGeneratorTestDelete": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "SQLGeneratorTestInsert": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "SQLGeneratorTestMain": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "SQLGeneratorTestSelect": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "success",
+                    "partial_success",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 2
+            },
+            "SQLGeneratorTestSelectByAgeRange": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "SQLGeneratorTestSelectFemaleUnderAge": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "SQLGeneratorTestUpdate": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 3
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_success",
+                    "class_partial_success",
+                    "class_success"
+                ],
+                "class_fail": 2,
+                "class_partial_success": 1,
+                "class_success": 2
+            }
+        },
+        "ClassEval_80": {
+            "SQLQueryBuilderTestDetele": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "error",
+                    "success",
+                    "success"
+                ],
+                "error": 1,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 4
+            },
+            "SQLQueryBuilderTestInsert": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "error",
+                    "success",
+                    "success"
+                ],
+                "error": 1,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 4
+            },
+            "SQLQueryBuilderTestMain": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "error",
+                    "success",
+                    "success"
+                ],
+                "error": 1,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 4
+            },
+            "SQLQueryBuilderTestSelect": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "error",
+                    "success",
+                    "success"
+                ],
+                "error": 1,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 4
+            },
+            "SQLQueryBuilderTestUpdate": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "error",
+                    "success",
+                    "success"
+                ],
+                "error": 1,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 4
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_success",
+                    "class_success",
+                    "class_fail",
+                    "class_success",
+                    "class_success"
+                ],
+                "class_fail": 1,
+                "class_partial_success": 0,
+                "class_success": 4
+            }
+        },
+        "ClassEval_83": {
+            "StudentDatabaseProcessorTest": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "StudentDatabaseProcessorTestDeleteStudentByName": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "StudentDatabaseProcessorTestInsertStudent": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "StudentDatabaseProcessorTestSearchStudentByName": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success"
+                ],
+                "class_fail": 0,
+                "class_partial_success": 0,
+                "class_success": 5
+            }
+        },
+        "ClassEval_92": {
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            },
+            "UserLoginDBTest": {
                 "EachTestResult": [
                     "fail",
                     "fail",
@@ -251,362 +513,46 @@
                 "partial_success": 0,
                 "success": 0
             },
-            "ImageProcessorTestResizeImage": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
-            "ImageProcessorTestRotateImage": {
-                "EachTestResult": [
-                    "partial_success",
-                    "partial_success",
-                    "partial_success",
-                    "partial_success",
-                    "partial_success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 5,
-                "success": 0
-            },
-            "ImageProcessorTestSaveImage": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
-            "TestClass": {
-                "ClassEachTestResult": [
-                    "class_fail",
-                    "class_fail",
-                    "class_fail",
-                    "class_fail",
-                    "class_fail"
-                ],
-                "class_fail": 5,
-                "class_partial_success": 0,
-                "class_success": 0
-            }
-        },
-        "ClassEval_50": {
-            "JSONProcessorTestMain": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
-            "JSONProcessorTestProcessJsonExistingKey": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "partial_success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 1,
-                "success": 4
-            },
-            "JSONProcessorTestReadJson": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
-            "JSONProcessorTestWriteJson": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
-            "TestClass": {
-                "ClassEachTestResult": [
-                    "class_success",
-                    "class_success",
-                    "class_success",
-                    "class_partial_success",
-                    "class_success"
-                ],
-                "class_fail": 0,
-                "class_partial_success": 1,
-                "class_success": 4
-            }
-        },
-        "ClassEval_69": {
-            "PDFHandlerTestExtractTextFromPdfs": {
-                "EachTestResult": [
-                    "error",
-                    "error",
-                    "error",
-                    "error",
-                    "error"
-                ],
-                "error": 5,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "PDFHandlerTestMain": {
-                "EachTestResult": [
-                    "error",
-                    "error",
-                    "error",
-                    "error",
-                    "error"
-                ],
-                "error": 5,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "PDFHandlerTestMergePdfs": {
-                "EachTestResult": [
-                    "error",
-                    "error",
-                    "error",
-                    "error",
-                    "error"
-                ],
-                "error": 5,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            },
-            "TestClass": {
-                "ClassEachTestResult": [
-                    "class_fail",
-                    "class_fail",
-                    "class_fail",
-                    "class_fail",
-                    "class_fail"
-                ],
-                "class_fail": 5,
-                "class_partial_success": 0,
-                "class_success": 0
-            },
-            "TestPDFHandler": {
-                "EachTestResult": [
-                    "error",
-                    "error",
-                    "error",
-                    "error",
-                    "error"
-                ],
-                "error": 5,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 0
-            }
-        },
-        "ClassEval_84": {
-            "TestClass": {
-                "ClassEachTestResult": [
-                    "class_success",
-                    "class_success",
-                    "class_success",
-                    "class_success",
-                    "class_success"
-                ],
-                "class_fail": 0,
-                "class_partial_success": 0,
-                "class_success": 5
-            },
-            "TextFileProcessorTestMain": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
-            "TextFileProcessorTestProcessFile": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
-            "TextFileProcessorTestReadFile": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
-            "TextFileProcessorTestReadFileAsJson": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
-            "TextFileProcessorTestWriteFile": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            }
-        },
-        "ClassEval_98": {
-            "TestClass": {
-                "ClassEachTestResult": [
-                    "class_fail",
-                    "class_fail",
-                    "class_fail",
-                    "class_success",
-                    "class_fail"
-                ],
-                "class_fail": 4,
-                "class_partial_success": 0,
-                "class_success": 1
-            },
-            "XMLProcessorTest": {
+            "UserLoginDBTestDeleteUserByUsername": {
                 "EachTestResult": [
                     "fail",
                     "fail",
                     "fail",
-                    "success",
+                    "fail",
                     "fail"
                 ],
                 "error": 0,
-                "fail": 4,
+                "fail": 5,
                 "partial_success": 0,
-                "success": 1
+                "success": 0
             },
-            "XMLProcessorTestFindElement": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
-            "XMLProcessorTestProcessXmlData": {
+            "UserLoginDBTestInsertUser": {
                 "EachTestResult": [
                     "fail",
                     "fail",
                     "fail",
-                    "success",
+                    "fail",
                     "fail"
                 ],
                 "error": 0,
-                "fail": 4,
+                "fail": 5,
                 "partial_success": 0,
-                "success": 1
+                "success": 0
             },
-            "XMLProcessorTestReadXml": {
+            "UserLoginDBTestSearchUserByUsername": {
                 "EachTestResult": [
-                    "success",
-                    "partial_success",
-                    "success",
-                    "success",
-                    "success"
+                    "fail",
+                    "fail",
+                    "fail",
+                    "fail",
+                    "fail"
                 ],
                 "error": 0,
-                "fail": 0,
-                "partial_success": 1,
-                "success": 4
-            },
-            "XMLProcessorTestWriteXml": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
+                "fail": 5,
                 "partial_success": 0,
-                "success": 5
-            }
-        },
-        "ClassEval_99": {
-            "TestClass": {
-                "ClassEachTestResult": [
-                    "class_success",
-                    "class_partial_success",
-                    "class_success",
-                    "class_success",
-                    "class_success"
-                ],
-                "class_fail": 0,
-                "class_partial_success": 1,
-                "class_success": 4
+                "success": 0
             },
-            "ZipFileProcessorTest": {
+            "UserLoginDBTestValidateUserLogin": {
                 "EachTestResult": [
                     "success",
                     "success",
@@ -618,58 +564,6 @@
                 "fail": 0,
                 "partial_success": 0,
                 "success": 5
-            },
-            "ZipFileProcessorTestCreateZipFile": {
-                "EachTestResult": [
-                    "success",
-                    "partial_success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 1,
-                "success": 4
-            },
-            "ZipFileProcessorTestExtractAll": {
-                "EachTestResult": [
-                    "success",
-                    "partial_success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 1,
-                "success": 4
-            },
-            "ZipFileProcessorTestExtractFile": {
-                "EachTestResult": [
-                    "success",
-                    "partial_success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 1,
-                "success": 4
-            },
-            "ZipFileProcessorTestReadZipFile": {
-                "EachTestResult": [
-                    "success",
-                    "partial_success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 1,
-                "success": 4
             }
         }
     }
