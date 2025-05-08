@@ -1,0 +1,1699 @@
+EEEEE
+======================================================================
+ERROR: test_read_csv_1 (ClassEval_26_0.CSVProcessorTestReadCSV.test_read_csv_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 75, in test_read_csv_1
+    title, data = csvProcessor.read_csv(self.file)
+    ^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_2 (ClassEval_26_0.CSVProcessorTestReadCSV.test_read_csv_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 87, in test_read_csv_2
+    title, data = csvProcessor.read_csv(self.file)
+    ^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_3 (ClassEval_26_0.CSVProcessorTestReadCSV.test_read_csv_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 100, in test_read_csv_3
+    title, data = csvProcessor.read_csv(self.file)
+    ^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_4 (ClassEval_26_0.CSVProcessorTestReadCSV.test_read_csv_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 113, in test_read_csv_4
+    title, data = csvProcessor.read_csv(self.file)
+    ^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_5 (ClassEval_26_0.CSVProcessorTestReadCSV.test_read_csv_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 126, in test_read_csv_5
+    title, data = csvProcessor.read_csv(self.file)
+    ^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+FAILED (errors=5)
+FFFFFF
+======================================================================
+FAIL: test_write_csv_1 (ClassEval_26_0.CSVProcessorTestWriteCSV.test_write_csv_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 139, in test_write_csv_1
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_2 (ClassEval_26_0.CSVProcessorTestWriteCSV.test_write_csv_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 154, in test_write_csv_2
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_3 (ClassEval_26_0.CSVProcessorTestWriteCSV.test_write_csv_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 169, in test_write_csv_3
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_4 (ClassEval_26_0.CSVProcessorTestWriteCSV.test_write_csv_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 184, in test_write_csv_4
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_5 (ClassEval_26_0.CSVProcessorTestWriteCSV.test_write_csv_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 199, in test_write_csv_5
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_6 (ClassEval_26_0.CSVProcessorTestWriteCSV.test_write_csv_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 212, in test_write_csv_6
+    self.assertEqual(0, csvProcessor.write_csv([], file_path))
+AssertionError: 0 != None
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+FAILED (failures=6)
+FFFFF
+======================================================================
+FAIL: test_process_csv_data_1 (ClassEval_26_0.CSVProcessorTestProcessCSVData.test_process_csv_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 226, in test_process_csv_data_1
+    self.assertEqual(1, csvProcessor.process_csv_data(0, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_2 (ClassEval_26_0.CSVProcessorTestProcessCSVData.test_process_csv_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 236, in test_process_csv_data_2
+    self.assertEqual(1, csvProcessor.process_csv_data(1, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_3 (ClassEval_26_0.CSVProcessorTestProcessCSVData.test_process_csv_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 246, in test_process_csv_data_3
+    self.assertEqual(1, csvProcessor.process_csv_data(2, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_4 (ClassEval_26_0.CSVProcessorTestProcessCSVData.test_process_csv_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 256, in test_process_csv_data_4
+    self.assertEqual(1, csvProcessor.process_csv_data(3, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_0.CSVProcessorTestProcessCSVData.test_process_csv_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 266, in test_process_csv_data_5
+    self.assertEqual(1, csvProcessor.process_csv_data(4, self.file))
+AssertionError: 1 != None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_26_0.CSVProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 284, in test_main
+    self.assertEqual(1, csvProcessor.write_csv(data, self.file))
+AssertionError: 1 != None
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+EEEEE
+======================================================================
+ERROR: test_read_csv_1 (ClassEval_26_1.CSVProcessorTestReadCSV.test_read_csv_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 74, in test_read_csv_1
+    title, data = csvProcessor.read_csv(self.file)
+    ^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_2 (ClassEval_26_1.CSVProcessorTestReadCSV.test_read_csv_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 86, in test_read_csv_2
+    title, data = csvProcessor.read_csv(self.file)
+    ^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_3 (ClassEval_26_1.CSVProcessorTestReadCSV.test_read_csv_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 99, in test_read_csv_3
+    title, data = csvProcessor.read_csv(self.file)
+    ^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_4 (ClassEval_26_1.CSVProcessorTestReadCSV.test_read_csv_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 112, in test_read_csv_4
+    title, data = csvProcessor.read_csv(self.file)
+    ^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_5 (ClassEval_26_1.CSVProcessorTestReadCSV.test_read_csv_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 125, in test_read_csv_5
+    title, data = csvProcessor.read_csv(self.file)
+    ^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (errors=5)
+FFFFFF
+======================================================================
+FAIL: test_write_csv_1 (ClassEval_26_1.CSVProcessorTestWriteCSV.test_write_csv_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 138, in test_write_csv_1
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_2 (ClassEval_26_1.CSVProcessorTestWriteCSV.test_write_csv_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 153, in test_write_csv_2
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_3 (ClassEval_26_1.CSVProcessorTestWriteCSV.test_write_csv_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 168, in test_write_csv_3
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_4 (ClassEval_26_1.CSVProcessorTestWriteCSV.test_write_csv_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 183, in test_write_csv_4
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_5 (ClassEval_26_1.CSVProcessorTestWriteCSV.test_write_csv_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 198, in test_write_csv_5
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_6 (ClassEval_26_1.CSVProcessorTestWriteCSV.test_write_csv_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 211, in test_write_csv_6
+    self.assertEqual(0, csvProcessor.write_csv([], file_path))
+AssertionError: 0 != None
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+FAILED (failures=6)
+FFFFF
+======================================================================
+FAIL: test_process_csv_data_1 (ClassEval_26_1.CSVProcessorTestProcessCSVData.test_process_csv_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 225, in test_process_csv_data_1
+    self.assertEqual(1, csvProcessor.process_csv_data(0, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_2 (ClassEval_26_1.CSVProcessorTestProcessCSVData.test_process_csv_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 235, in test_process_csv_data_2
+    self.assertEqual(1, csvProcessor.process_csv_data(1, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_3 (ClassEval_26_1.CSVProcessorTestProcessCSVData.test_process_csv_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 245, in test_process_csv_data_3
+    self.assertEqual(1, csvProcessor.process_csv_data(2, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_4 (ClassEval_26_1.CSVProcessorTestProcessCSVData.test_process_csv_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 255, in test_process_csv_data_4
+    self.assertEqual(1, csvProcessor.process_csv_data(3, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_1.CSVProcessorTestProcessCSVData.test_process_csv_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 265, in test_process_csv_data_5
+    self.assertEqual(1, csvProcessor.process_csv_data(4, self.file))
+AssertionError: 1 != None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_26_1.CSVProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 283, in test_main
+    self.assertEqual(1, csvProcessor.write_csv(data, self.file))
+AssertionError: 1 != None
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+EEEEE
+======================================================================
+ERROR: test_read_csv_1 (ClassEval_26_4.CSVProcessorTestReadCSV.test_read_csv_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 75, in test_read_csv_1
+    title, data = csvProcessor.read_csv(self.file)
+    ^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_2 (ClassEval_26_4.CSVProcessorTestReadCSV.test_read_csv_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 87, in test_read_csv_2
+    title, data = csvProcessor.read_csv(self.file)
+    ^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_3 (ClassEval_26_4.CSVProcessorTestReadCSV.test_read_csv_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 100, in test_read_csv_3
+    title, data = csvProcessor.read_csv(self.file)
+    ^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_4 (ClassEval_26_4.CSVProcessorTestReadCSV.test_read_csv_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 113, in test_read_csv_4
+    title, data = csvProcessor.read_csv(self.file)
+    ^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_5 (ClassEval_26_4.CSVProcessorTestReadCSV.test_read_csv_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 126, in test_read_csv_5
+    title, data = csvProcessor.read_csv(self.file)
+    ^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (errors=5)
+FFFFFF
+======================================================================
+FAIL: test_write_csv_1 (ClassEval_26_4.CSVProcessorTestWriteCSV.test_write_csv_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 139, in test_write_csv_1
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_2 (ClassEval_26_4.CSVProcessorTestWriteCSV.test_write_csv_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 154, in test_write_csv_2
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_3 (ClassEval_26_4.CSVProcessorTestWriteCSV.test_write_csv_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 169, in test_write_csv_3
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_4 (ClassEval_26_4.CSVProcessorTestWriteCSV.test_write_csv_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 184, in test_write_csv_4
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_5 (ClassEval_26_4.CSVProcessorTestWriteCSV.test_write_csv_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 199, in test_write_csv_5
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_6 (ClassEval_26_4.CSVProcessorTestWriteCSV.test_write_csv_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 212, in test_write_csv_6
+    self.assertEqual(0, csvProcessor.write_csv([], file_path))
+AssertionError: 0 != None
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+FAILED (failures=6)
+FFFFF
+======================================================================
+FAIL: test_process_csv_data_1 (ClassEval_26_4.CSVProcessorTestProcessCSVData.test_process_csv_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 226, in test_process_csv_data_1
+    self.assertEqual(1, csvProcessor.process_csv_data(0, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_2 (ClassEval_26_4.CSVProcessorTestProcessCSVData.test_process_csv_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 236, in test_process_csv_data_2
+    self.assertEqual(1, csvProcessor.process_csv_data(1, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_3 (ClassEval_26_4.CSVProcessorTestProcessCSVData.test_process_csv_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 246, in test_process_csv_data_3
+    self.assertEqual(1, csvProcessor.process_csv_data(2, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_4 (ClassEval_26_4.CSVProcessorTestProcessCSVData.test_process_csv_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 256, in test_process_csv_data_4
+    self.assertEqual(1, csvProcessor.process_csv_data(3, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_4.CSVProcessorTestProcessCSVData.test_process_csv_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 266, in test_process_csv_data_5
+    self.assertEqual(1, csvProcessor.process_csv_data(4, self.file))
+AssertionError: 1 != None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_26_4.CSVProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 284, in test_main
+    self.assertEqual(1, csvProcessor.write_csv(data, self.file))
+AssertionError: 1 != None
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+FFFFF
+======================================================================
+FAIL: test_read_file_as_json_1 (ClassEval_84_1.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 78, in test_read_file_as_json_1
+    self.assertEqual(dict, type(data))
+AssertionError: <class 'dict'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_as_json_2 (ClassEval_84_1.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 86, in test_read_file_as_json_2
+    self.assertEqual(int, type(data))
+AssertionError: <class 'int'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_as_json_3 (ClassEval_84_1.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 94, in test_read_file_as_json_3
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_as_json_4 (ClassEval_84_1.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 101, in test_read_file_as_json_4
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_as_json_5 (ClassEval_84_1.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 108, in test_read_file_as_json_5
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+FAILED (failures=5)
+FFFFF
+======================================================================
+FAIL: test_read_file_1 (ClassEval_84_1.TextFileProcessorTestReadFile.test_read_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 123, in test_read_file_1
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_2 (ClassEval_84_1.TextFileProcessorTestReadFile.test_read_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 129, in test_read_file_2
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_3 (ClassEval_84_1.TextFileProcessorTestReadFile.test_read_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 135, in test_read_file_3
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_4 (ClassEval_84_1.TextFileProcessorTestReadFile.test_read_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 141, in test_read_file_4
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_5 (ClassEval_84_1.TextFileProcessorTestReadFile.test_read_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 147, in test_read_file_5
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+FAILED (failures=5)
+.EEEE
+======================================================================
+ERROR: test_write_file_2 (ClassEval_84_1.TextFileProcessorTestWriteFile.test_write_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 171, in test_write_file_2
+    with open(self.files[1], 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'test_2.txt'
+
+======================================================================
+ERROR: test_write_file_3 (ClassEval_84_1.TextFileProcessorTestWriteFile.test_write_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 178, in test_write_file_3
+    with open(self.files[2], 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'test_3.txt'
+
+======================================================================
+ERROR: test_write_file_4 (ClassEval_84_1.TextFileProcessorTestWriteFile.test_write_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 185, in test_write_file_4
+    with open(self.files[3], 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'test_4.txt'
+
+======================================================================
+ERROR: test_write_file_5 (ClassEval_84_1.TextFileProcessorTestWriteFile.test_write_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 192, in test_write_file_5
+    with open(self.files[4], 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'test_5.txt'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (errors=4)
+FFFFF
+======================================================================
+FAIL: test_process_file_1 (ClassEval_84_1.TextFileProcessorTestProcessFile.test_process_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 208, in test_process_file_1
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloWorld'
+
+======================================================================
+FAIL: test_process_file_2 (ClassEval_84_1.TextFileProcessorTestProcessFile.test_process_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 222, in test_process_file_2
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloabcWorld'
+
+======================================================================
+FAIL: test_process_file_3 (ClassEval_84_1.TextFileProcessorTestProcessFile.test_process_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 236, in test_process_file_3
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != ''
+
+======================================================================
+FAIL: test_process_file_4 (ClassEval_84_1.TextFileProcessorTestProcessFile.test_process_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 250, in test_process_file_4
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloWorld'
+
+======================================================================
+FAIL: test_process_file_5 (ClassEval_84_1.TextFileProcessorTestProcessFile.test_process_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 264, in test_process_file_5
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloaWorld'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_84_1.TextFileProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 280, in test_main
+    self.assertEqual(dict, type(data1))
+AssertionError: <class 'dict'> != <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+FFFFF
+======================================================================
+FAIL: test_read_file_as_json_1 (ClassEval_84_3.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 78, in test_read_file_as_json_1
+    self.assertEqual(dict, type(data))
+AssertionError: <class 'dict'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_as_json_2 (ClassEval_84_3.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 86, in test_read_file_as_json_2
+    self.assertEqual(int, type(data))
+AssertionError: <class 'int'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_as_json_3 (ClassEval_84_3.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 94, in test_read_file_as_json_3
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_as_json_4 (ClassEval_84_3.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 101, in test_read_file_as_json_4
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_as_json_5 (ClassEval_84_3.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 108, in test_read_file_as_json_5
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+FAILED (failures=5)
+FFFFF
+======================================================================
+FAIL: test_read_file_1 (ClassEval_84_3.TextFileProcessorTestReadFile.test_read_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 123, in test_read_file_1
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_2 (ClassEval_84_3.TextFileProcessorTestReadFile.test_read_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 129, in test_read_file_2
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_3 (ClassEval_84_3.TextFileProcessorTestReadFile.test_read_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 135, in test_read_file_3
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_4 (ClassEval_84_3.TextFileProcessorTestReadFile.test_read_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 141, in test_read_file_4
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_5 (ClassEval_84_3.TextFileProcessorTestReadFile.test_read_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 147, in test_read_file_5
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+FAILED (failures=5)
+.EEEE
+======================================================================
+ERROR: test_write_file_2 (ClassEval_84_3.TextFileProcessorTestWriteFile.test_write_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 171, in test_write_file_2
+    with open(self.files[1], 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'test_2.txt'
+
+======================================================================
+ERROR: test_write_file_3 (ClassEval_84_3.TextFileProcessorTestWriteFile.test_write_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 178, in test_write_file_3
+    with open(self.files[2], 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'test_3.txt'
+
+======================================================================
+ERROR: test_write_file_4 (ClassEval_84_3.TextFileProcessorTestWriteFile.test_write_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 185, in test_write_file_4
+    with open(self.files[3], 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'test_4.txt'
+
+======================================================================
+ERROR: test_write_file_5 (ClassEval_84_3.TextFileProcessorTestWriteFile.test_write_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 192, in test_write_file_5
+    with open(self.files[4], 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'test_5.txt'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (errors=4)
+FFFFF
+======================================================================
+FAIL: test_process_file_1 (ClassEval_84_3.TextFileProcessorTestProcessFile.test_process_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 208, in test_process_file_1
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloWorld'
+
+======================================================================
+FAIL: test_process_file_2 (ClassEval_84_3.TextFileProcessorTestProcessFile.test_process_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 222, in test_process_file_2
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloabcWorld'
+
+======================================================================
+FAIL: test_process_file_3 (ClassEval_84_3.TextFileProcessorTestProcessFile.test_process_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 236, in test_process_file_3
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != ''
+
+======================================================================
+FAIL: test_process_file_4 (ClassEval_84_3.TextFileProcessorTestProcessFile.test_process_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 250, in test_process_file_4
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloWorld'
+
+======================================================================
+FAIL: test_process_file_5 (ClassEval_84_3.TextFileProcessorTestProcessFile.test_process_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 264, in test_process_file_5
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloaWorld'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_84_3.TextFileProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 280, in test_main
+    self.assertEqual(dict, type(data1))
+AssertionError: <class 'dict'> != <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+EEEEE
+======================================================================
+ERROR: test_read_csv_1 (ClassEval_26_0.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 75, in test_read_csv_1
+    title, data = csvProcessor.read_csv(self.file)
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_2 (ClassEval_26_0.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 87, in test_read_csv_2
+    title, data = csvProcessor.read_csv(self.file)
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_3 (ClassEval_26_0.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 100, in test_read_csv_3
+    title, data = csvProcessor.read_csv(self.file)
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_4 (ClassEval_26_0.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 113, in test_read_csv_4
+    title, data = csvProcessor.read_csv(self.file)
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_5 (ClassEval_26_0.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 126, in test_read_csv_5
+    title, data = csvProcessor.read_csv(self.file)
+TypeError: cannot unpack non-iterable NoneType object
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (errors=5)
+FFFFFF
+======================================================================
+FAIL: test_write_csv_1 (ClassEval_26_0.CSVProcessorTestWriteCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 139, in test_write_csv_1
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_2 (ClassEval_26_0.CSVProcessorTestWriteCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 154, in test_write_csv_2
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_3 (ClassEval_26_0.CSVProcessorTestWriteCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 169, in test_write_csv_3
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_4 (ClassEval_26_0.CSVProcessorTestWriteCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 184, in test_write_csv_4
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_5 (ClassEval_26_0.CSVProcessorTestWriteCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 199, in test_write_csv_5
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_6 (ClassEval_26_0.CSVProcessorTestWriteCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 212, in test_write_csv_6
+    self.assertEqual(0, csvProcessor.write_csv([], file_path))
+AssertionError: 0 != None
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=6)
+FFFFF
+======================================================================
+FAIL: test_process_csv_data_1 (ClassEval_26_0.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 226, in test_process_csv_data_1
+    self.assertEqual(1, csvProcessor.process_csv_data(0, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_2 (ClassEval_26_0.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 236, in test_process_csv_data_2
+    self.assertEqual(1, csvProcessor.process_csv_data(1, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_3 (ClassEval_26_0.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 246, in test_process_csv_data_3
+    self.assertEqual(1, csvProcessor.process_csv_data(2, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_4 (ClassEval_26_0.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 256, in test_process_csv_data_4
+    self.assertEqual(1, csvProcessor.process_csv_data(3, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_0.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 266, in test_process_csv_data_5
+    self.assertEqual(1, csvProcessor.process_csv_data(4, self.file))
+AssertionError: 1 != None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_26_0.CSVProcessorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_0.py", line 284, in test_main
+    self.assertEqual(1, csvProcessor.write_csv(data, self.file))
+AssertionError: 1 != None
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+EEEEE
+======================================================================
+ERROR: test_read_csv_1 (ClassEval_26_1.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 74, in test_read_csv_1
+    title, data = csvProcessor.read_csv(self.file)
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_2 (ClassEval_26_1.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 86, in test_read_csv_2
+    title, data = csvProcessor.read_csv(self.file)
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_3 (ClassEval_26_1.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 99, in test_read_csv_3
+    title, data = csvProcessor.read_csv(self.file)
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_4 (ClassEval_26_1.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 112, in test_read_csv_4
+    title, data = csvProcessor.read_csv(self.file)
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_5 (ClassEval_26_1.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 125, in test_read_csv_5
+    title, data = csvProcessor.read_csv(self.file)
+TypeError: cannot unpack non-iterable NoneType object
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (errors=5)
+FFFFFF
+======================================================================
+FAIL: test_write_csv_1 (ClassEval_26_1.CSVProcessorTestWriteCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 138, in test_write_csv_1
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_2 (ClassEval_26_1.CSVProcessorTestWriteCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 153, in test_write_csv_2
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_3 (ClassEval_26_1.CSVProcessorTestWriteCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 168, in test_write_csv_3
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_4 (ClassEval_26_1.CSVProcessorTestWriteCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 183, in test_write_csv_4
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_5 (ClassEval_26_1.CSVProcessorTestWriteCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 198, in test_write_csv_5
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_6 (ClassEval_26_1.CSVProcessorTestWriteCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 211, in test_write_csv_6
+    self.assertEqual(0, csvProcessor.write_csv([], file_path))
+AssertionError: 0 != None
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=6)
+FFFFF
+======================================================================
+FAIL: test_process_csv_data_1 (ClassEval_26_1.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 225, in test_process_csv_data_1
+    self.assertEqual(1, csvProcessor.process_csv_data(0, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_2 (ClassEval_26_1.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 235, in test_process_csv_data_2
+    self.assertEqual(1, csvProcessor.process_csv_data(1, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_3 (ClassEval_26_1.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 245, in test_process_csv_data_3
+    self.assertEqual(1, csvProcessor.process_csv_data(2, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_4 (ClassEval_26_1.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 255, in test_process_csv_data_4
+    self.assertEqual(1, csvProcessor.process_csv_data(3, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_1.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 265, in test_process_csv_data_5
+    self.assertEqual(1, csvProcessor.process_csv_data(4, self.file))
+AssertionError: 1 != None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_26_1.CSVProcessorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_1.py", line 283, in test_main
+    self.assertEqual(1, csvProcessor.write_csv(data, self.file))
+AssertionError: 1 != None
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+EEEEE
+======================================================================
+ERROR: test_read_csv_1 (ClassEval_26_4.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 75, in test_read_csv_1
+    title, data = csvProcessor.read_csv(self.file)
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_2 (ClassEval_26_4.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 87, in test_read_csv_2
+    title, data = csvProcessor.read_csv(self.file)
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_3 (ClassEval_26_4.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 100, in test_read_csv_3
+    title, data = csvProcessor.read_csv(self.file)
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_4 (ClassEval_26_4.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 113, in test_read_csv_4
+    title, data = csvProcessor.read_csv(self.file)
+TypeError: cannot unpack non-iterable NoneType object
+
+======================================================================
+ERROR: test_read_csv_5 (ClassEval_26_4.CSVProcessorTestReadCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 126, in test_read_csv_5
+    title, data = csvProcessor.read_csv(self.file)
+TypeError: cannot unpack non-iterable NoneType object
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+FAILED (errors=5)
+FFFFFF
+======================================================================
+FAIL: test_write_csv_1 (ClassEval_26_4.CSVProcessorTestWriteCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 139, in test_write_csv_1
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_2 (ClassEval_26_4.CSVProcessorTestWriteCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 154, in test_write_csv_2
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_3 (ClassEval_26_4.CSVProcessorTestWriteCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 169, in test_write_csv_3
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_4 (ClassEval_26_4.CSVProcessorTestWriteCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 184, in test_write_csv_4
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_5 (ClassEval_26_4.CSVProcessorTestWriteCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 199, in test_write_csv_5
+    self.assertEqual(1, csvProcessor.write_csv(data, file_path))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_write_csv_6 (ClassEval_26_4.CSVProcessorTestWriteCSV)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 212, in test_write_csv_6
+    self.assertEqual(0, csvProcessor.write_csv([], file_path))
+AssertionError: 0 != None
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=6)
+FFFFF
+======================================================================
+FAIL: test_process_csv_data_1 (ClassEval_26_4.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 226, in test_process_csv_data_1
+    self.assertEqual(1, csvProcessor.process_csv_data(0, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_2 (ClassEval_26_4.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 236, in test_process_csv_data_2
+    self.assertEqual(1, csvProcessor.process_csv_data(1, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_3 (ClassEval_26_4.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 246, in test_process_csv_data_3
+    self.assertEqual(1, csvProcessor.process_csv_data(2, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_4 (ClassEval_26_4.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 256, in test_process_csv_data_4
+    self.assertEqual(1, csvProcessor.process_csv_data(3, self.file))
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_4.CSVProcessorTestProcessCSVData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 266, in test_process_csv_data_5
+    self.assertEqual(1, csvProcessor.process_csv_data(4, self.file))
+AssertionError: 1 != None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_26_4.CSVProcessorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_26_4.py", line 284, in test_main
+    self.assertEqual(1, csvProcessor.write_csv(data, self.file))
+AssertionError: 1 != None
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+FFFFF
+======================================================================
+FAIL: test_read_file_as_json_1 (ClassEval_84_1.TextFileProcessorTestReadFileAsJson)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 78, in test_read_file_as_json_1
+    self.assertEqual(dict, type(data))
+AssertionError: <class 'dict'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_as_json_2 (ClassEval_84_1.TextFileProcessorTestReadFileAsJson)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 86, in test_read_file_as_json_2
+    self.assertEqual(int, type(data))
+AssertionError: <class 'int'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_as_json_3 (ClassEval_84_1.TextFileProcessorTestReadFileAsJson)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 94, in test_read_file_as_json_3
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_as_json_4 (ClassEval_84_1.TextFileProcessorTestReadFileAsJson)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 101, in test_read_file_as_json_4
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_as_json_5 (ClassEval_84_1.TextFileProcessorTestReadFileAsJson)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 108, in test_read_file_as_json_5
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+FAILED (failures=5)
+FFFFF
+======================================================================
+FAIL: test_read_file_1 (ClassEval_84_1.TextFileProcessorTestReadFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 123, in test_read_file_1
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_2 (ClassEval_84_1.TextFileProcessorTestReadFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 129, in test_read_file_2
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_3 (ClassEval_84_1.TextFileProcessorTestReadFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 135, in test_read_file_3
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_4 (ClassEval_84_1.TextFileProcessorTestReadFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 141, in test_read_file_4
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_5 (ClassEval_84_1.TextFileProcessorTestReadFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 147, in test_read_file_5
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+FAILED (failures=5)
+.EEEE
+======================================================================
+ERROR: test_write_file_2 (ClassEval_84_1.TextFileProcessorTestWriteFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 171, in test_write_file_2
+    with open(self.files[1], 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'test_2.txt'
+
+======================================================================
+ERROR: test_write_file_3 (ClassEval_84_1.TextFileProcessorTestWriteFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 178, in test_write_file_3
+    with open(self.files[2], 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'test_3.txt'
+
+======================================================================
+ERROR: test_write_file_4 (ClassEval_84_1.TextFileProcessorTestWriteFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 185, in test_write_file_4
+    with open(self.files[3], 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'test_4.txt'
+
+======================================================================
+ERROR: test_write_file_5 (ClassEval_84_1.TextFileProcessorTestWriteFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 192, in test_write_file_5
+    with open(self.files[4], 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'test_5.txt'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (errors=4)
+FFFFF
+======================================================================
+FAIL: test_process_file_1 (ClassEval_84_1.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 208, in test_process_file_1
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloWorld'
+
+======================================================================
+FAIL: test_process_file_2 (ClassEval_84_1.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 222, in test_process_file_2
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloabcWorld'
+
+======================================================================
+FAIL: test_process_file_3 (ClassEval_84_1.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 236, in test_process_file_3
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != ''
+
+======================================================================
+FAIL: test_process_file_4 (ClassEval_84_1.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 250, in test_process_file_4
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloWorld'
+
+======================================================================
+FAIL: test_process_file_5 (ClassEval_84_1.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 264, in test_process_file_5
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloaWorld'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_84_1.TextFileProcessorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 280, in test_main
+    self.assertEqual(dict, type(data1))
+AssertionError: <class 'dict'> != <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+FFFFF
+======================================================================
+FAIL: test_read_file_as_json_1 (ClassEval_84_3.TextFileProcessorTestReadFileAsJson)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 78, in test_read_file_as_json_1
+    self.assertEqual(dict, type(data))
+AssertionError: <class 'dict'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_as_json_2 (ClassEval_84_3.TextFileProcessorTestReadFileAsJson)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 86, in test_read_file_as_json_2
+    self.assertEqual(int, type(data))
+AssertionError: <class 'int'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_as_json_3 (ClassEval_84_3.TextFileProcessorTestReadFileAsJson)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 94, in test_read_file_as_json_3
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_as_json_4 (ClassEval_84_3.TextFileProcessorTestReadFileAsJson)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 101, in test_read_file_as_json_4
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_as_json_5 (ClassEval_84_3.TextFileProcessorTestReadFileAsJson)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 108, in test_read_file_as_json_5
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+FAILED (failures=5)
+FFFFF
+======================================================================
+FAIL: test_read_file_1 (ClassEval_84_3.TextFileProcessorTestReadFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 123, in test_read_file_1
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_2 (ClassEval_84_3.TextFileProcessorTestReadFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 129, in test_read_file_2
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_3 (ClassEval_84_3.TextFileProcessorTestReadFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 135, in test_read_file_3
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_4 (ClassEval_84_3.TextFileProcessorTestReadFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 141, in test_read_file_4
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+======================================================================
+FAIL: test_read_file_5 (ClassEval_84_3.TextFileProcessorTestReadFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 147, in test_read_file_5
+    self.assertEqual(str, type(data))
+AssertionError: <class 'str'> != <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+FAILED (failures=5)
+.EEEE
+======================================================================
+ERROR: test_write_file_2 (ClassEval_84_3.TextFileProcessorTestWriteFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 171, in test_write_file_2
+    with open(self.files[1], 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'test_2.txt'
+
+======================================================================
+ERROR: test_write_file_3 (ClassEval_84_3.TextFileProcessorTestWriteFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 178, in test_write_file_3
+    with open(self.files[2], 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'test_3.txt'
+
+======================================================================
+ERROR: test_write_file_4 (ClassEval_84_3.TextFileProcessorTestWriteFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 185, in test_write_file_4
+    with open(self.files[3], 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'test_4.txt'
+
+======================================================================
+ERROR: test_write_file_5 (ClassEval_84_3.TextFileProcessorTestWriteFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 192, in test_write_file_5
+    with open(self.files[4], 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'test_5.txt'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (errors=4)
+FFFFF
+======================================================================
+FAIL: test_process_file_1 (ClassEval_84_3.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 208, in test_process_file_1
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloWorld'
+
+======================================================================
+FAIL: test_process_file_2 (ClassEval_84_3.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 222, in test_process_file_2
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloabcWorld'
+
+======================================================================
+FAIL: test_process_file_3 (ClassEval_84_3.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 236, in test_process_file_3
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != ''
+
+======================================================================
+FAIL: test_process_file_4 (ClassEval_84_3.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 250, in test_process_file_4
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloWorld'
+
+======================================================================
+FAIL: test_process_file_5 (ClassEval_84_3.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 264, in test_process_file_5
+    self.assertEqual(result, self.expected_result)
+AssertionError: None != 'HelloaWorld'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_84_3.TextFileProcessorTestMain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 280, in test_main
+    self.assertEqual(dict, type(data1))
+AssertionError: <class 'dict'> != <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)

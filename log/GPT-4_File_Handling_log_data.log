@@ -1,0 +1,2582 @@
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.040s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.013s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.029s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.017s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.014s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+..E..
+======================================================================
+ERROR: test_process_json_3 (ClassEval_50_2.JSONProcessorTestProcessJsonExistingKey.test_process_json_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_50_2.py", line 192, in test_process_json_3
+    self.assertEqual(self.processor.process_json(self.file_path, remove_key), 0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_50_2.py", line 43, in process_json
+    if data == 0 or remove_key not in data:
+                    ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'int' is not iterable
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (errors=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+EEEEE
+======================================================================
+ERROR: test_process_file_1 (ClassEval_84_0.TextFileProcessorTestProcessFile.test_process_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_0.py", line 205, in test_process_file_1
+    result = textFileProcessor.process_file()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_0.py", line 50, in process_file
+    with open(self.file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
+
+======================================================================
+ERROR: test_process_file_2 (ClassEval_84_0.TextFileProcessorTestProcessFile.test_process_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_0.py", line 219, in test_process_file_2
+    result = textFileProcessor.process_file()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_0.py", line 50, in process_file
+    with open(self.file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
+
+======================================================================
+ERROR: test_process_file_3 (ClassEval_84_0.TextFileProcessorTestProcessFile.test_process_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_0.py", line 233, in test_process_file_3
+    result = textFileProcessor.process_file()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_0.py", line 50, in process_file
+    with open(self.file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
+
+======================================================================
+ERROR: test_process_file_4 (ClassEval_84_0.TextFileProcessorTestProcessFile.test_process_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_0.py", line 247, in test_process_file_4
+    result = textFileProcessor.process_file()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_0.py", line 50, in process_file
+    with open(self.file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
+
+======================================================================
+ERROR: test_process_file_5 (ClassEval_84_0.TextFileProcessorTestProcessFile.test_process_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_0.py", line 261, in test_process_file_5
+    result = textFileProcessor.process_file()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_0.py", line 50, in process_file
+    with open(self.file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (errors=5)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_file_1 (ClassEval_84_1.TextFileProcessorTestProcessFile.test_process_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 206, in test_process_file_1
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloWorld'
+- nametestage
++ HelloWorld
+
+
+======================================================================
+FAIL: test_process_file_2 (ClassEval_84_1.TextFileProcessorTestProcessFile.test_process_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 220, in test_process_file_2
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloabcWorld'
+- nametestage
++ HelloabcWorld
+
+
+======================================================================
+FAIL: test_process_file_3 (ClassEval_84_1.TextFileProcessorTestProcessFile.test_process_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 234, in test_process_file_3
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != ''
+- nametestage
+
+
+======================================================================
+FAIL: test_process_file_4 (ClassEval_84_1.TextFileProcessorTestProcessFile.test_process_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 248, in test_process_file_4
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloWorld'
+- nametestage
++ HelloWorld
+
+
+======================================================================
+FAIL: test_process_file_5 (ClassEval_84_1.TextFileProcessorTestProcessFile.test_process_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_1.py", line 262, in test_process_file_5
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloaWorld'
+- nametestage
++ HelloaWorld
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+FAILED (failures=5)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_file_1 (ClassEval_84_2.TextFileProcessorTestProcessFile.test_process_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 206, in test_process_file_1
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloWorld'
+- nametestage
++ HelloWorld
+
+
+======================================================================
+FAIL: test_process_file_2 (ClassEval_84_2.TextFileProcessorTestProcessFile.test_process_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 220, in test_process_file_2
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloabcWorld'
+- nametestage
++ HelloabcWorld
+
+
+======================================================================
+FAIL: test_process_file_3 (ClassEval_84_2.TextFileProcessorTestProcessFile.test_process_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 234, in test_process_file_3
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != ''
+- nametestage
+
+
+======================================================================
+FAIL: test_process_file_4 (ClassEval_84_2.TextFileProcessorTestProcessFile.test_process_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 248, in test_process_file_4
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloWorld'
+- nametestage
++ HelloWorld
+
+
+======================================================================
+FAIL: test_process_file_5 (ClassEval_84_2.TextFileProcessorTestProcessFile.test_process_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_2.py", line 262, in test_process_file_5
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloaWorld'
+- nametestage
++ HelloaWorld
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+FAILED (failures=5)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_file_1 (ClassEval_84_3.TextFileProcessorTestProcessFile.test_process_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 206, in test_process_file_1
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloWorld'
+- nametestage
++ HelloWorld
+
+
+======================================================================
+FAIL: test_process_file_2 (ClassEval_84_3.TextFileProcessorTestProcessFile.test_process_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 220, in test_process_file_2
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloabcWorld'
+- nametestage
++ HelloabcWorld
+
+
+======================================================================
+FAIL: test_process_file_3 (ClassEval_84_3.TextFileProcessorTestProcessFile.test_process_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 234, in test_process_file_3
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != ''
+- nametestage
+
+
+======================================================================
+FAIL: test_process_file_4 (ClassEval_84_3.TextFileProcessorTestProcessFile.test_process_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 248, in test_process_file_4
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloWorld'
+- nametestage
++ HelloWorld
+
+
+======================================================================
+FAIL: test_process_file_5 (ClassEval_84_3.TextFileProcessorTestProcessFile.test_process_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_3.py", line 262, in test_process_file_5
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloaWorld'
+- nametestage
++ HelloaWorld
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+FAILED (failures=5)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_file_1 (ClassEval_84_4.TextFileProcessorTestProcessFile.test_process_file_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_4.py", line 206, in test_process_file_1
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloWorld'
+- nametestage
++ HelloWorld
+
+
+======================================================================
+FAIL: test_process_file_2 (ClassEval_84_4.TextFileProcessorTestProcessFile.test_process_file_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_4.py", line 220, in test_process_file_2
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloabcWorld'
+- nametestage
++ HelloabcWorld
+
+
+======================================================================
+FAIL: test_process_file_3 (ClassEval_84_4.TextFileProcessorTestProcessFile.test_process_file_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_4.py", line 234, in test_process_file_3
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != ''
+- nametestage
+
+
+======================================================================
+FAIL: test_process_file_4 (ClassEval_84_4.TextFileProcessorTestProcessFile.test_process_file_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_4.py", line 248, in test_process_file_4
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloWorld'
+- nametestage
++ HelloWorld
+
+
+======================================================================
+FAIL: test_process_file_5 (ClassEval_84_4.TextFileProcessorTestProcessFile.test_process_file_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_84_4.py", line 262, in test_process_file_5
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloaWorld'
+- nametestage
++ HelloaWorld
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+FAILED (failures=5)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....E
+======================================================================
+ERROR: test_read_xml_6 (ClassEval_98_0.XMLProcessorTestReadXml.test_read_xml_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 153, in test_read_xml_6
+    root = self.processor.read_xml()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 23, in read_xml
+    tree = ET.parse(self.file_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 1204, in parse
+    tree.parse(source, parser)
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 558, in parse
+    source = open(source, "rb")
+             ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+FAILED (errors=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.007s
+
+OK
+E.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.818s
+
+OK
+EEEE
+======================================================================
+ERROR: test_XMLProcessor (ClassEval_98_0.XMLProcessorTest.test_XMLProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 531, in test_XMLProcessor
+    result = self.processor.process_xml_data(file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 50, in process_xml_data
+    new_elem = ET.Element("new_child")
+               ^^^^^^^^^^^^^^^^^^^^^^^
+func_timeout.dafunc.FunctionTimedOut-8685019881266674347: Function run_unit_test (args=(<test_pipeline.AutoTest object at 0x10b0f6900>, 'ClassEval_98_0', 'XMLProcessorTest', 'GPT-4_File_Handling')) (kwargs={}) timed out after 5.000000 seconds.
+
+
+----------------------------------------------------------------------
+Ran 1 test in 5.093s
+
+FAILED (errors=1)
+.....E
+======================================================================
+ERROR: test_read_xml_6 (ClassEval_98_1.XMLProcessorTestReadXml.test_read_xml_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 148, in test_read_xml_6
+    root = self.processor.read_xml()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 23, in read_xml
+    tree = ET.parse(self.file_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 1204, in parse
+    tree.parse(source, parser)
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 558, in parse
+    source = open(source, "rb")
+             ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.323s
+
+FAILED (errors=1)
+E
+======================================================================
+ERROR: test_process_xml_data_1 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 297, in test_process_xml_data_1
+    result = self.processor.process_xml_data(file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 50, in process_xml_data
+    new_elem = ET.Element("new_child")
+               ^^^^^^^^^^^^^^^^^^^^^^^
+func_timeout.dafunc.FunctionTimedOut4283255319260882955: Function run_unit_test (args=(<test_pipeline.AutoTest object at 0x10b0f6900>, 'ClassEval_98_0', 'XMLProcessorTestProcessXmlData', 'GPT-4_File_Handling')) (kwargs={}) timed out after 5.000000 seconds.
+
+
+======================================================================
+ERROR: test_process_xml_data_2 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 322, in test_process_xml_data_2
+    result = self.processor.process_xml_data(file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 52, in process_xml_data
+    elem.append(new_elem)
+func_timeout.dafunc.FunctionTimedOut4283255319260882955: Function run_unit_test (args=(<test_pipeline.AutoTest object at 0x10b0f6900>, 'ClassEval_98_0', 'XMLProcessorTestProcessXmlData', 'GPT-4_File_Handling')) (kwargs={}) timed out after 5.000000 seconds.
+
+
+======================================================================
+ERROR: test_process_xml_data_3 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 346, in test_process_xml_data_3
+    result = self.processor.process_xml_data(file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 52, in process_xml_data
+    elem.append(new_elem)
+func_timeout.dafunc.FunctionTimedOut4283255319260882955: Function run_unit_test (args=(<test_pipeline.AutoTest object at 0x10b0f6900>, 'ClassEval_98_0', 'XMLProcessorTestProcessXmlData', 'GPT-4_File_Handling')) (kwargs={}) timed out after 5.000000 seconds.
+
+
+======================================================================
+ERROR: test_process_xml_data_4 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 369, in test_process_xml_data_4
+    result = self.processor.process_xml_data(file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 50, in process_xml_data
+    new_elem = ET.Element("new_child")
+               ^^^^^^^^^^^^^^^^^^^^^^^
+func_timeout.dafunc.FunctionTimedOut4283255319260882955: Function run_unit_test (args=(<test_pipeline.AutoTest object at 0x10b0f6900>, 'ClassEval_98_0', 'XMLProcessorTestProcessXmlData', 'GPT-4_File_Handling')) (kwargs={}) timed out after 5.000000 seconds.
+
+
+======================================================================
+ERROR: test_process_xml_data_5 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 393, in test_process_xml_data_5
+    result = self.processor.process_xml_data(file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 50, in process_xml_data
+    new_elem = ET.Element("new_child")
+               ^^^^^^^^^^^^^^^^^^^^^^^
+func_timeout.dafunc.FunctionTimedOut4283255319260882955: Function run_unit_test (args=(<test_pipeline.AutoTest object at 0x10b0f6900>, 'ClassEval_98_0', 'XMLProcessorTestProcessXmlData', 'GPT-4_File_Handling')) (kwargs={}) timed out after 5.000000 seconds.
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 13.305s
+
+FAILED (errors=5)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_1.XMLProcessorTestProcessXmlData.test_process_xml_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 293, in test_process_xml_data_1
+    self.assertTrue(result)
+AssertionError: None is not true
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_1.XMLProcessorTestProcessXmlData.test_process_xml_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 318, in test_process_xml_data_2
+    self.assertTrue(result)
+AssertionError: None is not true
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_1.XMLProcessorTestProcessXmlData.test_process_xml_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 342, in test_process_xml_data_3
+    self.assertTrue(result)
+AssertionError: None is not true
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_1.XMLProcessorTestProcessXmlData.test_process_xml_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 365, in test_process_xml_data_4
+    self.assertTrue(result)
+AssertionError: None is not true
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_1.XMLProcessorTestProcessXmlData.test_process_xml_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 389, in test_process_xml_data_5
+    self.assertTrue(result)
+AssertionError: None is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_1.XMLProcessorTest.test_XMLProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 527, in test_XMLProcessor
+    self.assertTrue(result)
+AssertionError: None is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+.....E
+======================================================================
+ERROR: test_read_xml_6 (ClassEval_98_2.XMLProcessorTestReadXml.test_read_xml_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 151, in test_read_xml_6
+    root = self.processor.read_xml()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 23, in read_xml
+    tree = ET.parse(self.file_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 1204, in parse
+    tree.parse(source, parser)
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 558, in parse
+    source = open(source, "rb")
+             ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.005s
+
+FAILED (errors=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....E
+======================================================================
+ERROR: test_read_xml_6 (ClassEval_98_3.XMLProcessorTestReadXml.test_read_xml_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 151, in test_read_xml_6
+    root = self.processor.read_xml()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 23, in read_xml
+    tree = ET.parse(self.file_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 1204, in parse
+    tree.parse(source, parser)
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 558, in parse
+    source = open(source, "rb")
+             ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.005s
+
+FAILED (errors=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....E
+======================================================================
+ERROR: test_read_xml_6 (ClassEval_98_4.XMLProcessorTestReadXml.test_read_xml_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 150, in test_read_xml_6
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 16, in __init__
+    self.tree = ET.parse(self.file_name)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 1204, in parse
+    tree.parse(source, parser)
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 558, in parse
+    source = open(source, "rb")
+             ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+FAILED (errors=1)
+.....E
+======================================================================
+ERROR: test_write_xml_6 (ClassEval_98_4.XMLProcessorTestWriteXml.test_write_xml_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 280, in test_write_xml_6
+    self.processor = XMLProcessor(self.xml_file)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 16, in __init__
+    self.tree = ET.parse(self.file_name)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 1204, in parse
+    tree.parse(source, parser)
+  File "/opt/miniconda3/lib/python3.12/xml/etree/ElementTree.py", line 558, in parse
+    source = open(source, "rb")
+             ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+FAILED (errors=1)
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_4.XMLProcessorTestProcessXmlData.test_process_xml_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 305, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_4.XMLProcessorTestProcessXmlData.test_process_xml_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 330, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_4.XMLProcessorTestProcessXmlData.test_process_xml_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 354, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_4.XMLProcessorTestProcessXmlData.test_process_xml_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 377, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_4.XMLProcessorTestProcessXmlData.test_process_xml_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 401, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'aaa' != 'AAA'
+- aaa
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_4.XMLProcessorTest.test_XMLProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 539, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.007s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.015s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.019s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.007s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.032s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.016s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.016s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.014s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.014s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.027s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.022s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.017s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.013s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.022s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.017s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.025s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.015s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.024s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.014s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.019s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.024s
+
+OK
+..E..
+======================================================================
+ERROR: test_process_json_3 (ClassEval_50_2.JSONProcessorTestProcessJsonExistingKey)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_50_2.py", line 192, in test_process_json_3
+    self.assertEqual(self.processor.process_json(self.file_path, remove_key), 0)
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_50_2.py", line 43, in process_json
+    if data == 0 or remove_key not in data:
+TypeError: argument of type 'int' is not iterable
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+FAILED (errors=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.016s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.010s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.015s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.018s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+EEEEE
+======================================================================
+ERROR: test_process_file_1 (ClassEval_84_0.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_0.py", line 205, in test_process_file_1
+    result = textFileProcessor.process_file()
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_0.py", line 50, in process_file
+    with open(self.file_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
+
+======================================================================
+ERROR: test_process_file_2 (ClassEval_84_0.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_0.py", line 219, in test_process_file_2
+    result = textFileProcessor.process_file()
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_0.py", line 50, in process_file
+    with open(self.file_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
+
+======================================================================
+ERROR: test_process_file_3 (ClassEval_84_0.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_0.py", line 233, in test_process_file_3
+    result = textFileProcessor.process_file()
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_0.py", line 50, in process_file
+    with open(self.file_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
+
+======================================================================
+ERROR: test_process_file_4 (ClassEval_84_0.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_0.py", line 247, in test_process_file_4
+    result = textFileProcessor.process_file()
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_0.py", line 50, in process_file
+    with open(self.file_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
+
+======================================================================
+ERROR: test_process_file_5 (ClassEval_84_0.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_0.py", line 261, in test_process_file_5
+    result = textFileProcessor.process_file()
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_0.py", line 50, in process_file
+    with open(self.file_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+FAILED (errors=5)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.013s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_file_1 (ClassEval_84_1.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 206, in test_process_file_1
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloWorld'
+- nametestage
++ HelloWorld
+
+
+======================================================================
+FAIL: test_process_file_2 (ClassEval_84_1.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 220, in test_process_file_2
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloabcWorld'
+- nametestage
++ HelloabcWorld
+
+
+======================================================================
+FAIL: test_process_file_3 (ClassEval_84_1.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 234, in test_process_file_3
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != ''
+- nametestage
++ 
+
+
+======================================================================
+FAIL: test_process_file_4 (ClassEval_84_1.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 248, in test_process_file_4
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloWorld'
+- nametestage
++ HelloWorld
+
+
+======================================================================
+FAIL: test_process_file_5 (ClassEval_84_1.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_1.py", line 262, in test_process_file_5
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloaWorld'
+- nametestage
++ HelloaWorld
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+FAILED (failures=5)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.014s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.013s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_file_1 (ClassEval_84_2.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_2.py", line 206, in test_process_file_1
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloWorld'
+- nametestage
++ HelloWorld
+
+
+======================================================================
+FAIL: test_process_file_2 (ClassEval_84_2.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_2.py", line 220, in test_process_file_2
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloabcWorld'
+- nametestage
++ HelloabcWorld
+
+
+======================================================================
+FAIL: test_process_file_3 (ClassEval_84_2.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_2.py", line 234, in test_process_file_3
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != ''
+- nametestage
++ 
+
+
+======================================================================
+FAIL: test_process_file_4 (ClassEval_84_2.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_2.py", line 248, in test_process_file_4
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloWorld'
+- nametestage
++ HelloWorld
+
+
+======================================================================
+FAIL: test_process_file_5 (ClassEval_84_2.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_2.py", line 262, in test_process_file_5
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloaWorld'
+- nametestage
++ HelloaWorld
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+FAILED (failures=5)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_file_1 (ClassEval_84_3.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 206, in test_process_file_1
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloWorld'
+- nametestage
++ HelloWorld
+
+
+======================================================================
+FAIL: test_process_file_2 (ClassEval_84_3.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 220, in test_process_file_2
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloabcWorld'
+- nametestage
++ HelloabcWorld
+
+
+======================================================================
+FAIL: test_process_file_3 (ClassEval_84_3.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 234, in test_process_file_3
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != ''
+- nametestage
++ 
+
+
+======================================================================
+FAIL: test_process_file_4 (ClassEval_84_3.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 248, in test_process_file_4
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloWorld'
+- nametestage
++ HelloWorld
+
+
+======================================================================
+FAIL: test_process_file_5 (ClassEval_84_3.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_3.py", line 262, in test_process_file_5
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloaWorld'
+- nametestage
++ HelloaWorld
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+FAILED (failures=5)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_file_1 (ClassEval_84_4.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_4.py", line 206, in test_process_file_1
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloWorld'
+- nametestage
++ HelloWorld
+
+
+======================================================================
+FAIL: test_process_file_2 (ClassEval_84_4.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_4.py", line 220, in test_process_file_2
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloabcWorld'
+- nametestage
++ HelloabcWorld
+
+
+======================================================================
+FAIL: test_process_file_3 (ClassEval_84_4.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_4.py", line 234, in test_process_file_3
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != ''
+- nametestage
++ 
+
+
+======================================================================
+FAIL: test_process_file_4 (ClassEval_84_4.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_4.py", line 248, in test_process_file_4
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloWorld'
+- nametestage
++ HelloWorld
+
+
+======================================================================
+FAIL: test_process_file_5 (ClassEval_84_4.TextFileProcessorTestProcessFile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_84_4.py", line 262, in test_process_file_5
+    self.assertEqual(result, self.expected_result)
+AssertionError: 'nametestage' != 'HelloaWorld'
+- nametestage
++ HelloaWorld
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+FAILED (failures=5)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....E
+======================================================================
+ERROR: test_read_xml_6 (ClassEval_98_0.XMLProcessorTestReadXml)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_0.py", line 153, in test_read_xml_6
+    root = self.processor.read_xml()
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_0.py", line 23, in read_xml
+    tree = ET.parse(self.file_name)
+  File "C:\Users\tanuj\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 1229, in parse
+    tree.parse(source, parser)
+  File "C:\Users\tanuj\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 569, in parse
+    source = open(source, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.007s
+
+FAILED (errors=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+OK
+E...EE.
+======================================================================
+ERROR: test_find_element_4 (ClassEval_98_0.XMLProcessorTestFindElement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_0.py", line 477, in test_find_element_4
+    os.remove('test.xml')
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'test.xml'
+
+----------------------------------------------------------------------
+Ran 5 tests in 2.115s
+
+FAILED (errors=1)
+EEE
+======================================================================
+ERROR: test_XMLProcessor (ClassEval_98_0.XMLProcessorTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_0.py", line 531, in test_XMLProcessor
+    result = self.processor.process_xml_data(file_name)
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_0.py", line 52, in process_xml_data
+    elem.append(new_elem)
+func_timeout.dafunc.FunctionTimedOut673492153640739364: Function run_unit_test (args=(<test_pipeline.AutoTest object at 0x0000026F7FA4E440>, 'ClassEval_98_0', 'XMLProcessorTest', 'GPT-4_File_Handling')) (kwargs={}) timed out after 5.000000 seconds.
+
+
+----------------------------------------------------------------------
+Ran 1 test in 5.524s
+
+FAILED (errors=1)
+E
+======================================================================
+ERROR: test_process_xml_data_1 (ClassEval_98_0.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_0.py", line 297, in test_process_xml_data_1
+    result = self.processor.process_xml_data(file_name)
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_0.py", line 50, in process_xml_data
+    new_elem = ET.Element("new_child")
+func_timeout.dafunc.FunctionTimedOut644038208716625697: Function run_unit_test (args=(<test_pipeline.AutoTest object at 0x0000026F7FA4E440>, 'ClassEval_98_0', 'XMLProcessorTestProcessXmlData', 'GPT-4_File_Handling')) (kwargs={}) timed out after 5.000000 seconds.
+
+
+======================================================================
+ERROR: test_process_xml_data_2 (ClassEval_98_0.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_0.py", line 322, in test_process_xml_data_2
+    result = self.processor.process_xml_data(file_name)
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_0.py", line 52, in process_xml_data
+    elem.append(new_elem)
+func_timeout.dafunc.FunctionTimedOut644038208716625697: Function run_unit_test (args=(<test_pipeline.AutoTest object at 0x0000026F7FA4E440>, 'ClassEval_98_0', 'XMLProcessorTestProcessXmlData', 'GPT-4_File_Handling')) (kwargs={}) timed out after 5.000000 seconds.
+
+
+======================================================================
+ERROR: test_process_xml_data_3 (ClassEval_98_0.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_0.py", line 346, in test_process_xml_data_3
+    result = self.processor.process_xml_data(file_name)
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_0.py", line 50, in process_xml_data
+    new_elem = ET.Element("new_child")
+func_timeout.dafunc.FunctionTimedOut644038208716625697: Function run_unit_test (args=(<test_pipeline.AutoTest object at 0x0000026F7FA4E440>, 'ClassEval_98_0', 'XMLProcessorTestProcessXmlData', 'GPT-4_File_Handling')) (kwargs={}) timed out after 5.000000 seconds.
+
+
+======================================================================
+ERROR: test_process_xml_data_4 (ClassEval_98_0.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_0.py", line 369, in test_process_xml_data_4
+    result = self.processor.process_xml_data(file_name)
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_0.py", line 50, in process_xml_data
+    new_elem = ET.Element("new_child")
+func_timeout.dafunc.FunctionTimedOut644038208716625697: Function run_unit_test (args=(<test_pipeline.AutoTest object at 0x0000026F7FA4E440>, 'ClassEval_98_0', 'XMLProcessorTestProcessXmlData', 'GPT-4_File_Handling')) (kwargs={}) timed out after 5.000000 seconds.
+
+
+======================================================================
+ERROR: test_process_xml_data_5 (ClassEval_98_0.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_0.py", line 393, in test_process_xml_data_5
+    result = self.processor.process_xml_data(file_name)
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_0.py", line 50, in process_xml_data
+    new_elem = ET.Element("new_child")
+func_timeout.dafunc.FunctionTimedOut644038208716625697: Function run_unit_test (args=(<test_pipeline.AutoTest object at 0x0000026F7FA4E440>, 'ClassEval_98_0', 'XMLProcessorTestProcessXmlData', 'GPT-4_File_Handling')) (kwargs={}) timed out after 5.000000 seconds.
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 13.735s
+
+FAILED (errors=5)
+.....E
+======================================================================
+ERROR: test_read_xml_6 (ClassEval_98_1.XMLProcessorTestReadXml)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_1.py", line 148, in test_read_xml_6
+    root = self.processor.read_xml()
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_1.py", line 23, in read_xml
+    tree = ET.parse(self.file_name)
+  File "C:\Users\tanuj\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 1229, in parse
+    tree.parse(source, parser)
+  File "C:\Users\tanuj\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 569, in parse
+    source = open(source, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.017s
+
+FAILED (errors=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.022s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_1.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_1.py", line 293, in test_process_xml_data_1
+    self.assertTrue(result)
+AssertionError: None is not true
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_1.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_1.py", line 318, in test_process_xml_data_2
+    self.assertTrue(result)
+AssertionError: None is not true
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_1.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_1.py", line 342, in test_process_xml_data_3
+    self.assertTrue(result)
+AssertionError: None is not true
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_1.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_1.py", line 365, in test_process_xml_data_4
+    self.assertTrue(result)
+AssertionError: None is not true
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_1.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_1.py", line 389, in test_process_xml_data_5
+    self.assertTrue(result)
+AssertionError: None is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_1.XMLProcessorTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_1.py", line 527, in test_XMLProcessor
+    self.assertTrue(result)
+AssertionError: None is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)
+.....E
+======================================================================
+ERROR: test_read_xml_6 (ClassEval_98_2.XMLProcessorTestReadXml)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_2.py", line 151, in test_read_xml_6
+    root = self.processor.read_xml()
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_2.py", line 23, in read_xml
+    tree = ET.parse(self.file_name)
+  File "C:\Users\tanuj\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 1229, in parse
+    tree.parse(source, parser)
+  File "C:\Users\tanuj\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 569, in parse
+    source = open(source, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.021s
+
+FAILED (errors=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.013s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.014s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+.....E
+======================================================================
+ERROR: test_read_xml_6 (ClassEval_98_3.XMLProcessorTestReadXml)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_3.py", line 151, in test_read_xml_6
+    root = self.processor.read_xml()
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_3.py", line 23, in read_xml
+    tree = ET.parse(self.file_name)
+  File "C:\Users\tanuj\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 1229, in parse
+    tree.parse(source, parser)
+  File "C:\Users\tanuj\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 569, in parse
+    source = open(source, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+FAILED (errors=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.033s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.027s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+OK
+.....E
+======================================================================
+ERROR: test_read_xml_6 (ClassEval_98_4.XMLProcessorTestReadXml)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_4.py", line 150, in test_read_xml_6
+    self.processor = XMLProcessor(self.xml_file)
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_4.py", line 16, in __init__
+    self.tree = ET.parse(self.file_name)
+  File "C:\Users\tanuj\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 1229, in parse
+    tree.parse(source, parser)
+  File "C:\Users\tanuj\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 569, in parse
+    source = open(source, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.023s
+
+FAILED (errors=1)
+.....E
+======================================================================
+ERROR: test_write_xml_6 (ClassEval_98_4.XMLProcessorTestWriteXml)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_4.py", line 280, in test_write_xml_6
+    self.processor = XMLProcessor(self.xml_file)
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_4.py", line 16, in __init__
+    self.tree = ET.parse(self.file_name)
+  File "C:\Users\tanuj\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 1229, in parse
+    tree.parse(source, parser)
+  File "C:\Users\tanuj\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 569, in parse
+    source = open(source, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.019s
+
+FAILED (errors=1)
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_4.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_4.py", line 305, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_4.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_4.py", line 330, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_4.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_4.py", line 354, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_4.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_4.py", line 377, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_4.XMLProcessorTestProcessXmlData)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_4.py", line 401, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'aaa' != 'AAA'
+- aaa
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.025s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_4.XMLProcessorTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tanuj\Desktop\CS540\repo\CS540\classeval_evaluation\ClassEval_98_4.py", line 539, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.027s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.033s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.030s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.030s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.011s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.032s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.035s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.025s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.029s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.029s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.050s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.042s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.034s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.010s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.029s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.018s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.032s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.028s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.009s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.015s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.022s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.043s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.038s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.015s
+
+OK

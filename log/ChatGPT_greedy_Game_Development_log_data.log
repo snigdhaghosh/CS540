@@ -1,0 +1,675 @@
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+..FF..
+======================================================================
+FAIL: test_check_winner_3 (ClassEval_12_0.BlackjackGameTestCheckWinner.test_check_winner_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_12_0.py", line 188, in test_check_winner_3
+    self.assertEqual(self.blackjackGame.check_winner(player_hand, dealer_hand), 'Dealer wins')
+AssertionError: 'Draw' != 'Dealer wins'
+- Draw
++ Dealer wins
+
+
+======================================================================
+FAIL: test_check_winner_4 (ClassEval_12_0.BlackjackGameTestCheckWinner.test_check_winner_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_12_0.py", line 194, in test_check_winner_4
+    self.assertEqual(self.blackjackGame.check_winner(player_hand, dealer_hand), 'Player wins')
+AssertionError: 'Draw' != 'Player wins'
+- Draw
++ Player wins
+
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+FAILED (failures=2)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+E.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.030s
+
+OK
+FF...
+======================================================================
+FAIL: test_check_winner_1 (ClassEval_41_0.GomokuGameTestCheckWinner.test_check_winner_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_41_0.py", line 140, in test_check_winner_1
+    self.assertEqual(None, gomokuGame.check_winner())
+AssertionError: None != ' '
+
+======================================================================
+FAIL: test_check_winner_2 (ClassEval_41_0.GomokuGameTestCheckWinner.test_check_winner_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_41_0.py", line 147, in test_check_winner_2
+    self.assertEqual('X', gomokuGame.check_winner())
+AssertionError: 'X' != ' '
+- X
++  
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.061s
+
+FAILED (failures=2)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_41_0.GomokuGameTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_41_0.py", line 197, in test_main
+    self.assertEqual(None, gomokuGame.check_winner())
+AssertionError: None != ' '
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.017s
+
+OK
+.....F
+======================================================================
+FAIL: test_is_valid_move_6 (ClassEval_54_0.MahjongConnectTestIsValidMove.test_is_valid_move_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_0.py", line 230, in test_is_valid_move_6
+    self.assertEqual(res, False)
+AssertionError: True != False
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.019s
+
+FAILED (failures=1)
+.F..E.
+======================================================================
+ERROR: test_has_path_5 (ClassEval_54_0.MahjongConnectTestHasPath.test_has_path_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_0.py", line 276, in test_has_path_5
+    res = mc.has_path((300, 0), (1, 1))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_0.py", line 91, in has_path
+    if self.board[x1][y1] != self.board[x2][y2]:
+       ~~~~~~~~~~^^^^
+IndexError: list index out of range
+
+======================================================================
+FAIL: test_has_path_2 (ClassEval_54_0.MahjongConnectTestHasPath.test_has_path_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_0.py", line 250, in test_has_path_2
+    self.assertEqual(res, True)
+AssertionError: False != True
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.017s
+
+FAILED (failures=1, errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.018s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.028s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+...EE
+======================================================================
+ERROR: test_generate_playerMap_4 (ClassEval_58_0.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 163, in test_generate_playerMap_4
+    minesweeper_game = MinesweeperGame(1, 4)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 18, in __init__
+    self.minesweeper_map = self.generate_mine_sweeper_map()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 32, in generate_mine_sweeper_map
+    mine_positions = random.sample(range(self.n * self.n), self.k)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/random.py", line 430, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
+
+======================================================================
+ERROR: test_generate_playerMap_5 (ClassEval_58_0.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 167, in test_generate_playerMap_5
+    minesweeper_game = MinesweeperGame(2, 5)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 18, in __init__
+    self.minesweeper_map = self.generate_mine_sweeper_map()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 32, in generate_mine_sweeper_map
+    mine_positions = random.sample(range(self.n * self.n), self.k)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/random.py", line 430, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.101s
+
+FAILED (errors=2)
+EEEEE
+======================================================================
+ERROR: test_check_won (ClassEval_58_0.MinesweeperGameTestCheckWon.test_check_won)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 175, in test_check_won
+    self.assertEqual(minesweeper_game.check_won(minesweeper_game.player_map), False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: MinesweeperGame.check_won() takes 1 positional argument but 2 were given
+
+======================================================================
+ERROR: test_check_won_2 (ClassEval_58_0.MinesweeperGameTestCheckWon.test_check_won_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 181, in test_check_won_2
+    self.assertEqual(minesweeper_game.check_won(minesweeper_game.player_map), False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: MinesweeperGame.check_won() takes 1 positional argument but 2 were given
+
+======================================================================
+ERROR: test_check_won_3 (ClassEval_58_0.MinesweeperGameTestCheckWon.test_check_won_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 187, in test_check_won_3
+    self.assertEqual(minesweeper_game.check_won(minesweeper_game.player_map), False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: MinesweeperGame.check_won() takes 1 positional argument but 2 were given
+
+======================================================================
+ERROR: test_check_won_4 (ClassEval_58_0.MinesweeperGameTestCheckWon.test_check_won_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 193, in test_check_won_4
+    self.assertEqual(minesweeper_game.check_won(minesweeper_game.player_map), True)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: MinesweeperGame.check_won() takes 1 positional argument but 2 were given
+
+======================================================================
+ERROR: test_check_won_5 (ClassEval_58_0.MinesweeperGameTestCheckWon.test_check_won_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 199, in test_check_won_5
+    self.assertEqual(minesweeper_game.check_won(minesweeper_game.player_map), False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: MinesweeperGame.check_won() takes 1 positional argument but 2 were given
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (errors=5)
+FFFFF
+======================================================================
+FAIL: test_sweep (ClassEval_58_0.MinesweeperGameTestSweep.test_sweep)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 207, in test_sweep
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_sweep_2 (ClassEval_58_0.MinesweeperGameTestSweep.test_sweep_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 213, in test_sweep_2
+    self.assertEqual(minesweeper_game.sweep(0,0), False)
+AssertionError: True != False
+
+======================================================================
+FAIL: test_sweep_3 (ClassEval_58_0.MinesweeperGameTestSweep.test_sweep_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 220, in test_sweep_3
+    self.assertEqual(minesweeper_game.sweep(0,1), True)
+AssertionError: [['-', 1, '0'], ['1', '1', '0'], ['0', '0', '0']] != True
+
+======================================================================
+FAIL: test_sweep_4 (ClassEval_58_0.MinesweeperGameTestSweep.test_sweep_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 228, in test_sweep_4
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_sweep_5 (ClassEval_58_0.MinesweeperGameTestSweep.test_sweep_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 235, in test_sweep_5
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+FAILED (failures=5)
+EE
+======================================================================
+ERROR: test_minesweeper_main (ClassEval_58_0.MinesweeperGameTestMain.test_minesweeper_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 251, in test_minesweeper_main
+    self.assertEqual(minesweeper_game.check_won(minesweeper_game.player_map), False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: MinesweeperGame.check_won() takes 1 positional argument but 2 were given
+
+======================================================================
+ERROR: test_minesweeper_main_2 (ClassEval_58_0.MinesweeperGameTestMain.test_minesweeper_main_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 267, in test_minesweeper_main_2
+    self.assertEqual(minesweeper_game.check_won(minesweeper_game.player_map), False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: MinesweeperGame.check_won() takes 1 positional argument but 2 were given
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (errors=2)
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK
+.E
+======================================================================
+ERROR: test_check_win_2 (ClassEval_71_0.PushBoxGameTestCheckWin.test_check_win_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_0.py", line 181, in test_check_win_2
+    self.game.move(move)
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_0.py", line 108, in move
+    self.map[self.player_row][self.player_col] = ' '
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: 'str' object does not support item assignment
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (errors=1)
+E.EE.E.
+======================================================================
+ERROR: test_move_1 (ClassEval_71_0.PushBoxGameTestMove.test_move_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_0.py", line 198, in test_move_1
+    self.assertFalse(self.game.move(move))
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_0.py", line 108, in move
+    self.map[self.player_row][self.player_col] = ' '
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: 'str' object does not support item assignment
+
+======================================================================
+ERROR: test_move_3 (ClassEval_71_0.PushBoxGameTestMove.test_move_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_0.py", line 208, in test_move_3
+    self.game.move('d')
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_0.py", line 108, in move
+    self.map[self.player_row][self.player_col] = ' '
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: 'str' object does not support item assignment
+
+======================================================================
+ERROR: test_move_4 (ClassEval_71_0.PushBoxGameTestMove.test_move_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_0.py", line 214, in test_move_4
+    self.game.move('s')
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_0.py", line 108, in move
+    self.map[self.player_row][self.player_col] = ' '
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: 'str' object does not support item assignment
+
+======================================================================
+ERROR: test_move_6 (ClassEval_71_0.PushBoxGameTestMove.test_move_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_0.py", line 226, in test_move_6
+    self.game.move('?')
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_0.py", line 107, in move
+    if self.map[new_row][new_col] == ' ':
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'new_row' where it is not associated with a value
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.002s
+
+FAILED (errors=4)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.FFFF
+======================================================================
+FAIL: test_gain_exp_2 (ClassEval_73_0.RPGCharacterTestGainExp.test_gain_exp_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_73_0.py", line 151, in test_gain_exp_2
+    self.assertEqual(character.level, 5)
+AssertionError: 2 != 5
+
+======================================================================
+FAIL: test_gain_exp_3 (ClassEval_73_0.RPGCharacterTestGainExp.test_gain_exp_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_73_0.py", line 158, in test_gain_exp_3
+    self.assertEqual(character.exp, 100)
+AssertionError: 0 != 100
+
+======================================================================
+FAIL: test_gain_exp_4 (ClassEval_73_0.RPGCharacterTestGainExp.test_gain_exp_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_73_0.py", line 163, in test_gain_exp_4
+    self.assertEqual(character.level, 3)
+AssertionError: 2 != 3
+
+======================================================================
+FAIL: test_gain_exp_5 (ClassEval_73_0.RPGCharacterTestGainExp.test_gain_exp_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_73_0.py", line 169, in test_gain_exp_5
+    self.assertEqual(character.level, 3)
+AssertionError: 2 != 3
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=4)
+.F...
+======================================================================
+FAIL: test_level_up_2 (ClassEval_73_0.RPGCharacterTestLevelUp.test_level_up_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_73_0.py", line 187, in test_level_up_2
+    self.assertEqual(character.level, 100)
+AssertionError: 101 != 100
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_73_0.RPGCharacterTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_73_0.py", line 251, in test_main
+    self.assertEqual(character1.exp, 100)
+AssertionError: 0 != 100
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)
+F....
+======================================================================
+FAIL: test_move_1 (ClassEval_77_0.SnakeTestMove.test_move_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_77_0.py", line 104, in test_move_1
+    self.assertEqual(snake.positions[0], (51, 51))
+AssertionError: Tuples differ: (50.0, 50.0) != (51, 51)
+
+First differing element 0:
+50.0
+51
+
+- (50.0, 50.0)
++ (51, 51)
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.016s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.029s
+
+OK
+F
+======================================================================
+FAIL: test_snake (ClassEval_77_0.SnakeTest.test_snake)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_77_0.py", line 295, in test_snake
+    self.assertEqual(snake.positions[0], (51, 51))
+AssertionError: Tuples differ: (50.0, 50.0) != (51, 51)
+
+First differing element 0:
+50.0
+51
+
+- (50.0, 50.0)
++ (51, 51)
+
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.018s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.018s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.016s
+
+OK
+E......
+======================================================================
+ERROR: test_answer_1 (ClassEval_89_0.TwentyFourPointGameTestAnswer.test_answer_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_89_0.py", line 104, in test_answer_1
+    self.assertEqual(len(cards), 4)
+                     ^^^^^^^^^^
+TypeError: object of type 'bool' has no len()
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+FAILED (errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+OK
+EE.EF
+======================================================================
+ERROR: test_solve_1 (ClassEval_35_0.EightPuzzleTestSolve.test_solve_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 219, in test_solve_1
+    result = eightPuzzle.solve()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 89, in solve
+    return self.get_path(state)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 106, in get_path
+    for move in self.get_possible_moves(state):
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 61, in get_possible_moves
+    i, j = self.find_blank(state)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 27, in find_blank
+    for j in range(len(state[i])):
+             ^^^^^^^^^^^^^^^^^^^^
+func_timeout.dafunc.FunctionTimedOut4948817214273637218: Function run_unit_test (args=(<test_pipeline.AutoTest object at 0x11b8f2030>, 'ClassEval_35_0', 'EightPuzzleTestSolve', 'ChatGPT_greedy_Game_Development')) (kwargs={}) timed out after 5.000000 seconds.
+
+
+======================================================================
+ERROR: test_solve_2 (ClassEval_35_0.EightPuzzleTestSolve.test_solve_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 225, in test_solve_2
+    result = eightPuzzle.solve()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 89, in solve
+    return self.get_path(state)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 106, in get_path
+    for move in self.get_possible_moves(state):
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 61, in get_possible_moves
+    i, j = self.find_blank(state)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 28, in find_blank
+    if state[i][j] == 0:
+       ^^^^^^^^^^^^^^^^
+func_timeout.dafunc.FunctionTimedOut4948817214273637218: Function run_unit_test (args=(<test_pipeline.AutoTest object at 0x11b8f2030>, 'ClassEval_35_0', 'EightPuzzleTestSolve', 'ChatGPT_greedy_Game_Development')) (kwargs={}) timed out after 5.000000 seconds.
+
+
+======================================================================
+ERROR: test_solve_3 (ClassEval_35_0.EightPuzzleTestSolve.test_solve_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 231, in test_solve_3
+    result = eightPuzzle.solve()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 89, in solve
+    return self.get_path(state)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 107, in get_path
+    new_state = self.move(state, move)
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 40, in move
+    i, j = self.find_blank(state)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 28, in find_blank
+    if state[i][j] == 0:
+       ^^^^^^^^^^^^^^^^
+func_timeout.dafunc.FunctionTimedOut4948817214273637218: Function run_unit_test (args=(<test_pipeline.AutoTest object at 0x11b8f2030>, 'ClassEval_35_0', 'EightPuzzleTestSolve', 'ChatGPT_greedy_Game_Development')) (kwargs={}) timed out after 5.000000 seconds.
+
+
+======================================================================
+ERROR: test_solve_5 (ClassEval_35_0.EightPuzzleTestSolve.test_solve_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 243, in test_solve_5
+    result = eightPuzzle.solve()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 89, in solve
+    return self.get_path(state)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 107, in get_path
+    new_state = self.move(state, move)
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 31, in move
+    def move(self, state, direction):
+    
+func_timeout.dafunc.FunctionTimedOut4948817214273637218: Function run_unit_test (args=(<test_pipeline.AutoTest object at 0x11b8f2030>, 'ClassEval_35_0', 'EightPuzzleTestSolve', 'ChatGPT_greedy_Game_Development')) (kwargs={}) timed out after 5.000000 seconds.
+
+
+======================================================================
+FAIL: test_solve_6 (ClassEval_35_0.EightPuzzleTestSolve.test_solve_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 251, in test_solve_6
+    self.assertEqual(result, expected)
+AssertionError: [] != None
+
+----------------------------------------------------------------------
+Ran 6 tests in 11.054s
+
+FAILED (failures=1, errors=4)

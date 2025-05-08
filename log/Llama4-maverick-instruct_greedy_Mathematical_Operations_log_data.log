@@ -1,0 +1,1208 @@
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....F.F
+======================================================================
+FAIL: test_calculate_6 (ClassEval_16_0.CalculatorTestCalculate.test_calculate_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 129, in test_calculate_6
+    self.assertEqual(res, 6)
+AssertionError: None != 6
+
+======================================================================
+FAIL: test_calculate_8 (ClassEval_16_0.CalculatorTestCalculate.test_calculate_8)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_16_0.py", line 139, in test_calculate_8
+    self.assertEqual(res, 3)
+AssertionError: None != 3
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+FAILED (failures=2)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.FF.F
+======================================================================
+FAIL: test_count_all_2 (ClassEval_23_0.CombinationCalculatorTestCountAll.test_count_all_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_23_0.py", line 124, in test_count_all_2
+    self.assertEqual(CombinationCalculator.count_all(-1), False)
+AssertionError: -0.5 != False
+
+======================================================================
+FAIL: test_count_all_3 (ClassEval_23_0.CombinationCalculatorTestCountAll.test_count_all_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_23_0.py", line 127, in test_count_all_3
+    self.assertEqual(CombinationCalculator.count_all(65), False)
+AssertionError: inf != False
+
+======================================================================
+FAIL: test_count_all_5 (ClassEval_23_0.CombinationCalculatorTestCountAll.test_count_all_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_23_0.py", line 133, in test_count_all_5
+    self.assertEqual(CombinationCalculator.count_all(63), float("inf"))
+AssertionError: 9223372036854775807 != inf
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=3)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.E.F.
+======================================================================
+ERROR: test_correlation_coefficient_2 (ClassEval_31_0.DataStatistics4TestCorrelationCoefficient.test_correlation_coefficient_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 90, in test_correlation_coefficient_2
+    self.assertEqual(DataStatistics4.correlation_coefficient([1, 1, 1], [2, 2, 2]), 0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 26, in correlation_coefficient
+    return numerator / denominator
+           ~~~~~~~~~~^~~~~~~~~~~~~
+ZeroDivisionError: float division by zero
+
+======================================================================
+FAIL: test_correlation_coefficient_4 (ClassEval_31_0.DataStatistics4TestCorrelationCoefficient.test_correlation_coefficient_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 96, in test_correlation_coefficient_4
+    self.assertEqual(DataStatistics4.correlation_coefficient([1, 2, 3], [1, 2, 4]), 0.9819805060619659)
+AssertionError: 0.9819805060619655 != 0.9819805060619659
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1, errors=1)
+FE.F.
+======================================================================
+ERROR: test_skewness_2 (ClassEval_31_0.DataStatistics4TestSkewness.test_skewness_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 107, in test_skewness_2
+    self.assertEqual(DataStatistics4.skewness([1, 1, 1]), 0)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 41, in skewness
+    return m3 / (m2 ** 1.5)
+           ~~~^~~~~~~~~~~~~
+ZeroDivisionError: float division by zero
+
+======================================================================
+FAIL: test_skewness (ClassEval_31_0.DataStatistics4TestSkewness.test_skewness)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 104, in test_skewness
+    self.assertEqual(DataStatistics4.skewness([1, 2, 5]), 2.3760224064818463)
+AssertionError: 0.5280049792181879 != 2.3760224064818463
+
+======================================================================
+FAIL: test_skewness_4 (ClassEval_31_0.DataStatistics4TestSkewness.test_skewness_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 113, in test_skewness_4
+    self.assertEqual(DataStatistics4.skewness([1, 2, 4]), 1.7181079837227264)
+AssertionError: 0.38180177416060584 != 1.7181079837227264
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=2, errors=1)
+.EFFF
+======================================================================
+ERROR: test_kurtosis_2 (ClassEval_31_0.DataStatistics4TestKurtosis.test_kurtosis_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 124, in test_kurtosis_2
+    self.assertTrue(math.isnan(DataStatistics4.kurtosis([1, 1, 1])))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 56, in kurtosis
+    return (m4 / (m2 ** 2)) - 3
+            ~~~^~~~~~~~~~~
+ZeroDivisionError: float division by zero
+
+======================================================================
+FAIL: test_kurtosis_3 (ClassEval_31_0.DataStatistics4TestKurtosis.test_kurtosis_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 127, in test_kurtosis_3
+    self.assertEqual(DataStatistics4.kurtosis([1, 2, 3]), -1.5000000000000002)
+AssertionError: -1.5 != -1.5000000000000002
+
+======================================================================
+FAIL: test_kurtosis_4 (ClassEval_31_0.DataStatistics4TestKurtosis.test_kurtosis_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 130, in test_kurtosis_4
+    self.assertEqual(DataStatistics4.kurtosis([1, 2, 4]), -1.4999999999999996)
+AssertionError: -1.5000000000000002 != -1.4999999999999996
+
+======================================================================
+FAIL: test_kurtosis_5 (ClassEval_31_0.DataStatistics4TestKurtosis.test_kurtosis_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 133, in test_kurtosis_5
+    self.assertEqual(DataStatistics4.kurtosis([1, 5, 3]), -1.5000000000000002)
+AssertionError: -1.5 != -1.5000000000000002
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=3, errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_31_0.DataStatistics4TestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_31_0.py", line 161, in test_main
+    self.assertEqual(DataStatistics4.skewness([1, 2, 5]), 2.3760224064818463)
+AssertionError: 0.5280049792181879 != 2.3760224064818463
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+..FFFFF
+======================================================================
+FAIL: test_compare_3 (ClassEval_39_0.ExpressionCalculatorTestCompare.test_compare_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 238, in test_compare_3
+    self.assertTrue(result)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_compare_4 (ClassEval_39_0.ExpressionCalculatorTestCompare.test_compare_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 242, in test_compare_4
+    self.assertFalse(result)
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_compare_5 (ClassEval_39_0.ExpressionCalculatorTestCompare.test_compare_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 246, in test_compare_5
+    self.assertFalse(result)
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_compare_6 (ClassEval_39_0.ExpressionCalculatorTestCompare.test_compare_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 250, in test_compare_6
+    self.assertFalse(result)
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_compare_7 (ClassEval_39_0.ExpressionCalculatorTestCompare.test_compare_7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 254, in test_compare_7
+    self.assertTrue(result)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+FAILED (failures=5)
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK
+....FF
+======================================================================
+FAIL: test_transform_5 (ClassEval_39_0.ExpressionCalculatorTestTransform.test_transform_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 314, in test_transform_5
+    self.assertEqual(result, "~2+(~3)*4")
+AssertionError: '-2+(-3)*4' != '~2+(~3)*4'
+- -2+(-3)*4
+? ^   ^
++ ~2+(~3)*4
+? ^   ^
+
+
+======================================================================
+FAIL: test_transform_6 (ClassEval_39_0.ExpressionCalculatorTestTransform.test_transform_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_39_0.py", line 318, in test_transform_6
+    self.assertEqual(result, "0-(1+1)")
+AssertionError: '~(1+1)' != '0-(1+1)'
+- ~(1+1)
+? ^
++ 0-(1+1)
+? ^^
+
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=2)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.FFFF
+======================================================================
+FAIL: test_fleiss_kappa_2 (ClassEval_51_0.KappaCalculatorTestFleissKappa.test_fleiss_kappa_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 134, in test_fleiss_kappa_2
+    self.assertEqual(KappaCalculator.fleiss_kappa([[1, 0, 0, 0, 14],
+AssertionError: 0.20852557021248944 != 0.2115748928799344
+
+======================================================================
+FAIL: test_fleiss_kappa_3 (ClassEval_51_0.KappaCalculatorTestFleissKappa.test_fleiss_kappa_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 146, in test_fleiss_kappa_3
+    self.assertEqual(KappaCalculator.fleiss_kappa([[0, 1, 0, 0, 14],
+AssertionError: 0.20770181487022701 != 0.21076904123090398
+
+======================================================================
+FAIL: test_fleiss_kappa_4 (ClassEval_51_0.KappaCalculatorTestFleissKappa.test_fleiss_kappa_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 158, in test_fleiss_kappa_4
+    self.assertEqual(KappaCalculator.fleiss_kappa([[0, 0, 1, 0, 14],
+AssertionError: 0.20656634746922026 != 0.2096583016522883
+
+======================================================================
+FAIL: test_fleiss_kappa_5 (ClassEval_51_0.KappaCalculatorTestFleissKappa.test_fleiss_kappa_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_51_0.py", line 170, in test_fleiss_kappa_5
+    self.assertEqual(KappaCalculator.fleiss_kappa([[0, 0, 0, 1, 14],
+AssertionError: 0.2084226944823552 != 0.21147425143148907
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=4)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+FFFFF.
+======================================================================
+FAIL: test_precision_1 (ClassEval_56_0.MetricsCalculatorTestPrecision.test_precision_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 150, in test_precision_1
+    self.assertEqual(temp, 0.5)
+AssertionError: 0.0 != 0.5
+
+======================================================================
+FAIL: test_precision_2 (ClassEval_56_0.MetricsCalculatorTestPrecision.test_precision_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 155, in test_precision_2
+    self.assertAlmostEqual(temp, 0.3333333333333333)
+AssertionError: 0.0 != 0.3333333333333333 within 7 places (0.3333333333333333 difference)
+
+======================================================================
+FAIL: test_precision_3 (ClassEval_56_0.MetricsCalculatorTestPrecision.test_precision_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 160, in test_precision_3
+    self.assertAlmostEqual(temp, 0.6666666666666666)
+AssertionError: 0.0 != 0.6666666666666666 within 7 places (0.6666666666666666 difference)
+
+======================================================================
+FAIL: test_precision_4 (ClassEval_56_0.MetricsCalculatorTestPrecision.test_precision_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 165, in test_precision_4
+    self.assertAlmostEqual(temp, 1.0)
+AssertionError: 0.0 != 1.0 within 7 places (1.0 difference)
+
+======================================================================
+FAIL: test_precision_5 (ClassEval_56_0.MetricsCalculatorTestPrecision.test_precision_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 170, in test_precision_5
+    self.assertAlmostEqual(temp, 0.5)
+AssertionError: 0.0 != 0.5 within 7 places (0.5 difference)
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+FAILED (failures=5)
+FFFFF.
+======================================================================
+FAIL: test_recall_1 (ClassEval_56_0.MetricsCalculatorTestRecall.test_recall_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 182, in test_recall_1
+    self.assertEqual(temp, 0.5)
+AssertionError: 0.0 != 0.5
+
+======================================================================
+FAIL: test_recall_2 (ClassEval_56_0.MetricsCalculatorTestRecall.test_recall_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 187, in test_recall_2
+    self.assertEqual(temp, 0.5)
+AssertionError: 0.0 != 0.5
+
+======================================================================
+FAIL: test_recall_3 (ClassEval_56_0.MetricsCalculatorTestRecall.test_recall_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 192, in test_recall_3
+    self.assertEqual(temp, 1.0)
+AssertionError: 0.0 != 1.0
+
+======================================================================
+FAIL: test_recall_4 (ClassEval_56_0.MetricsCalculatorTestRecall.test_recall_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 197, in test_recall_4
+    self.assertAlmostEqual(temp, 0.6666666666666666)
+AssertionError: 0.0 != 0.6666666666666666 within 7 places (0.6666666666666666 difference)
+
+======================================================================
+FAIL: test_recall_5 (ClassEval_56_0.MetricsCalculatorTestRecall.test_recall_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 202, in test_recall_5
+    self.assertAlmostEqual(temp, 0.3333333333333333)
+AssertionError: 0.0 != 0.3333333333333333 within 7 places (0.3333333333333333 difference)
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=5)
+FFFFF.
+======================================================================
+FAIL: test_f1_score_1 (ClassEval_56_0.MetricsCalculatorTestF1Score.test_f1_score_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 214, in test_f1_score_1
+    self.assertEqual(temp, 0.5)
+AssertionError: 0.0 != 0.5
+
+======================================================================
+FAIL: test_f1_score_2 (ClassEval_56_0.MetricsCalculatorTestF1Score.test_f1_score_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 219, in test_f1_score_2
+    self.assertEqual(temp, 0.4)
+AssertionError: 0.0 != 0.4
+
+======================================================================
+FAIL: test_f1_score_3 (ClassEval_56_0.MetricsCalculatorTestF1Score.test_f1_score_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 224, in test_f1_score_3
+    self.assertEqual(temp, 0.8)
+AssertionError: 0.0 != 0.8
+
+======================================================================
+FAIL: test_f1_score_4 (ClassEval_56_0.MetricsCalculatorTestF1Score.test_f1_score_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 229, in test_f1_score_4
+    self.assertEqual(temp, 0.8)
+AssertionError: 0.0 != 0.8
+
+======================================================================
+FAIL: test_f1_score_5 (ClassEval_56_0.MetricsCalculatorTestF1Score.test_f1_score_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 234, in test_f1_score_5
+    self.assertEqual(temp, 0.4)
+AssertionError: 0.0 != 0.4
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=5)
+FFFFF.
+======================================================================
+FAIL: test_accuracy_1 (ClassEval_56_0.MetricsCalculatorTestAccuracy.test_accuracy_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 246, in test_accuracy_1
+    self.assertEqual(temp, 0.5)
+AssertionError: 0.0 != 0.5
+
+======================================================================
+FAIL: test_accuracy_2 (ClassEval_56_0.MetricsCalculatorTestAccuracy.test_accuracy_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 251, in test_accuracy_2
+    self.assertAlmostEqual(temp, 0.3333333333333333)
+AssertionError: 0.0 != 0.3333333333333333 within 7 places (0.3333333333333333 difference)
+
+======================================================================
+FAIL: test_accuracy_3 (ClassEval_56_0.MetricsCalculatorTestAccuracy.test_accuracy_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 256, in test_accuracy_3
+    self.assertEqual(temp, 0.75)
+AssertionError: 0.0 != 0.75
+
+======================================================================
+FAIL: test_accuracy_4 (ClassEval_56_0.MetricsCalculatorTestAccuracy.test_accuracy_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 261, in test_accuracy_4
+    self.assertEqual(temp, 0.75)
+AssertionError: 0.0 != 0.75
+
+======================================================================
+FAIL: test_accuracy_5 (ClassEval_56_0.MetricsCalculatorTestAccuracy.test_accuracy_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_56_0.py", line 266, in test_accuracy_5
+    self.assertEqual(temp, 0.25)
+AssertionError: 0.0 != 0.25
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=5)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+......FF
+======================================================================
+FAIL: test_mrr_7 (ClassEval_57_0.MetricsCalculator2TestMrr.test_mrr_7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_57_0.py", line 132, in test_mrr_7
+    self.assertEqual(res1, 0.0)
+AssertionError: nan != 0.0
+
+======================================================================
+FAIL: test_mrr_8 (ClassEval_57_0.MetricsCalculator2TestMrr.test_mrr_8)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_57_0.py", line 137, in test_mrr_8
+    self.assertEqual(res1, 0.0)
+AssertionError: 0.75 != 0.0
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.004s
+
+FAILED (failures=2)
+FFFFF.FF
+======================================================================
+FAIL: test_map_1 (ClassEval_57_0.MetricsCalculator2TestMap.test_map_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_57_0.py", line 144, in test_map_1
+    self.assertEqual(res1, 0.41666666666666663)
+AssertionError: 0.8333333333333333 != 0.41666666666666663
+
+======================================================================
+FAIL: test_map_2 (ClassEval_57_0.MetricsCalculator2TestMap.test_map_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_57_0.py", line 149, in test_map_2
+    self.assertEqual(res1, 0.0625)
+AssertionError: 0.25 != 0.0625
+
+======================================================================
+FAIL: test_map_3 (ClassEval_57_0.MetricsCalculator2TestMap.test_map_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_57_0.py", line 154, in test_map_3
+    self.assertEqual(res1, 0.3333333333333333)
+AssertionError: 0.6666666666666666 != 0.3333333333333333
+
+======================================================================
+FAIL: test_map_4 (ClassEval_57_0.MetricsCalculator2TestMap.test_map_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_57_0.py", line 159, in test_map_4
+    self.assertEqual(res1, 0.40625)
+AssertionError: 0.625 != 0.40625
+
+======================================================================
+FAIL: test_map_5 (ClassEval_57_0.MetricsCalculator2TestMap.test_map_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_57_0.py", line 164, in test_map_5
+    self.assertEqual(res1, 0.3645833333333333)
+AssertionError: 0.6527777777777777 != 0.3645833333333333
+
+======================================================================
+FAIL: test_map_7 (ClassEval_57_0.MetricsCalculator2TestMap.test_map_7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_57_0.py", line 175, in test_map_7
+    self.assertEqual(res1, 0.0)
+AssertionError: nan != 0.0
+
+======================================================================
+FAIL: test_map_8 (ClassEval_57_0.MetricsCalculator2TestMap.test_map_8)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_57_0.py", line 180, in test_map_8
+    self.assertEqual(res1, 0.0)
+AssertionError: 0.6527777777777777 != 0.0
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.003s
+
+FAILED (failures=7)
+..FF
+======================================================================
+FAIL: test_metricscalculator2_3 (ClassEval_57_0.MetricsCalculator2Test.test_metricscalculator2_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_57_0.py", line 197, in test_metricscalculator2_3
+    self.assertEqual(res1, 0.41666666666666663)
+AssertionError: 0.8333333333333333 != 0.41666666666666663
+
+======================================================================
+FAIL: test_metricscalculator2_4 (ClassEval_57_0.MetricsCalculator2Test.test_metricscalculator2_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_57_0.py", line 202, in test_metricscalculator2_4
+    self.assertEqual(res1, 0.3333333333333333)
+AssertionError: 0.6666666666666666 != 0.3333333333333333
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=2)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+FFFEE
+======================================================================
+ERROR: test_correlation_4 (ClassEval_81_0.Statistics3TestCorrelation.test_correlation_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 188, in test_correlation_4
+    self.assertEqual(statistics3.correlation([1, 1,1], [2,2,2]), None)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 60, in correlation
+    return numerator / denominator
+           ~~~~~~~~~~^~~~~~~~~~~~~
+ZeroDivisionError: float division by zero
+
+======================================================================
+ERROR: test_correlation_5 (ClassEval_81_0.Statistics3TestCorrelation.test_correlation_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 192, in test_correlation_5
+    self.assertEqual(statistics3.correlation([1, 1,1], [1,1,1]), None)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 60, in correlation
+    return numerator / denominator
+           ~~~~~~~~~~^~~~~~~~~~~~~
+ZeroDivisionError: float division by zero
+
+======================================================================
+FAIL: test_correlation (ClassEval_81_0.Statistics3TestCorrelation.test_correlation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 176, in test_correlation
+    self.assertEqual(statistics3.correlation([1, 2, 3], [4, 5, 6]), 1.0)
+AssertionError: 0.9999999999999998 != 1.0
+
+======================================================================
+FAIL: test_correlation_2 (ClassEval_81_0.Statistics3TestCorrelation.test_correlation_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 180, in test_correlation_2
+    self.assertEqual(statistics3.correlation([1, 2, 3, 4], [5, 6, 7, 8]), 1.0)
+AssertionError: 0.9999999999999998 != 1.0
+
+======================================================================
+FAIL: test_correlation_3 (ClassEval_81_0.Statistics3TestCorrelation.test_correlation_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 184, in test_correlation_3
+    self.assertEqual(statistics3.correlation([1, 2, 3], [1,2,3]), 1.0)
+AssertionError: 0.9999999999999998 != 1.0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=3, errors=2)
+.E...
+======================================================================
+ERROR: test_mean_2 (ClassEval_81_0.Statistics3TestMean.test_mean_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 201, in test_mean_2
+    self.assertEqual(statistics3.mean([]), None)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 72, in mean
+    return sum(data) / len(data)
+           ~~~~~~~~~~^~~~~~~~~~~
+ZeroDivisionError: division by zero
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=1)
+FFFFF
+======================================================================
+FAIL: test_correlation_matrix (ClassEval_81_0.Statistics3TestCorrelationMatrix.test_correlation_matrix)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 218, in test_correlation_matrix
+    self.assertEqual(statistics3.correlation_matrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]]), [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]])
+AssertionError: Lists differ: [[0.9999999999999998, 0.9999999999999998, 0[138 chars]998]] != [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]]
+
+First differing element 0:
+[0.9999999999999998, 0.9999999999999998, 0.9999999999999998]
+[1.0, 1.0, 1.0]
+
++ [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]]
+- [[0.9999999999999998, 0.9999999999999998, 0.9999999999999998],
+-  [0.9999999999999998, 0.9999999999999998, 0.9999999999999998],
+-  [0.9999999999999998, 0.9999999999999998, 0.9999999999999998]]
+
+======================================================================
+FAIL: test_correlation_matrix_2 (ClassEval_81_0.Statistics3TestCorrelationMatrix.test_correlation_matrix_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 222, in test_correlation_matrix_2
+    self.assertEqual(statistics3.correlation_matrix([[1, 2, 3], [4, 5, 6]]), [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]])
+AssertionError: Lists differ: [[0.9999999999999998, 0.9999999999999998], [36 chars]998]] != [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]]
+
+First differing element 0:
+[0.9999999999999998, 0.9999999999999998]
+[1.0, 1.0, 1.0]
+
+Second list contains 1 additional elements.
+First extra element 2:
+[1.0, 1.0, 1.0]
+
++ [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]]
+- [[0.9999999999999998, 0.9999999999999998],
+-  [0.9999999999999998, 0.9999999999999998]]
+
+======================================================================
+FAIL: test_correlation_matrix_3 (ClassEval_81_0.Statistics3TestCorrelationMatrix.test_correlation_matrix_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 226, in test_correlation_matrix_3
+    self.assertEqual(statistics3.correlation_matrix([[1, 2, 3]]), [[None, None, None], [None, None, None], [None, None, None]])
+AssertionError: Lists differ: [[0.9999999999999998]] != [[None, None, None], [None, None, None], [None, None, None]]
+
+First differing element 0:
+[0.9999999999999998]
+[None, None, None]
+
+Second list contains 2 additional elements.
+First extra element 1:
+[None, None, None]
+
+- [[0.9999999999999998]]
++ [[None, None, None], [None, None, None], [None, None, None]]
+
+======================================================================
+FAIL: test_correlation_matrix_4 (ClassEval_81_0.Statistics3TestCorrelationMatrix.test_correlation_matrix_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 230, in test_correlation_matrix_4
+    self.assertEqual(statistics3.correlation_matrix([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11,12]]), [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]])
+AssertionError: Lists differ: [[0.9999999999999998, 0.9999999999999998, 0[280 chars]998]] != [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]]
+
+First differing element 0:
+[0.9999999999999998, 0.9999999999999998, 0.9999999999999998, 0.9999999999999998]
+[1.0, 1.0, 1.0]
+
+First list contains 1 additional elements.
+First extra element 3:
+[0.9999999999999998, 0.9999999999999998, 0.9999999999999998, 0.9999999999999998]
+
++ [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]]
+- [[0.9999999999999998,
+-   0.9999999999999998,
+-   0.9999999999999998,
+-   0.9999999999999998],
+-  [0.9999999999999998,
+-   0.9999999999999998,
+-   0.9999999999999998,
+-   0.9999999999999998],
+-  [0.9999999999999998,
+-   0.9999999999999998,
+-   0.9999999999999998,
+-   0.9999999999999998],
+-  [0.9999999999999998,
+-   0.9999999999999998,
+-   0.9999999999999998,
+-   0.9999999999999998]]
+
+======================================================================
+FAIL: test_correlation_matrix_5 (ClassEval_81_0.Statistics3TestCorrelationMatrix.test_correlation_matrix_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 234, in test_correlation_matrix_5
+    self.assertEqual(statistics3.correlation_matrix([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11,12], [13, 14, 15]]), [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]])
+AssertionError: Lists differ: [[0.9999999999999998, 0.9999999999999998, 0[462 chars]998]] != [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]]
+
+First differing element 0:
+[0.9999999999999998, 0.9999999999999998, 0[53 chars]9998]
+[1.0, 1.0, 1.0]
+
+First list contains 2 additional elements.
+First extra element 3:
+[0.9999999999999998, 0.9999999999999998, 0.9999999999999998, 0.9999999999999998, 0.9999999999999998]
+
+Diff is 659 characters long. Set self.maxDiff to None to see it.
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+FAILED (failures=5)
+F...F
+======================================================================
+FAIL: test_standard_deviation (ClassEval_81_0.Statistics3TestStandardDeviation.test_standard_deviation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 239, in test_standard_deviation
+    self.assertEqual(statistics3.standard_deviation([1, 2, 3]), 1.0)
+AssertionError: 0.816496580927726 != 1.0
+
+======================================================================
+FAIL: test_standard_deviation_5 (ClassEval_81_0.Statistics3TestStandardDeviation.test_standard_deviation_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 255, in test_standard_deviation_5
+    self.assertEqual(statistics3.standard_deviation([1, 1, 2, 1, 4]), 1.3038404810405297)
+AssertionError: 1.1661903789690602 != 1.3038404810405297
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=2)
+FEEFE
+======================================================================
+ERROR: test_z_score_2 (ClassEval_81_0.Statistics3TestZScore.test_z_score_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 265, in test_z_score_2
+    self.assertEqual(statistics3.z_score([1, 1, 1, 1]), None)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 117, in z_score
+    return [(x - mean) / std_dev for x in data]
+            ~~~~~~~~~~~^~~~~~~~~
+ZeroDivisionError: float division by zero
+
+======================================================================
+ERROR: test_z_score_3 (ClassEval_81_0.Statistics3TestZScore.test_z_score_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 269, in test_z_score_3
+    self.assertEqual(statistics3.z_score([1]),None)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 117, in z_score
+    return [(x - mean) / std_dev for x in data]
+            ~~~~~~~~~~~^~~~~~~~~
+ZeroDivisionError: float division by zero
+
+======================================================================
+ERROR: test_z_score_5 (ClassEval_81_0.Statistics3TestZScore.test_z_score_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 277, in test_z_score_5
+    self.assertEqual(statistics3.z_score([1, 1, 1, 1, 1]), None)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 117, in z_score
+    return [(x - mean) / std_dev for x in data]
+            ~~~~~~~~~~~^~~~~~~~~
+ZeroDivisionError: float division by zero
+
+======================================================================
+FAIL: test_z_score (ClassEval_81_0.Statistics3TestZScore.test_z_score)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 261, in test_z_score
+    self.assertEqual(statistics3.z_score([1, 2, 3, 4]), [-1.161895003862225, -0.3872983346207417, 0.3872983346207417, 1.161895003862225])
+AssertionError: Lists differ: [-1.3416407864998738, -0.4472135954999579, 0.[32 chars]8738] != [-1.161895003862225, -0.3872983346207417, 0.3[30 chars]2225]
+
+First differing element 0:
+-1.3416407864998738
+-1.161895003862225
+
++ [-1.161895003862225, -0.3872983346207417, 0.3872983346207417, 1.161895003862225]
+- [-1.3416407864998738,
+-  -0.4472135954999579,
+-  0.4472135954999579,
+-  1.3416407864998738]
+
+======================================================================
+FAIL: test_z_score_4 (ClassEval_81_0.Statistics3TestZScore.test_z_score_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 273, in test_z_score_4
+    self.assertEqual(statistics3.z_score([1, 1, 2, 3]), [-0.7833494518006403,-0.7833494518006403,0.26111648393354675,1.3055824196677337])
+AssertionError: Lists differ: [-0.9045340337332909, -0.9045340337332909, 0.[32 chars]8818] != [-0.7833494518006403, -0.7833494518006403, 0.[33 chars]7337]
+
+First differing element 0:
+-0.9045340337332909
+-0.7833494518006403
+
+- [-0.9045340337332909,
+-  -0.9045340337332909,
+-  0.30151134457776363,
+-  1.507556722888818]
++ [-0.7833494518006403,
++  -0.7833494518006403,
++  0.26111648393354675,
++  1.3055824196677337]
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=2, errors=3)
+F
+======================================================================
+FAIL: test_main (ClassEval_81_0.Statistics3TestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_81_0.py", line 285, in test_main
+    self.assertEqual(statistics3.correlation([1, 2, 3], [4, 5, 6]), 1.0)
+AssertionError: 0.9999999999999998 != 1.0
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)
+F..F.
+======================================================================
+FAIL: test_cos_1 (ClassEval_88_0.TriCalculatorTestCos.test_cos_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 94, in test_cos_1
+    self.assertEqual(tricalculator.cos(60), 0.5)
+AssertionError: 0.5000000000000001 != 0.5
+
+======================================================================
+FAIL: test_cos_4 (ClassEval_88_0.TriCalculatorTestCos.test_cos_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 106, in test_cos_4
+    self.assertEqual(tricalculator.cos(90), 0.0)
+AssertionError: 4.2539467343847745e-17 != 0.0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=2)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+F..F.
+======================================================================
+FAIL: test_sin_1 (ClassEval_88_0.TriCalculatorTestSin.test_sin_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 160, in test_sin_1
+    self.assertEqual(tricalculator.sin(30), 0.5)
+AssertionError: 0.49999999999999994 != 0.5
+
+======================================================================
+FAIL: test_sin_4 (ClassEval_88_0.TriCalculatorTestSin.test_sin_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 172, in test_sin_4
+    self.assertEqual(tricalculator.sin(90), 1.0)
+AssertionError: 1.0000000000000002 != 1.0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=2)
+.F...
+======================================================================
+FAIL: test_tan_2 (ClassEval_88_0.TriCalculatorTestTan.test_tan_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 186, in test_tan_2
+    self.assertEqual(tricalculator.tan(90), False)
+AssertionError: 2.3507581604559628e+16 != False
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=1)
+F
+======================================================================
+FAIL: test_tricalculator (ClassEval_88_0.TriCalculatorTest.test_tricalculator)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_88_0.py", line 204, in test_tricalculator
+    self.assertEqual(tricalculator.cos(60), 0.5)
+AssertionError: 0.5000000000000001 != 0.5
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
