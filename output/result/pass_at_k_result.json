@@ -120,6 +120,12 @@
             "fun_partial_success": 0.6476190476190476,
             "fun_success": 0.6238095238095239
         },
+        "Deepseek-r1-distill-llama-70b-testpred_Game_Development": {
+            "class_partial_success": 0.72,
+            "class_success": 0.32,
+            "fun_partial_success": 0.9199999999999999,
+            "fun_success": 0.7466666666666666
+        },
         "Deepseek-r1-distill-llama-70b_Data_Formatting": {
             "class_partial_success": 0.6230769230769231,
             "class_success": 0.3230769230769231,
@@ -228,6 +234,12 @@
             "fun_partial_success": 0.6285714285714286,
             "fun_success": 0.5571428571428572
         },
+        "Gemini-2.5-flash-testpred_Game_Development": {
+            "class_partial_success": 0.68,
+            "class_success": 0.38,
+            "fun_partial_success": 0.84,
+            "fun_success": 0.6488888888888888
+        },
         "Gemini-2.5-flash_Database_Operations": {
             "class_partial_success": 0.7714285714285715,
             "class_success": 0.7142857142857143,
@@ -239,6 +251,12 @@
             "class_success": 0.3111111111111111,
             "fun_partial_success": 0.6,
             "fun_success": 0.5380952380952382
+        },
+        "Gemini-2.5-flash_Game_Development": {
+            "class_partial_success": 0.62,
+            "class_success": 0.34,
+            "fun_partial_success": 0.8177777777777778,
+            "fun_success": 0.6488888888888888
         },
         "Llama3.1-8b": {
             "class_partial_success": 0.33599999999999997,
@@ -622,6 +640,12 @@
             "fun_partial_success": 0.6904761904761905,
             "fun_success": 0.6880952380952381
         },
+        "Deepseek-r1-distill-llama-70b-testpred_Game_Development": {
+            "class_partial_success": 0.76,
+            "class_success": 0.45,
+            "fun_partial_success": 0.9444444444444444,
+            "fun_success": 0.8355555555555556
+        },
         "Deepseek-r1-distill-llama-70b_Data_Formatting": {
             "class_partial_success": 0.6884615384615385,
             "class_success": 0.3807692307692308,
@@ -730,6 +754,12 @@
             "fun_partial_success": 0.6476190476190476,
             "fun_success": 0.6142857142857144
         },
+        "Gemini-2.5-flash-testpred_Game_Development": {
+            "class_partial_success": 0.8700000000000001,
+            "class_success": 0.52,
+            "fun_partial_success": 0.9622222222222222,
+            "fun_success": 0.8133333333333332
+        },
         "Gemini-2.5-flash_Database_Operations": {
             "class_partial_success": 0.8428571428571429,
             "class_success": 0.8428571428571429,
@@ -741,6 +771,12 @@
             "class_success": 0.4,
             "fun_partial_success": 0.6190476190476191,
             "fun_success": 0.5857142857142857
+        },
+        "Gemini-2.5-flash_Game_Development": {
+            "class_partial_success": 0.8,
+            "class_success": 0.5399999999999999,
+            "fun_partial_success": 0.9511111111111112,
+            "fun_success": 0.8311111111111112
         },
         "Llama3.1-8b": {
             "class_partial_success": 0.48699999999999993,
@@ -1056,6 +1092,12 @@
             "fun_partial_success": 0.6904761904761905,
             "fun_success": 0.6904761904761905
         },
+        "Deepseek-r1-distill-llama-70b-testpred_Game_Development": {
+            "class_partial_success": 0.8,
+            "class_success": 0.5,
+            "fun_partial_success": 0.9555555555555556,
+            "fun_success": 0.8666666666666667
+        },
         "Deepseek-r1-distill-llama-70b_Data_Formatting": {
             "class_partial_success": 0.6923076923076923,
             "class_success": 0.38461538461538464,
@@ -1164,6 +1206,12 @@
             "fun_partial_success": 0.6666666666666666,
             "fun_success": 0.6428571428571429
         },
+        "Gemini-2.5-flash-testpred_Game_Development": {
+            "class_partial_success": 1.0,
+            "class_success": 0.6,
+            "fun_partial_success": 1.0,
+            "fun_success": 0.8666666666666667
+        },
         "Gemini-2.5-flash_Database_Operations": {
             "class_partial_success": 0.8571428571428571,
             "class_success": 0.8571428571428571,
@@ -1175,6 +1223,12 @@
             "class_success": 0.4444444444444444,
             "fun_partial_success": 0.6190476190476191,
             "fun_success": 0.5952380952380952
+        },
+        "Gemini-2.5-flash_Game_Development": {
+            "class_partial_success": 0.9,
+            "class_success": 0.6,
+            "fun_partial_success": 0.9777777777777777,
+            "fun_success": 0.8888888888888888
         },
         "Llama3.1-8b": {
             "class_partial_success": 0.54,

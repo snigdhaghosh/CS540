@@ -1,46 +1,7 @@
 {
-    "Gemini-2.5-flash-testpred_Database_Operations": {
-        "ClassEval_14": {
-            "BookManagementDBTestAddBook": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "error",
-                    "error",
-                    "success"
-                ],
-                "error": 2,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 3
-            },
-            "BookManagementDBTestBorrowBook": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "error",
-                    "error",
-                    "success"
-                ],
-                "error": 2,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 3
-            },
-            "BookManagementDBTestCreateTable": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "partial_success",
-                    "partial_success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 2,
-                "success": 3
-            },
-            "BookManagementDBTestRemoveBook": {
+    "Gemini-2.5-flash-testpred_Game_Development": {
+        "ClassEval_12": {
+            "BlackjackGameTestCalculateHandValue": {
                 "EachTestResult": [
                     "success",
                     "success",
@@ -53,20 +14,7 @@
                 "partial_success": 0,
                 "success": 5
             },
-            "BookManagementDBTestReturnBook": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "error",
-                    "error",
-                    "success"
-                ],
-                "error": 2,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 3
-            },
-            "BookManagementDBTestSearchBooks": {
+            "BlackjackGameTestCheckWinner": {
                 "EachTestResult": [
                     "success",
                     "success",
@@ -79,21 +27,7 @@
                 "partial_success": 0,
                 "success": 5
             },
-            "TestClass": {
-                "ClassEachTestResult": [
-                    "class_success",
-                    "class_success",
-                    "class_fail",
-                    "class_fail",
-                    "class_success"
-                ],
-                "class_fail": 2,
-                "class_partial_success": 0,
-                "class_success": 3
-            }
-        },
-        "ClassEval_28": {
-            "DatabaseProcessorTest": {
+            "BlackjackGameTestCreateDeck": {
                 "EachTestResult": [
                     "success",
                     "success",
@@ -106,112 +40,7 @@
                 "partial_success": 0,
                 "success": 5
             },
-            "DatabaseProcessorTestCreateTable": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
-            "DatabaseProcessorTestDeteleFromDatabase": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
-            "DatabaseProcessorTestInsertIntoDatabase": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
-            "DatabaseProcessorTestSearchDatabase": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "partial_success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 1,
-                "success": 4
-            },
-            "TestClass": {
-                "ClassEachTestResult": [
-                    "class_success",
-                    "class_success",
-                    "class_success",
-                    "class_success",
-                    "class_partial_success"
-                ],
-                "class_fail": 0,
-                "class_partial_success": 1,
-                "class_success": 4
-            }
-        },
-        "ClassEval_60": {
-            "MovieTicketDBTest": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
-            "MovieTicketDBTestDeleteTicket": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
-            "MovieTicketDBTestInsertTicket": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
-            "MovieTicketDBTestSearchTicketsByCustomer": {
+            "BlackjackGameTestMain": {
                 "EachTestResult": [
                     "success",
                     "success",
@@ -237,182 +66,525 @@
                 "class_success": 5
             }
         },
-        "ClassEval_79": {
-            "SQLGeneratorTestDelete": {
+        "ClassEval_35": {
+            "EightPuzzleTestFindBlank": {
+                "EachTestResult": [
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 5,
+                "success": 0
+            },
+            "EightPuzzleTestGetPossibleMoves": {
                 "EachTestResult": [
                     "error",
                     "error",
+                    "error",
+                    "error",
+                    "success"
+                ],
+                "error": 4,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
+            },
+            "EightPuzzleTestMove": {
+                "EachTestResult": [
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 5,
+                "success": 0
+            },
+            "EightPuzzleTestSolve": {
+                "EachTestResult": [
+                    "partial_success",
+                    "success",
+                    "partial_success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 2,
+                "success": 3
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_partial_success"
+                ],
+                "class_fail": 4,
+                "class_partial_success": 1,
+                "class_success": 0
+            }
+        },
+        "ClassEval_41": {
+            "GomokuGameTestCheckFiveInARow": {
+                "EachTestResult": [
+                    "success",
+                    "success",
                     "success",
                     "success",
                     "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "GomokuGameTestCheckWinner": {
+                "EachTestResult": [
+                    "success",
+                    "partial_success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 4
+            },
+            "GomokuGameTestMain": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "GomokuGameTestMakeMove": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_success",
+                    "class_partial_success",
+                    "class_success",
+                    "class_success",
+                    "class_success"
+                ],
+                "class_fail": 0,
+                "class_partial_success": 1,
+                "class_success": 4
+            }
+        },
+        "ClassEval_54": {
+            "MahjongConnectTest": {
+                "EachTestResult": [
+                    "fail",
+                    "error",
+                    "success",
+                    "fail",
+                    "error"
+                ],
+                "error": 2,
+                "fail": 2,
+                "partial_success": 0,
+                "success": 1
+            },
+            "MahjongConnectTestCreateBoard": {
+                "EachTestResult": [
+                    "fail",
+                    "error",
+                    "partial_success",
+                    "fail",
+                    "error"
+                ],
+                "error": 2,
+                "fail": 2,
+                "partial_success": 1,
+                "success": 0
+            },
+            "MahjongConnectTestHasPath": {
+                "EachTestResult": [
+                    "partial_success",
+                    "error",
+                    "partial_success",
+                    "partial_success",
+                    "error"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 3,
+                "success": 0
+            },
+            "MahjongConnectTestIsGameOver": {
+                "EachTestResult": [
+                    "success",
+                    "error",
+                    "success",
+                    "success",
+                    "error"
                 ],
                 "error": 2,
                 "fail": 0,
                 "partial_success": 0,
                 "success": 3
             },
-            "SQLGeneratorTestInsert": {
+            "MahjongConnectTestIsValidMove": {
                 "EachTestResult": [
+                    "partial_success",
                     "error",
+                    "partial_success",
+                    "success",
+                    "error"
+                ],
+                "error": 2,
+                "fail": 0,
+                "partial_success": 2,
+                "success": 1
+            },
+            "MahjongConnectTestRemoveIcons": {
+                "EachTestResult": [
+                    "success",
                     "error",
                     "success",
                     "success",
-                    "success"
+                    "error"
                 ],
                 "error": 2,
                 "fail": 0,
                 "partial_success": 0,
                 "success": 3
             },
-            "SQLGeneratorTestMain": {
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_partial_success",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 4,
+                "class_partial_success": 1,
+                "class_success": 0
+            }
+        },
+        "ClassEval_58": {
+            "MinesweeperGameTestCheckWon": {
                 "EachTestResult": [
-                    "error",
-                    "error",
+                    "success",
+                    "success",
+                    "partial_success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 4
+            },
+            "MinesweeperGameTestGenerateMineSweeperMap": {
+                "EachTestResult": [
+                    "success",
+                    "success",
                     "success",
                     "success",
                     "success"
                 ],
-                "error": 2,
+                "error": 0,
                 "fail": 0,
                 "partial_success": 0,
-                "success": 3
+                "success": 5
             },
-            "SQLGeneratorTestSelect": {
+            "MinesweeperGameTestGeneratePlayerMap": {
                 "EachTestResult": [
-                    "error",
                     "error",
                     "success",
                     "partial_success",
-                    "success"
+                    "partial_success",
+                    "partial_success"
                 ],
-                "error": 2,
+                "error": 1,
                 "fail": 0,
-                "partial_success": 1,
-                "success": 2
+                "partial_success": 3,
+                "success": 1
             },
-            "SQLGeneratorTestSelectByAgeRange": {
+            "MinesweeperGameTestMain": {
                 "EachTestResult": [
                     "error",
-                    "error",
+                    "fail",
+                    "fail",
                     "success",
-                    "success",
-                    "success"
+                    "fail"
                 ],
-                "error": 2,
-                "fail": 0,
+                "error": 1,
+                "fail": 3,
                 "partial_success": 0,
-                "success": 3
+                "success": 1
             },
-            "SQLGeneratorTestSelectFemaleUnderAge": {
+            "MinesweeperGameTestSweep": {
                 "EachTestResult": [
-                    "error",
-                    "error",
-                    "success",
-                    "success",
-                    "success"
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "fail"
                 ],
-                "error": 2,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 3
-            },
-            "SQLGeneratorTestUpdate": {
-                "EachTestResult": [
-                    "error",
-                    "error",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 2,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 3
+                "error": 0,
+                "fail": 1,
+                "partial_success": 4,
+                "success": 0
             },
             "TestClass": {
                 "ClassEachTestResult": [
                     "class_fail",
                     "class_fail",
-                    "class_success",
+                    "class_fail",
                     "class_partial_success",
-                    "class_success"
+                    "class_fail"
                 ],
-                "class_fail": 2,
+                "class_fail": 4,
                 "class_partial_success": 1,
-                "class_success": 2
+                "class_success": 0
             }
         },
-        "ClassEval_80": {
-            "SQLQueryBuilderTestDetele": {
+        "ClassEval_71": {
+            "PushBoxGameTestCheckWin": {
                 "EachTestResult": [
                     "success",
+                    "partial_success",
                     "success",
-                    "error",
                     "success",
                     "success"
                 ],
-                "error": 1,
+                "error": 0,
                 "fail": 0,
-                "partial_success": 0,
+                "partial_success": 1,
                 "success": 4
             },
-            "SQLQueryBuilderTestInsert": {
+            "PushBoxGameTestInitGame": {
                 "EachTestResult": [
+                    "partial_success",
                     "success",
+                    "partial_success",
                     "success",
-                    "error",
-                    "success",
-                    "success"
+                    "partial_success"
                 ],
-                "error": 1,
+                "error": 0,
                 "fail": 0,
-                "partial_success": 0,
-                "success": 4
+                "partial_success": 3,
+                "success": 2
             },
-            "SQLQueryBuilderTestMain": {
+            "PushBoxGameTestMove": {
                 "EachTestResult": [
                     "success",
+                    "partial_success",
                     "success",
-                    "error",
                     "success",
                     "success"
                 ],
-                "error": 1,
+                "error": 0,
                 "fail": 0,
-                "partial_success": 0,
-                "success": 4
-            },
-            "SQLQueryBuilderTestSelect": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "error",
-                    "success",
-                    "success"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 4
-            },
-            "SQLQueryBuilderTestUpdate": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "error",
-                    "success",
-                    "success"
-                ],
-                "error": 1,
-                "fail": 0,
-                "partial_success": 0,
+                "partial_success": 1,
                 "success": 4
             },
             "TestClass": {
                 "ClassEachTestResult": [
+                    "class_partial_success",
+                    "class_partial_success",
+                    "class_partial_success",
                     "class_success",
+                    "class_partial_success"
+                ],
+                "class_fail": 0,
+                "class_partial_success": 4,
+                "class_success": 1
+            }
+        },
+        "ClassEval_73": {
+            "RPGCharacterTestAttack": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "error",
+                    "success"
+                ],
+                "error": 1,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 4
+            },
+            "RPGCharacterTestGainExp": {
+                "EachTestResult": [
+                    "partial_success",
+                    "success",
+                    "partial_success",
+                    "error",
+                    "success"
+                ],
+                "error": 1,
+                "fail": 0,
+                "partial_success": 2,
+                "success": 2
+            },
+            "RPGCharacterTestHeal": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "error",
+                    "success"
+                ],
+                "error": 1,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 4
+            },
+            "RPGCharacterTestIsAlive": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "partial_success",
+                    "error",
+                    "partial_success"
+                ],
+                "error": 1,
+                "fail": 0,
+                "partial_success": 2,
+                "success": 2
+            },
+            "RPGCharacterTestLevelUp": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "error",
+                    "success"
+                ],
+                "error": 1,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 4
+            },
+            "RPGCharacterTestMain": {
+                "EachTestResult": [
+                    "fail",
+                    "success",
+                    "fail",
+                    "error",
+                    "success"
+                ],
+                "error": 1,
+                "fail": 2,
+                "partial_success": 0,
+                "success": 2
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
                     "class_success",
                     "class_fail",
+                    "class_fail",
+                    "class_partial_success"
+                ],
+                "class_fail": 3,
+                "class_partial_success": 1,
+                "class_success": 1
+            }
+        },
+        "ClassEval_77": {
+            "SnakeTest": {
+                "EachTestResult": [
+                    "fail",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 1,
+                "partial_success": 0,
+                "success": 4
+            },
+            "SnakeTestEatFood": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "SnakeTestMove": {
+                "EachTestResult": [
+                    "partial_success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 4
+            },
+            "SnakeTestRandomFoodPosition": {
+                "EachTestResult": [
+                    "fail",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 1,
+                "partial_success": 0,
+                "success": 4
+            },
+            "SnakeTestReset": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_success",
+                    "class_success",
                     "class_success",
                     "class_success"
                 ],
@@ -421,138 +593,125 @@
                 "class_success": 4
             }
         },
-        "ClassEval_83": {
-            "StudentDatabaseProcessorTest": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
-            "StudentDatabaseProcessorTestDeleteStudentByName": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
-            "StudentDatabaseProcessorTestInsertStudent": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
-            "StudentDatabaseProcessorTestSearchStudentByName": {
-                "EachTestResult": [
-                    "success",
-                    "success",
-                    "success",
-                    "success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 0,
-                "success": 5
-            },
+        "ClassEval_86": {
             "TestClass": {
                 "ClassEachTestResult": [
                     "class_success",
                     "class_success",
                     "class_success",
-                    "class_success",
+                    "class_partial_success",
                     "class_success"
                 ],
                 "class_fail": 0,
-                "class_partial_success": 0,
-                "class_success": 5
+                "class_partial_success": 1,
+                "class_success": 4
+            },
+            "TicTacToeTestCheckWinner": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TicTacToeTestIsBoardFull": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TicTacToeTestMain": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TicTacToeTestMakeMove": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "partial_success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 4
             }
         },
-        "ClassEval_92": {
+        "ClassEval_89": {
             "TestClass": {
                 "ClassEachTestResult": [
-                    "class_fail",
-                    "class_fail",
-                    "class_fail",
-                    "class_fail",
-                    "class_fail"
+                    "class_partial_success",
+                    "class_partial_success",
+                    "class_partial_success",
+                    "class_partial_success",
+                    "class_partial_success"
                 ],
-                "class_fail": 5,
-                "class_partial_success": 0,
+                "class_fail": 0,
+                "class_partial_success": 5,
                 "class_success": 0
             },
-            "UserLoginDBTest": {
+            "TwentyFourPointGameTest": {
                 "EachTestResult": [
-                    "fail",
-                    "fail",
-                    "fail",
-                    "fail",
-                    "fail"
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
                 ],
                 "error": 0,
-                "fail": 5,
+                "fail": 0,
                 "partial_success": 0,
-                "success": 0
+                "success": 5
             },
-            "UserLoginDBTestDeleteUserByUsername": {
+            "TwentyFourPointGameTestAnswer": {
                 "EachTestResult": [
-                    "fail",
-                    "fail",
-                    "fail",
-                    "fail",
-                    "fail"
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success"
                 ],
                 "error": 0,
-                "fail": 5,
-                "partial_success": 0,
+                "fail": 0,
+                "partial_success": 5,
                 "success": 0
             },
-            "UserLoginDBTestInsertUser": {
+            "TwentyFourPointGameTestEvaluateExpression": {
                 "EachTestResult": [
-                    "fail",
-                    "fail",
-                    "fail",
-                    "fail",
-                    "fail"
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
                 ],
                 "error": 0,
-                "fail": 5,
+                "fail": 0,
                 "partial_success": 0,
-                "success": 0
+                "success": 5
             },
-            "UserLoginDBTestSearchUserByUsername": {
-                "EachTestResult": [
-                    "fail",
-                    "fail",
-                    "fail",
-                    "fail",
-                    "fail"
-                ],
-                "error": 0,
-                "fail": 5,
-                "partial_success": 0,
-                "success": 0
-            },
-            "UserLoginDBTestValidateUserLogin": {
+            "TwentyFourPointGameTestGetMyCards": {
                 "EachTestResult": [
                     "success",
                     "success",
