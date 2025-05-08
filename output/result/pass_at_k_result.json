@@ -108,6 +108,12 @@
             "fun_partial_success": 0.8067729083665345,
             "fun_success": 0.6394422310756974
         },
+        "Deepseek-r1-distill-llama-70b-testpred_File_Handling": {
+            "class_partial_success": 0.5333333333333333,
+            "class_success": 0.4888888888888888,
+            "fun_partial_success": 0.6476190476190476,
+            "fun_success": 0.6238095238095239
+        },
         "Deepseek-r1-distill-llama-70b_Data_Formatting": {
             "class_partial_success": 0.6230769230769231,
             "class_success": 0.3230769230769231,
@@ -203,6 +209,18 @@
             "class_success": 0.38600000000000007,
             "fun_partial_success": 0.8629482071713154,
             "fun_success": 0.7151394422310765
+        },
+        "Gemini-2.5-flash-testpred_File_Handling": {
+            "class_partial_success": 0.4666666666666667,
+            "class_success": 0.3333333333333333,
+            "fun_partial_success": 0.6285714285714286,
+            "fun_success": 0.5571428571428572
+        },
+        "Gemini-2.5-flash_File_Handling": {
+            "class_partial_success": 0.4,
+            "class_success": 0.3111111111111111,
+            "fun_partial_success": 0.6,
+            "fun_success": 0.5380952380952382
         },
         "Llama3.1-8b": {
             "class_partial_success": 0.33599999999999997,
@@ -574,6 +592,12 @@
             "fun_partial_success": 0.8585657370517928,
             "fun_success": 0.7147410358565739
         },
+        "Deepseek-r1-distill-llama-70b-testpred_File_Handling": {
+            "class_partial_success": 0.6666666666666666,
+            "class_success": 0.6555555555555556,
+            "fun_partial_success": 0.6904761904761905,
+            "fun_success": 0.6880952380952381
+        },
         "Deepseek-r1-distill-llama-70b_Data_Formatting": {
             "class_partial_success": 0.6884615384615385,
             "class_success": 0.3807692307692308,
@@ -669,6 +693,18 @@
             "class_success": 0.49700000000000005,
             "fun_partial_success": 0.903784860557769,
             "fun_success": 0.7878486055776893
+        },
+        "Gemini-2.5-flash-testpred_File_Handling": {
+            "class_partial_success": 0.5111111111111111,
+            "class_success": 0.4666666666666667,
+            "fun_partial_success": 0.6476190476190476,
+            "fun_success": 0.6142857142857144
+        },
+        "Gemini-2.5-flash_File_Handling": {
+            "class_partial_success": 0.4444444444444444,
+            "class_success": 0.4,
+            "fun_partial_success": 0.6190476190476191,
+            "fun_success": 0.5857142857142857
         },
         "Llama3.1-8b": {
             "class_partial_success": 0.48699999999999993,
@@ -972,6 +1008,12 @@
             "fun_partial_success": 0.8725099601593626,
             "fun_success": 0.7370517928286853
         },
+        "Deepseek-r1-distill-llama-70b-testpred_File_Handling": {
+            "class_partial_success": 0.6666666666666666,
+            "class_success": 0.6666666666666666,
+            "fun_partial_success": 0.6904761904761905,
+            "fun_success": 0.6904761904761905
+        },
         "Deepseek-r1-distill-llama-70b_Data_Formatting": {
             "class_partial_success": 0.6923076923076923,
             "class_success": 0.38461538461538464,
@@ -1067,6 +1109,18 @@
             "class_success": 0.53,
             "fun_partial_success": 0.9103585657370518,
             "fun_success": 0.8047808764940239
+        },
+        "Gemini-2.5-flash-testpred_File_Handling": {
+            "class_partial_success": 0.5555555555555556,
+            "class_success": 0.5555555555555556,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.6428571428571429
+        },
+        "Gemini-2.5-flash_File_Handling": {
+            "class_partial_success": 0.4444444444444444,
+            "class_success": 0.4444444444444444,
+            "fun_partial_success": 0.6190476190476191,
+            "fun_success": 0.5952380952380952
         },
         "Llama3.1-8b": {
             "class_partial_success": 0.54,

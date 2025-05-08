@@ -1,0 +1,2802 @@
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+OK
+....F
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_0.CSVProcessorTestProcessCSVData.test_process_csv_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 461, in test_process_csv_data_5
+    self.assertEqual(1, csvProcessor.process_csv_data(4, self.file))
+AssertionError: 1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_csv_data_1 (ClassEval_26_1.CSVProcessorTestProcessCSVData.test_process_csv_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 410, in test_process_csv_data_1
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['a'] != ['a', 'b', 'c', 'd']
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['a']
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_2 (ClassEval_26_1.CSVProcessorTestProcessCSVData.test_process_csv_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 420, in test_process_csv_data_2
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['b'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'b'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['b']
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_3 (ClassEval_26_1.CSVProcessorTestProcessCSVData.test_process_csv_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 430, in test_process_csv_data_3
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['c'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'c'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['c']
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_4 (ClassEval_26_1.CSVProcessorTestProcessCSVData.test_process_csv_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 440, in test_process_csv_data_4
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['d'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'d'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['d']
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_1.CSVProcessorTestProcessCSVData.test_process_csv_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 447, in test_process_csv_data_5
+    self.assertEqual(1, csvProcessor.process_csv_data(4, self.file))
+AssertionError: 1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_26_1.CSVProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 477, in test_main
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['a'] != ['a', 'b', 'c', 'd']
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['a']
++ ['a', 'b', 'c', 'd']
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+OK
+....F
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_3.CSVProcessorTestProcessCSVData.test_process_csv_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_3.py", line 418, in test_process_csv_data_5
+    self.assertEqual(1, csvProcessor.process_csv_data(4, self.file))
+AssertionError: 1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_csv_data_1 (ClassEval_26_4.CSVProcessorTestProcessCSVData.test_process_csv_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 411, in test_process_csv_data_1
+    self.assertEqual(read_data[0], data)
+AssertionError: Lists differ: ['Hello'] != ['HELLO']
+
+First differing element 0:
+'Hello'
+'HELLO'
+
+- ['Hello']
++ ['HELLO']
+
+======================================================================
+FAIL: test_process_csv_data_2 (ClassEval_26_4.CSVProcessorTestProcessCSVData.test_process_csv_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 421, in test_process_csv_data_2
+    self.assertEqual(read_data[0], data)
+AssertionError: Lists differ: ['You'] != ['YOU']
+
+First differing element 0:
+'You'
+'YOU'
+
+- ['You']
++ ['YOU']
+
+======================================================================
+FAIL: test_process_csv_data_3 (ClassEval_26_4.CSVProcessorTestProcessCSVData.test_process_csv_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 431, in test_process_csv_data_3
+    self.assertEqual(read_data[0], data)
+AssertionError: Lists differ: ['Me'] != ['ME']
+
+First differing element 0:
+'Me'
+'ME'
+
+- ['Me']
+?    ^
+
++ ['ME']
+?    ^
+
+
+======================================================================
+FAIL: test_process_csv_data_4 (ClassEval_26_4.CSVProcessorTestProcessCSVData.test_process_csv_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 441, in test_process_csv_data_4
+    self.assertEqual(read_data[0], data)
+AssertionError: Lists differ: ['Low'] != ['LOW']
+
+First differing element 0:
+'Low'
+'LOW'
+
+- ['Low']
++ ['LOW']
+
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_4.CSVProcessorTestProcessCSVData.test_process_csv_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 447, in test_process_csv_data_5
+    self.assertEqual(1, csvProcessor.process_csv_data(4, self.file))
+AssertionError: 1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_26_4.CSVProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 478, in test_main
+    self.assertEqual(read_data[0], data)
+AssertionError: Lists differ: ['Hello'] != ['HELLO']
+
+First differing element 0:
+'Hello'
+'HELLO'
+
+- ['Hello']
++ ['HELLO']
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.053s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.014s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+....F
+======================================================================
+FAIL: test_rotate_image_5 (ClassEval_45_0.ImageProcessorTestRotateImage.test_rotate_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_0.py", line 391, in test_rotate_image_5
+    self.assertTrue(ImageChops.difference(original_image.rotate(45), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_45_0.ImageProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_0.py", line 464, in test_main
+    self.assertTrue(ImageChops.difference(original_image.rotate(90), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.014s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+....F
+======================================================================
+FAIL: test_rotate_image_5 (ClassEval_45_1.ImageProcessorTestRotateImage.test_rotate_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 283, in test_rotate_image_5
+    self.assertTrue(ImageChops.difference(original_image.rotate(45), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_45_1.ImageProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 356, in test_main
+    self.assertTrue(ImageChops.difference(original_image.rotate(90), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+....F
+======================================================================
+FAIL: test_rotate_image_5 (ClassEval_45_2.ImageProcessorTestRotateImage.test_rotate_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_2.py", line 368, in test_rotate_image_5
+    self.assertTrue(ImageChops.difference(original_image.rotate(45), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_45_2.ImageProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_2.py", line 441, in test_main
+    self.assertTrue(ImageChops.difference(original_image.rotate(90), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+....F
+======================================================================
+FAIL: test_rotate_image_5 (ClassEval_45_3.ImageProcessorTestRotateImage.test_rotate_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 365, in test_rotate_image_5
+    self.assertTrue(ImageChops.difference(original_image.rotate(45), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_45_3.ImageProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 438, in test_main
+    self.assertTrue(ImageChops.difference(original_image.rotate(90), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.014s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+....F
+======================================================================
+FAIL: test_rotate_image_5 (ClassEval_45_4.ImageProcessorTestRotateImage.test_rotate_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 377, in test_rotate_image_5
+    self.assertTrue(ImageChops.difference(original_image.rotate(45), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_45_4.ImageProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 450, in test_main
+    self.assertTrue(ImageChops.difference(original_image.rotate(90), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.007s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 565, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple(processed)' != 'APPLE'
+- apple(processed)
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 590, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple(processed)' != 'APPLE'
+- apple(processed)
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 614, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple(processed)' != 'APPLE'
+- apple(processed)
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 637, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple(processed)' != 'APPLE'
+- apple(processed)
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 661, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'aaa(processed)' != 'AAA'
+- aaa(processed)
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_0.XMLProcessorTest.test_XMLProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 799, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple(processed)' != 'APPLE'
+- apple(processed)
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_1.XMLProcessorTestProcessXmlData.test_process_xml_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 528, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_1.XMLProcessorTestProcessXmlData.test_process_xml_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 553, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_1.XMLProcessorTestProcessXmlData.test_process_xml_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 577, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_1.XMLProcessorTestProcessXmlData.test_process_xml_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 600, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_1.XMLProcessorTestProcessXmlData.test_process_xml_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 624, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'aaa' != 'AAA'
+- aaa
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_1.XMLProcessorTest.test_XMLProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 762, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_2.XMLProcessorTestProcessXmlData.test_process_xml_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 587, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple-processed' != 'APPLE'
+- apple-processed
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_2.XMLProcessorTestProcessXmlData.test_process_xml_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 612, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple-processed' != 'APPLE'
+- apple-processed
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_2.XMLProcessorTestProcessXmlData.test_process_xml_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 636, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple-processed' != 'APPLE'
+- apple-processed
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_2.XMLProcessorTestProcessXmlData.test_process_xml_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 659, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple-processed' != 'APPLE'
+- apple-processed
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_2.XMLProcessorTestProcessXmlData.test_process_xml_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 683, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'aaa-processed' != 'AAA'
+- aaa-processed
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_2.XMLProcessorTest.test_XMLProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 821, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple-processed' != 'APPLE'
+- apple-processed
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.005s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_3.XMLProcessorTestProcessXmlData.test_process_xml_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 505, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_3.XMLProcessorTestProcessXmlData.test_process_xml_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 530, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_3.XMLProcessorTestProcessXmlData.test_process_xml_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 554, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_3.XMLProcessorTestProcessXmlData.test_process_xml_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 577, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_3.XMLProcessorTestProcessXmlData.test_process_xml_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 601, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'aaa' != 'AAA'
+- aaa
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_3.XMLProcessorTest.test_XMLProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 739, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.005s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_4.XMLProcessorTestProcessXmlData.test_process_xml_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 505, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple_processed' != 'APPLE'
+- apple_processed
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_4.XMLProcessorTestProcessXmlData.test_process_xml_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 530, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple_processed' != 'APPLE'
+- apple_processed
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_4.XMLProcessorTestProcessXmlData.test_process_xml_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 554, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple_processed' != 'APPLE'
+- apple_processed
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_4.XMLProcessorTestProcessXmlData.test_process_xml_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 577, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple_processed' != 'APPLE'
+- apple_processed
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_4.XMLProcessorTestProcessXmlData.test_process_xml_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 601, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'aaa_processed' != 'AAA'
+- aaa_processed
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_4.XMLProcessorTest.test_XMLProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 739, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple_processed' != 'APPLE'
+- apple_processed
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK
+.....E
+======================================================================
+ERROR: test_extract_all_6 (ClassEval_99_0.ZipFileProcessorTestExtractAll.test_extract_all_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 495, in test_extract_all_6
+    success = processor.extract_all("")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 61, in extract_all
+    os.makedirs(output_path, exist_ok=True)
+  File "<frozen os>", line 225, in makedirs
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.013s
+
+FAILED (errors=1)
+.....E
+======================================================================
+ERROR: test_extract_file_6 (ClassEval_99_0.ZipFileProcessorTestExtractFile.test_extract_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 617, in test_extract_file_6
+    success = processor.extract_file("", "")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 98, in extract_file
+    os.makedirs(output_path, exist_ok=True)
+  File "<frozen os>", line 225, in makedirs
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.012s
+
+FAILED (errors=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+.....E
+======================================================================
+ERROR: test_read_zip_file_6 (ClassEval_99_1.ZipFileProcessorTestReadZipFile.test_read_zip_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 423, in test_read_zip_file_6
+    processor = ZipFileProcessor("")
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 18, in __init__
+    raise ValueError("file_name must be a non-empty string")
+ValueError: file_name must be a non-empty string
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+FAILED (errors=1)
+.....E
+======================================================================
+ERROR: test_extract_all_6 (ClassEval_99_1.ZipFileProcessorTestExtractAll.test_extract_all_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 546, in test_extract_all_6
+    processor = ZipFileProcessor("")
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 18, in __init__
+    raise ValueError("file_name must be a non-empty string")
+ValueError: file_name must be a non-empty string
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.014s
+
+FAILED (errors=1)
+.....E
+======================================================================
+ERROR: test_extract_file_6 (ClassEval_99_1.ZipFileProcessorTestExtractFile.test_extract_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 668, in test_extract_file_6
+    processor = ZipFileProcessor("")
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 18, in __init__
+    raise ValueError("file_name must be a non-empty string")
+ValueError: file_name must be a non-empty string
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+FAILED (errors=1)
+.....E
+======================================================================
+ERROR: test_create_zip_file_6 (ClassEval_99_1.ZipFileProcessorTestCreateZipFile.test_create_zip_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 790, in test_create_zip_file_6
+    processor = ZipFileProcessor("")
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 18, in __init__
+    raise ValueError("file_name must be a non-empty string")
+ValueError: file_name must be a non-empty string
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+FAILED (errors=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.016s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.027s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+OK
+....F
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_0.CSVProcessorTestProcessCSVData.test_process_csv_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_0.py", line 461, in test_process_csv_data_5
+    self.assertEqual(1, csvProcessor.process_csv_data(4, self.file))
+AssertionError: 1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_csv_data_1 (ClassEval_26_1.CSVProcessorTestProcessCSVData.test_process_csv_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 410, in test_process_csv_data_1
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['a'] != ['a', 'b', 'c', 'd']
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['a']
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_2 (ClassEval_26_1.CSVProcessorTestProcessCSVData.test_process_csv_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 420, in test_process_csv_data_2
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['b'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'b'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['b']
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_3 (ClassEval_26_1.CSVProcessorTestProcessCSVData.test_process_csv_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 430, in test_process_csv_data_3
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['c'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'c'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['c']
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_4 (ClassEval_26_1.CSVProcessorTestProcessCSVData.test_process_csv_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 440, in test_process_csv_data_4
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['d'] != ['a', 'b', 'c', 'd']
+
+First differing element 0:
+'d'
+'a'
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['d']
++ ['a', 'b', 'c', 'd']
+
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_1.CSVProcessorTestProcessCSVData.test_process_csv_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 447, in test_process_csv_data_5
+    self.assertEqual(1, csvProcessor.process_csv_data(4, self.file))
+AssertionError: 1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_26_1.CSVProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_1.py", line 477, in test_main
+    self.assertEqual(read_title, title)
+AssertionError: Lists differ: ['a'] != ['a', 'b', 'c', 'd']
+
+Second list contains 3 additional elements.
+First extra element 1:
+'b'
+
+- ['a']
++ ['a', 'b', 'c', 'd']
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+OK
+....F
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_3.CSVProcessorTestProcessCSVData.test_process_csv_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_3.py", line 418, in test_process_csv_data_5
+    self.assertEqual(1, csvProcessor.process_csv_data(4, self.file))
+AssertionError: 1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (failures=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_csv_data_1 (ClassEval_26_4.CSVProcessorTestProcessCSVData.test_process_csv_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 411, in test_process_csv_data_1
+    self.assertEqual(read_data[0], data)
+AssertionError: Lists differ: ['Hello'] != ['HELLO']
+
+First differing element 0:
+'Hello'
+'HELLO'
+
+- ['Hello']
++ ['HELLO']
+
+======================================================================
+FAIL: test_process_csv_data_2 (ClassEval_26_4.CSVProcessorTestProcessCSVData.test_process_csv_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 421, in test_process_csv_data_2
+    self.assertEqual(read_data[0], data)
+AssertionError: Lists differ: ['You'] != ['YOU']
+
+First differing element 0:
+'You'
+'YOU'
+
+- ['You']
++ ['YOU']
+
+======================================================================
+FAIL: test_process_csv_data_3 (ClassEval_26_4.CSVProcessorTestProcessCSVData.test_process_csv_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 431, in test_process_csv_data_3
+    self.assertEqual(read_data[0], data)
+AssertionError: Lists differ: ['Me'] != ['ME']
+
+First differing element 0:
+'Me'
+'ME'
+
+- ['Me']
+?    ^
+
++ ['ME']
+?    ^
+
+
+======================================================================
+FAIL: test_process_csv_data_4 (ClassEval_26_4.CSVProcessorTestProcessCSVData.test_process_csv_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 441, in test_process_csv_data_4
+    self.assertEqual(read_data[0], data)
+AssertionError: Lists differ: ['Low'] != ['LOW']
+
+First differing element 0:
+'Low'
+'LOW'
+
+- ['Low']
++ ['LOW']
+
+======================================================================
+FAIL: test_process_csv_data_5 (ClassEval_26_4.CSVProcessorTestProcessCSVData.test_process_csv_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 447, in test_process_csv_data_5
+    self.assertEqual(1, csvProcessor.process_csv_data(4, self.file))
+AssertionError: 1 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+FAILED (failures=5)
+F
+======================================================================
+FAIL: test_main (ClassEval_26_4.CSVProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_26_4.py", line 478, in test_main
+    self.assertEqual(read_data[0], data)
+AssertionError: Lists differ: ['Hello'] != ['HELLO']
+
+First differing element 0:
+'Hello'
+'HELLO'
+
+- ['Hello']
++ ['HELLO']
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.044s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+....F
+======================================================================
+FAIL: test_rotate_image_5 (ClassEval_45_0.ImageProcessorTestRotateImage.test_rotate_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_0.py", line 391, in test_rotate_image_5
+    self.assertTrue(ImageChops.difference(original_image.rotate(45), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_45_0.ImageProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_0.py", line 464, in test_main
+    self.assertTrue(ImageChops.difference(original_image.rotate(90), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.041s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.015s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+....F
+======================================================================
+FAIL: test_rotate_image_5 (ClassEval_45_1.ImageProcessorTestRotateImage.test_rotate_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 283, in test_rotate_image_5
+    self.assertTrue(ImageChops.difference(original_image.rotate(45), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_45_1.ImageProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_1.py", line 356, in test_main
+    self.assertTrue(ImageChops.difference(original_image.rotate(90), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+....F
+======================================================================
+FAIL: test_rotate_image_5 (ClassEval_45_2.ImageProcessorTestRotateImage.test_rotate_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_2.py", line 368, in test_rotate_image_5
+    self.assertTrue(ImageChops.difference(original_image.rotate(45), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_45_2.ImageProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_2.py", line 441, in test_main
+    self.assertTrue(ImageChops.difference(original_image.rotate(90), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+....F
+======================================================================
+FAIL: test_rotate_image_5 (ClassEval_45_3.ImageProcessorTestRotateImage.test_rotate_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 365, in test_rotate_image_5
+    self.assertTrue(ImageChops.difference(original_image.rotate(45), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_45_3.ImageProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_3.py", line 438, in test_main
+    self.assertTrue(ImageChops.difference(original_image.rotate(90), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.014s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+....F
+======================================================================
+FAIL: test_rotate_image_5 (ClassEval_45_4.ImageProcessorTestRotateImage.test_rotate_image_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 377, in test_rotate_image_5
+    self.assertTrue(ImageChops.difference(original_image.rotate(45), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.014s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_45_4.ImageProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_45_4.py", line 450, in test_main
+    self.assertTrue(ImageChops.difference(original_image.rotate(90), self.processor.image).getbbox() is None)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.007s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 565, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple(processed)' != 'APPLE'
+- apple(processed)
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 590, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple(processed)' != 'APPLE'
+- apple(processed)
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 614, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple(processed)' != 'APPLE'
+- apple(processed)
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 637, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple(processed)' != 'APPLE'
+- apple(processed)
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_0.XMLProcessorTestProcessXmlData.test_process_xml_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 661, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'aaa(processed)' != 'AAA'
+- aaa(processed)
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_0.XMLProcessorTest.test_XMLProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_0.py", line 799, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple(processed)' != 'APPLE'
+- apple(processed)
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_1.XMLProcessorTestProcessXmlData.test_process_xml_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 528, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_1.XMLProcessorTestProcessXmlData.test_process_xml_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 553, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_1.XMLProcessorTestProcessXmlData.test_process_xml_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 577, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_1.XMLProcessorTestProcessXmlData.test_process_xml_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 600, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_1.XMLProcessorTestProcessXmlData.test_process_xml_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 624, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'aaa' != 'AAA'
+- aaa
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_1.XMLProcessorTest.test_XMLProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_1.py", line 762, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.005s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_2.XMLProcessorTestProcessXmlData.test_process_xml_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 587, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple-processed' != 'APPLE'
+- apple-processed
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_2.XMLProcessorTestProcessXmlData.test_process_xml_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 612, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple-processed' != 'APPLE'
+- apple-processed
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_2.XMLProcessorTestProcessXmlData.test_process_xml_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 636, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple-processed' != 'APPLE'
+- apple-processed
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_2.XMLProcessorTestProcessXmlData.test_process_xml_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 659, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple-processed' != 'APPLE'
+- apple-processed
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_2.XMLProcessorTestProcessXmlData.test_process_xml_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 683, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'aaa-processed' != 'AAA'
+- aaa-processed
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_2.XMLProcessorTest.test_XMLProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_2.py", line 821, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple-processed' != 'APPLE'
+- apple-processed
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.005s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.007s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_3.XMLProcessorTestProcessXmlData.test_process_xml_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 505, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_3.XMLProcessorTestProcessXmlData.test_process_xml_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 530, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_3.XMLProcessorTestProcessXmlData.test_process_xml_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 554, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_3.XMLProcessorTestProcessXmlData.test_process_xml_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 577, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_3.XMLProcessorTestProcessXmlData.test_process_xml_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 601, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'aaa' != 'AAA'
+- aaa
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_3.XMLProcessorTest.test_XMLProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_3.py", line 739, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple' != 'APPLE'
+- apple
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.007s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_process_xml_data_1 (ClassEval_98_4.XMLProcessorTestProcessXmlData.test_process_xml_data_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 505, in test_process_xml_data_1
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple_processed' != 'APPLE'
+- apple_processed
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_2 (ClassEval_98_4.XMLProcessorTestProcessXmlData.test_process_xml_data_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 530, in test_process_xml_data_2
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple_processed' != 'APPLE'
+- apple_processed
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_3 (ClassEval_98_4.XMLProcessorTestProcessXmlData.test_process_xml_data_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 554, in test_process_xml_data_3
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple_processed' != 'APPLE'
+- apple_processed
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_4 (ClassEval_98_4.XMLProcessorTestProcessXmlData.test_process_xml_data_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 577, in test_process_xml_data_4
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple_processed' != 'APPLE'
+- apple_processed
++ APPLE
+
+
+======================================================================
+FAIL: test_process_xml_data_5 (ClassEval_98_4.XMLProcessorTestProcessXmlData.test_process_xml_data_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 601, in test_process_xml_data_5
+    self.assertEqual(lst[0].text, 'AAA')
+AssertionError: 'aaa_processed' != 'AAA'
+- aaa_processed
++ AAA
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+F
+======================================================================
+FAIL: test_XMLProcessor (ClassEval_98_4.XMLProcessorTest.test_XMLProcessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_98_4.py", line 739, in test_XMLProcessor
+    self.assertEqual(lst[0].text, 'APPLE')
+AssertionError: 'apple_processed' != 'APPLE'
+- apple_processed
++ APPLE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.012s
+
+OK
+.....E
+======================================================================
+ERROR: test_extract_all_6 (ClassEval_99_0.ZipFileProcessorTestExtractAll.test_extract_all_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 495, in test_extract_all_6
+    success = processor.extract_all("")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 61, in extract_all
+    os.makedirs(output_path, exist_ok=True)
+  File "<frozen os>", line 225, in makedirs
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+FAILED (errors=1)
+.....E
+======================================================================
+ERROR: test_extract_file_6 (ClassEval_99_0.ZipFileProcessorTestExtractFile.test_extract_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 617, in test_extract_file_6
+    success = processor.extract_file("", "")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_0.py", line 98, in extract_file
+    os.makedirs(output_path, exist_ok=True)
+  File "<frozen os>", line 225, in makedirs
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.013s
+
+FAILED (errors=1)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+.....E
+======================================================================
+ERROR: test_read_zip_file_6 (ClassEval_99_1.ZipFileProcessorTestReadZipFile.test_read_zip_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 423, in test_read_zip_file_6
+    processor = ZipFileProcessor("")
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 18, in __init__
+    raise ValueError("file_name must be a non-empty string")
+ValueError: file_name must be a non-empty string
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+FAILED (errors=1)
+.....E
+======================================================================
+ERROR: test_extract_all_6 (ClassEval_99_1.ZipFileProcessorTestExtractAll.test_extract_all_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 546, in test_extract_all_6
+    processor = ZipFileProcessor("")
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 18, in __init__
+    raise ValueError("file_name must be a non-empty string")
+ValueError: file_name must be a non-empty string
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.012s
+
+FAILED (errors=1)
+.....E
+======================================================================
+ERROR: test_extract_file_6 (ClassEval_99_1.ZipFileProcessorTestExtractFile.test_extract_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 668, in test_extract_file_6
+    processor = ZipFileProcessor("")
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 18, in __init__
+    raise ValueError("file_name must be a non-empty string")
+ValueError: file_name must be a non-empty string
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+FAILED (errors=1)
+.....E
+======================================================================
+ERROR: test_create_zip_file_6 (ClassEval_99_1.ZipFileProcessorTestCreateZipFile.test_create_zip_file_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 790, in test_create_zip_file_6
+    processor = ZipFileProcessor("")
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_99_1.py", line 18, in __init__
+    raise ValueError("file_name must be a non-empty string")
+ValueError: file_name must be a non-empty string
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+FAILED (errors=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.014s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.015s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.012s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
