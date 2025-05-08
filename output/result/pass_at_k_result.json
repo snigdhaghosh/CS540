@@ -199,10 +199,10 @@
             "fun_success": 0.4
         },
         "Gemini-2.5-flash": {
-            "class_partial_success": 0.7119999999999999,
+            "class_partial_success": 0.718,
             "class_success": 0.38600000000000007,
-            "fun_partial_success": 0.8609561752988054,
-            "fun_success": 0.7127490039840646
+            "fun_partial_success": 0.8629482071713154,
+            "fun_success": 0.7151394422310765
         },
         "Llama3.1-8b": {
             "class_partial_success": 0.33599999999999997,
@@ -429,16 +429,16 @@
             "fun_success": 0.601593625498008
         },
         "Gemini-2.5-flash-testpred_greedy": {
-            "class_partial_success": 0.66,
-            "class_success": 0.34,
-            "fun_partial_success": 0.8326693227091634,
-            "fun_success": 0.651394422310757
+            "class_partial_success": 0.67,
+            "class_success": 0.35,
+            "fun_partial_success": 0.8346613545816733,
+            "fun_success": 0.6573705179282868
         },
         "Gemini-2.5-flash_greedy": {
-            "class_partial_success": 0.75,
+            "class_partial_success": 0.74,
             "class_success": 0.39,
-            "fun_partial_success": 0.8725099601593626,
-            "fun_success": 0.7270916334661355
+            "fun_partial_success": 0.8705179282868526,
+            "fun_success": 0.7250996015936255
         },
         "Llama3.1-8b_greedy": {
             "class_partial_success": 0.33,
@@ -665,10 +665,10 @@
             "fun_success": 0.4
         },
         "Gemini-2.5-flash": {
-            "class_partial_success": 0.795,
+            "class_partial_success": 0.805,
             "class_success": 0.49700000000000005,
-            "fun_partial_success": 0.901792828685259,
-            "fun_success": 0.7858565737051794
+            "fun_partial_success": 0.903784860557769,
+            "fun_success": 0.7878486055776893
         },
         "Llama3.1-8b": {
             "class_partial_success": 0.48699999999999993,
@@ -1063,10 +1063,10 @@
             "fun_success": 0.4
         },
         "Gemini-2.5-flash": {
-            "class_partial_success": 0.82,
+            "class_partial_success": 0.83,
             "class_success": 0.53,
-            "fun_partial_success": 0.9083665338645418,
-            "fun_success": 0.8027888446215139
+            "fun_partial_success": 0.9103585657370518,
+            "fun_success": 0.8047808764940239
         },
         "Llama3.1-8b": {
             "class_partial_success": 0.54,

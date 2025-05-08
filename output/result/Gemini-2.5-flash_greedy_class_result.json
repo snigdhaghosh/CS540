@@ -443,12 +443,12 @@
         "ClassEval_22_0": {
             "ClassRegistrationSystemTest": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 1,
                 "testsRun": 1
             },
             "ClassRegistrationSystemTestGetMajor": {
                 "errors": 0,
-                "failures": 1,
+                "failures": 2,
                 "testsRun": 3
             },
             "ClassRegistrationSystemTestGetStudent": {

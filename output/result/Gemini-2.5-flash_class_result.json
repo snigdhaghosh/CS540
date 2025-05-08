@@ -2083,12 +2083,12 @@
         "ClassEval_22_0": {
             "ClassRegistrationSystemTest": {
                 "errors": 0,
-                "failures": 1,
+                "failures": 0,
                 "testsRun": 1
             },
             "ClassRegistrationSystemTestGetMajor": {
                 "errors": 0,
-                "failures": 2,
+                "failures": 1,
                 "testsRun": 3
             },
             "ClassRegistrationSystemTestGetStudent": {
@@ -2115,12 +2115,12 @@
         "ClassEval_22_1": {
             "ClassRegistrationSystemTest": {
                 "errors": 0,
-                "failures": 1,
+                "failures": 0,
                 "testsRun": 1
             },
             "ClassRegistrationSystemTestGetMajor": {
                 "errors": 0,
-                "failures": 2,
+                "failures": 1,
                 "testsRun": 3
             },
             "ClassRegistrationSystemTestGetStudent": {
@@ -2147,12 +2147,12 @@
         "ClassEval_22_2": {
             "ClassRegistrationSystemTest": {
                 "errors": 0,
-                "failures": 1,
+                "failures": 0,
                 "testsRun": 1
             },
             "ClassRegistrationSystemTestGetMajor": {
                 "errors": 0,
-                "failures": 2,
+                "failures": 1,
                 "testsRun": 3
             },
             "ClassRegistrationSystemTestGetStudent": {
@@ -2179,12 +2179,12 @@
         "ClassEval_22_3": {
             "ClassRegistrationSystemTest": {
                 "errors": 0,
-                "failures": 1,
+                "failures": 0,
                 "testsRun": 1
             },
             "ClassRegistrationSystemTestGetMajor": {
                 "errors": 0,
-                "failures": 2,
+                "failures": 1,
                 "testsRun": 3
             },
             "ClassRegistrationSystemTestGetStudent": {
@@ -2211,12 +2211,12 @@
         "ClassEval_22_4": {
             "ClassRegistrationSystemTest": {
                 "errors": 0,
-                "failures": 1,
+                "failures": 0,
                 "testsRun": 1
             },
             "ClassRegistrationSystemTestGetMajor": {
                 "errors": 0,
-                "failures": 2,
+                "failures": 1,
                 "testsRun": 3
             },
             "ClassRegistrationSystemTestGetStudent": {
@@ -4882,7 +4882,7 @@
             },
             "AssessmentSystemTestGetAllStudentsWithFailCourse": {
                 "errors": 0,
-                "failures": 1,
+                "failures": 0,
                 "testsRun": 5
             },
             "AssessmentSystemTestGetCourseAverage": {

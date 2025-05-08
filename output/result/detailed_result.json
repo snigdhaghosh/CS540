@@ -1201,16 +1201,16 @@
         "ClassEval_22": {
             "ClassRegistrationSystemTest": {
                 "EachTestResult": [
-                    "fail",
-                    "fail",
-                    "fail",
-                    "fail",
-                    "fail"
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
                 ],
                 "error": 0,
-                "fail": 5,
+                "fail": 0,
                 "partial_success": 0,
-                "success": 0
+                "success": 5
             },
             "ClassRegistrationSystemTestGetMajor": {
                 "EachTestResult": [
@@ -1279,14 +1279,14 @@
             },
             "TestClass": {
                 "ClassEachTestResult": [
+                    "class_partial_success",
+                    "class_partial_success",
                     "class_fail",
-                    "class_fail",
-                    "class_fail",
-                    "class_fail",
+                    "class_partial_success",
                     "class_fail"
                 ],
-                "class_fail": 5,
-                "class_partial_success": 0,
+                "class_fail": 2,
+                "class_partial_success": 3,
                 "class_success": 0
             }
         },
@@ -2770,13 +2770,13 @@
                     "success",
                     "success",
                     "success",
-                    "partial_success",
+                    "success",
                     "success"
                 ],
                 "error": 0,
                 "fail": 0,
-                "partial_success": 1,
-                "success": 4
+                "partial_success": 0,
+                "success": 5
             },
             "AssessmentSystemTestGetCourseAverage": {
                 "EachTestResult": [
