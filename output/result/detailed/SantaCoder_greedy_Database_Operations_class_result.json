@@ -1,0 +1,210 @@
+{
+    "ClassEval_14": {
+        "ClassEval_14_0": {
+            "BookManagementDBTestAddBook": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestBorrowBook": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestCreateTable": {
+                "errors": 0,
+                "failures": 2,
+                "testsRun": 2
+            },
+            "BookManagementDBTestRemoveBook": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestReturnBook": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "BookManagementDBTestSearchBooks": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            }
+        }
+    },
+    "ClassEval_28": {
+        "ClassEval_28_0": {
+            "DatabaseProcessorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestCreateTable": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestDeteleFromDatabase": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestInsertIntoDatabase": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "DatabaseProcessorTestSearchDatabase": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        }
+    },
+    "ClassEval_60": {
+        "ClassEval_60_0": {
+            "MovieTicketDBTest": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "MovieTicketDBTestDeleteTicket": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "MovieTicketDBTestInsertTicket": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "MovieTicketDBTestSearchTicketsByCustomer": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_79": {
+        "ClassEval_79_0": {
+            "SQLGeneratorTestDelete": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "SQLGeneratorTestInsert": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "SQLGeneratorTestMain": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "SQLGeneratorTestSelect": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "SQLGeneratorTestSelectByAgeRange": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "SQLGeneratorTestSelectFemaleUnderAge": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "SQLGeneratorTestUpdate": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        }
+    },
+    "ClassEval_80": {
+        "ClassEval_80_0": {
+            "SQLQueryBuilderTestDetele": {
+                "errors": 0,
+                "failures": 6,
+                "testsRun": 6
+            },
+            "SQLQueryBuilderTestInsert": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "SQLQueryBuilderTestMain": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "SQLQueryBuilderTestSelect": {
+                "errors": 0,
+                "failures": 7,
+                "testsRun": 7
+            },
+            "SQLQueryBuilderTestUpdate": {
+                "errors": 0,
+                "failures": 6,
+                "testsRun": 6
+            }
+        }
+    },
+    "ClassEval_83": {
+        "ClassEval_83_0": {
+            "StudentDatabaseProcessorTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "StudentDatabaseProcessorTestDeleteStudentByName": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "StudentDatabaseProcessorTestInsertStudent": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "StudentDatabaseProcessorTestSearchStudentByName": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        }
+    },
+    "ClassEval_92": {
+        "ClassEval_92_0": {
+            "UserLoginDBTest": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "UserLoginDBTestDeleteUserByUsername": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "UserLoginDBTestInsertUser": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "UserLoginDBTestSearchUserByUsername": {
+                "errors": 0,
+                "failures": 5,
+                "testsRun": 5
+            },
+            "UserLoginDBTestValidateUserLogin": {
+                "errors": 0,
+                "failures": 3,
+                "testsRun": 5
+            }
+        }
+    }
+}

@@ -1,0 +1,267 @@
+{
+    "ClassEval_12": {
+        "ClassEval_12_0": {
+            "BlackjackGameTestCalculateHandValue": {
+                "errors": 6,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "BlackjackGameTestCheckWinner": {
+                "errors": 6,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "BlackjackGameTestCreateDeck": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "BlackjackGameTestMain": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            }
+        }
+    },
+    "ClassEval_35": {
+        "ClassEval_35_0": {
+            "EightPuzzleTestFindBlank": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "EightPuzzleTestGetPossibleMoves": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "EightPuzzleTestMove": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "EightPuzzleTestSolve": {
+                "errors": 6,
+                "failures": 0,
+                "testsRun": 6
+            }
+        }
+    },
+    "ClassEval_41": {
+        "ClassEval_41_0": {
+            "GomokuGameTestCheckFiveInARow": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "GomokuGameTestCheckWinner": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "GomokuGameTestMain": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "GomokuGameTestMakeMove": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_54": {
+        "ClassEval_54_0": {
+            "MahjongConnectTest": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "MahjongConnectTestCreateBoard": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "MahjongConnectTestHasPath": {
+                "errors": 6,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "MahjongConnectTestIsGameOver": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "MahjongConnectTestIsValidMove": {
+                "errors": 6,
+                "failures": 0,
+                "testsRun": 6
+            },
+            "MahjongConnectTestRemoveIcons": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_58": {
+        "ClassEval_58_0": {
+            "MinesweeperGameTestCheckWon": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "MinesweeperGameTestGenerateMineSweeperMap": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "MinesweeperGameTestGeneratePlayerMap": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "MinesweeperGameTestMain": {
+                "errors": 2,
+                "failures": 0,
+                "testsRun": 2
+            },
+            "MinesweeperGameTestSweep": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_71": {
+        "ClassEval_71_0": {
+            "PushBoxGameTestCheckWin": {
+                "errors": 2,
+                "failures": 0,
+                "testsRun": 2
+            },
+            "PushBoxGameTestInitGame": {
+                "errors": 7,
+                "failures": 0,
+                "testsRun": 7
+            },
+            "PushBoxGameTestMove": {
+                "errors": 7,
+                "failures": 0,
+                "testsRun": 7
+            }
+        }
+    },
+    "ClassEval_73": {
+        "ClassEval_73_0": {
+            "RPGCharacterTestAttack": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "RPGCharacterTestGainExp": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "RPGCharacterTestHeal": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "RPGCharacterTestIsAlive": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "RPGCharacterTestLevelUp": {
+                "errors": 5,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "RPGCharacterTestMain": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 1
+            }
+        }
+    },
+    "ClassEval_77": {
+        "ClassEval_77_0": {
+            "SnakeTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "SnakeTestEatFood": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "SnakeTestMove": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "SnakeTestRandomFoodPosition": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            },
+            "SnakeTestReset": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
+            }
+        }
+    },
+    "ClassEval_86": {
+        "ClassEval_86_0": {
+            "TicTacToeTestCheckWinner": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "TicTacToeTestIsBoardFull": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "TicTacToeTestMain": {
+                "errors": 0,
+                "failures": 1,
+                "testsRun": 1
+            },
+            "TicTacToeTestMakeMove": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    },
+    "ClassEval_89": {
+        "ClassEval_89_0": {
+            "TwentyFourPointGameTest": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 1
+            },
+            "TwentyFourPointGameTestAnswer": {
+                "errors": 1,
+                "failures": 0,
+                "testsRun": 7
+            },
+            "TwentyFourPointGameTestEvaluateExpression": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            },
+            "TwentyFourPointGameTestGetMyCards": {
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 5
+            }
+        }
+    }
+}
