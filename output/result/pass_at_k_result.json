@@ -126,6 +126,12 @@
             "fun_partial_success": 0.9199999999999999,
             "fun_success": 0.7466666666666666
         },
+        "Deepseek-r1-distill-llama-70b-testpred_Management_Systems": {
+            "class_partial_success": 0.6222222222222221,
+            "class_success": 0.23703703703703705,
+            "fun_partial_success": 0.8900662251655628,
+            "fun_success": 0.7205298013245031
+        },
         "Deepseek-r1-distill-llama-70b_Data_Formatting": {
             "class_partial_success": 0.6230769230769231,
             "class_success": 0.3230769230769231,
@@ -257,6 +263,12 @@
             "class_success": 0.34,
             "fun_partial_success": 0.8177777777777778,
             "fun_success": 0.6488888888888888
+        },
+        "Gemini-2.5-flash_Management_Systems": {
+            "class_partial_success": 0.7037037037037037,
+            "class_success": 0.21481481481481485,
+            "fun_partial_success": 0.9192052980132451,
+            "fun_success": 0.7536423841059601
         },
         "Llama3.1-8b": {
             "class_partial_success": 0.33599999999999997,
@@ -646,6 +658,12 @@
             "fun_partial_success": 0.9444444444444444,
             "fun_success": 0.8355555555555556
         },
+        "Deepseek-r1-distill-llama-70b-testpred_Management_Systems": {
+            "class_partial_success": 0.7296296296296296,
+            "class_success": 0.2925925925925926,
+            "fun_partial_success": 0.9370860927152316,
+            "fun_success": 0.7973509933774833
+        },
         "Deepseek-r1-distill-llama-70b_Data_Formatting": {
             "class_partial_success": 0.6884615384615385,
             "class_success": 0.3807692307692308,
@@ -777,6 +795,12 @@
             "class_success": 0.5399999999999999,
             "fun_partial_success": 0.9511111111111112,
             "fun_success": 0.8311111111111112
+        },
+        "Gemini-2.5-flash_Management_Systems": {
+            "class_partial_success": 0.8370370370370371,
+            "class_success": 0.32962962962962966,
+            "fun_partial_success": 0.9615894039735099,
+            "fun_success": 0.8304635761589404
         },
         "Llama3.1-8b": {
             "class_partial_success": 0.48699999999999993,
@@ -1098,6 +1122,12 @@
             "fun_partial_success": 0.9555555555555556,
             "fun_success": 0.8666666666666667
         },
+        "Deepseek-r1-distill-llama-70b-testpred_Management_Systems": {
+            "class_partial_success": 0.7777777777777778,
+            "class_success": 0.2962962962962963,
+            "fun_partial_success": 0.9536423841059603,
+            "fun_success": 0.8211920529801324
+        },
         "Deepseek-r1-distill-llama-70b_Data_Formatting": {
             "class_partial_success": 0.6923076923076923,
             "class_success": 0.38461538461538464,
@@ -1229,6 +1259,12 @@
             "class_success": 0.6,
             "fun_partial_success": 0.9777777777777777,
             "fun_success": 0.8888888888888888
+        },
+        "Gemini-2.5-flash_Management_Systems": {
+            "class_partial_success": 0.8888888888888888,
+            "class_success": 0.37037037037037035,
+            "fun_partial_success": 0.9735099337748344,
+            "fun_success": 0.847682119205298
         },
         "Llama3.1-8b": {
             "class_partial_success": 0.54,
