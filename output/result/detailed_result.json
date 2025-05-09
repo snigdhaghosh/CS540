@@ -1,73 +1,86 @@
 {
-    "Gemini-2.5-flash-testpred_Natural_Language_Processing": {
-        "ClassEval_52": {
-            "LemmatizationTestGetPosTag": {
+    "Gemini-2.5-flash_Data_Formatting": {
+        "ClassEval_10": {
+            "BinaryDataProcessorTestCalculateBinaryInfo": {
                 "EachTestResult": [
-                    "error",
-                    "error",
-                    "error",
-                    "error",
-                    "error"
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
                 ],
-                "error": 5,
+                "error": 0,
                 "fail": 0,
                 "partial_success": 0,
-                "success": 0
+                "success": 5
             },
-            "LemmatizationTestLemmatizeSentence": {
+            "BinaryDataProcessorTestCleanNonBinaryChars": {
                 "EachTestResult": [
-                    "error",
-                    "error",
-                    "error",
-                    "error",
-                    "error"
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
                 ],
-                "error": 5,
+                "error": 0,
                 "fail": 0,
                 "partial_success": 0,
-                "success": 0
+                "success": 5
             },
-            "LemmatizationTestMain": {
+            "BinaryDataProcessorTestConvertToAscii": {
                 "EachTestResult": [
-                    "error",
-                    "error",
-                    "error",
-                    "error",
-                    "error"
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
                 ],
-                "error": 5,
+                "error": 0,
                 "fail": 0,
                 "partial_success": 0,
-                "success": 0
+                "success": 5
             },
-            "LemmatizationTestRemovePunctuation": {
+            "BinaryDataProcessorTestConvertToUtf8": {
                 "EachTestResult": [
-                    "error",
-                    "error",
-                    "error",
-                    "error",
-                    "error"
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
                 ],
-                "error": 5,
+                "error": 0,
                 "fail": 0,
                 "partial_success": 0,
-                "success": 0
+                "success": 5
+            },
+            "BinaryDataProcessorTestMain": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
             },
             "TestClass": {
                 "ClassEachTestResult": [
-                    "class_fail",
-                    "class_fail",
-                    "class_fail",
-                    "class_fail",
-                    "class_fail"
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success"
                 ],
-                "class_fail": 5,
+                "class_fail": 0,
                 "class_partial_success": 0,
-                "class_success": 0
+                "class_success": 5
             }
         },
-        "ClassEval_53": {
-            "LongestWordTestAddWord": {
+        "ClassEval_11": {
+            "BitStatusUtilTestAdd": {
                 "EachTestResult": [
                     "success",
                     "success",
@@ -80,7 +93,270 @@
                 "partial_success": 0,
                 "success": 5
             },
-            "LongestWordTestFindLongestWord": {
+            "BitStatusUtilTestCheck": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "BitStatusUtilTestHas": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "BitStatusUtilTestMain": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "BitStatusUtilTestRemove": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success"
+                ],
+                "class_fail": 0,
+                "class_partial_success": 0,
+                "class_success": 5
+            }
+        },
+        "ClassEval_15": {
+            "BoyerMooreSearchTestBadCharacterHeuristic": {
+                "EachTestResult": [
+                    "success",
+                    "partial_success",
+                    "partial_success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 2,
+                "success": 3
+            },
+            "BoyerMooreSearchTestMain": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "BoyerMooreSearchTestMatchInPattern": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "BoyerMooreSearchTestMismatchInText": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "partial_success",
+                    "success",
+                    "partial_success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 2,
+                "success": 3
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_success",
+                    "class_partial_success",
+                    "class_partial_success",
+                    "class_success",
+                    "class_partial_success"
+                ],
+                "class_fail": 0,
+                "class_partial_success": 3,
+                "class_success": 2
+            }
+        },
+        "ClassEval_18": {
+            "CamelCaseMapTest": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "CamelCaseMapTestConvertKey": {
+                "EachTestResult": [
+                    "partial_success",
+                    "error",
+                    "partial_success",
+                    "success",
+                    "success"
+                ],
+                "error": 1,
+                "fail": 0,
+                "partial_success": 2,
+                "success": 2
+            },
+            "CamelCaseMapTestDelitem": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "CamelCaseMapTestGetitem": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "CamelCaseMapTestIter": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "CamelCaseMapTestLen": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "CamelCaseMapTestSetitem": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "CamelCaseMapTestToCamelCase": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_partial_success",
+                    "class_fail",
+                    "class_partial_success",
+                    "class_success",
+                    "class_success"
+                ],
+                "class_fail": 1,
+                "class_partial_success": 2,
+                "class_success": 2
+            }
+        },
+        "ClassEval_2": {
+            "ArgumentParserTestAddArgument": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "ArgumentParserTestConvertType": {
                 "EachTestResult": [
                     "partial_success",
                     "partial_success",
@@ -93,21 +369,60 @@
                 "partial_success": 5,
                 "success": 0
             },
+            "ArgumentParserTestGetArgument": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "ArgumentParserTestMain": {
+                "EachTestResult": [
+                    "fail",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 1,
+                "partial_success": 0,
+                "success": 4
+            },
+            "ArgumentParserTestParseArguments": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
             "TestClass": {
                 "ClassEachTestResult": [
-                    "class_partial_success",
+                    "class_fail",
                     "class_partial_success",
                     "class_partial_success",
                     "class_partial_success",
                     "class_partial_success"
                 ],
-                "class_fail": 0,
-                "class_partial_success": 5,
+                "class_fail": 1,
+                "class_partial_success": 4,
                 "class_success": 0
             }
         },
-        "ClassEval_62": {
-            "NLPDataProcessorTestConstruct": {
+        "ClassEval_27": {
+            "CurrencyConverterTest": {
                 "EachTestResult": [
                     "success",
                     "success",
@@ -120,7 +435,33 @@
                 "partial_success": 0,
                 "success": 5
             },
-            "NLPDataProcessorTestProcess": {
+            "CurrencyConverterTestAddCurrencyRate": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "partial_success",
+                    "partial_success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 2,
+                "success": 3
+            },
+            "CurrencyConverterTestConvert": {
+                "EachTestResult": [
+                    "success",
+                    "partial_success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 4
+            },
+            "CurrencyConverterTestGetSupportedCurrencies": {
                 "EachTestResult": [
                     "success",
                     "success",
@@ -133,60 +474,7 @@
                 "partial_success": 0,
                 "success": 5
             },
-            "NLPDataProcessorTestRemove": {
-                "EachTestResult": [
-                    "partial_success",
-                    "partial_success",
-                    "partial_success",
-                    "partial_success",
-                    "partial_success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 5,
-                "success": 0
-            },
-            "TestClass": {
-                "ClassEachTestResult": [
-                    "class_partial_success",
-                    "class_partial_success",
-                    "class_partial_success",
-                    "class_partial_success",
-                    "class_partial_success"
-                ],
-                "class_fail": 0,
-                "class_partial_success": 5,
-                "class_success": 0
-            }
-        },
-        "ClassEval_63": {
-            "NLPDataProcessorTestCalculate": {
-                "EachTestResult": [
-                    "partial_success",
-                    "partial_success",
-                    "partial_success",
-                    "partial_success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 4,
-                "success": 1
-            },
-            "NLPDataProcessorTestProcess": {
-                "EachTestResult": [
-                    "partial_success",
-                    "partial_success",
-                    "partial_success",
-                    "partial_success",
-                    "success"
-                ],
-                "error": 0,
-                "fail": 0,
-                "partial_success": 4,
-                "success": 1
-            },
-            "NLPDataProcessorTestProcessData": {
+            "CurrencyConverterTestUpdateCurrencyRate": {
                 "EachTestResult": [
                     "success",
                     "success",
@@ -201,19 +489,190 @@
             },
             "TestClass": {
                 "ClassEachTestResult": [
-                    "class_partial_success",
+                    "class_success",
                     "class_partial_success",
                     "class_partial_success",
                     "class_partial_success",
                     "class_success"
                 ],
                 "class_fail": 0,
-                "class_partial_success": 4,
-                "class_success": 1
+                "class_partial_success": 3,
+                "class_success": 2
             }
         },
-        "ClassEval_97": {
-            " Words2NumbersTestMain": {
+        "ClassEval_32": {
+            "DecryptionUtilsTestCaesarDecipher": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "DecryptionUtilsTestMain": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "DecryptionUtilsTestRailFenceDecipher": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "DecryptionUtilsTestVigenereDecipher": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success"
+                ],
+                "class_fail": 0,
+                "class_partial_success": 0,
+                "class_success": 5
+            }
+        },
+        "ClassEval_37": {
+            "EncryptionUtilsTestCaesarCipher": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "EncryptionUtilsTestMain": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "EncryptionUtilsTestRailFenceCipher": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "EncryptionUtilsTestVigenereCipher": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success"
+                ],
+                "class_fail": 0,
+                "class_partial_success": 0,
+                "class_success": 5
+            }
+        },
+        "ClassEval_44": {
+            "HtmlUtilTest": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "HtmlUtilTestExtractCodeFromHtmlText": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "HtmlUtilTestFormatLineFeed": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "HtmlUtilTestFormatLineHtmlText": {
                 "EachTestResult": [
                     "error",
                     "error",
@@ -237,8 +696,10 @@
                 "class_fail": 5,
                 "class_partial_success": 0,
                 "class_success": 0
-            },
-            "Words2NumbersTestIsValidInput": {
+            }
+        },
+        "ClassEval_46": {
+            "InterpolationTestInterpolate1d": {
                 "EachTestResult": [
                     "partial_success",
                     "partial_success",
@@ -251,7 +712,7 @@
                 "partial_success": 5,
                 "success": 0
             },
-            "Words2NumbersTestText2Int": {
+            "InterpolationTestInterpolate2d": {
                 "EachTestResult": [
                     "partial_success",
                     "partial_success",
@@ -262,6 +723,1334 @@
                 "error": 0,
                 "fail": 0,
                 "partial_success": 5,
+                "success": 0
+            },
+            "InterpolationTestMain": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_partial_success",
+                    "class_partial_success",
+                    "class_partial_success",
+                    "class_partial_success",
+                    "class_partial_success"
+                ],
+                "class_fail": 0,
+                "class_partial_success": 5,
+                "class_success": 0
+            }
+        },
+        "ClassEval_47": {
+            "IPAddressTest": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "IPAddressTestGetBinary": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "IPAddressTestGetOctets": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "IPAddressTestIsValid": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success"
+                ],
+                "class_fail": 0,
+                "class_partial_success": 0,
+                "class_success": 5
+            }
+        },
+        "ClassEval_48": {
+            "IpUtilTest": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "IpUtilTestGetHostname": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "IpUtilTestIsValidIpv4": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "IpUtilTestIsValidIpv6": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            }
+        },
+        "ClassEval_55": {
+            "ManacherTestMain": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "fail",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 1,
+                "partial_success": 0,
+                "success": 4
+            },
+            "ManacherTestPalindromicLength": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "fail",
+                    "partial_success"
+                ],
+                "error": 0,
+                "fail": 1,
+                "partial_success": 1,
+                "success": 3
+            },
+            "ManacherTestPalindromicString": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_fail",
+                    "class_partial_success"
+                ],
+                "class_fail": 1,
+                "class_partial_success": 1,
+                "class_success": 3
+            }
+        },
+        "ClassEval_6": {
+            "AvgPartitionTestGet": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "AvgPartitionTestMain": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "AvgPartitionTestSetNum": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success"
+                ],
+                "class_fail": 0,
+                "class_partial_success": 0,
+                "class_success": 5
+            }
+        },
+        "ClassEval_64": {
+            "NumberConvertTestDecimalToHex": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "NumberConvertTestDecimalToOctal": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "NumberConvertTestHexToDecimal": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "NumberConvertTestMain": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "NumberConvertTestOctalToDecimal": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "NumberConverterTestBinaryToDecimal": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "NumberConverterTestDecimalToBinary": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success"
+                ],
+                "class_fail": 0,
+                "class_partial_success": 0,
+                "class_success": 5
+            }
+        },
+        "ClassEval_65": {
+            "NumberWordFormatterTest": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "NumberWordFormatterTestFormat": {
+                "EachTestResult": [
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 5,
+                "success": 0
+            },
+            "NumberWordFormatterTestFormatString": {
+                "EachTestResult": [
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 5,
+                "success": 0
+            },
+            "NumberWordFormatterTestParseMore": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "NumberWordFormatterTestTransThree": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "NumberWordFormatterTestTransTwo": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "partial_success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 4
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_partial_success",
+                    "class_partial_success",
+                    "class_partial_success",
+                    "class_partial_success",
+                    "class_partial_success"
+                ],
+                "class_fail": 0,
+                "class_partial_success": 5,
+                "class_success": 0
+            }
+        },
+        "ClassEval_66": {
+            "NumericEntityUnescaperTestIsHexChar": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "NumericEntityUnescaperTestReplace": {
+                "EachTestResult": [
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 5,
+                "success": 0
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_partial_success",
+                    "class_partial_success",
+                    "class_partial_success",
+                    "class_partial_success",
+                    "class_partial_success"
+                ],
+                "class_fail": 0,
+                "class_partial_success": 5,
+                "class_success": 0
+            },
+            "unescaperTest": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            }
+        },
+        "ClassEval_7": {
+            "BalancedBracketsTestCheckBalancedBrackets": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "BalancedBracketsTestClearExpr": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "fail",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 1,
+                "partial_success": 0,
+                "success": 4
+            },
+            "BalancedBracketsTestMain": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "fail",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 1,
+                "partial_success": 0,
+                "success": 4
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_fail",
+                    "class_success"
+                ],
+                "class_fail": 1,
+                "class_partial_success": 0,
+                "class_success": 4
+            }
+        },
+        "ClassEval_70": {
+            "PersonRequestTest": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "PersonRequestTestValidateName": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "PersonRequestTestValidatePhoneNumber": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "PersonRequestTestValidateSex": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success"
+                ],
+                "class_fail": 0,
+                "class_partial_success": 0,
+                "class_success": 5
+            }
+        },
+        "ClassEval_72": {
+            "RegexUtilsTest": {
+                "EachTestResult": [
+                    "fail",
+                    "success",
+                    "fail",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 2,
+                "partial_success": 0,
+                "success": 3
+            },
+            "RegexUtilsTestExtractEmail": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "RegexUtilsTestFindall": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "RegexUtilsTestGenerateEmailPattern": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "RegexUtilsTestGeneratePhoneNumberPattern": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "RegexUtilsTestGenerateSplitSentencesPattern": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "partial_success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 4
+            },
+            "RegexUtilsTestMatch": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "RegexUtilsTestSplit": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "RegexUtilsTestSplitSentences": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "RegexUtilsTestSub": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "RegexUtilsTestValidatePhoneNumber": {
+                "EachTestResult": [
+                    "partial_success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 1,
+                "success": 4
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_success",
+                    "class_fail",
+                    "class_success",
+                    "class_success"
+                ],
+                "class_fail": 2,
+                "class_partial_success": 0,
+                "class_success": 3
+            }
+        },
+        "ClassEval_78": {
+            "SplitSentenceTest": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "fail",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 1,
+                "partial_success": 0,
+                "success": 4
+            },
+            "SplitSentenceTestCountWords": {
+                "EachTestResult": [
+                    "partial_success",
+                    "success",
+                    "partial_success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 2,
+                "success": 3
+            },
+            "SplitSentenceTestProcessTextFile": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "fail",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 1,
+                "partial_success": 0,
+                "success": 4
+            },
+            "SplitSentenceTestSplitSentences": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_partial_success",
+                    "class_success",
+                    "class_fail",
+                    "class_success",
+                    "class_success"
+                ],
+                "class_fail": 1,
+                "class_partial_success": 1,
+                "class_success": 3
+            }
+        },
+        "ClassEval_82": {
+            "StockPortfolioTrackerTestAddStock": {
+                "EachTestResult": [
+                    "partial_success",
+                    "partial_success",
+                    "success",
+                    "partial_success",
+                    "partial_success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 4,
+                "success": 1
+            },
+            "StockPortfolioTrackerTestBuyStock": {
+                "EachTestResult": [
+                    "success",
+                    "partial_success",
+                    "success",
+                    "partial_success",
+                    "partial_success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 3,
+                "success": 2
+            },
+            "StockPortfolioTrackerTestCalculatePortfolioValue": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "fail"
+                ],
+                "error": 0,
+                "fail": 1,
+                "partial_success": 0,
+                "success": 4
+            },
+            "StockPortfolioTrackerTestGetPortfolioSummary": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "StockPortfolioTrackerTestGetStockValue": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "StockPortfolioTrackerTestMain": {
+                "EachTestResult": [
+                    "success",
+                    "partial_success",
+                    "success",
+                    "partial_success",
+                    "fail"
+                ],
+                "error": 0,
+                "fail": 1,
+                "partial_success": 2,
+                "success": 2
+            },
+            "StockPortfolioTrackerTestRemoveStock": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "StockPortfolioTrackerTestSellStock": {
+                "EachTestResult": [
+                    "success",
+                    "partial_success",
+                    "success",
+                    "partial_success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 2,
+                "success": 3
+            },
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_partial_success",
+                    "class_partial_success",
+                    "class_success",
+                    "class_partial_success",
+                    "class_fail"
+                ],
+                "class_fail": 1,
+                "class_partial_success": 3,
+                "class_success": 1
+            }
+        },
+        "ClassEval_87": {
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success"
+                ],
+                "class_fail": 0,
+                "class_partial_success": 0,
+                "class_success": 5
+            },
+            "TimeUtilsTest": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TimeUtilsTestAddSeconds": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TimeUtilsTestDatetimeToString": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TimeUtilsTestGetCurrentDate": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TimeUtilsTestGetCurrentTime": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TimeUtilsTestGetFormatTime": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TimeUtilsTestGetMinutes": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "TimeUtilsTestStringToDatetime": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            }
+        },
+        "ClassEval_90": {
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_partial_success",
+                    "class_partial_success",
+                    "class_partial_success",
+                    "class_partial_success",
+                    "class_partial_success"
+                ],
+                "class_fail": 0,
+                "class_partial_success": 5,
+                "class_success": 0
+            },
+            "URLHandlerTest": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "URLHandlerTestGetFragment": {
+                "EachTestResult": [
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 5,
+                "success": 0
+            },
+            "URLHandlerTestGetHost": {
+                "EachTestResult": [
+                    "partial_success",
+                    "success",
+                    "partial_success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 2,
+                "success": 3
+            },
+            "URLHandlerTestGetPath": {
+                "EachTestResult": [
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 5,
+                "success": 0
+            },
+            "URLHandlerTestGetQueryParams": {
+                "EachTestResult": [
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 5,
+                "success": 0
+            },
+            "URLHandlerTestGetScheme": {
+                "EachTestResult": [
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success",
+                    "partial_success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 5,
+                "success": 0
+            }
+        },
+        "ClassEval_91": {
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success",
+                    "class_success"
+                ],
+                "class_fail": 0,
+                "class_partial_success": 0,
+                "class_success": 5
+            },
+            "UrlPathTest": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "UrlPathTestAdd": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "UrlPathTestFixPath": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            },
+            "UrlPathTestParse": {
+                "EachTestResult": [
+                    "success",
+                    "success",
+                    "success",
+                    "success",
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 5
+            }
+        },
+        "ClassEval_93": {
+            "TestClass": {
+                "ClassEachTestResult": [
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail",
+                    "class_fail"
+                ],
+                "class_fail": 5,
+                "class_partial_success": 0,
+                "class_success": 0
+            },
+            "VectorUtilTest": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "VectorUtilTestComputeIdfWeightDict": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "VectorUtilTestCosineSimilarities": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "VectorUtilTestNSimilarity": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 0
+            },
+            "VectorUtilTestSimilarity": {
+                "EachTestResult": [
+                    "error",
+                    "error",
+                    "error",
+                    "error",
+                    "error"
+                ],
+                "error": 5,
+                "fail": 0,
+                "partial_success": 0,
                 "success": 0
             }
         }
