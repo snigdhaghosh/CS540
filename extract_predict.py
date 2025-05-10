@@ -8,8 +8,17 @@ os.makedirs(output_dir, exist_ok=True)
 
 for filename in os.listdir(input_dir):
     if filename.endswith('.json'):
+
+        if filename.endswith('_greedy.json'):
+            continue
+         
         input_path = os.path.join(input_dir, filename)
-        output_path = os.path.join(output_dir, filename)
+        base_name = filename[:-5]  # remove ".json"
+        output_filename = f"{base_name}_greedy.json"
+        output_path = os.path.join(output_dir, output_filename)
+        # output_path = os.path.join(output_dir, filename)
+
+
 
         with open(input_path, 'r') as file:
             data = json.load(file)

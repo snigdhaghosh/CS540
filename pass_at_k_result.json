@@ -102,6 +102,54 @@
             "fun_partial_success": 0.7920318725099609,
             "fun_success": 0.6541832669322714
         },
+        "Deepseek-r1-distill-llama-70b-testpred": {
+            "class_partial_success": 0.5819999999999999,
+            "class_success": 0.30400000000000005,
+            "fun_partial_success": 0.8067729083665345,
+            "fun_success": 0.6394422310756974
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_Data_Formatting": {
+            "class_partial_success": 0.5615384615384615,
+            "class_success": 0.29230769230769227,
+            "fun_partial_success": 0.803076923076923,
+            "fun_success": 0.6061538461538462
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_Database_Operations": {
+            "class_partial_success": 0.4571428571428572,
+            "class_success": 0.4571428571428572,
+            "fun_partial_success": 0.627777777777778,
+            "fun_success": 0.5944444444444446
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_File_Handling": {
+            "class_partial_success": 0.5333333333333333,
+            "class_success": 0.4888888888888888,
+            "fun_partial_success": 0.6476190476190476,
+            "fun_success": 0.6238095238095239
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_Game_Development": {
+            "class_partial_success": 0.72,
+            "class_success": 0.32,
+            "fun_partial_success": 0.9199999999999999,
+            "fun_success": 0.7466666666666666
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_Management_Systems": {
+            "class_partial_success": 0.6222222222222221,
+            "class_success": 0.23703703703703705,
+            "fun_partial_success": 0.8900662251655628,
+            "fun_success": 0.7205298013245031
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_Mathematical_Operations": {
+            "class_partial_success": 0.5375,
+            "class_success": 0.325,
+            "fun_partial_success": 0.785542168674699,
+            "fun_success": 0.5710843373493975
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.08,
+            "fun_partial_success": 0.6533333333333334,
+            "fun_success": 0.32000000000000006
+        },
         "Deepseek-r1-distill-llama-70b_Data_Formatting": {
             "class_partial_success": 0.6230769230769231,
             "class_success": 0.3230769230769231,
@@ -192,11 +240,101 @@
             "fun_partial_success": 0.6666666666666666,
             "fun_success": 0.4
         },
+        "Gemini-2.5-flash": {
+            "class_partial_success": 0.718,
+            "class_success": 0.38600000000000007,
+            "fun_partial_success": 0.8629482071713154,
+            "fun_success": 0.7151394422310765
+        },
+        "Gemini-2.5-flash-testpred_Database_Operations": {
+            "class_partial_success": 0.7142857142857143,
+            "class_success": 0.6571428571428571,
+            "fun_partial_success": 0.7500000000000002,
+            "fun_success": 0.727777777777778
+        },
+        "Gemini-2.5-flash-testpred_File_Handling": {
+            "class_partial_success": 0.4666666666666667,
+            "class_success": 0.3333333333333333,
+            "fun_partial_success": 0.6285714285714286,
+            "fun_success": 0.5571428571428572
+        },
+        "Gemini-2.5-flash-testpred_Game_Development": {
+            "class_partial_success": 0.68,
+            "class_success": 0.38,
+            "fun_partial_success": 0.84,
+            "fun_success": 0.6488888888888888
+        },
+        "Gemini-2.5-flash-testpred_Mathematical_Operations": {
+            "class_partial_success": 0.7625000000000002,
+            "class_success": 0.37500000000000006,
+            "fun_partial_success": 0.903614457831325,
+            "fun_success": 0.6987951807228914
+        },
+        "Gemini-2.5-flash-testpred_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.04,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.29333333333333333
+        },
+        "Gemini-2.5-flash_Data_Formatting": {
+            "class_partial_success": 0.8230769230769233,
+            "class_success": 0.5384615384615384,
+            "fun_partial_success": 0.8815384615384613,
+            "fun_success": 0.7615384615384613
+        },
+        "Gemini-2.5-flash_Database_Operations": {
+            "class_partial_success": 0.7714285714285715,
+            "class_success": 0.7142857142857143,
+            "fun_partial_success": 0.8388888888888889,
+            "fun_success": 0.8055555555555556
+        },
+        "Gemini-2.5-flash_File_Handling": {
+            "class_partial_success": 0.4,
+            "class_success": 0.3111111111111111,
+            "fun_partial_success": 0.6,
+            "fun_success": 0.5380952380952382
+        },
+        "Gemini-2.5-flash_Game_Development": {
+            "class_partial_success": 0.62,
+            "class_success": 0.34,
+            "fun_partial_success": 0.8177777777777778,
+            "fun_success": 0.6488888888888888
+        },
+        "Gemini-2.5-flash_Management_Systems": {
+            "class_partial_success": 0.7037037037037037,
+            "class_success": 0.21481481481481485,
+            "fun_partial_success": 0.9192052980132451,
+            "fun_success": 0.7536423841059601
+        },
+        "Gemini-2.5-flash_Mathematical_Operations": {
+            "class_partial_success": 0.825,
+            "class_success": 0.475,
+            "fun_partial_success": 0.9349397590361443,
+            "fun_success": 0.7349397590361446
+        },
+        "Gemini-2.5-flash_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.0,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.28
+        },
+        "Llama3.1-8b": {
+            "class_partial_success": 0.33599999999999997,
+            "class_success": 0.20199999999999999,
+            "fun_partial_success": 0.6346613545816737,
+            "fun_success": 0.4713147410358571
+        },
         "Llama3.1-8b_Data_Formatting": {
             "class_partial_success": 0.26153846153846155,
             "class_success": 0.1846153846153846,
             "fun_partial_success": 0.6138461538461537,
             "fun_success": 0.45692307692307665
+        },
+        "Llama3.1-8b_Database_Operations": {
+            "class_partial_success": 0.4571428571428572,
+            "class_success": 0.4571428571428572,
+            "fun_partial_success": 0.5888888888888889,
+            "fun_success": 0.5277777777777778
         },
         "Llama3.1-8b_File_Handling": {
             "class_partial_success": 0.3111111111111111,
@@ -386,6 +524,12 @@
             "fun_partial_success": 0.8844621513944223,
             "fun_success": 0.7350597609561753
         },
+        "Deepseek-r1-distill-llama-70b-testpred_greedy": {
+            "class_partial_success": 0.61,
+            "class_success": 0.37,
+            "fun_partial_success": 0.8306772908366534,
+            "fun_success": 0.6573705179282868
+        },
         "Deepseek-r1-distill-llama-70b_greedy": {
             "class_partial_success": 0.64,
             "class_success": 0.35,
@@ -397,6 +541,18 @@
             "class_success": 0.31,
             "fun_partial_success": 0.7589641434262948,
             "fun_success": 0.601593625498008
+        },
+        "Gemini-2.5-flash-testpred_greedy": {
+            "class_partial_success": 0.67,
+            "class_success": 0.35,
+            "fun_partial_success": 0.8346613545816733,
+            "fun_success": 0.6573705179282868
+        },
+        "Gemini-2.5-flash_greedy": {
+            "class_partial_success": 0.74,
+            "class_success": 0.39,
+            "fun_partial_success": 0.8705179282868526,
+            "fun_success": 0.7250996015936255
         },
         "Llama3.1-8b_greedy": {
             "class_partial_success": 0.33,
@@ -526,6 +682,54 @@
             "fun_partial_success": 0.8376494023904382,
             "fun_success": 0.7105577689243027
         },
+        "Deepseek-r1-distill-llama-70b-testpred": {
+            "class_partial_success": 0.666,
+            "class_success": 0.389,
+            "fun_partial_success": 0.8585657370517928,
+            "fun_success": 0.7147410358565739
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_Data_Formatting": {
+            "class_partial_success": 0.6192307692307693,
+            "class_success": 0.35000000000000003,
+            "fun_partial_success": 0.8407692307692308,
+            "fun_success": 0.6707692307692309
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_Database_Operations": {
+            "class_partial_success": 0.5714285714285714,
+            "class_success": 0.5714285714285714,
+            "fun_partial_success": 0.7166666666666667,
+            "fun_success": 0.6916666666666667
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_File_Handling": {
+            "class_partial_success": 0.6666666666666666,
+            "class_success": 0.6555555555555556,
+            "fun_partial_success": 0.6904761904761905,
+            "fun_success": 0.6880952380952381
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_Game_Development": {
+            "class_partial_success": 0.76,
+            "class_success": 0.45,
+            "fun_partial_success": 0.9444444444444444,
+            "fun_success": 0.8355555555555556
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_Management_Systems": {
+            "class_partial_success": 0.7296296296296296,
+            "class_success": 0.2925925925925926,
+            "fun_partial_success": 0.9370860927152316,
+            "fun_success": 0.7973509933774833
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_Mathematical_Operations": {
+            "class_partial_success": 0.6375,
+            "class_success": 0.4125,
+            "fun_partial_success": 0.8783132530120482,
+            "fun_success": 0.6506024096385543
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.18,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.3866666666666667
+        },
         "Deepseek-r1-distill-llama-70b_Data_Formatting": {
             "class_partial_success": 0.6884615384615385,
             "class_success": 0.3807692307692308,
@@ -616,11 +820,101 @@
             "fun_partial_success": 0.6666666666666666,
             "fun_success": 0.4
         },
+        "Gemini-2.5-flash": {
+            "class_partial_success": 0.805,
+            "class_success": 0.49700000000000005,
+            "fun_partial_success": 0.903784860557769,
+            "fun_success": 0.7878486055776893
+        },
+        "Gemini-2.5-flash-testpred_Database_Operations": {
+            "class_partial_success": 0.8571428571428571,
+            "class_success": 0.8428571428571429,
+            "fun_partial_success": 0.8888888888888888,
+            "fun_success": 0.8861111111111111
+        },
+        "Gemini-2.5-flash-testpred_File_Handling": {
+            "class_partial_success": 0.5111111111111111,
+            "class_success": 0.4666666666666667,
+            "fun_partial_success": 0.6476190476190476,
+            "fun_success": 0.6142857142857144
+        },
+        "Gemini-2.5-flash-testpred_Game_Development": {
+            "class_partial_success": 0.8700000000000001,
+            "class_success": 0.52,
+            "fun_partial_success": 0.9622222222222222,
+            "fun_success": 0.8133333333333332
+        },
+        "Gemini-2.5-flash-testpred_Mathematical_Operations": {
+            "class_partial_success": 0.8625,
+            "class_success": 0.48125000000000007,
+            "fun_partial_success": 0.9650602409638553,
+            "fun_success": 0.7759036144578312
+        },
+        "Gemini-2.5-flash-testpred_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.12,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.3466666666666667
+        },
+        "Gemini-2.5-flash_Data_Formatting": {
+            "class_partial_success": 0.8846153846153846,
+            "class_success": 0.6653846153846152,
+            "fun_partial_success": 0.9,
+            "fun_success": 0.8176923076923078
+        },
+        "Gemini-2.5-flash_Database_Operations": {
+            "class_partial_success": 0.8428571428571429,
+            "class_success": 0.8428571428571429,
+            "fun_partial_success": 0.8805555555555555,
+            "fun_success": 0.8777777777777778
+        },
+        "Gemini-2.5-flash_File_Handling": {
+            "class_partial_success": 0.4444444444444444,
+            "class_success": 0.4,
+            "fun_partial_success": 0.6190476190476191,
+            "fun_success": 0.5857142857142857
+        },
+        "Gemini-2.5-flash_Game_Development": {
+            "class_partial_success": 0.8,
+            "class_success": 0.5399999999999999,
+            "fun_partial_success": 0.9511111111111112,
+            "fun_success": 0.8311111111111112
+        },
+        "Gemini-2.5-flash_Management_Systems": {
+            "class_partial_success": 0.8370370370370371,
+            "class_success": 0.32962962962962966,
+            "fun_partial_success": 0.9615894039735099,
+            "fun_success": 0.8304635761589404
+        },
+        "Gemini-2.5-flash_Mathematical_Operations": {
+            "class_partial_success": 0.875,
+            "class_success": 0.5375,
+            "fun_partial_success": 0.9759036144578314,
+            "fun_success": 0.7903614457831325
+        },
+        "Gemini-2.5-flash_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.0,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.30666666666666664
+        },
+        "Llama3.1-8b": {
+            "class_partial_success": 0.48699999999999993,
+            "class_success": 0.308,
+            "fun_partial_success": 0.7806772908366534,
+            "fun_success": 0.6131474103585659
+        },
         "Llama3.1-8b_Data_Formatting": {
             "class_partial_success": 0.42692307692307696,
             "class_success": 0.2846153846153846,
             "fun_partial_success": 0.7507692307692307,
             "fun_success": 0.59
+        },
+        "Llama3.1-8b_Database_Operations": {
+            "class_partial_success": 0.7285714285714285,
+            "class_success": 0.7285714285714285,
+            "fun_partial_success": 0.8111111111111113,
+            "fun_success": 0.7722222222222224
         },
         "Llama3.1-8b_File_Handling": {
             "class_partial_success": 0.3333333333333333,
@@ -900,6 +1194,54 @@
             "fun_partial_success": 0.848605577689243,
             "fun_success": 0.7250996015936255
         },
+        "Deepseek-r1-distill-llama-70b-testpred": {
+            "class_partial_success": 0.7,
+            "class_success": 0.41,
+            "fun_partial_success": 0.8725099601593626,
+            "fun_success": 0.7370517928286853
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_Data_Formatting": {
+            "class_partial_success": 0.6538461538461539,
+            "class_success": 0.38461538461538464,
+            "fun_partial_success": 0.8538461538461538,
+            "fun_success": 0.7
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_Database_Operations": {
+            "class_partial_success": 0.5714285714285714,
+            "class_success": 0.5714285714285714,
+            "fun_partial_success": 0.7222222222222222,
+            "fun_success": 0.6944444444444444
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_File_Handling": {
+            "class_partial_success": 0.6666666666666666,
+            "class_success": 0.6666666666666666,
+            "fun_partial_success": 0.6904761904761905,
+            "fun_success": 0.6904761904761905
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_Game_Development": {
+            "class_partial_success": 0.8,
+            "class_success": 0.5,
+            "fun_partial_success": 0.9555555555555556,
+            "fun_success": 0.8666666666666667
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_Management_Systems": {
+            "class_partial_success": 0.7777777777777778,
+            "class_success": 0.2962962962962963,
+            "fun_partial_success": 0.9536423841059603,
+            "fun_success": 0.8211920529801324
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_Mathematical_Operations": {
+            "class_partial_success": 0.6875,
+            "class_success": 0.4375,
+            "fun_partial_success": 0.9036144578313253,
+            "fun_success": 0.6746987951807228
+        },
+        "Deepseek-r1-distill-llama-70b-testpred_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.2,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.4
+        },
         "Deepseek-r1-distill-llama-70b_Data_Formatting": {
             "class_partial_success": 0.6923076923076923,
             "class_success": 0.38461538461538464,
@@ -990,11 +1332,101 @@
             "fun_partial_success": 0.6666666666666666,
             "fun_success": 0.4
         },
+        "Gemini-2.5-flash": {
+            "class_partial_success": 0.83,
+            "class_success": 0.53,
+            "fun_partial_success": 0.9103585657370518,
+            "fun_success": 0.8047808764940239
+        },
+        "Gemini-2.5-flash-testpred_Database_Operations": {
+            "class_partial_success": 0.8571428571428571,
+            "class_success": 0.8571428571428571,
+            "fun_partial_success": 0.8888888888888888,
+            "fun_success": 0.8888888888888888
+        },
+        "Gemini-2.5-flash-testpred_File_Handling": {
+            "class_partial_success": 0.5555555555555556,
+            "class_success": 0.5555555555555556,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.6428571428571429
+        },
+        "Gemini-2.5-flash-testpred_Game_Development": {
+            "class_partial_success": 1.0,
+            "class_success": 0.6,
+            "fun_partial_success": 1.0,
+            "fun_success": 0.8666666666666667
+        },
+        "Gemini-2.5-flash-testpred_Mathematical_Operations": {
+            "class_partial_success": 0.875,
+            "class_success": 0.5,
+            "fun_partial_success": 0.9759036144578314,
+            "fun_success": 0.7831325301204819
+        },
+        "Gemini-2.5-flash-testpred_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.2,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.4
+        },
+        "Gemini-2.5-flash_Data_Formatting": {
+            "class_partial_success": 0.8846153846153846,
+            "class_success": 0.6923076923076923,
+            "fun_partial_success": 0.9,
+            "fun_success": 0.823076923076923
+        },
+        "Gemini-2.5-flash_Database_Operations": {
+            "class_partial_success": 0.8571428571428571,
+            "class_success": 0.8571428571428571,
+            "fun_partial_success": 0.8888888888888888,
+            "fun_success": 0.8888888888888888
+        },
+        "Gemini-2.5-flash_File_Handling": {
+            "class_partial_success": 0.4444444444444444,
+            "class_success": 0.4444444444444444,
+            "fun_partial_success": 0.6190476190476191,
+            "fun_success": 0.5952380952380952
+        },
+        "Gemini-2.5-flash_Game_Development": {
+            "class_partial_success": 0.9,
+            "class_success": 0.6,
+            "fun_partial_success": 0.9777777777777777,
+            "fun_success": 0.8888888888888888
+        },
+        "Gemini-2.5-flash_Management_Systems": {
+            "class_partial_success": 0.8888888888888888,
+            "class_success": 0.37037037037037035,
+            "fun_partial_success": 0.9735099337748344,
+            "fun_success": 0.847682119205298
+        },
+        "Gemini-2.5-flash_Mathematical_Operations": {
+            "class_partial_success": 0.875,
+            "class_success": 0.5625,
+            "fun_partial_success": 0.9759036144578314,
+            "fun_success": 0.8072289156626506
+        },
+        "Gemini-2.5-flash_Natural_Language_Processing": {
+            "class_partial_success": 0.6,
+            "class_success": 0.0,
+            "fun_partial_success": 0.6666666666666666,
+            "fun_success": 0.3333333333333333
+        },
+        "Llama3.1-8b": {
+            "class_partial_success": 0.54,
+            "class_success": 0.35,
+            "fun_partial_success": 0.8147410358565738,
+            "fun_success": 0.651394422310757
+        },
         "Llama3.1-8b_Data_Formatting": {
             "class_partial_success": 0.46153846153846156,
             "class_success": 0.3076923076923077,
             "fun_partial_success": 0.7769230769230769,
             "fun_success": 0.6153846153846154
+        },
+        "Llama3.1-8b_Database_Operations": {
+            "class_partial_success": 0.8571428571428571,
+            "class_success": 0.8571428571428571,
+            "fun_partial_success": 0.8888888888888888,
+            "fun_success": 0.8611111111111112
         },
         "Llama3.1-8b_File_Handling": {
             "class_partial_success": 0.3333333333333333,

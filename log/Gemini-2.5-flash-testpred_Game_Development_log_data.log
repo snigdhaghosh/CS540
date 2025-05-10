@@ -1,0 +1,3173 @@
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+..EEE
+======================================================================
+ERROR: test_find_blank_3 (ClassEval_35_0.EightPuzzleTestFindBlank.test_find_blank_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 176, in test_find_blank_3
+    eightPuzzle = EightPuzzle(state)
+                  ^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 23, in __init__
+    raise ValueError("Initial state must contain all numbers from 0 to 8 exactly once")
+ValueError: Initial state must contain all numbers from 0 to 8 exactly once
+
+======================================================================
+ERROR: test_find_blank_4 (ClassEval_35_0.EightPuzzleTestFindBlank.test_find_blank_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 181, in test_find_blank_4
+    eightPuzzle = EightPuzzle(state)
+                  ^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 23, in __init__
+    raise ValueError("Initial state must contain all numbers from 0 to 8 exactly once")
+ValueError: Initial state must contain all numbers from 0 to 8 exactly once
+
+======================================================================
+ERROR: test_find_blank_5 (ClassEval_35_0.EightPuzzleTestFindBlank.test_find_blank_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 186, in test_find_blank_5
+    eightPuzzle = EightPuzzle(state)
+                  ^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 23, in __init__
+    raise ValueError("Initial state must contain all numbers from 0 to 8 exactly once")
+ValueError: Initial state must contain all numbers from 0 to 8 exactly once
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=3)
+....F
+======================================================================
+FAIL: test_move_5 (ClassEval_35_0.EightPuzzleTestMove.test_move_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 218, in test_move_5
+    self.assertEqual(result, expected)
+AssertionError: None != [[2, 3, 4], [5, 0, 1], [6, 8, 7]]
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+EEEEE
+======================================================================
+ERROR: test_get_possible_moves_1 (ClassEval_35_0.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 223, in test_get_possible_moves_1
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 20, in __init__
+    raise ValueError("Initial state must be a 3x3 list of integers between 0 and 8")
+ValueError: Initial state must be a 3x3 list of integers between 0 and 8
+
+======================================================================
+ERROR: test_get_possible_moves_2 (ClassEval_35_0.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 231, in test_get_possible_moves_2
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 20, in __init__
+    raise ValueError("Initial state must be a 3x3 list of integers between 0 and 8")
+ValueError: Initial state must be a 3x3 list of integers between 0 and 8
+
+======================================================================
+ERROR: test_get_possible_moves_3 (ClassEval_35_0.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 239, in test_get_possible_moves_3
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 20, in __init__
+    raise ValueError("Initial state must be a 3x3 list of integers between 0 and 8")
+ValueError: Initial state must be a 3x3 list of integers between 0 and 8
+
+======================================================================
+ERROR: test_get_possible_moves_4 (ClassEval_35_0.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 247, in test_get_possible_moves_4
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 20, in __init__
+    raise ValueError("Initial state must be a 3x3 list of integers between 0 and 8")
+ValueError: Initial state must be a 3x3 list of integers between 0 and 8
+
+======================================================================
+ERROR: test_get_possible_moves_5 (ClassEval_35_0.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 255, in test_get_possible_moves_5
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 20, in __init__
+    raise ValueError("Initial state must be a 3x3 list of integers between 0 and 8")
+ValueError: Initial state must be a 3x3 list of integers between 0 and 8
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=5)
+.....E
+======================================================================
+ERROR: test_solve_6 (ClassEval_35_0.EightPuzzleTestSolve.test_solve_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 295, in test_solve_6
+    eightPuzzle = EightPuzzle([[0, 0, 0], [0, 0, 0], [0, 0, 0]])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_0.py", line 23, in __init__
+    raise ValueError("Initial state must contain all numbers from 0 to 8 exactly once")
+ValueError: Initial state must contain all numbers from 0 to 8 exactly once
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.319s
+
+FAILED (errors=1)
+..FFF
+======================================================================
+FAIL: test_find_blank_3 (ClassEval_35_1.EightPuzzleTestFindBlank.test_find_blank_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_1.py", line 179, in test_find_blank_3
+    self.assertEqual(eightPuzzle.find_blank(state), None)
+AssertionError: (None, None) != None
+
+======================================================================
+FAIL: test_find_blank_4 (ClassEval_35_1.EightPuzzleTestFindBlank.test_find_blank_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_1.py", line 184, in test_find_blank_4
+    self.assertEqual(eightPuzzle.find_blank(state), None)
+AssertionError: (None, None) != None
+
+======================================================================
+FAIL: test_find_blank_5 (ClassEval_35_1.EightPuzzleTestFindBlank.test_find_blank_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_1.py", line 189, in test_find_blank_5
+    self.assertEqual(eightPuzzle.find_blank(state), None)
+AssertionError: (None, None) != None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=3)
+....F
+======================================================================
+FAIL: test_move_5 (ClassEval_35_1.EightPuzzleTestMove.test_move_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_1.py", line 220, in test_move_5
+    self.assertEqual(result, expected)
+AssertionError: None != [[2, 3, 4], [5, 0, 1], [6, 8, 7]]
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+FAILED (failures=1)
+EEEEE
+======================================================================
+ERROR: test_get_possible_moves_1 (ClassEval_35_1.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_1.py", line 225, in test_get_possible_moves_1
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_1.py", line 17, in __init__
+    self.initial_state = [row[:] for row in initial_state]
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+======================================================================
+ERROR: test_get_possible_moves_2 (ClassEval_35_1.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_1.py", line 233, in test_get_possible_moves_2
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_1.py", line 17, in __init__
+    self.initial_state = [row[:] for row in initial_state]
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+======================================================================
+ERROR: test_get_possible_moves_3 (ClassEval_35_1.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_1.py", line 241, in test_get_possible_moves_3
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_1.py", line 17, in __init__
+    self.initial_state = [row[:] for row in initial_state]
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+======================================================================
+ERROR: test_get_possible_moves_4 (ClassEval_35_1.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_1.py", line 249, in test_get_possible_moves_4
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_1.py", line 17, in __init__
+    self.initial_state = [row[:] for row in initial_state]
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+======================================================================
+ERROR: test_get_possible_moves_5 (ClassEval_35_1.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_1.py", line 257, in test_get_possible_moves_5
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_1.py", line 17, in __init__
+    self.initial_state = [row[:] for row in initial_state]
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=5)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.063s
+
+OK
+..EEE
+======================================================================
+ERROR: test_find_blank_3 (ClassEval_35_2.EightPuzzleTestFindBlank.test_find_blank_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_2.py", line 289, in test_find_blank_3
+    eightPuzzle = EightPuzzle(state)
+                  ^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_2.py", line 26, in __init__
+    raise ValueError("Initial state must contain numbers 0 through 8 exactly once.")
+ValueError: Initial state must contain numbers 0 through 8 exactly once.
+
+======================================================================
+ERROR: test_find_blank_4 (ClassEval_35_2.EightPuzzleTestFindBlank.test_find_blank_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_2.py", line 294, in test_find_blank_4
+    eightPuzzle = EightPuzzle(state)
+                  ^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_2.py", line 26, in __init__
+    raise ValueError("Initial state must contain numbers 0 through 8 exactly once.")
+ValueError: Initial state must contain numbers 0 through 8 exactly once.
+
+======================================================================
+ERROR: test_find_blank_5 (ClassEval_35_2.EightPuzzleTestFindBlank.test_find_blank_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_2.py", line 299, in test_find_blank_5
+    eightPuzzle = EightPuzzle(state)
+                  ^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_2.py", line 26, in __init__
+    raise ValueError("Initial state must contain numbers 0 through 8 exactly once.")
+ValueError: Initial state must contain numbers 0 through 8 exactly once.
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (errors=3)
+....F
+======================================================================
+FAIL: test_move_5 (ClassEval_35_2.EightPuzzleTestMove.test_move_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_2.py", line 331, in test_move_5
+    self.assertEqual(result, expected)
+AssertionError: None != [[2, 3, 4], [5, 0, 1], [6, 8, 7]]
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+EEEEE
+======================================================================
+ERROR: test_get_possible_moves_1 (ClassEval_35_2.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_2.py", line 336, in test_get_possible_moves_1
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_2.py", line 19, in __init__
+    raise ValueError("Initial state must be a 3x3 list of lists.")
+ValueError: Initial state must be a 3x3 list of lists.
+
+======================================================================
+ERROR: test_get_possible_moves_2 (ClassEval_35_2.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_2.py", line 344, in test_get_possible_moves_2
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_2.py", line 19, in __init__
+    raise ValueError("Initial state must be a 3x3 list of lists.")
+ValueError: Initial state must be a 3x3 list of lists.
+
+======================================================================
+ERROR: test_get_possible_moves_3 (ClassEval_35_2.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_2.py", line 352, in test_get_possible_moves_3
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_2.py", line 19, in __init__
+    raise ValueError("Initial state must be a 3x3 list of lists.")
+ValueError: Initial state must be a 3x3 list of lists.
+
+======================================================================
+ERROR: test_get_possible_moves_4 (ClassEval_35_2.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_2.py", line 360, in test_get_possible_moves_4
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_2.py", line 19, in __init__
+    raise ValueError("Initial state must be a 3x3 list of lists.")
+ValueError: Initial state must be a 3x3 list of lists.
+
+======================================================================
+ERROR: test_get_possible_moves_5 (ClassEval_35_2.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_2.py", line 368, in test_get_possible_moves_5
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_2.py", line 19, in __init__
+    raise ValueError("Initial state must be a 3x3 list of lists.")
+ValueError: Initial state must be a 3x3 list of lists.
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=5)
+.....E
+======================================================================
+ERROR: test_solve_6 (ClassEval_35_2.EightPuzzleTestSolve.test_solve_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_2.py", line 408, in test_solve_6
+    eightPuzzle = EightPuzzle([[0, 0, 0], [0, 0, 0], [0, 0, 0]])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_2.py", line 26, in __init__
+    raise ValueError("Initial state must contain numbers 0 through 8 exactly once.")
+ValueError: Initial state must contain numbers 0 through 8 exactly once.
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.082s
+
+FAILED (errors=1)
+..FFF
+======================================================================
+FAIL: test_find_blank_3 (ClassEval_35_3.EightPuzzleTestFindBlank.test_find_blank_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_3.py", line 195, in test_find_blank_3
+    self.assertEqual(eightPuzzle.find_blank(state), None)
+AssertionError: (-1, -1) != None
+
+======================================================================
+FAIL: test_find_blank_4 (ClassEval_35_3.EightPuzzleTestFindBlank.test_find_blank_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_3.py", line 200, in test_find_blank_4
+    self.assertEqual(eightPuzzle.find_blank(state), None)
+AssertionError: (-1, -1) != None
+
+======================================================================
+FAIL: test_find_blank_5 (ClassEval_35_3.EightPuzzleTestFindBlank.test_find_blank_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_3.py", line 205, in test_find_blank_5
+    self.assertEqual(eightPuzzle.find_blank(state), None)
+AssertionError: (-1, -1) != None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=3)
+....F
+======================================================================
+FAIL: test_move_5 (ClassEval_35_3.EightPuzzleTestMove.test_move_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_3.py", line 236, in test_move_5
+    self.assertEqual(result, expected)
+AssertionError: None != [[2, 3, 4], [5, 0, 1], [6, 8, 7]]
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+FAILED (failures=1)
+EEEEE
+======================================================================
+ERROR: test_get_possible_moves_1 (ClassEval_35_3.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_3.py", line 241, in test_get_possible_moves_1
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_3.py", line 17, in __init__
+    self.initial_state = [row[:] for row in initial_state]
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+======================================================================
+ERROR: test_get_possible_moves_2 (ClassEval_35_3.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_3.py", line 249, in test_get_possible_moves_2
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_3.py", line 17, in __init__
+    self.initial_state = [row[:] for row in initial_state]
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+======================================================================
+ERROR: test_get_possible_moves_3 (ClassEval_35_3.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_3.py", line 257, in test_get_possible_moves_3
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_3.py", line 17, in __init__
+    self.initial_state = [row[:] for row in initial_state]
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+======================================================================
+ERROR: test_get_possible_moves_4 (ClassEval_35_3.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_3.py", line 265, in test_get_possible_moves_4
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_3.py", line 17, in __init__
+    self.initial_state = [row[:] for row in initial_state]
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+======================================================================
+ERROR: test_get_possible_moves_5 (ClassEval_35_3.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_3.py", line 273, in test_get_possible_moves_5
+    eightPuzzle = EightPuzzle(None)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_3.py", line 17, in __init__
+    self.initial_state = [row[:] for row in initial_state]
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=5)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.117s
+
+OK
+..FFF
+======================================================================
+FAIL: test_find_blank_3 (ClassEval_35_4.EightPuzzleTestFindBlank.test_find_blank_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_4.py", line 214, in test_find_blank_3
+    self.assertEqual(eightPuzzle.find_blank(state), None)
+AssertionError: (-1, -1) != None
+
+======================================================================
+FAIL: test_find_blank_4 (ClassEval_35_4.EightPuzzleTestFindBlank.test_find_blank_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_4.py", line 219, in test_find_blank_4
+    self.assertEqual(eightPuzzle.find_blank(state), None)
+AssertionError: (-1, -1) != None
+
+======================================================================
+FAIL: test_find_blank_5 (ClassEval_35_4.EightPuzzleTestFindBlank.test_find_blank_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_4.py", line 224, in test_find_blank_5
+    self.assertEqual(eightPuzzle.find_blank(state), None)
+AssertionError: (-1, -1) != None
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=3)
+....F
+======================================================================
+FAIL: test_move_5 (ClassEval_35_4.EightPuzzleTestMove.test_move_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_35_4.py", line 255, in test_move_5
+    self.assertEqual(result, expected)
+AssertionError: None != [[2, 3, 4], [5, 0, 1], [6, 8, 7]]
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.183s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+...FF
+======================================================================
+FAIL: test_check_winner_4 (ClassEval_41_1.GomokuGameTestCheckWinner.test_check_winner_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_41_1.py", line 310, in test_check_winner_4
+    self.assertEqual(gomokuGame.check_winner(), 'O')
+AssertionError: 'X' != 'O'
+- X
++ O
+
+
+======================================================================
+FAIL: test_check_winner_5 (ClassEval_41_1.GomokuGameTestCheckWinner.test_check_winner_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_41_1.py", line 317, in test_check_winner_5
+    self.assertEqual('O', gomokuGame.check_winner())
+AssertionError: 'O' != 'X'
+- O
++ X
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=2)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_create_board_1 (ClassEval_54_0.MahjongConnectTestCreateBoard.test_create_board_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_0.py", line 393, in test_create_board_1
+    self.assertIn(icon, mc.ICONS)
+AssertionError: ' ' not found in ['a', 'b', 'c']
+
+======================================================================
+FAIL: test_create_board_2 (ClassEval_54_0.MahjongConnectTestCreateBoard.test_create_board_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_0.py", line 401, in test_create_board_2
+    self.assertIn(icon, mc.ICONS)
+AssertionError: ' ' not found in ['a', 'b', 'c']
+
+======================================================================
+FAIL: test_create_board_3 (ClassEval_54_0.MahjongConnectTestCreateBoard.test_create_board_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_0.py", line 409, in test_create_board_3
+    self.assertIn(icon, mc.ICONS)
+AssertionError: ' ' not found in ['a', 'b', 'c']
+
+======================================================================
+FAIL: test_create_board_4 (ClassEval_54_0.MahjongConnectTestCreateBoard.test_create_board_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_0.py", line 417, in test_create_board_4
+    self.assertIn(icon, mc.ICONS)
+AssertionError: ' ' not found in ['a', 'b', 'c']
+
+======================================================================
+FAIL: test_create_board_5 (ClassEval_54_0.MahjongConnectTestCreateBoard.test_create_board_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_0.py", line 425, in test_create_board_5
+    self.assertIn(icon, mc.ICONS)
+AssertionError: ' ' not found in ['a', 'b', 'c']
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=5)
+.....F
+======================================================================
+FAIL: test_is_valid_move_6 (ClassEval_54_0.MahjongConnectTestIsValidMove.test_is_valid_move_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_0.py", line 481, in test_is_valid_move_6
+    self.assertEqual(res, False)
+AssertionError: True != False
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=1)
+.....F
+======================================================================
+FAIL: test_has_path_6 (ClassEval_54_0.MahjongConnectTestHasPath.test_has_path_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_0.py", line 537, in test_has_path_6
+    self.assertEqual(res, True)
+AssertionError: False != True
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+F
+======================================================================
+FAIL: test_mahjongconnect (ClassEval_54_0.MahjongConnectTest.test_mahjongconnect)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_0.py", line 656, in test_mahjongconnect
+    self.assertIn(icon, mc.ICONS)
+AssertionError: ' ' not found in ['a', 'b', 'c']
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)
+EEEEE
+======================================================================
+ERROR: test_create_board_1 (ClassEval_54_1.MahjongConnectTestCreateBoard.test_create_board_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 390, in test_create_board_1
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_create_board_2 (ClassEval_54_1.MahjongConnectTestCreateBoard.test_create_board_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 398, in test_create_board_2
+    mc = MahjongConnect([2, 2], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_create_board_3 (ClassEval_54_1.MahjongConnectTestCreateBoard.test_create_board_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 406, in test_create_board_3
+    mc = MahjongConnect([3, 3], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_create_board_4 (ClassEval_54_1.MahjongConnectTestCreateBoard.test_create_board_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 414, in test_create_board_4
+    mc = MahjongConnect([1, 1], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_create_board_5 (ClassEval_54_1.MahjongConnectTestCreateBoard.test_create_board_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 422, in test_create_board_5
+    mc = MahjongConnect([5, 5], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+FAILED (errors=5)
+EEEEEE
+======================================================================
+ERROR: test_is_valid_move_1 (ClassEval_54_1.MahjongConnectTestIsValidMove.test_is_valid_move_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 432, in test_is_valid_move_1
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_is_valid_move_2 (ClassEval_54_1.MahjongConnectTestIsValidMove.test_is_valid_move_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 441, in test_is_valid_move_2
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_is_valid_move_3 (ClassEval_54_1.MahjongConnectTestIsValidMove.test_is_valid_move_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 450, in test_is_valid_move_3
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_is_valid_move_4 (ClassEval_54_1.MahjongConnectTestIsValidMove.test_is_valid_move_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 459, in test_is_valid_move_4
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_is_valid_move_5 (ClassEval_54_1.MahjongConnectTestIsValidMove.test_is_valid_move_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 468, in test_is_valid_move_5
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_is_valid_move_6 (ClassEval_54_1.MahjongConnectTestIsValidMove.test_is_valid_move_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 477, in test_is_valid_move_6
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.005s
+
+FAILED (errors=6)
+EEEEEE
+======================================================================
+ERROR: test_has_path_1 (ClassEval_54_1.MahjongConnectTestHasPath.test_has_path_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 488, in test_has_path_1
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_has_path_2 (ClassEval_54_1.MahjongConnectTestHasPath.test_has_path_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 497, in test_has_path_2
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_has_path_3 (ClassEval_54_1.MahjongConnectTestHasPath.test_has_path_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 506, in test_has_path_3
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_has_path_4 (ClassEval_54_1.MahjongConnectTestHasPath.test_has_path_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 515, in test_has_path_4
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_has_path_5 (ClassEval_54_1.MahjongConnectTestHasPath.test_has_path_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 524, in test_has_path_5
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_has_path_6 (ClassEval_54_1.MahjongConnectTestHasPath.test_has_path_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 533, in test_has_path_6
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.005s
+
+FAILED (errors=6)
+EEEEE
+======================================================================
+ERROR: test_remove_icons_1 (ClassEval_54_1.MahjongConnectTestRemoveIcons.test_remove_icons_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 544, in test_remove_icons_1
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_remove_icons_2 (ClassEval_54_1.MahjongConnectTestRemoveIcons.test_remove_icons_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 556, in test_remove_icons_2
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_remove_icons_3 (ClassEval_54_1.MahjongConnectTestRemoveIcons.test_remove_icons_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 568, in test_remove_icons_3
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_remove_icons_4 (ClassEval_54_1.MahjongConnectTestRemoveIcons.test_remove_icons_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 580, in test_remove_icons_4
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_remove_icons_5 (ClassEval_54_1.MahjongConnectTestRemoveIcons.test_remove_icons_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 592, in test_remove_icons_5
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_is_game_over_1 (ClassEval_54_1.MahjongConnectTestIsGameOver.test_is_game_over_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 606, in test_is_game_over_1
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_is_game_over_2 (ClassEval_54_1.MahjongConnectTestIsGameOver.test_is_game_over_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 615, in test_is_game_over_2
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_is_game_over_3 (ClassEval_54_1.MahjongConnectTestIsGameOver.test_is_game_over_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 624, in test_is_game_over_3
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_is_game_over_4 (ClassEval_54_1.MahjongConnectTestIsGameOver.test_is_game_over_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 633, in test_is_game_over_4
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_is_game_over_5 (ClassEval_54_1.MahjongConnectTestIsGameOver.test_is_game_over_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 642, in test_is_game_over_5
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+FAILED (errors=5)
+E
+======================================================================
+ERROR: test_mahjongconnect (ClassEval_54_1.MahjongConnectTest.test_mahjongconnect)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 653, in test_mahjongconnect
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_1.py", line 33, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
+..EEE
+======================================================================
+ERROR: test_create_board_3 (ClassEval_54_2.MahjongConnectTestCreateBoard.test_create_board_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_2.py", line 353, in test_create_board_3
+    mc = MahjongConnect([3, 3], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_2.py", line 30, in __init__
+    raise ValueError("Board size must result in an even number of cells.")
+ValueError: Board size must result in an even number of cells.
+
+======================================================================
+ERROR: test_create_board_4 (ClassEval_54_2.MahjongConnectTestCreateBoard.test_create_board_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_2.py", line 361, in test_create_board_4
+    mc = MahjongConnect([1, 1], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_2.py", line 30, in __init__
+    raise ValueError("Board size must result in an even number of cells.")
+ValueError: Board size must result in an even number of cells.
+
+======================================================================
+ERROR: test_create_board_5 (ClassEval_54_2.MahjongConnectTestCreateBoard.test_create_board_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_2.py", line 369, in test_create_board_5
+    mc = MahjongConnect([5, 5], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_2.py", line 30, in __init__
+    raise ValueError("Board size must result in an even number of cells.")
+ValueError: Board size must result in an even number of cells.
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=3)
+.....F
+======================================================================
+FAIL: test_is_valid_move_6 (ClassEval_54_2.MahjongConnectTestIsValidMove.test_is_valid_move_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_2.py", line 430, in test_is_valid_move_6
+    self.assertEqual(res, False)
+AssertionError: True != False
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=1)
+.....F
+======================================================================
+FAIL: test_has_path_6 (ClassEval_54_2.MahjongConnectTestHasPath.test_has_path_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_2.py", line 486, in test_has_path_6
+    self.assertEqual(res, True)
+AssertionError: False != True
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_create_board_1 (ClassEval_54_3.MahjongConnectTestCreateBoard.test_create_board_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_3.py", line 363, in test_create_board_1
+    self.assertIn(icon, mc.ICONS)
+AssertionError: ' ' not found in ['a', 'b', 'c']
+
+======================================================================
+FAIL: test_create_board_2 (ClassEval_54_3.MahjongConnectTestCreateBoard.test_create_board_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_3.py", line 371, in test_create_board_2
+    self.assertIn(icon, mc.ICONS)
+AssertionError: ' ' not found in ['a', 'b', 'c']
+
+======================================================================
+FAIL: test_create_board_3 (ClassEval_54_3.MahjongConnectTestCreateBoard.test_create_board_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_3.py", line 379, in test_create_board_3
+    self.assertIn(icon, mc.ICONS)
+AssertionError: ' ' not found in ['a', 'b', 'c']
+
+======================================================================
+FAIL: test_create_board_4 (ClassEval_54_3.MahjongConnectTestCreateBoard.test_create_board_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_3.py", line 387, in test_create_board_4
+    self.assertIn(icon, mc.ICONS)
+AssertionError: ' ' not found in ['a', 'b', 'c']
+
+======================================================================
+FAIL: test_create_board_5 (ClassEval_54_3.MahjongConnectTestCreateBoard.test_create_board_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_3.py", line 395, in test_create_board_5
+    self.assertIn(icon, mc.ICONS)
+AssertionError: ' ' not found in ['a', 'b', 'c']
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=5)
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+FFF..F
+======================================================================
+FAIL: test_has_path_1 (ClassEval_54_3.MahjongConnectTestHasPath.test_has_path_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_3.py", line 462, in test_has_path_1
+    self.assertEqual(res, True)
+AssertionError: False != True
+
+======================================================================
+FAIL: test_has_path_2 (ClassEval_54_3.MahjongConnectTestHasPath.test_has_path_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_3.py", line 471, in test_has_path_2
+    self.assertEqual(res, True)
+AssertionError: False != True
+
+======================================================================
+FAIL: test_has_path_3 (ClassEval_54_3.MahjongConnectTestHasPath.test_has_path_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_3.py", line 480, in test_has_path_3
+    self.assertEqual(res, True)
+AssertionError: False != True
+
+======================================================================
+FAIL: test_has_path_6 (ClassEval_54_3.MahjongConnectTestHasPath.test_has_path_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_3.py", line 507, in test_has_path_6
+    self.assertEqual(res, True)
+AssertionError: False != True
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=4)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+F
+======================================================================
+FAIL: test_mahjongconnect (ClassEval_54_3.MahjongConnectTest.test_mahjongconnect)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_3.py", line 626, in test_mahjongconnect
+    self.assertIn(icon, mc.ICONS)
+AssertionError: ' ' not found in ['a', 'b', 'c']
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+EEEEE
+======================================================================
+ERROR: test_create_board_1 (ClassEval_54_4.MahjongConnectTestCreateBoard.test_create_board_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 350, in test_create_board_1
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_create_board_2 (ClassEval_54_4.MahjongConnectTestCreateBoard.test_create_board_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 358, in test_create_board_2
+    mc = MahjongConnect([2, 2], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_create_board_3 (ClassEval_54_4.MahjongConnectTestCreateBoard.test_create_board_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 366, in test_create_board_3
+    mc = MahjongConnect([3, 3], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_create_board_4 (ClassEval_54_4.MahjongConnectTestCreateBoard.test_create_board_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 374, in test_create_board_4
+    mc = MahjongConnect([1, 1], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_create_board_5 (ClassEval_54_4.MahjongConnectTestCreateBoard.test_create_board_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 382, in test_create_board_5
+    mc = MahjongConnect([5, 5], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+FAILED (errors=5)
+EEEEEE
+======================================================================
+ERROR: test_is_valid_move_1 (ClassEval_54_4.MahjongConnectTestIsValidMove.test_is_valid_move_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 392, in test_is_valid_move_1
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_is_valid_move_2 (ClassEval_54_4.MahjongConnectTestIsValidMove.test_is_valid_move_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 401, in test_is_valid_move_2
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_is_valid_move_3 (ClassEval_54_4.MahjongConnectTestIsValidMove.test_is_valid_move_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 410, in test_is_valid_move_3
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_is_valid_move_4 (ClassEval_54_4.MahjongConnectTestIsValidMove.test_is_valid_move_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 419, in test_is_valid_move_4
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_is_valid_move_5 (ClassEval_54_4.MahjongConnectTestIsValidMove.test_is_valid_move_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 428, in test_is_valid_move_5
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_is_valid_move_6 (ClassEval_54_4.MahjongConnectTestIsValidMove.test_is_valid_move_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 437, in test_is_valid_move_6
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.005s
+
+FAILED (errors=6)
+EEEEEE
+======================================================================
+ERROR: test_has_path_1 (ClassEval_54_4.MahjongConnectTestHasPath.test_has_path_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 448, in test_has_path_1
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_has_path_2 (ClassEval_54_4.MahjongConnectTestHasPath.test_has_path_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 457, in test_has_path_2
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_has_path_3 (ClassEval_54_4.MahjongConnectTestHasPath.test_has_path_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 466, in test_has_path_3
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_has_path_4 (ClassEval_54_4.MahjongConnectTestHasPath.test_has_path_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 475, in test_has_path_4
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_has_path_5 (ClassEval_54_4.MahjongConnectTestHasPath.test_has_path_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 484, in test_has_path_5
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_has_path_6 (ClassEval_54_4.MahjongConnectTestHasPath.test_has_path_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 493, in test_has_path_6
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.005s
+
+FAILED (errors=6)
+EEEEE
+======================================================================
+ERROR: test_remove_icons_1 (ClassEval_54_4.MahjongConnectTestRemoveIcons.test_remove_icons_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 504, in test_remove_icons_1
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_remove_icons_2 (ClassEval_54_4.MahjongConnectTestRemoveIcons.test_remove_icons_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 516, in test_remove_icons_2
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_remove_icons_3 (ClassEval_54_4.MahjongConnectTestRemoveIcons.test_remove_icons_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 528, in test_remove_icons_3
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_remove_icons_4 (ClassEval_54_4.MahjongConnectTestRemoveIcons.test_remove_icons_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 540, in test_remove_icons_4
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_remove_icons_5 (ClassEval_54_4.MahjongConnectTestRemoveIcons.test_remove_icons_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 552, in test_remove_icons_5
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+FAILED (errors=5)
+EEEEE
+======================================================================
+ERROR: test_is_game_over_1 (ClassEval_54_4.MahjongConnectTestIsGameOver.test_is_game_over_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 566, in test_is_game_over_1
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_is_game_over_2 (ClassEval_54_4.MahjongConnectTestIsGameOver.test_is_game_over_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 575, in test_is_game_over_2
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_is_game_over_3 (ClassEval_54_4.MahjongConnectTestIsGameOver.test_is_game_over_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 584, in test_is_game_over_3
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_is_game_over_4 (ClassEval_54_4.MahjongConnectTestIsGameOver.test_is_game_over_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 593, in test_is_game_over_4
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+======================================================================
+ERROR: test_is_game_over_5 (ClassEval_54_4.MahjongConnectTestIsGameOver.test_is_game_over_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 602, in test_is_game_over_5
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (errors=5)
+E
+======================================================================
+ERROR: test_mahjongconnect (ClassEval_54_4.MahjongConnectTest.test_mahjongconnect)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 613, in test_mahjongconnect
+    mc = MahjongConnect([4, 4], ['a', 'b', 'c'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_54_4.py", line 32, in __init__
+    self.ICONS = IONS
+                 ^^^^
+NameError: name 'IONS' is not defined. Did you mean: 'ICONS'?
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+EEEEE
+======================================================================
+ERROR: test_generate_playerMap (ClassEval_58_0.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 337, in test_generate_playerMap
+    self.assertEqual(minesweeper_game.generate_playerMap(), [['-', '-', '-'], ['-', '-', '-'], ['-', '-', '-']])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MinesweeperGame' object has no attribute 'generate_playerMap'. Did you mean: '_generate_playerMap'?
+
+======================================================================
+ERROR: test_generate_playerMap_2 (ClassEval_58_0.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 341, in test_generate_playerMap_2
+    self.assertEqual(minesweeper_game.generate_playerMap(), [['-', '-', '-'], ['-', '-', '-'], ['-', '-', '-']])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MinesweeperGame' object has no attribute 'generate_playerMap'. Did you mean: '_generate_playerMap'?
+
+======================================================================
+ERROR: test_generate_playerMap_3 (ClassEval_58_0.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 345, in test_generate_playerMap_3
+    self.assertEqual(minesweeper_game.generate_playerMap(),[['-', '-', '-', '-'],['-', '-', '-', '-'],['-', '-', '-', '-'],['-', '-', '-', '-']])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MinesweeperGame' object has no attribute 'generate_playerMap'. Did you mean: '_generate_playerMap'?
+
+======================================================================
+ERROR: test_generate_playerMap_4 (ClassEval_58_0.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 348, in test_generate_playerMap_4
+    minesweeper_game = MinesweeperGame(1, 4)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 21, in __init__
+    raise ValueError(f"Number of mines k must be an integer between 0 and {n*n} (inclusive).")
+ValueError: Number of mines k must be an integer between 0 and 1 (inclusive).
+
+======================================================================
+ERROR: test_generate_playerMap_5 (ClassEval_58_0.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 352, in test_generate_playerMap_5
+    minesweeper_game = MinesweeperGame(2, 5)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 21, in __init__
+    raise ValueError(f"Number of mines k must be an integer between 0 and {n*n} (inclusive).")
+ValueError: Number of mines k must be an integer between 0 and 4 (inclusive).
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (errors=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+F.FFF
+======================================================================
+FAIL: test_sweep (ClassEval_58_0.MinesweeperGameTestSweep.test_sweep)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 392, in test_sweep
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_sweep_3 (ClassEval_58_0.MinesweeperGameTestSweep.test_sweep_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 406, in test_sweep_3
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_sweep_4 (ClassEval_58_0.MinesweeperGameTestSweep.test_sweep_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 412, in test_sweep_4
+    self.assertEqual(minesweeper_game.sweep(0,2), [['-', '-', 0], ['-', '-', '0'], ['0', '0', '0']])
+AssertionError: Lists differ: [['-', 1, 0], ['-', 1, '0'], ['0', '0', '0']] != [['-', '-', 0], ['-', '-', '0'], ['0', '0', '0']]
+
+First differing element 0:
+['-', 1, 0]
+['-', '-', 0]
+
+- [['-', 1, 0], ['-', 1, '0'], ['0', '0', '0']]
+?        ^            ^
+
++ [['-', '-', 0], ['-', '-', '0'], ['0', '0', '0']]
+?        ^^^            ^^^
+
+
+======================================================================
+FAIL: test_sweep_5 (ClassEval_58_0.MinesweeperGameTestSweep.test_sweep_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 420, in test_sweep_5
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=4)
+EE
+======================================================================
+ERROR: test_minesweeper_main (ClassEval_58_0.MinesweeperGameTestMain.test_minesweeper_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 433, in test_minesweeper_main
+    self.assertEqual(minesweeper_game.generate_playerMap(), [['-', '-', '-'], ['-', '-', '-'], ['-', '-', '-']])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MinesweeperGame' object has no attribute 'generate_playerMap'. Did you mean: '_generate_playerMap'?
+
+======================================================================
+ERROR: test_minesweeper_main_2 (ClassEval_58_0.MinesweeperGameTestMain.test_minesweeper_main_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_0.py", line 450, in test_minesweeper_main_2
+    self.assertEqual(minesweeper_game.generate_playerMap(), [['-', '-', '-'], ['-', '-', '-'], ['-', '-', '-']])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MinesweeperGame' object has no attribute 'generate_playerMap'. Did you mean: '_generate_playerMap'?
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+
+FAILED (errors=2)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+F.FFF
+======================================================================
+FAIL: test_sweep (ClassEval_58_1.MinesweeperGameTestSweep.test_sweep)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_1.py", line 384, in test_sweep
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_sweep_3 (ClassEval_58_1.MinesweeperGameTestSweep.test_sweep_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_1.py", line 398, in test_sweep_3
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_sweep_4 (ClassEval_58_1.MinesweeperGameTestSweep.test_sweep_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_1.py", line 404, in test_sweep_4
+    self.assertEqual(minesweeper_game.sweep(0,2), [['-', '-', 0], ['-', '-', '0'], ['0', '0', '0']])
+AssertionError: Lists differ: [['-', 1, 0], ['-', 1, '0'], ['0', '0', '0']] != [['-', '-', 0], ['-', '-', '0'], ['0', '0', '0']]
+
+First differing element 0:
+['-', 1, 0]
+['-', '-', 0]
+
+- [['-', 1, 0], ['-', 1, '0'], ['0', '0', '0']]
+?        ^            ^
+
++ [['-', '-', 0], ['-', '-', '0'], ['0', '0', '0']]
+?        ^^^            ^^^
+
+
+======================================================================
+FAIL: test_sweep_5 (ClassEval_58_1.MinesweeperGameTestSweep.test_sweep_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_1.py", line 412, in test_sweep_5
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=4)
+FF
+======================================================================
+FAIL: test_minesweeper_main (ClassEval_58_1.MinesweeperGameTestMain.test_minesweeper_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_1.py", line 430, in test_minesweeper_main
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_minesweeper_main_2 (ClassEval_58_1.MinesweeperGameTestMain.test_minesweeper_main_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_1.py", line 446, in test_minesweeper_main_2
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=2)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+...EE
+======================================================================
+ERROR: test_generate_playerMap_4 (ClassEval_58_2.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_2.py", line 394, in test_generate_playerMap_4
+    minesweeper_game = MinesweeperGame(1, 4)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_2.py", line 22, in __init__
+    raise ValueError("Number of mines k cannot exceed the total number of cells (n*n).")
+ValueError: Number of mines k cannot exceed the total number of cells (n*n).
+
+======================================================================
+ERROR: test_generate_playerMap_5 (ClassEval_58_2.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_2.py", line 398, in test_generate_playerMap_5
+    minesweeper_game = MinesweeperGame(2, 5)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_2.py", line 22, in __init__
+    raise ValueError("Number of mines k cannot exceed the total number of cells (n*n).")
+ValueError: Number of mines k cannot exceed the total number of cells (n*n).
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=2)
+...F.
+======================================================================
+FAIL: test_check_won_4 (ClassEval_58_2.MinesweeperGameTestCheckWon.test_check_won_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_2.py", line 424, in test_check_won_4
+    self.assertEqual(minesweeper_game.check_won(minesweeper_game.player_map), True)
+AssertionError: False != True
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+F.FFF
+======================================================================
+FAIL: test_sweep (ClassEval_58_2.MinesweeperGameTestSweep.test_sweep)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_2.py", line 438, in test_sweep
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_sweep_3 (ClassEval_58_2.MinesweeperGameTestSweep.test_sweep_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_2.py", line 451, in test_sweep_3
+    self.assertEqual(minesweeper_game.sweep(0,1), True)
+AssertionError: [['-', 1, '0'], ['1', '1', '0'], ['0', '0', '0']] != True
+
+======================================================================
+FAIL: test_sweep_4 (ClassEval_58_2.MinesweeperGameTestSweep.test_sweep_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_2.py", line 458, in test_sweep_4
+    self.assertEqual(minesweeper_game.sweep(0,2), [['-', '-', 0], ['-', '-', '0'], ['0', '0', '0']])
+AssertionError: Lists differ: [['-', 1, 0], ['-', 1, '0'], ['0', '0', '0']] != [['-', '-', 0], ['-', '-', '0'], ['0', '0', '0']]
+
+First differing element 0:
+['-', 1, 0]
+['-', '-', 0]
+
+- [['-', 1, 0], ['-', 1, '0'], ['0', '0', '0']]
+?        ^            ^
+
++ [['-', '-', 0], ['-', '-', '0'], ['0', '0', '0']]
+?        ^^^            ^^^
+
+
+======================================================================
+FAIL: test_sweep_5 (ClassEval_58_2.MinesweeperGameTestSweep.test_sweep_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_2.py", line 466, in test_sweep_5
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=4)
+FF
+======================================================================
+FAIL: test_minesweeper_main (ClassEval_58_2.MinesweeperGameTestMain.test_minesweeper_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_2.py", line 484, in test_minesweeper_main
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_minesweeper_main_2 (ClassEval_58_2.MinesweeperGameTestMain.test_minesweeper_main_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_2.py", line 500, in test_minesweeper_main_2
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=2)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+...EE
+======================================================================
+ERROR: test_generate_playerMap_4 (ClassEval_58_3.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_3.py", line 300, in test_generate_playerMap_4
+    minesweeper_game = MinesweeperGame(1, 4)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_3.py", line 20, in __init__
+    raise ValueError(f"Number of mines 'k' ({k}) must be a non-negative integer less than or equal to n*n ({n*n}).")
+ValueError: Number of mines 'k' (4) must be a non-negative integer less than or equal to n*n (1).
+
+======================================================================
+ERROR: test_generate_playerMap_5 (ClassEval_58_3.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_3.py", line 304, in test_generate_playerMap_5
+    minesweeper_game = MinesweeperGame(2, 5)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_3.py", line 20, in __init__
+    raise ValueError(f"Number of mines 'k' ({k}) must be a non-negative integer less than or equal to n*n ({n*n}).")
+ValueError: Number of mines 'k' (5) must be a non-negative integer less than or equal to n*n (4).
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=2)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+...F.
+======================================================================
+FAIL: test_sweep_4 (ClassEval_58_3.MinesweeperGameTestSweep.test_sweep_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_3.py", line 364, in test_sweep_4
+    self.assertEqual(minesweeper_game.sweep(0,2), [['-', '-', 0], ['-', '-', '0'], ['0', '0', '0']])
+AssertionError: Lists differ: [['-', 1, 0], ['-', 1, '0'], ['0', '0', '0']] != [['-', '-', 0], ['-', '-', '0'], ['0', '0', '0']]
+
+First differing element 0:
+['-', 1, 0]
+['-', '-', 0]
+
+- [['-', 1, 0], ['-', 1, '0'], ['0', '0', '0']]
+?        ^            ^
+
++ [['-', '-', 0], ['-', '-', '0'], ['0', '0', '0']]
+?        ^^^            ^^^
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+...EE
+======================================================================
+ERROR: test_generate_playerMap_4 (ClassEval_58_4.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_4.py", line 386, in test_generate_playerMap_4
+    minesweeper_game = MinesweeperGame(1, 4)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_4.py", line 21, in __init__
+    raise ValueError("Number of mines exceeds board size.")
+ValueError: Number of mines exceeds board size.
+
+======================================================================
+ERROR: test_generate_playerMap_5 (ClassEval_58_4.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_4.py", line 390, in test_generate_playerMap_5
+    minesweeper_game = MinesweeperGame(2, 5)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_4.py", line 21, in __init__
+    raise ValueError("Number of mines exceeds board size.")
+ValueError: Number of mines exceeds board size.
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=2)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+FFFFF
+======================================================================
+FAIL: test_sweep (ClassEval_58_4.MinesweeperGameTestSweep.test_sweep)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_4.py", line 430, in test_sweep
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_sweep_2 (ClassEval_58_4.MinesweeperGameTestSweep.test_sweep_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_4.py", line 436, in test_sweep_2
+    self.assertEqual(minesweeper_game.sweep(0,0), False)
+AssertionError: True != False
+
+======================================================================
+FAIL: test_sweep_3 (ClassEval_58_4.MinesweeperGameTestSweep.test_sweep_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_4.py", line 443, in test_sweep_3
+    self.assertEqual(minesweeper_game.sweep(0,1), True)
+AssertionError: False != True
+
+======================================================================
+FAIL: test_sweep_4 (ClassEval_58_4.MinesweeperGameTestSweep.test_sweep_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_4.py", line 450, in test_sweep_4
+    self.assertEqual(minesweeper_game.sweep(0,2), [['-', '-', 0], ['-', '-', '0'], ['0', '0', '0']])
+AssertionError: Lists differ: [['-', 1, 0], ['-', 1, '0'], ['0', '0', '0']] != [['-', '-', 0], ['-', '-', '0'], ['0', '0', '0']]
+
+First differing element 0:
+['-', 1, 0]
+['-', '-', 0]
+
+- [['-', 1, 0], ['-', 1, '0'], ['0', '0', '0']]
+?        ^            ^
+
++ [['-', '-', 0], ['-', '-', '0'], ['0', '0', '0']]
+?        ^^^            ^^^
+
+
+======================================================================
+FAIL: test_sweep_5 (ClassEval_58_4.MinesweeperGameTestSweep.test_sweep_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_4.py", line 458, in test_sweep_5
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=5)
+FF
+======================================================================
+FAIL: test_minesweeper_main (ClassEval_58_4.MinesweeperGameTestMain.test_minesweeper_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_4.py", line 476, in test_minesweeper_main
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_minesweeper_main_2 (ClassEval_58_4.MinesweeperGameTestMain.test_minesweeper_main_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_58_4.py", line 492, in test_minesweeper_main_2
+    self.assertEqual(minesweeper_game.score, 1)
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=2)
+F......
+======================================================================
+FAIL: test_init_game_1 (ClassEval_71_0.PushBoxGameTestInitGame.test_init_game_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_0.py", line 400, in test_init_game_1
+    self.assertEqual(self.game.map, self.game_map)
+AssertionError: Lists differ: [['#', '#', '#', '#', '#'], ['#', ' ', ' '[88 chars]'#']] != ['#####', '#O  #', '# X #', '#  G#', '#####']
+
+First differing element 0:
+['#', '#', '#', '#', '#']
+'#####'
+
++ ['#####', '#O  #', '# X #', '#  G#', '#####']
+- [['#', '#', '#', '#', '#'],
+-  ['#', ' ', ' ', ' ', '#'],
+-  ['#', ' ', ' ', ' ', '#'],
+-  ['#', ' ', ' ', 'G', '#'],
+-  ['#', '#', '#', '#', '#']]
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.003s
+
+FAILED (failures=1)
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK
+.E
+======================================================================
+ERROR: test_check_win_2 (ClassEval_71_1.PushBoxGameTestCheckWin.test_check_win_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_1.py", line 305, in test_check_win_2
+    self.game.move(move)
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_1.py", line 203, in move
+    self.player_row, self.player_col = next_pr, next_col
+                                                ^^^^^^^^
+NameError: name 'next_col' is not defined. Did you mean: 'next_pr'?
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+
+FAILED (errors=1)
+E.EE...
+======================================================================
+ERROR: test_move_1 (ClassEval_71_1.PushBoxGameTestMove.test_move_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_1.py", line 322, in test_move_1
+    self.assertFalse(self.game.move(move))
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_1.py", line 203, in move
+    self.player_row, self.player_col = next_pr, next_col
+                                                ^^^^^^^^
+NameError: name 'next_col' is not defined. Did you mean: 'next_pr'?
+
+======================================================================
+ERROR: test_move_3 (ClassEval_71_1.PushBoxGameTestMove.test_move_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_1.py", line 332, in test_move_3
+    self.game.move('d')
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_1.py", line 203, in move
+    self.player_row, self.player_col = next_pr, next_col
+                                                ^^^^^^^^
+NameError: name 'next_col' is not defined. Did you mean: 'next_pr'?
+
+======================================================================
+ERROR: test_move_4 (ClassEval_71_1.PushBoxGameTestMove.test_move_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_1.py", line 338, in test_move_4
+    self.game.move('s')
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_1.py", line 203, in move
+    self.player_row, self.player_col = next_pr, next_col
+                                                ^^^^^^^^
+NameError: name 'next_col' is not defined. Did you mean: 'next_pr'?
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.005s
+
+FAILED (errors=3)
+......E
+======================================================================
+ERROR: test_init_game_7 (ClassEval_71_2.PushBoxGameTestInitGame.test_init_game_7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_2.py", line 312, in test_init_game_7
+    self.assertEqual(self.game.target_count, 1)
+                     ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PushBoxGame' object has no attribute 'target_count'
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.002s
+
+FAILED (errors=1)
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK
+E......
+======================================================================
+ERROR: test_init_game_1 (ClassEval_71_4.PushBoxGameTestInitGame.test_init_game_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_71_4.py", line 349, in test_init_game_1
+    self.assertEqual(self.game.map, self.game_map)
+                     ^^^^^^^^^^^^^
+AttributeError: 'PushBoxGame' object has no attribute 'map'
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+FAILED (errors=1)
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.FFFF
+======================================================================
+FAIL: test_gain_exp_2 (ClassEval_73_0.RPGCharacterTestGainExp.test_gain_exp_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_73_0.py", line 284, in test_gain_exp_2
+    self.assertEqual(character.level, 5)
+AssertionError: 2 != 5
+
+======================================================================
+FAIL: test_gain_exp_3 (ClassEval_73_0.RPGCharacterTestGainExp.test_gain_exp_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_73_0.py", line 291, in test_gain_exp_3
+    self.assertEqual(character.exp, 100)
+AssertionError: 0 != 100
+
+======================================================================
+FAIL: test_gain_exp_4 (ClassEval_73_0.RPGCharacterTestGainExp.test_gain_exp_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_73_0.py", line 296, in test_gain_exp_4
+    self.assertEqual(character.level, 3)
+AssertionError: 2 != 3
+
+======================================================================
+FAIL: test_gain_exp_5 (ClassEval_73_0.RPGCharacterTestGainExp.test_gain_exp_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_73_0.py", line 302, in test_gain_exp_5
+    self.assertEqual(character.level, 3)
+AssertionError: 2 != 3
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=4)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+F
+======================================================================
+FAIL: test_main (ClassEval_73_0.RPGCharacterTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_73_0.py", line 384, in test_main
+    self.assertEqual(character1.exp, 100)
+AssertionError: 0 != 100
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.FFFF
+======================================================================
+FAIL: test_gain_exp_2 (ClassEval_73_2.RPGCharacterTestGainExp.test_gain_exp_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_73_2.py", line 317, in test_gain_exp_2
+    self.assertEqual(character.level, 5)
+AssertionError: 2 != 5
+
+======================================================================
+FAIL: test_gain_exp_3 (ClassEval_73_2.RPGCharacterTestGainExp.test_gain_exp_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_73_2.py", line 324, in test_gain_exp_3
+    self.assertEqual(character.exp, 100)
+AssertionError: 0 != 100
+
+======================================================================
+FAIL: test_gain_exp_4 (ClassEval_73_2.RPGCharacterTestGainExp.test_gain_exp_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_73_2.py", line 329, in test_gain_exp_4
+    self.assertEqual(character.level, 3)
+AssertionError: 2 != 3
+
+======================================================================
+FAIL: test_gain_exp_5 (ClassEval_73_2.RPGCharacterTestGainExp.test_gain_exp_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_73_2.py", line 335, in test_gain_exp_5
+    self.assertEqual(character.level, 3)
+AssertionError: 2 != 3
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=4)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+..E..
+======================================================================
+ERROR: test_is_alive_3 (ClassEval_73_2.RPGCharacterTestIsAlive.test_is_alive_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_73_2.py", line 397, in test_is_alive_3
+    character = RPGCharacter("John", -10, 20, 10)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_73_2.py", line 29, in __init__
+    raise ValueError("hp, attack_power, defense must be non-negative integers.")
+ValueError: hp, attack_power, defense must be non-negative integers.
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+FAILED (errors=1)
+F
+======================================================================
+FAIL: test_main (ClassEval_73_2.RPGCharacterTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_73_2.py", line 417, in test_main
+    self.assertEqual(character1.exp, 100)
+AssertionError: 0 != 100
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+..E..
+======================================================================
+ERROR: test_is_alive_3 (ClassEval_73_4.RPGCharacterTestIsAlive.test_is_alive_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_73_4.py", line 366, in test_is_alive_3
+    character = RPGCharacter("John", -10, 20, 10)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_73_4.py", line 25, in __init__
+    raise ValueError("hp, attack_power, and defense must be non-negative, level must be positive")
+ValueError: hp, attack_power, and defense must be non-negative, level must be positive
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+FF...
+======================================================================
+FAIL: test_move_1 (ClassEval_77_0.SnakeTestMove.test_move_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_77_0.py", line 208, in test_move_1
+    self.assertEqual(snake.length, 2)
+AssertionError: 1 != 2
+
+======================================================================
+FAIL: test_move_2 (ClassEval_77_0.SnakeTestMove.test_move_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_77_0.py", line 217, in test_move_2
+    self.assertEqual(snake.positions[0], (51, 51))
+AssertionError: Tuples differ: (50, 50) != (51, 51)
+
+First differing element 0:
+50
+51
+
+- (50, 50)
+?   ^   ^
+
++ (51, 51)
+?   ^   ^
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=2)
+FFFFF
+======================================================================
+FAIL: test_random_food_position_1 (ClassEval_77_0.SnakeTestRandomFoodPosition.test_random_food_position_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_77_0.py", line 245, in test_random_food_position_1
+    self.assertEqual(snake.food_position, (51, 51))
+AssertionError: Tuples differ: (66, 87) != (51, 51)
+
+First differing element 0:
+66
+51
+
+- (66, 87)
++ (51, 51)
+
+======================================================================
+FAIL: test_random_food_position_2 (ClassEval_77_0.SnakeTestRandomFoodPosition.test_random_food_position_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_77_0.py", line 255, in test_random_food_position_2
+    self.assertEqual(snake.food_position, (99, 99))
+AssertionError: Tuples differ: (86, 13) != (99, 99)
+
+First differing element 0:
+86
+99
+
+- (86, 13)
++ (99, 99)
+
+======================================================================
+FAIL: test_random_food_position_3 (ClassEval_77_0.SnakeTestRandomFoodPosition.test_random_food_position_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_77_0.py", line 265, in test_random_food_position_3
+    self.assertEqual(snake.food_position, (0, 0))
+AssertionError: Tuples differ: (77, 11) != (0, 0)
+
+First differing element 0:
+77
+0
+
+- (77, 11)
++ (0, 0)
+
+======================================================================
+FAIL: test_random_food_position_4 (ClassEval_77_0.SnakeTestRandomFoodPosition.test_random_food_position_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_77_0.py", line 275, in test_random_food_position_4
+    self.assertEqual(snake.food_position, (40, 40))
+AssertionError: Tuples differ: (39, 70) != (40, 40)
+
+First differing element 0:
+39
+40
+
+- (39, 70)
++ (40, 40)
+
+======================================================================
+FAIL: test_random_food_position_5 (ClassEval_77_0.SnakeTestRandomFoodPosition.test_random_food_position_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_77_0.py", line 285, in test_random_food_position_5
+    self.assertEqual(snake.food_position, (60, 60))
+AssertionError: Tuples differ: (14, 25) != (60, 60)
+
+First differing element 0:
+14
+60
+
+- (14, 25)
++ (60, 60)
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=5)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+F
+======================================================================
+FAIL: test_snake (ClassEval_77_0.SnakeTest.test_snake)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_77_0.py", line 397, in test_snake
+    self.assertEqual(snake.food_position, (51, 51))
+AssertionError: Tuples differ: (11, 36) != (51, 51)
+
+First differing element 0:
+11
+51
+
+- (11, 36)
++ (51, 51)
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.023s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.023s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.037s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.011s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.017s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.018s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.028s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.011s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+....F
+======================================================================
+FAIL: test_make_move_5 (ClassEval_86_3.TicTacToeTestMakeMove.test_make_move_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_86_3.py", line 241, in test_make_move_5
+    self.assertEqual(ttt.current_player, 'O')
+AssertionError: 'X' != 'O'
+- X
++ O
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+E......
+======================================================================
+ERROR: test_answer_1 (ClassEval_89_0.TwentyFourPointGameTestAnswer.test_answer_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_89_0.py", line 187, in test_answer_1
+    self.assertEqual(len(cards), 4)
+                     ^^^^^^^^^^
+TypeError: object of type 'bool' has no len()
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+FAILED (errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+E......
+======================================================================
+ERROR: test_answer_1 (ClassEval_89_1.TwentyFourPointGameTestAnswer.test_answer_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_89_1.py", line 229, in test_answer_1
+    self.assertEqual(len(cards), 4)
+                     ^^^^^^^^^^
+TypeError: object of type 'bool' has no len()
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+FAILED (errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+E......
+======================================================================
+ERROR: test_answer_1 (ClassEval_89_2.TwentyFourPointGameTestAnswer.test_answer_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_89_2.py", line 202, in test_answer_1
+    self.assertEqual(len(cards), 4)
+                     ^^^^^^^^^^
+TypeError: object of type 'bool' has no len()
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+FAILED (errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+EF.....
+======================================================================
+ERROR: test_answer_1 (ClassEval_89_3.TwentyFourPointGameTestAnswer.test_answer_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_89_3.py", line 253, in test_answer_1
+    self.assertEqual(len(cards), 4)
+                     ^^^^^^^^^^
+TypeError: object of type 'bool' has no len()
+
+======================================================================
+FAIL: test_answer_2 (ClassEval_89_3.TwentyFourPointGameTestAnswer.test_answer_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_89_3.py", line 258, in test_answer_2
+    self.assertTrue(result)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+FAILED (failures=1, errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+EF.....
+======================================================================
+ERROR: test_answer_1 (ClassEval_89_4.TwentyFourPointGameTestAnswer.test_answer_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_89_4.py", line 274, in test_answer_1
+    self.assertEqual(len(cards), 4)
+                     ^^^^^^^^^^
+TypeError: object of type 'bool' has no len()
+
+======================================================================
+FAIL: test_answer_2 (ClassEval_89_4.TwentyFourPointGameTestAnswer.test_answer_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snigdhaghoshdastidar/Desktop/CS540/classeval_evaluation/ClassEval_89_4.py", line 279, in test_answer_2
+    self.assertTrue(result)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+FAILED (failures=1, errors=1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
