@@ -11,17 +11,17 @@ from groq import Groq
 from openai import OpenAI
 from google import genai
 
-# client = genai.Client(api_key="AIzaSyBPKwcNCFtsh7_dvE1r48YQ5Ama2Y3UDNs")
+# client = genai.Client(api_key="")
 # GOOGLE_MODEL = "gemini-2.5-flash-preview-04-17"
 
 
-# client = Groq(api_key="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")
-# client = Groq(api_key="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")
+# client = Groq(api_key="")
+# client = Groq(api_key="")
 # GROQ_MODEL = "meta-llama/llama-4-maverick-17b-128e-instruct"
 # GROQ_MODEL = "deepseek-r1-distill-llama-70b"
 # GROQ_MODEL = "llama-3.1-8b-instant"
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 SLEEP_TIME = 1
 
