@@ -1,6 +1,6 @@
 # Class-Level Code Generation Using LLMs
 
-This repository contains the code and artifacts for our semester‐long project in CS 540, where we evaluate state-of-the-art large language models (LLMs) on **class-level** code generation tasks using the [ClassEval](https://github.com/FudanSELab/ClassEval) benchmark.
+This repository contains the code and artifacts for our semester‐long project, where we evaluate state-of-the-art large language models (LLMs) on **class-level** code generation tasks using the [ClassEval](https://github.com/FudanSELab/ClassEval) benchmark.
 
 ---
 
